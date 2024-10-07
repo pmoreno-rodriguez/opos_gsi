@@ -79,3 +79,39 @@ Imaginemos un sistema de gestión de datos personales dentro de una administraci
 
 De acuerdo con esta categorización, el sistema debería cumplir con las medidas de seguridad correspondientes a un **nivel medio o alto**.
 
+### **CUADRO RESUMEN**
+
+**CONFIDENCIALIDAD**: Porque su relevancia causaría ...
+
+**INTEGRIDAD**: Porque su manipulación o modificación no autorizada causaría ...
+
+**AUTENTICIDAD**:Porque la falsedad en su origen o en su destinatario causaría...
+
+||||||||
+|--------|-------|--------|-------|--------|-------|-------|
+||Nº personas que deben conocerlo (solo aplica confidencialidad)| Un daño ...| Incumplimiento ... de una norma (N/A autenticidad)|Pérdidas €€|Daño reputacional|Protestas|
+|**ALTO**|Nº reducido de personas|Grave, de difícil reparación|Grave|Elevadas|Grave|Masivas (alteración seria orden público)|
+|**MEDIO**|Sólo para trabajar con autorización|Importante, aunque subsanable|Material o formal|Importantes|Importante|Públicas (alteración orden público)|
+|**BAJO**|No deben conocerla personas ajenas a la organización|Algún perjuicio|Leve|Apreciables|Apreciable|Mútliples individuales|
+
+**Sin valorar** (CONFIDENCIALIDAD): Inforamción de carácter público, accesible por cualquier persona
+**Sin valorar** (AUTENTICIDAD): cuando origen/destino es irrelevante (conocido por otros medios/difusión anónima)
+**Sin valorar** (INTEGRIDAD): cuando los errores en su contenido carecen de consecuencias o son fácil y rápidamente reparables
+
+|**TRAZABILIDAD**|||||
+|----|----|----|----|----|
+||Porque la incapacidad para rastrear un acceso a la infomación|
+||Impediría/dificultaría notablemente la capacidad para subsanar un error...|Dificultaría ... la capacidad para perseguir delitos|Facilitaría ... la comisión de delitos ...|
+|**ALTO**|Grave|Notablemente|Enormemente Graves||
+|**MEDIO**|Importante|Notablemente¿?|Nada en los puntos||
+|**BAJO**|No notablemente|Nada en los puntos|N/A||
+
+**Sin valorar** (TRAZABILIDAD): cuando no se pueden producir errores de importancia (o son fácilmente reparables por otros medios), o no se pueden perpetrar delitos relevantes ( o su investigación es fácil por otros medios)
+
+|**DISPONIBILIDAD**|||
+|---|---|---|
+||RTO (tiempo máximo que el servicio puede permanecer interrumpido)||
+|**ALTO**|<4 horas||
+|**MEDIO**|4h - 1d||
+|**BAJO**|1d - 5d||
+|**Sin valorar|> 5d||
