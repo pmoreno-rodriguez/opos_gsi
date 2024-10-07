@@ -29,8 +29,8 @@ La **categorización de un sistema** según el **Esquema Nacional de Seguridad (
 | **Tipo de Perjuicio**               | Impacto leve que no afecta significativamente      | Perjuicio considerable con impacto notable         | Perjuicio muy grave, afectando de forma crítica    |
 | **Servicio**                        | Impacto mínimo en la prestación del servicio       | Afectación importante al servicio, pero recuperable| Pérdida del servicio esencial o crítico            |
 | **Activos**                         | Pérdida de activos sin valor estratégico           | Pérdida de activos con valor significativo         | Pérdida de activos clave o estratégicos            |
-| **Ley o Regulación**                | Cumplimiento de leyes sin implicaciones graves     | Cumplimiento de leyes con riesgos moderados        | Incumplimiento grave de leyes o normativas         |
-| **Perjuicio a Individuos**          | Daño leve o sin consecuencias importantes          | Daño notable a individuos, afectación significativa| Daño severo, pérdida de derechos o confidencialidad|
+| **Ley o Regulación**                | Incumplimiento formal subsanable     | Incumplimiento material o formal no subsanable        | Incumplimiento grave de leyes o normativas         |
+| **Perjuicio a Individuos**          | Daño leve o sin consecuencias importantes (reparable)         | Daño notable a individuos, afectación significativa (difícil reparación)| Daño severo, pérdida de derechos o confidencialidad (difícil o imposible reparación)|
 
 ### **Niveles de Impacto**
 
