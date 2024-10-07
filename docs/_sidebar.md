@@ -11,7 +11,7 @@
   - [Principios Básicos](./temas/ENS/principios-basicos.md)
   - [Requisitos Mínimos](./temas/ENS/requisitos-minimos.md)
   - [Auditorías](./temas/ENS/auditorias.md)
-  - [Categorización de un sistema](./temas/ENS/categoriazacion-sistema.md)
+  - [Categorización de un sistema](./temas/ENS/categorizacion-sistema.md)
 - Análisis de riesgos
   - [ChatGPT](./temas/Analisis-de-riesgos/chatgpt.md)
   - [Preparatic](./temas/Analisis-de-riesgos/preparatic.md)
