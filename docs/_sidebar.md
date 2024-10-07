@@ -29,6 +29,7 @@
 - Arquitectura Lógica
   - [Ejemplos gráficos](./temas/Arquitectura-logica/ejemplos-graficos.md)
 - Diagramas
-  - [Ejemplos Diagrams de Secuencia](./temas/Diagramas/ejemplo-diagrama-secuencia.md)
+  - [Ejemplo 1 Diagrama de Secuencia](./temas/Diagramas/ejemplo1-diagrama-secuencia.md)
+  - [Ejemplo 2 Diagrama de Secuencia](./temas/Diagramas/ejemplo2-diagrama-secuencia.md)
 - Sistemas de recomendación
   - [Qué son](./temas/Sistemas-Recomendacion/que_son.md)

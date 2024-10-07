@@ -1,8 +1,8 @@
-# Ejemplo de diagrama de secuencia
+# Ejemplo 1 de diagrama de secuencia
 
 ```websequencediagrams
     autonumber
-    title Ejemplo diagrama secuencia
+    title Ejemplo 1 diagrama secuencia
     actor Solicitante
 
     Solicitante->Interfaz: solicitar X (datos,documentos)
