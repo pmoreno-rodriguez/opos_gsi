@@ -28,6 +28,8 @@
   - [Textos de ejemplo para introducir temas](./temas/Consideraciones-del-supuesto/textos-ejemplo.md)
 - Arquitectura Lógica
   - [Ejemplos gráficos](./temas/Arquitectura-logica/ejemplos-graficos.md)
+- Arquitectura Física
+  - [Ejemplos de diagramas de red](./temas/Arquitectura-Fisica/diagramas-de-red.md)
 - Diagramas
   - [Ejemplo 1 Diagrama de Secuencia](./temas/Diagramas/ejemplo1-diagrama-secuencia.md)
   - [Ejemplo 2 Diagrama de Secuencia](./temas/Diagramas/ejemplo2-diagrama-secuencia.md)
