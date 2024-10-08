@@ -12,6 +12,7 @@
   - [Requisitos Mínimos](./temas/ENS/requisitos-minimos.md)
   - [Auditorías](./temas/ENS/auditorias.md)
   - [Categorización de un sistema](./temas/ENS/categorizacion-sistema.md)
+  - [Principales medidas del ENS](./temas/ENS/principales-medidas.md)
 - Análisis de riesgos
   - [ChatGPT](./temas/Analisis-de-riesgos/chatgpt.md)
   - [Preparatic](./temas/Analisis-de-riesgos/preparatic.md)
@@ -33,5 +34,6 @@
 - Diagramas
   - [Ejemplo 1 Diagrama de Secuencia](./temas/Diagramas/ejemplo1-diagrama-secuencia.md)
   - [Ejemplo 2 Diagrama de Secuencia](./temas/Diagramas/ejemplo2-diagrama-secuencia.md)
+  - [Ejemplo 1 Diagrama de Casos de Uso](./temas/Diagramas/ejemplo1-diagrama-casos-de-uso.md)
 - Sistemas de recomendación
   - [Qué son](./temas/Sistemas-Recomendacion/que_son.md)
