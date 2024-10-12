@@ -3,6 +3,8 @@
 
 - [Inicio](./)  
 
+- Temas del supuesto (según las Bases de la Oposición)
+  - [Temario (Bloque 3 y 4)](./temas/Bases-Opo/temario.md)
 - Legal
   - [Requerimientos legales y funcionalidades de un sistema](./temas/Legal/funcionalidades-requerimientos.md)
   - [Marco Jurídico aplicable al supuesto práctico](./temas/Legal/Marco-Juridico.md)
@@ -37,3 +39,5 @@
   - [Ejemplo 1 Diagrama de Casos de Uso](./temas/Diagramas/ejemplo1-diagrama-casos-de-uso.md)
 - Sistemas de recomendación
   - [Qué son](./temas/Sistemas-Recomendacion/que_son.md)
+- Supuestos
+  - [2019 Supuesto 2 - PANACE@ (CHATGPT)](./supuestos/2019-panacea/chatgpt.md)
