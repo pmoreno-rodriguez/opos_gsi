@@ -1,6 +1,24 @@
 La **categorización de un sistema** según el **Esquema Nacional de Seguridad (ENS)** es un proceso fundamental para determinar las medidas de seguridad que deben implementarse en función del nivel de riesgo que puedan suponer los sistemas de información y los servicios que estos prestan. Este proceso se basa en el análisis del **impacto o perjuicio** que la pérdida de las dimensiones de seguridad (disponibilidad, integridad, confidencialidad, autenticidad y trazabilidad) podría causar sobre los servicios, activos o personas.
 
-### **Pasos para la categorización de un sistema según el ENS**
+### **Legislación aplicable a la categorización de un Sistema**
+
+Al realizar la categorización de un sistema según el *Esquema Nacional de Seguridad* (ENS), es importante referirse a diversas normativas y documentos que regulan o guían este proceso. Aquí te presento una lista con las normativas relevantes y sus artículos específicos relacionados con la categorización de sistemas:
+
+1. RD 311/2022, que regula el Esquema Nacional de Seguridad, en adelante ENS
+
+2. Art. 40 ENS. Categorías de seguridad.
+
+3. CCN STIC 801 Responsabilidades y Funciones en el ENS
+   - Responsable de la Información (evaluará la información)
+   - Responsable de los Servicios (evaluará los servicios)
+   - Responsable de la Seguridad (firmará la Declaración de Aplicabilidad según Artículo 28 ENS)
+   - El Administrador de Seguridad (realizará la implantación de las medidas de seguridad, anexo II del ENS y guía 804 de Implantación.)
+
+4. Guía CCN STIC 803 Valoración de Sistemas en el ENS
+
+5. Guía CCN STIC 815 Indicadores y Métricas en el ENS
+
+### **Pasos para la categorización de un sistema según el ENS** <!-- {docsify-ignore} -->
 
 1. **Identificación de los servicios**: El primer paso es identificar los servicios prestados por el sistema y los activos implicados en esos servicios.
 
@@ -14,7 +32,7 @@ La **categorización de un sistema** según el **Esquema Nacional de Seguridad (
 
 4. **Asignación de medidas de seguridad**: En función de la categorización obtenida, se asignan las medidas de seguridad correspondientes a cada nivel.
 
-### **Factores a tener en cuenta en la categorización**
+### **Factores a tener en cuenta en la categorización** <!-- {docsify-ignore} -->
 
 - **Tipo de perjuicio**: Evaluar el impacto en caso de pérdida de confidencialidad, integridad o disponibilidad del sistema.
 - **Naturaleza del servicio**: Considerar la criticidad del servicio prestado por el sistema.
@@ -22,7 +40,7 @@ La **categorización de un sistema** según el **Esquema Nacional de Seguridad (
 - **Cumplimiento de leyes o regulaciones**: Evaluar si existen normativas legales o reglamentarias que exijan un nivel de protección particular.
 - **Perjuicio a las personas**: Determinar si la falta de seguridad del sistema podría causar daños personales, sociales o económicos a los usuarios.
 
-### **Tabla de Categorización según el ENS (Bajo, Medio, Alto)**
+### **Tabla de Categorización según el ENS (Bajo, Medio, Alto)** <!-- {docsify-ignore} -->
 
 | **Factor de evaluación**            | **Bajo**                                           | **Medio**                                          | **Alto**                                           |
 |-------------------------------------|----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
@@ -32,7 +50,7 @@ La **categorización de un sistema** según el **Esquema Nacional de Seguridad (
 | **Ley o Regulación**                | Incumplimiento formal subsanable     | Incumplimiento material o formal no subsanable        | Incumplimiento grave de leyes o normativas         |
 | **Perjuicio a Individuos**          | Daño leve o sin consecuencias importantes (reparable)         | Daño notable a individuos, afectación significativa (difícil reparación)| Daño severo, pérdida de derechos o confidencialidad (difícil o imposible reparación)|
 
-### **Niveles de Impacto**
+### **Niveles de Impacto** <!-- {docsify-ignore} -->
 
 Cada una de las categorías puede tener diferentes niveles de impacto (bajo, medio o alto) que deben ser evaluados:
 
@@ -40,7 +58,7 @@ Cada una de las categorías puede tener diferentes niveles de impacto (bajo, med
 - **Medio**: El impacto es considerable, afecta al servicio o al funcionamiento, pero no es devastador.
 - **Alto**: El impacto es crítico y puede paralizar el sistema, poner en peligro a la organización o a las personas.
 
-### Explicación del Proceso de Categorización:
+### Explicación del Proceso de Categorización: <!-- {docsify-ignore} -->
 
 1. **Tipo de Perjuicio**:
    - **Bajo**: Un fallo en la seguridad no tiene consecuencias significativas.
@@ -67,7 +85,7 @@ Cada una de las categorías puede tener diferentes niveles de impacto (bajo, med
    - **Medio**: El perjuicio para los individuos es notable, afectando su vida o derechos de manera considerable.
    - **Alto**: El perjuicio es grave, afectando de manera severa la privacidad, los derechos o el bienestar de las personas involucradas.
 
-### Ejemplo de Categorización
+### Ejemplo de Categorización <!-- {docsify-ignore} -->
 
 Imaginemos un sistema de gestión de datos personales dentro de una administración pública. Se podrían identificar los siguientes impactos:
 
@@ -79,7 +97,7 @@ Imaginemos un sistema de gestión de datos personales dentro de una administraci
 
 De acuerdo con esta categorización, el sistema debería cumplir con las medidas de seguridad correspondientes a un **nivel medio o alto**.
 
-### **CUADRO RESUMEN**
+### **CUADRO RESUMEN** <!-- {docsify-ignore} -->
 
 **CONFIDENCIALIDAD**: Porque su relevancia causaría ...
 
