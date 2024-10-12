@@ -1,18 +1,18 @@
 **Grupo de apoyo a la preparación de la XXIII convocatoria ![](Aspose.Words.77dcbdda-1d42-467a-8c15-58de6f131bd1.001.png) de  oposiciones  al  Cuerpo Superior  de  Sistemas  y  Tecnologías  de  la Información de la Administración del Estado** 
 
-## ANÁLISIS DE RIESGOS
+## ANÁLISIS DE RIESGOS <!-- {docsify-ignore} -->
 
-### ¿En qué consiste un análisis de riesgos?
+### ¿En qué consiste un análisis de riesgos? <!-- {docsify-ignore} -->
 
 Un análisis de riesgos consiste en el estudio de las posibles amenazas y eventos no deseados,  así  como  los  daños  que  éstos  puedan  producir  en  los  activos  de  la organización.
 
-### Magerit
+### Magerit <!-- {docsify-ignore} -->
 
 Aunque  su  utilización  no  es  obligatoria,  la  metodología  más  extendida  en  la Administración a  la hora  de  realizar  análisis  de  riesgos es  Magerit  y,  por  tanto, utilizaremos una notación coherente con ella en este documento.
 
 Como curiosidad, existe una herramienta denominada MicroPILAR, que hace un Análisis  de  Riesgos  inspirado  en  Magerit  aunque  simplificado,  fácil  de  usar  y adaptado al Esquema Nacional de Seguridad.
 
-### Pasos para realizar un análisis de riesgos
+### Pasos para realizar un análisis de riesgos <!-- {docsify-ignore} -->
 
 La metodología Magerit propone la siguiente secuencia de acciones:
 
@@ -21,7 +21,7 @@ La metodología Magerit propone la siguiente secuencia de acciones:
 - **Caracterización de las salvaguardas**: se catalogarán las salvaguardas y se  evaluará  la  reducción  que  producen  en  vulnerabilidad  e  impacto respecto a las amenazas. El riesgo que queda después de esto es el llamado riesgo residual.
 - **Estimación del estado del riesgo**: es la caracterización de los activos en función del riesgo residual.
 
-### Enfoque práctico
+### Enfoque práctico <!-- {docsify-ignore} -->
 
 Si contamos con tiempo suficiente, razonar cómo se llega al estado de riesgo a partir de los pasos anteriores es la forma más detallada y profunda de responder a esta pregunta. Sin embargo, si disponemos del tiempo justo, una forma de recoger las conclusiones de los pasos anteriores es mediante una tabla como la siguiente (por supuesto, es un ejemplo y tanto los activos como las amenazas y su valoración deberá ser realizada por el opositor en función de los datos que se proporcionen en el enunciado).
 
@@ -34,7 +34,7 @@ Si contamos con tiempo suficiente, razonar cómo se llega al estado de riesgo a 
 |**Información**|Acceso a los datos por alguien no autorizado|Media|Alto|Alto|C|
 |**Comunicaciones**|Caída de las redes|Baja|Bajo|Bajo|D|
 
-### Notación de Magerit
+### Notación de Magerit <!-- {docsify-ignore} -->
 
 En el caso del sistema los activos se clasifican en:
 
@@ -57,13 +57,13 @@ En cuanto a las principales amenazas que les afectan:
 - Causadas por las personas de forma accidental.
 - Causadas por las personas de forma deliberada
 
-### ¿Y después de estimar el riesgo?
+### ¿Y después de estimar el riesgo? <!-- {docsify-ignore} -->
 
 Finalmente  y,  una  vez  identificados  los  riesgos,  es  necesario  seleccionar  las Salvaguardas  aplicables  y  aceptar  el  riesgo  residual  que  resulte  de  aplicarlas. Atención a un posible enlace con el Esquema Nacional de Seguridad, que impone salvaguardas a aquellos sistemas a los que aplica.
 
 El último paso para la gestión de los riesgos es elaborar un Plan de Mejora o Plan de Seguridad,  consistente  en  organizar  la  implantación  de  las  salvaguardas seleccionadas en distintos proyectos, asignar responsables a los mismos y planificar los hitos y el seguimiento para su efectiva implantación.
 
-### ¿Y si nos piden un análisis de riesgos del proyecto?
+### ¿Y si nos piden un análisis de riesgos del proyecto? <!-- {docsify-ignore} -->
 
 Si  en  vez  de  preguntarnos  por  un  análisis  de  riesgos  global  de  un  sistema  de información nos preguntan por el análisis de riesgos de un proyecto de desarrollo, el enfoque  es  distinto.  En  este  apartado  os  proponemos  ejemplos  de  riesgos  del proyecto que podrían aplicar.
 

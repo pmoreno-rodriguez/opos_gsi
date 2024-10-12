@@ -1,4 +1,4 @@
-# Supuesto de ejemplo (Oficina Española de Patentes y Marcas)
+# Supuesto de ejemplo (Oficina Española de Patentes y Marcas) <!-- {docsify-ignore} -->
 
 > [!NOTE]
 > Simulacro de supuesto (ForjaTIC)

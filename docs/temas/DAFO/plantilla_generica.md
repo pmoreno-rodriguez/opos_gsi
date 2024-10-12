@@ -7,7 +7,7 @@
 
 ## Factores Internos
 
-### Debilidades
+### Debilidades <!-- {docsify-ignore} -->
 1. **Falta de personal técnico**: Existe una histórica falta de personal especializado en TI dentro de la Administración, lo que ha llevado a depender de personal externo. Esto conlleva la pérdida de **know-how** cuando los contratistas cambian de proyecto, comprometiendo la continuidad del conocimiento y la experiencia técnica.
    
 2. **Pérdida de conocimiento interno**: El envejecimiento del personal público y su jubilación está provocando la pérdida del conocimiento acumulado (know-how), especialmente en áreas críticas. La falta de formación y actualización en temas tecnológicos y de seguridad también es un problema en algunos empleados públicos.
@@ -20,7 +20,7 @@
 
 6. **Posible falta de una fuente de datos confiable**: En algunos casos, no se cuenta con una **fuente privilegiada de datos** o **golden source**, lo que podría dificultar la verificación y calidad de la información.
 
-### Fortalezas
+### Fortalezas <!-- {docsify-ignore} -->
 1. **Existencia de una fuente de datos confiable (golden source)**: En algunas áreas clave, se dispone de una fuente centralizada de datos, lo que permite evitar duplicaciones y garantizar la calidad y la coherencia de la información.
 
 2. **Conocimiento sectorial**: Ya se cuenta con personal con experiencia en la materia agrícola, lo que facilita la gestión de sistemas y procesos relacionados.
@@ -35,9 +35,11 @@
 
 7. **Reducción del soporte en papel**: El proceso de digitalización está avanzando, con un enfoque en minimizar el uso de papel por parte de los usuarios internos y externos.
 
+8. **Apoyo de la Unión Europea a la Administración electrónica**.
+
 ## Factores Externos
 
-### Amenazas
+### Amenazas <!-- {docsify-ignore} -->
 1. **Sector agrícola poco digitalizado**: Existe una baja adopción de tecnologías digitales en el sector agrícola, lo que puede ralentizar la implementación de soluciones innovadoras.
 
 2. **Riesgo de ciberataques**: La constante evolución de la ciberdelincuencia y la vulnerabilidad de los sistemas de agricultores y ganaderos representan una amenaza significativa para la seguridad del sistema.
@@ -50,7 +52,7 @@
 
 6. **Desalineación con FEAGA y FEADER**: No coordinarse adecuadamente con las iniciativas de FEAGA y FEADER podría dificultar el acceso a fondos y subvenciones clave.
 
-### Oportunidades
+### Oportunidades <!-- {docsify-ignore} -->
 1. **Financiación europea**: Se dispone de fondos europeos que pueden utilizarse para dotar de recursos financieros y tecnológicos el desarrollo y mejora del sistema.
 
 2. **Alta demanda del sistema**: Dado que el sistema gestionará subvenciones para entidades privadas agrarias y ganaderas, la demanda por parte de los usuarios será elevada.
@@ -74,7 +76,7 @@
 
 ## PROPUESTA DE PREPARATIC
 
-### Amenazas
+### Amenazas <!-- {docsify-ignore} -->
 
 - Desconfianza de los usuarios.
 - Falta de promoción y comunicación que derive en una falta de conocimiento de los usuarios.
@@ -91,7 +93,7 @@
 - Que existan problemas de usabilidad y accesibilidad para los usuarios.
 
 
-### Oportunidades
+### Oportunidades <!-- {docsify-ignore} -->
 
 - Ventajas del sistema.
 - Dado el carácter estratégico del procedimiento en el que se aplica, es una gran oportunidad para introducir el uso de la administración electrónica en colectivos muy amplios.
@@ -110,7 +112,7 @@
 - Proporcionar servicios de calidad a los ciudadanos o a otras AAPP.
 
 
-### Debilidades
+### Debilidades <!-- {docsify-ignore} -->
 
 - Resistencia al cambio de toda organización administrativa.
 - Necesidad de formación en el nuevo aplicativo.
@@ -121,7 +123,7 @@
 - Necesidad de una visión compartida, un alto nivel de coordinación y alianzas internas y externas que, en ocasiones, es complejo.
 - Si es un nuevo organismo: poca experiencia y personal que proviene de otros centros.
 
-### Fortalezas
+### Fortalezas <!-- {docsify-ignore} -->
 
 - Apoyo y liderazgo de la Dirección del proyecto.
 - Impulso de la eAdmin desde la perspectiva legal.

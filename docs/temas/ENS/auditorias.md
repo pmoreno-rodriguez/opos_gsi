@@ -1,6 +1,6 @@
 En el **Esquema Nacional de Seguridad (ENS)**, la **auditoría de certificación** y la **autoevaluación** son dos mecanismos que se utilizan para verificar el cumplimiento de los requisitos de seguridad establecidos en el ENS, dependiendo del nivel de seguridad del sistema. A continuación te detallo cuándo debe realizarse cada uno:
 
-### **Auditoría de Certificación**
+### **Auditoría de Certificación** <!-- {docsify-ignore} -->
 
 Las auditorías de certificación son necesarias para los sistemas clasificados con un **nivel medio o alto de seguridad**. Estas auditorías deben realizarse de manera periódica y cumplir con los siguientes criterios:
 
@@ -12,7 +12,7 @@ Las auditorías de certificación son necesarias para los sistemas clasificados 
 
 - **Informes**: El resultado de la auditoría debe documentarse en un informe que incluya las conclusiones sobre el grado de cumplimiento del ENS y las acciones correctoras que puedan ser necesarias.
 
-### **Autoevaluación**
+### **Autoevaluación** <!-- {docsify-ignore} -->
 
 La autoevaluación se aplica para los sistemas de información que están clasificados con un **nivel bajo de seguridad**. En este caso, no es obligatorio realizar una auditoría externa, pero la entidad debe seguir un proceso de evaluación interna.
 
@@ -24,7 +24,7 @@ La autoevaluación se aplica para los sistemas de información que están clasif
 
 - **Informes**: Al igual que en el caso de la auditoría de certificación, la autoevaluación debe documentarse en un informe, aunque es menos exigente que el de auditoría. Este informe también debe incluir recomendaciones para mejorar el cumplimiento de las medidas de seguridad.
 
-### **Resumen**
+### **Resumen** <!-- {docsify-ignore} -->
 
 - **Sistemas de Nivel Bajo de Seguridad**:  
   - **Autoevaluación anual**.

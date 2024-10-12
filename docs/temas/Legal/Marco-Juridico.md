@@ -1,6 +1,6 @@
-# Marco jurídico para la realización del supuesto práctico
+## Marco jurídico para la realización del supuesto práctico <!-- {docsify-ignore} -->
 
-## Legislación Española
+### Legislación Española <!-- {docsify-ignore} -->
 
 * **RD. 311/2022** que regula el Esquema Nacional de Seguridad (ENS)
 * **RD. 4/2010**, Esquema Nacional de Seguridad (ENI)
@@ -15,7 +15,7 @@
     - Abarca sitios web de administraciones públicas, universidades, hospitales, etc., y obliga a cumplir los **criterios WCAG 2.1** de nivel "AA"
 
 
-## Legislación UE
+### Legislación UE <!-- {docsify-ignore} -->
 
 * **Directiva (UE) 2016/2102** del Parlamento Europeo y del Consejo, que establece requisitos mínimos de accesibilidad para sitios web y aplicaciones móviles de organismos públicos. 
     - Abarca sitios web de administraciones públicas, universidades, hospitales, etc., y obliga a cumplir los **criterios WCAG 2.1** de nivel "AA"

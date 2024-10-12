@@ -1,4 +1,4 @@
-# Supuesto de ejemplo (Ruraliza)
+# Supuesto de ejemplo (Ruraliza) <!-- {docsify-ignore} -->
 
 > [!NOTE]
 > Simulacro de supuesto (Preparatic26)

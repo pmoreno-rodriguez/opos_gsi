@@ -1,8 +1,8 @@
-## Respuesta de ChatGPT
+## Respuesta de ChatGPT <!-- {docsify-ignore} -->
 
 La Nube SARA (Sistema de Aplicaciones y Redes para las Administraciones), es una infraestructura gestionada por la Administración General del Estado en España, y está diseñada para facilitar la interoperabilidad y el acceso seguro entre las distintas administraciones públicas. Al incorporar la Nube SARA en el diseño de red de un organismo público, se pueden obtener diversas ventajas y desventajas. Aquí te detallo ambos aspectos:
 
-### **Ventajas de utilizar la Nube SARA**
+### **Ventajas de utilizar la Nube SARA** <!-- {docsify-ignore} -->
 
 1. **Interoperabilidad entre Administraciones Públicas**:
    - **Acceso centralizado**: Permite el acceso y la interconexión entre diferentes administraciones públicas, lo que facilita la cooperación y la prestación de servicios compartidos.
@@ -28,7 +28,7 @@ La Nube SARA (Sistema de Aplicaciones y Redes para las Administraciones), es una
 
 ---
 
-### **Inconvenientes de utilizar la Nube SARA**
+### **Inconvenientes de utilizar la Nube SARA** <!-- {docsify-ignore} -->
 
 1. **Limitaciones en la personalización**:
    - **Dependencia del servicio**: Al tratarse de una plataforma compartida, los organismos públicos pueden tener limitaciones a la hora de personalizar la infraestructura según sus necesidades específicas. La flexibilidad en cuanto a la personalización de aplicaciones, recursos o configuraciones puede verse restringida.
@@ -52,7 +52,7 @@ La Nube SARA (Sistema de Aplicaciones y Redes para las Administraciones), es una
 
 ---
 
-### **Consideraciones adicionales**
+### **Consideraciones adicionales** <!-- {docsify-ignore} -->
 
 - **Alternativas a la Nube SARA**: Para ciertos organismos, especialmente aquellos con necesidades muy específicas, podría ser más adecuado optar por una infraestructura híbrida que combine la Nube SARA con otras soluciones de nubes comerciales, como Azure, AWS o Google Cloud. Esta combinación podría permitir un mayor equilibrio entre la seguridad y cumplimiento normativo que ofrece SARA, y la flexibilidad e innovación que aportan los proveedores comerciales.
 

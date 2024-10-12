@@ -1,4 +1,4 @@
-## Ejemplo 1 de Diagrama de Casos de Uso
+## Ejemplo 1 de Diagrama de Casos de Uso <!-- {docsify-ignore} -->
 
 ```plantuml
 @startuml

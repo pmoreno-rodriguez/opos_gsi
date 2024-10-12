@@ -1,7 +1,7 @@
 > [!NOTE]
 > Consulta a ChatGPT sobre Factores Críticos de Éxito
 
-### Factores Críticos de Éxito (FCE) para Sistemas de Información y Desarrollos en la Administración Pública Española
+## Factores Críticos de Éxito (FCE) para Sistemas de Información y Desarrollos en la Administración Pública Española <!-- {docsify-ignore} -->
 
 1. **Cumplimiento normativo y legal**
    - **Esquema Nacional de Seguridad (ENS)**: Asegurar que el sistema cumple con los requisitos del ENS para garantizar la confidencialidad, integridad, disponibilidad, autenticidad y trazabilidad de los sistemas de información.
@@ -47,5 +47,5 @@
    - **Open Data**: Asegurar la integración de herramientas de datos abiertos conforme a la **Ley 19/2013, de Transparencia, Acceso a la Información Pública y Buen Gobierno**, fomentando la reutilización de datos por ciudadanos y empresas.
    - **Participación ciudadana**: Promover mecanismos digitales de participación y consulta ciudadana en la toma de decisiones sobre el diseño y mejoras de los sistemas públicos, aumentando la legitimidad y adecuación de los sistemas a las necesidades reales de los usuarios.
 
-### Conclusión
+## Conclusión <!-- {docsify-ignore} -->
 Para el éxito de los sistemas de información en la Administración Pública Española es clave no solo cumplir con las normativas específicas como el ENS, ENI o el RGPD, sino también asegurar la seguridad, interoperabilidad, sostenibilidad y una adecuada gestión del cambio, considerando siempre la accesibilidad y eficiencia del sistema para los ciudadanos y las instituciones.

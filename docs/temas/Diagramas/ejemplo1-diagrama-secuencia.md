@@ -1,4 +1,4 @@
-# Ejemplo 1 de diagrama de secuencia
+## Ejemplo 1 de diagrama de secuencia <!-- {docsify-ignore} -->
 
 ```websequencediagrams
     autonumber

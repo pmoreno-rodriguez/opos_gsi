@@ -1,4 +1,4 @@
-# **MEDIDAS DE SEGURIDAD**	
+## **MEDIDAS DE SEGURIDAD**	 <!-- {docsify-ignore} -->
 
 A continuación, se recogen una serie de medidas base por cada dimensión y nivel de seguridad que se pueden incluir en el ejercicio.
 

@@ -1,4 +1,4 @@
-# Sistemas de recomendación
+## Sistemas de recomendación <!-- {docsify-ignore} -->
 
 ---
 
@@ -29,19 +29,19 @@ Ambos métodos tienen sus inconvenientes. En el primer caso, los elementos más 
 
 Centrémonos ahora en cómo funciona un motor de recomendaciones siguiendo los siguientes pasos.
 
-### 2.1 Recopilación de datos
+### 2.1 Recopilación de datos <!-- {docsify-ignore} -->
 
 Este es el primer paso y el más crucial para construir un sistema de recomendación. Los datos se pueden recopilar de dos maneras: explícita e implícitamente. Los datos explícitos son información que se proporciona intencionalmente, es decir, entrada de los usuarios, como calificaciones de películas. Los datos implícitos son información que no se proporciona intencionalmente, sino que se recopila de flujos de datos disponibles como el historial de búsquedas, clics, historial de pedidos, etc.
 
-### 2.2 Almacenamiento de datos
+### 2.2 Almacenamiento de datos <!-- {docsify-ignore} -->
 
 La cantidad de datos determina qué tan buenas pueden ser las recomendaciones del modelo. Por ejemplo, en un sistema de recomendación de películas, cuantas más calificaciones den los usuarios a las películas, mejores serán las recomendaciones para otros usuarios. El tipo de datos juega un papel importante a la hora de decidir el tipo de almacenamiento que se debe utilizar.
 
-### 2.3 Filtrando los datos
+### 2.3 Filtrando los datos <!-- {docsify-ignore} -->
 
 Después de recopilar y almacenar los datos, debemos filtrarlos para extraer la información relevante requerida para hacer las recomendaciones.
 
-#### 2.3.1 Filtrado Basado en Contenido (Content Based Filtering)
+#### 2.3.1 Filtrado Basado en Contenido (Content Based Filtering) <!-- {docsify-ignore} -->
 
 Este algoritmo recomienda productos que son similares a los que le han gustado a un usuario en el pasado.
 
@@ -72,13 +72,13 @@ Un inconveniente importante de este algoritmo es que se limita a recomendar elem
 
 Para mejorar este tipo de sistema, necesitamos un algoritmo que pueda recomendar elementos no solo en función del contenido, sino también del comportamiento de los usuarios.
 
-#### 2.3.2 Filtrado Colaborativo (Collaborative Filtering)
+#### 2.3.2 Filtrado Colaborativo (Collaborative Filtering) <!-- {docsify-ignore} -->
 
 Entendamos esto con un ejemplo. Si a la persona A le gustan 3 películas, digamos *Indiana Jones*, *Rambo* y *Duro de Matar*, y a la persona B le gusta *Indiana Jones*, *Rambo* y *Terminator*, entonces tienen intereses casi similares. Podemos decir con cierta certeza que A debería gustar *Terminator* y B debería gustar *Duro de Matar*.
 
 El algoritmo de filtrado colaborativo utiliza “comportamiento del usuario” para recomendar elementos. Este es uno de los algoritmos más utilizados en la industria, ya que no depende de ninguna información adicional. Existen diferentes tipos de técnicas de filtrado colaborativo, y las veremos en detalle a continuación.
 
-##### Filtrado colaborativo usuario-usuario
+##### Filtrado colaborativo usuario-usuario <!-- {docsify-ignore} -->
 
 Este algoritmo primero encuentra la puntuación de similitud entre los usuarios. Basándose en esta puntuación de similitud, selecciona a los usuarios más similares y recomienda productos que les gustaron o compraron anteriormente.
 
@@ -120,7 +120,7 @@ Ahora encontraremos la similitud entre elementos.
 
 Como tenemos la similitud entre cada película y las calificaciones, se hacen predicciones y, en base a esas predicciones, se recomiendan películas similares.
 
-### Cold Start (Arranque en frío)
+### Cold Start (Arranque en frío) <!-- {docsify-ignore} -->
 
 Antes de continuar e implementar estos conceptos en código, hay una pregunta a la que debemos conocer la respuesta: ¿qué pasa si se agrega un nuevo usuario o un nuevo elemento en el conjunto de datos? Esto se llama un **arranque en frío (Cold Start)**. Puede haber dos tipos de arranque en frío:
 

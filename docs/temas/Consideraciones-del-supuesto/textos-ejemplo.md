@@ -1,4 +1,4 @@
-# Textos posibles para introducción
+# Textos posibles para introducción <!-- {docsify-ignore} -->
 
 ## Texto para introducir el examen
 

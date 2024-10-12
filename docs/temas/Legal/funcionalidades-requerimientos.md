@@ -1,4 +1,4 @@
-# Funcionalidades de un Sistema de Información y Requerimientos Legales (Ley 39/2015)
+## Funcionalidades de un Sistema de Información y Requerimientos Legales (Ley 39/2015) <!-- {docsify-ignore} -->
 
 | **REQUERIMIENTO LEGAL**            | **FUNCIONALIDAD DEL SISTEMA**                                           | 
 |-------------------------------------|----------------------------------------------------|

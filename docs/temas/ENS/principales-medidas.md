@@ -1,4 +1,4 @@
-**PRINCIPALES MEDIDAS CLAVE PARA LA SEGURIDAD**
+## PRINCIPALES MEDIDAS CLAVE PARA LA SEGURIDAD <!-- {docsify-ignore} -->
 *Según el Esquema Nacional de Seguridad (ENS)*
 
 1. **Mecanismos de autenticación [op.acc.4 y 5]**  
