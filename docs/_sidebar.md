@@ -15,6 +15,7 @@
   - [Auditorías](./temas/ENS/auditorias.md)
   - [Categorización de un sistema](./temas/ENS/categorizacion-sistema.md)
   - [Principales medidas del ENS](./temas/ENS/principales-medidas.md)
+  - [Resumen de medidas del ENS](./temas/ENS/resumen-medidas.md)
 - Análisis de riesgos
   - [ChatGPT](./temas/Analisis-de-riesgos/chatgpt.md)
   - [Preparatic](./temas/Analisis-de-riesgos/preparatic.md)
