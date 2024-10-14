@@ -23,6 +23,7 @@
   - [Plantilla Genérica](./temas/DAFO/plantilla_generica.md)
 - Factores críticos de éxito
   - [Plantilla Genérica (ChatGPT)](./temas/Factores-Criticos-Exito/plantilla-generica-chatgpt.md)
+  - [Plantilla Genérica (Manual)](./temas/Factores-Criticos-Exito/plantilla-generica-manual.md)
 - Nube SARA
   - [Ventajas e Inconvenientes](./temas/Nube-SARA/ventajas-inconvenientes.md)
 - Ayuda para el supuesto práctico
