@@ -1,4 +1,4 @@
-![](./img/opo_gis3.png)
+![](./img/opo_gsi.png)
 
 # Oposiciones GSI <!-- {docsify-ignore} -->
 > ### Pedro Moreno <!-- {docsify-ignore} -->
