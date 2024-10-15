@@ -41,7 +41,7 @@
   - [Interconectar dos CPDs](./temas/Arquitectura-Fisica/2-cpd-conectados.md)
 - Backup
   - [Procedimientos de copias de seguridad](./temas/Backup/procedimientos.md)
-- [Monitorización]
+- Monitorización
   - [Sistemas de monitorización](./temas/Monitorizacion/sistema-monitorizacion.md)
 - Diagramas
   - [Ejemplo 1 Diagrama de Secuencia](./temas/Diagramas/ejemplo1-diagrama-secuencia.md)
