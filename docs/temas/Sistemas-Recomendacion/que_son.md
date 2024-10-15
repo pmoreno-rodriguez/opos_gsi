@@ -8,7 +8,7 @@ Pero si existiera un sitio o una app que pudiera recomendarme películas basado 
 
 Esto es lo que hacen los sistemas de recomendación y su poder está siendo aprovechado por la mayoría de las empresas en estos días. Desde Amazon hasta Netflix, desde Google hasta Spotify, los sistemas de recomendación son una de las aplicaciones más utilizadas de las técnicas de machine learning (aprendizaje automático).
 
-## 1. ¿Qué son los motores de recomendación?
+## 1. ¿Qué son los motores de recomendación? <!-- {docsify-ignore} -->
 
 Un sistema de recomendaciones filtra los datos utilizando diferentes algoritmos y recomienda los ítems más relevantes para los usuarios. Primero captura el comportamiento de un cliente en el pasado y, en base a eso, recomienda productos que los usuarios podrían comprar.
 
@@ -18,7 +18,7 @@ Si podemos recomendar elementos a un cliente en función de sus necesidades e in
 
 Ahora que tenemos una idea de qué son los sistemas de recomendación, veamos cómo funcionan.
 
-## 2. ¿Cómo funciona un motor de recomendación?
+## 2. ¿Cómo funciona un motor de recomendación? <!-- {docsify-ignore} -->
 
 Antes de profundizar en este tema, primero pensemos cómo podemos recomendar elementos a los usuarios:
 
@@ -108,7 +108,7 @@ Este algoritmo consume mucho tiempo ya que implica calcular la similitud para ca
 
 Este algoritmo no es efectivo cuando hay un gran número de usuarios, ya que tomará mucho tiempo calcular la similitud entre todos los pares de usuarios. Esto nos lleva al filtrado colaborativo de elementos (Item-Item collaborative filtering), que es efectivo cuando la cantidad de usuarios es mayor que los elementos recomendados.
 
-## Item-Item collaborative filtering
+## Item-Item collaborative filtering <!-- {docsify-ignore} -->
 
 En este algoritmo, calculamos la similitud entre cada par de elementos. Encontraremos la similitud entre cada par de películas y, en base a eso, recomendaremos películas similares que les gustaron a los usuarios en el pasado. Este algoritmo funciona de manera similar al filtrado colaborativo usuario-usuario con solo un pequeño cambio: en lugar de tomar la suma ponderada de las calificaciones de “usuarios-vecinos”, tomamos la suma ponderada de las calificaciones de “elementos-vecinos”. La predicción está dada por:
 

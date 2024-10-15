@@ -9,7 +9,8 @@ Se deberán crear copias de respaldo de los siguientes elementos del sistema:
 >- Almacenamiento compartido (**NAS**)
 >- **BBDD** (Bases de datos)
 
-### Periodicidad de las copias de seguridad:
+### Periodicidad de las copias de seguridad: <!-- {docsify-ignore} -->
+
 Las copias se deberán realizar en un periodo de inactividad del sistema, preferiblemente por la noche, y seguirán la siguiente periodicidad:
 >- Diario **Incremental** en disco
 >- Completo **semanal** en disco
@@ -21,7 +22,8 @@ Se establecerá un **almacenamiento secundario** para aquellas copias de segurid
 
 El sistema de copias de seguridad será verificado periódicamente (cada 6 meses) por el responsable destinado a tal efecto.
 
-## Estrategia de Respaldo de Información
+## Estrategia de Respaldo de Información <!-- {docsify-ignore} -->
+
 
 > [!ATTENTION]
 > EJEMPLO: Política de copias de seguridad teniendo en cuenta que basta con poder recuperar la información a distintos instantes temporales dentro del último año. En este ejemplo, no es posible aumentar la capacidad de almacenamiento de la SAN
@@ -32,7 +34,8 @@ El almacenamiento de las copias se realizará en la misma SAN donde residen los 
 
 El esquema elegido sigue el modelo tradicional de **Abuelo-Padre-Hijo**, que se detalla a continuación, especificando la periodicidad, tipo de copia, retención, ventana de realización, ubicación y procedimiento de recuperación para cada tipo de respaldo:
 
-### Copia Mensual
+### Copia Mensual <!-- {docsify-ignore} -->
+
 - **Periodicidad**: Primer domingo de cada mes.
 - **Tipo**: Completa.
 - **Ventana**: Horario nocturno (entre las 00:00 y las 07:00 horas) para minimizar la interrupción del uso de la aplicación.
@@ -40,7 +43,8 @@ El esquema elegido sigue el modelo tradicional de **Abuelo-Padre-Hijo**, que se 
 - **Retención**: Un año.
 - **Procedimiento de recuperación**: Este tipo de copia es para recuperación a largo plazo, y aunque el tiempo para restaurarla sea mayor (debido a la necesidad de transferir de cinta a disco), se considera aceptable debido a la baja probabilidad de necesitar esta restauración. Durante las dos primeras semanas del mes, esta copia se mantendrá también en disco como copia semanal.
 
-### Copia Semanal
+### Copia Semanal <!-- {docsify-ignore} -->
+
 - **Periodicidad**: Todos los domingos.
 - **Tipo**: Completa.
 - **Ventana**: Horario nocturno, misma franja que la copia mensual.
@@ -48,7 +52,8 @@ El esquema elegido sigue el modelo tradicional de **Abuelo-Padre-Hijo**, que se 
 - **Retención**: Dos semanas.
 - **Procedimiento de recuperación**: Estas copias permiten restaurar los datos con mayor granularidad y en menos tiempo que las mensuales. La primera semana del mes, coincidirá con la copia mensual.
 
-### Copia Diaria
+### Copia Diaria <!-- {docsify-ignore} -->
+
 - **Periodicidad**: Diaria (de lunes a sábado).
 - **Tipo**: Incremental.
 - **Ventana**: Horario nocturno, misma franja que las anteriores.
@@ -56,7 +61,8 @@ El esquema elegido sigue el modelo tradicional de **Abuelo-Padre-Hijo**, que se 
 - **Retención**: Entre uno y seis días.
 - **Procedimiento de recuperación**: Las copias incrementales se realizan a partir de la última copia completa o la última incremental, permitiendo una salvaguarda más rápida. Aunque el proceso de recuperación sería más largo, dado el bajo volumen de información almacenada, esto es aceptable. Cada domingo, tras la copia semanal, se eliminarán las copias diarias de la semana anterior.
 
-### Resumen de Retención
+### Resumen de Retención <!-- {docsify-ignore} -->
+
 Al cabo de un año de aplicar este esquema, se dispondrá de:
 - 12 copias completas mensuales.
 - 2 copias completas semanales (correspondientes a la semana actual y la anterior).
