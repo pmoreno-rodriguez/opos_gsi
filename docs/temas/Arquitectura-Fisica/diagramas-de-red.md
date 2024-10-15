@@ -1,5 +1,3 @@
-**Diagrama de red Nube SARA**
-
 > [!NOTE]
 > Ejemplo 1. Diagrama de Red con Nube SARA
 
@@ -60,7 +58,7 @@ Como orquestador de la plataforma de automatización se podrá utilizar **Jenkin
 
 ![Esquema 2](../../img/esquema_red2.webp)
 
-## Explicación del diagrama 3
+## Explicación del diagrama 3 <!-- {docsify-ignore} -->
 
 Segmentamos la red dividiéndola en cinco redes virtuales para aumentar el nivel de seguridad: **VLAN de Producción**, **VLAN de Desarrollo**, **VLAN de Infraestructura**, **VLAN de Usuarios** y **VLAN de la DMZ**. Agrupamos los equipos de manera lógica según estas categorías, como se indica en el diagrama. Para ello, instalamos un **switch** en la red interna que interconecta las cuatro primeras subredes, y lo redundamos para que el servicio siga operativo en caso de fallo. Posteriormente, implementamos las **ACLs** necesarias para permitir solo las conexiones entre las máquinas establecidas, prohibiendo las conexiones entre equipos de entornos cruzados y aquellas entre equipos de usuario y servidores.
 

@@ -28,8 +28,8 @@ Ante esta pregunta no hay una respuesta clara. Se debería tener en cuenta el si
 
 Son importantes los conocimientos previos del opositor y con cuál se siente más cómodo a la hora de defenderlo. Se incluyen algunos contenidos teóricos para que cada uno opte por su opción preferida.
 
-| **Hosting web de Windows** | **Hosting web de Linux** |
-|-----------------------------|--------------------------|
+| | **Hosting web de Windows** | **Hosting web de Linux** |
+|--|-----------------------------|--------------------------|
 | **Tipo de software**         | Privado                  | De código abierto           |
 | **Servidor web**             | Microsoft IIS            | Apache, Nginx               |
 | **Lenguajes script**         | VBScript, ASP.NET        | Perl, PHP, Python, Ruby      |
