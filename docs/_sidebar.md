@@ -32,6 +32,8 @@
   - [Posibles preguntas Parte 1](./temas/Estadisticas-preguntas/posibles-preguntas-1.md)
   - [Textos de ejemplo para introducir temas](./temas/Consideraciones-del-supuesto/textos-ejemplo.md)
   - [Análisis de un sistema para un procedimiento administrativo](./temas/Consideraciones-del-supuesto/analisis-sistema-procedimiento-administrativo.md)
+- Tecnologías aplicables al supuesto
+  - [Alternativas tecnológicas para el desarrollo de sistemas](./temas/Tecnologias/alternativas-tecnologicas-desarrollo-sistemas.md)
 - Arquitectura Lógica
   - [Ejemplos gráficos](./temas/Arquitectura-logica/ejemplos-graficos.md)
 - Arquitectura Física
