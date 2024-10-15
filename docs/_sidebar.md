@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 
-- [Inicio](./)  
+- [INICIO](./)  
 
 - Temas del supuesto (según las Bases de la Oposición)
   - [Temario (Bloque 3 y 4)](./temas/Bases-Opo/temario.md)
