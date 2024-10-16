@@ -8,6 +8,7 @@
 - Legal
   - [Requerimientos legales y funcionalidades de un sistema](./temas/Legal/funcionalidades-requerimientos.md)
   - [Marco Jurídico aplicable al supuesto práctico](./temas/Legal/Marco-Juridico.md)
+  - [Real Decreto 203/2021 Reglamento de actuación y funcionamiento del sector público por medios electrónicos](./temas/Legal/RD-203-2021.md)
 - Esquema Nacional de Seguridad
   - [Dimensiones de Seguridad](./temas/ENS/dimensiones-seguridad.md)
   - [Principios Básicos](./temas/ENS/principios-basicos.md)
