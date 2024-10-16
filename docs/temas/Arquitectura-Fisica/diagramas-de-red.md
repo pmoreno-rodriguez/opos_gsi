@@ -1,11 +1,10 @@
-> [!NOTE]
-> Ejemplo 1. Diagrama de Red con Nube SARA
+> [!NOTE|label:Ejemplo 1 - Diagrama de Red con Nube SARA]
 
 ![Esquema 1](../../img/Diagrama_de_red_nube_sara.webp)
 
 
-> [!NOTE]
-> Ejemplo 2. Diagrama de Red
+> [!NOTE|label:Ejemplo 2-Diagrama de Red]
+> Contenido extraído de supuestos prácticos de cursos de formación del INAP para preparación de oposiciones
 
 ![Esquema 2](../../img/esquema_red.webp)
 
@@ -53,8 +52,7 @@ Para la automatización de la infraestructura existen diferentes opciones de sof
 
 Como orquestador de la plataforma de automatización se podrá utilizar **Jenkins**, que hará uso del plugin para **Ansible** en lugar de utilizar la aplicación **Ansible Tower**, propietaria de Red Hat.
 
-> [!NOTE]
-> Ejemplo 3. Diagrama de Red
+> [!NOTE|label:Ejemplo 3 - Diagrama de Red]
 
 ![Esquema 2](../../img/esquema_red2.webp)
 
