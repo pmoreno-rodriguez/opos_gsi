@@ -5,7 +5,7 @@
 
 - Temas del supuesto (según las Bases de la Oposición)
   - [Temario (Bloque 3 y 4)](./temas/Bases-Opo/temario.md)
-- [Accesibilidad]
+- Accesibilidad
   - [Plan de Accesibilidad y Usabilidad de un desarrollo móvil](./temas/Accesibilidad/plan-accesibilidad-usabilidad.md)
 - Legal
   - [Requerimientos legales y funcionalidades de un sistema](./temas/Legal/funcionalidades-requerimientos.md)
