@@ -3,10 +3,10 @@
 
 Para verificar la **accesibilidad y usabilidad** de un desarrollo móvil dirigido a la administración pública, utilizando el **RD 1112/2018**, la norma **UNE-EN 301 549:2022**, las **WCAG 2.1** y la **ISO 9241**, el Plan de Pruebas debe contemplar varios aspectos. A continuación, te detallo un resumen de los puntos clave que deberían abordarse:
 
-### 1. **Objetivo del Plan de Pruebas**
+### 1. **Objetivo del Plan de Pruebas** <!-- {docsify-ignore} -->
 El plan busca evaluar y asegurar que la aplicación móvil cumple con los **requisitos de accesibilidad y usabilidad** exigidos por la normativa vigente. Esto incluye garantizar que la app sea **utilizable y accesible** para todas las personas, incluidas aquellas con discapacidades, en el contexto de la administración pública.
 
-### 2. **Normativas y estándares aplicados**
+### 2. **Normativas y estándares aplicados** <!-- {docsify-ignore} -->
 
 #### a) **RD 1112/2018**
 Este Real Decreto transfiere la **Directiva Europea (UE) 2016/2102** sobre accesibilidad de sitios web y aplicaciones móviles del sector público. Establece que todos los desarrollos tecnológicos de la administración pública deben cumplir con ciertos **criterios de accesibilidad** basados en estándares reconocidos, como las WCAG y la norma UNE-EN.
@@ -33,7 +33,7 @@ Esta norma se centra en la **usabilidad** y la **experiencia del usuario (UX)**.
 - **Satisfacción:** ¿La experiencia es agradable para el usuario?
 - **Accesibilidad:** ¿La interfaz está diseñada para todos los usuarios, independientemente de sus capacidades?
 
-### 3. **Estructura del Plan de Pruebas**
+### 3. **Estructura del Plan de Pruebas** <!-- {docsify-ignore} -->
 El plan debe estructurarse en fases que incluyan:
 
 #### a) **Definición de los criterios de éxito**
@@ -71,13 +71,13 @@ Con base en la ISO 9241:
 - **Recomendaciones:** Proponer soluciones y mejoras.
 - **Conformidad:** Confirmar el cumplimiento con los requisitos de accesibilidad establecidos en las normativas aplicables.
 
-### 4. **Herramientas recomendadas**
+### 4. **Herramientas recomendadas** <!-- {docsify-ignore} -->
 - **Pruebas automáticas de accesibilidad:** Lighthouse, Axe, WAVE.
 - **Pruebas manuales:** NVDA, JAWS (lectores de pantalla).
 - **Pruebas de usabilidad:** Métodos como tests de usuario, análisis heurístico y encuestas de satisfacción.
 
-### 5. **Cronograma**
+### 5. **Cronograma** <!-- {docsify-ignore} -->
 El plan debe incluir un cronograma de actividades, con fechas clave para las pruebas y revisiones.
 
-### 6. **Conclusión**
+### 6. **Conclusión** <!-- {docsify-ignore} -->
 Este Plan de Pruebas combina las normativas de accesibilidad y usabilidad con el fin de garantizar que el desarrollo móvil cumpla con los estándares requeridos por la administración pública, garantizando un producto final accesible y de calidad para todos los usuarios.
