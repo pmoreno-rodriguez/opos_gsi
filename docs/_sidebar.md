@@ -12,6 +12,7 @@
   - [Marco Jurídico aplicable al supuesto práctico](./temas/Legal/Marco-Juridico.md)
   - [Real Decreto 203/2021 Reglamento de actuación y funcionamiento del sector público por medios electrónicos](./temas/Legal/RD-203-2021.md)
   - [Catálogo de Servicios Comunes](./temas/Legal/servicios-comunes.md)
+  - [Autorización y Autenticación en la AGE](./temas/Legal/autorizacion-autenticacion.md)
 - Esquema Nacional de Seguridad
   - [Dimensiones de Seguridad](./temas/ENS/dimensiones-seguridad.md)
   - [Principios Básicos](./temas/ENS/principios-basicos.md)
@@ -38,15 +39,22 @@
   - [Análisis de un sistema para un procedimiento administrativo](./temas/Consideraciones-del-supuesto/analisis-sistema-procedimiento-administrativo.md)
 - Tecnologías aplicables al supuesto
   - [Alternativas tecnológicas para el desarrollo de sistemas](./temas/Tecnologias/alternativas-tecnologicas-desarrollo-sistemas.md)
+- Análisis del dominio
+  - [Qué es y en qué consiste un análisis de dominio](./temas/Analisis-Dominio/analisis-dominio.md)
 - Arquitectura Lógica
   - [Ejemplos gráficos](./temas/Arquitectura-logica/ejemplos-graficos.md)
 - Arquitectura Física
   - [Ejemplos de diagramas de red](./temas/Arquitectura-Fisica/diagramas-de-red.md)
   - [Interconectar dos CPDs](./temas/Arquitectura-Fisica/2-cpd-conectados.md)
+  - [Diseño de un CPD](./temas/Arquitectura-Fisica/diseno-cpd.md)
 - Backup
   - [Procedimientos de copias de seguridad](./temas/Backup/procedimientos.md)
 - Monitorización
   - [Sistemas de monitorización](./temas/Monitorizacion/sistema-monitorizacion.md)
+- Virtualización
+  - [Ventajas y Desventajas](./temas/Virtualizacion/ventajas-desventajas.md)
+- Metodología Ágil
+  - [Historias de usuario](./temas/Metologia-Agil/historias-de-usuario.md)
 - Diagramas
   - [Ejemplo 1 Diagrama de Secuencia](./temas/Diagramas/ejemplo1-diagrama-secuencia.md)
   - [Ejemplo 2 Diagrama de Secuencia](./temas/Diagramas/ejemplo2-diagrama-secuencia.md)
