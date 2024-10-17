@@ -79,6 +79,9 @@ Cada uno de estos elementos es crucial para garantizar el éxito del proyecto PA
 
 ## PREGUNTA 2. Describir de la forma más detallada posible la arquitectura de sistemas para implantar el sistema PANACE@. Indicar cómo accedería al sistema cada actor o sistema que interactúa con el mismo, así como los intercambios de información
 
+> [!NOTE|label: Nota Aclaratoria]
+> Esta es una respuesta muy amplia que evidentemente no nos va a dar tiempo de poner en el examen, pero sí puede servir para darnos pistas y nos ayuda a estudiar la arquitectura de un sistema, actores e interacciones.
+
 Para describir la **arquitectura de sistemas** propuesta para implantar el sistema PANACE@ de MUFACE, es fundamental tener en cuenta todos los actores y sistemas implicados, los módulos principales que componen PANACE@, así como los flujos de información e interacciones entre ellos. La arquitectura debe estar diseñada para garantizar la seguridad, la escalabilidad y la interoperabilidad necesarias para el éxito del proyecto.
 
 A continuación, se describe de forma detallada la arquitectura propuesta:
@@ -163,11 +166,8 @@ Para cumplir con el **Esquema Nacional de Seguridad (ENS)** en categoría ALTA, 
 
 ### 5. **Resumen gráfico (alta nivel)** <!-- {docsify-ignore} -->
 
-
 #### Frontend:
 - **Sede Electrónica de MUFACE**: Alojada en servidores **.NET** con base de datos **SQL Server**
-
-.
 
 #### Backend:
 - **Sistema PANACE@ (en servidores Java/Oracle)**:
@@ -175,8 +175,10 @@ Para cumplir con el **Esquema Nacional de Seguridad (ENS)** en categoría ALTA, 
   - Módulo de Receta Electrónica.
   - Módulo de Comunicación con Terceros (NODOFARMA, Proveedores, Ministerio de Sanidad).
 
-
 ## PREGUNTA 3. Indicar al menos 5 medidas debe tener en cuenta para el bastionado o securización de los elementos detallados en la arquitectura del sistema PANACE@. Señale alguna de las guías del Centro Cristológico Nacional u otros organismos de reconocido prestigio en las que basa su respuesta 
+
+> [!NOTE|label: Nota Aclaratoria]
+> Esta es una respuesta muy amplia que evidentemente no nos va a dar tiempo de poner en el examen, pero sí puede servir para darnos pistas y nos ayuda a estudiar aspectos de bastionado y securización de un sistema.
 
 Para el bastionado o securización del sistema **PANACE@**, que ha sido catalogado con una **categoría ALTA** dentro del **Esquema Nacional de Seguridad (ENS)**, es crucial implementar medidas de seguridad sólidas que protejan tanto la infraestructura como los datos sensibles que maneja. A continuación, propongo 10 medidas de seguridad que se deben implementar, basadas en guías del **Centro Criptológico Nacional (CCN)** y otros organismos de referencia como el **National Institute of Standards and Technology (NIST)** o el **OWASP**.
 
@@ -246,6 +248,9 @@ Estas medidas proporcionan una protección integral en distintos niveles: desde 
    * ### Protección de la autenticidad y de la integridad [mp.com.3] <!-- {docsify-ignore} -->
    * ### Segregación de redes [mp.com.4] <!-- {docsify-ignore} -->
    * ### Medios alternativos [mp.com.9] <!-- {docsify-ignore} -->
+
+> [!NOTE|label: Nota Aclaratoria]
+> Esta es una respuesta muy amplia que evidentemente no nos va a dar tiempo de poner en el examen, pero sí puede servir para darnos pistas y nos ayuda a estudiar las diferentes medidas del ENS respecto de la seguridad perimetral, autenticidad e integridad de un sistema.
 
 Para cumplir con las medidas de seguridad del **Esquema Nacional de Seguridad (ENS)** en categoría **ALTA**, es fundamental implementar una serie de acciones específicas que garanticen la protección adecuada de los sistemas, los datos y las comunicaciones del sistema PANACE@. A continuación, detallo las acciones necesarias para cumplir con cada una de las medidas de seguridad mencionadas:
 
@@ -339,6 +344,9 @@ La medida **mp.com.9** del ENS en categoría ALTA exige que se establezcan mecan
 Estas acciones son esenciales para cumplir con las exigencias del ENS en categoría ALTA, asegurando un alto nivel de seguridad, integridad y disponibilidad en el sistema PANACE@.
 
 ## PREGUNTA 5. Realizar una planificación del proyecto en lo referente a la arquitectura de los sistemas, detallando todas las fases y actividades necesarias para llevarlo a cabo
+
+> [!NOTE|label: Nota Aclaratoria]
+> Esta es una respuesta muy amplia que evidentemente no nos va a dar tiempo de poner en el examen, pero sí puede servir para darnos pistas y nos ayuda a estudiar la planificación de un proyecto.
 
 Para realizar una planificación detallada del proyecto relacionado con la **arquitectura de sistemas** de PANACE@, es necesario dividir el proyecto en fases claramente definidas y abordar todas las actividades críticas que permitan el despliegue y funcionamiento del sistema dentro de los estándares exigidos (incluyendo el cumplimiento con el ENS en categoría ALTA).
 
