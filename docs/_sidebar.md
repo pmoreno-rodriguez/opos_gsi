@@ -51,6 +51,8 @@
   - [Procedimientos de copias de seguridad](./temas/Backup/procedimientos.md)
 - Monitorización
   - [Sistemas de monitorización](./temas/Monitorizacion/sistema-monitorizacion.md)
+- Cloud Computing
+  - [Introdución](./temas/Cloud-Computing/introduccion.md)
 - Virtualización
   - [Ventajas y Desventajas](./temas/Virtualizacion/ventajas-desventajas.md)
 - Metodología Ágil
