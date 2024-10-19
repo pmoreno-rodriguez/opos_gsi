@@ -1,4 +1,4 @@
-###**Introducción a las Progressive Web Apps (PWA)** <!-- {docsify-ignore} -->
+## **Introducción a las Progressive Web Apps (PWA)** <!-- {docsify-ignore} -->
 
 > [!NOTE|style:callout|label:Contenido Verificado]
 > Respuesta de ChatGPT sobre desarrollo de aplicaciones web (PWA) para dispositivos móviles.
