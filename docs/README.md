@@ -21,8 +21,8 @@ Material diverso, no estructurado, para la preparación de la oposición de Gest
 - [ ] Añadir diagramas de clases, generados por plugins de Docsify
 - [ ] Añadir Documentación sobre
     - [ ] Plan de gestión del cambio (migraciones, estrategias de sustitución, etc)
-    - [ ] Teletrabajo y movilidad
-    - [ ] Servicios comunes
+    - [X] Teletrabajo y movilidad
+    - [X] Servicios comunes
     - [ ] Soluciones de seguridad CCN
     - [ ] Planificación de proyectos
     - [ ] Big Data

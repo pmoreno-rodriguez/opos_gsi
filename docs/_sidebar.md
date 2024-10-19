@@ -63,5 +63,10 @@
   - [Ejemplo 1 Diagrama de Casos de Uso](./temas/Diagramas/ejemplo1-diagrama-casos-de-uso.md)
 - Sistemas de recomendación
   - [Qué son](./temas/Sistemas-Recomendacion/que_son.md)
+- Teletrabajo
+  - [Introducción](./temas/Teletrabajo/introduccion.md)
+  - [Desarrollo de PWA](./temas/Teletrabajo/desarrollo-pwa.md)
+  - [BYOD, CYOD, COPE y COBO](./temas/Teletrabajo/byod-cyod-cope-cobo.md)
+  - [Servicio Unificado de Telecomunicaciones](./temas/Teletrabajo/servicio-unificado-teleco.md)
 - Supuestos
   - [2019 Supuesto 2 - PANACE@ (CHATGPT)](./supuestos/2019-panacea/chatgpt.md)
