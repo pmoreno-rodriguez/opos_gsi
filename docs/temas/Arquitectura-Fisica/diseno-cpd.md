@@ -32,6 +32,8 @@ La taxonomía de Flynn clasifica las arquitecturas de los procesadores según el
 
 La **seguridad física** en un CPD es un componente crítico que garantiza la integridad del hardware y la continuidad operativa en caso de fallos, ataques o desastres. A continuación, exploramos los aspectos clave de la seguridad física, incluyendo la **redundancia** y la **monitorización** de los sistemas.
 
+##### **Acceso físico al equipo (rack cerrado con llave, sala con acceso restringido)**
+
 ##### **Redundancia en alimentación eléctrica**
 - **UPS (Uninterruptible Power Supply)**: Los sistemas UPS proporcionan energía de respaldo en caso de fallos en la red eléctrica. Son esenciales para mantener el CPD en funcionamiento hasta que los generadores entren en acción.
 - **Generadores eléctricos de respaldo**: En caso de interrupciones prolongadas en la electricidad, los generadores permiten mantener la operación del CPD sin interrupciones.
@@ -96,16 +98,107 @@ La **seguridad lógica** es tan importante como la física, ya que protege los d
 ##### **Sistemas de información de seguridad y gestión de eventos (SIEM)**
 - Las soluciones **SIEM** permiten recopilar y analizar los eventos de seguridad en tiempo real. Con ellas, se puede correlacionar eventos de múltiples sistemas, detectar patrones sospechosos y responder rápidamente a incidentes de seguridad.
 
-### **3. Componentes de un CPD** <!-- {docsify-ignore} -->
+### 3. CENTROS DE PROCESO DE DATOS: DISEÑO, IMPLANTACIÓN Y GESTIÓN <!-- {docsify-ignore} -->
 
-Un CPD se compone de varias áreas y recursos esenciales para su funcionamiento. Entre ellos, destacan:
+Se pueden definir como aquellas ubicaciones donde se concentra el equipamiento para prestación de servicios TIC a una o varias organizaciones, disponiendo para ello de las infraestructuras para prestar estos servicios de manera gestionada, eficiente en coste, sostenible, predecible y con los requisitos de calidad, seguridad, eficiencia y robustez requeridos.
 
-#### **Sala principal de servidores**
-- **Estructura**: Espacios optimizados para instalar servidores, sistemas de refrigeración y almacenamiento. Estos suelen estar configurados en racks y estructuras modulares.
-- **Refrigeración**: Los sistemas de aire acondicionado, tanto por aire como por agua, son imprescindibles para mantener la temperatura adecuada en el CPD.
-  
-#### **Sala de entrada**
-- **Acceso controlado**: Es la zona de recepción donde los datos o equipos entran en el CPD. Suele tener puertas blindadas y sistemas de seguridad adicionales.
-  
-#### **Centro de operaciones (NOC - Network Operations Center)**
-- Es el centro neurálgico del CPD donde se monitorizan los sistemas, las redes, y la salud de los servidores. Este espacio debe estar equipado con estaciones de trabajo, pantallas y sistemas de comunicación.
+La norma que especifica los requisitos para la infraestructura de centros de datos es **ANSI/TIA-942-C** (Telecommunications Infrastructure Standard for Data Centers).
+
+#### 3.1 CLASIFICACIÓN
+
+Puede establecerse una primera clasificación en cuanto al destinatario de los servicios proporcionados:
+
+- **CPD corporativos o empresariales**, que proveen servicios a la propia organización, formando parte de su proceso de TI.
+- **CPD de servicios gestionados**. Estos centros de datos son administrados por un tercero (o un proveedor de servicios administrados) en nombre de una empresa. La empresa alquila los equipos y la infraestructura en lugar de comprarlos.
+- **CPD de colocación**. Son gestionados por una empresa que alquila el espacio y la infraestructura (refrigeración, seguridad, ancho de banda, etc.) a otras empresas para que estas alojen aquí sus componentes (servidores, enrutadores, cortafuegos, etc.).
+- **CPD en la nube**. Los datos y aplicaciones se alojan en una infraestructura virtual en la nube, contratado como un servicio a través de un proveedor, como Amazon Web Services (AWS), Microsoft (Azure) o IBM Cloud u otro proveedor de nube pública.
+
+Otra clasificación en cuanto al rol en la prestación de servicios:
+
+- **CPD principal**, que provee servicios de forma habitual a la organización, encontrándose de forma general en operación continua (solo interrumpe su servicio por intervención planificada o en caso de desastre).
+- **CPD de respaldo, recuperación ante desastres o de contingencia**, destinado a proporcionar un mecanismo alternativo para la prestación de los servicios en caso de que exista algún problema con el centro principal, por necesidades de interrupción del servicio debido a una intervención, o por desastre o avería grave. Los centros de respaldo pueden ser de diferentes tipos según las necesidades de tiempos de recuperación del desastre:
+  - **Sala fría**: el centro de respaldo externo cuenta con toda la infraestructura requerida para replicar el centro de procesado de datos principal a partir de copias de seguridad. Es el método más barato, pero también requiere tiempo para trasladar los datos de una infraestructura a otra.
+  - **Sala caliente**: son centros de respaldo que funcionan de forma análoga al CPD principal. Todos los datos que son introducidos en el CPD base se replican en la sala caliente, por lo que en caso de contingencia solo es necesario restaurar los datos en el último momento. Es un modelo más caro, pero mucho más rápido.
+  - **Centro espejo**: es una versión avanzada de las salas calientes. En él, se replican los datos en tiempo real, por lo que es necesario utilizar redes de alta velocidad. Es el modelo más rápido y fiable, pero también el más caro.
+  - **Mutual Backup**: se produce cuando dos empresas llegan a un acuerdo para hacer un respaldo de datos mutuo. Ambas deben reservar un espacio para los servidores de respaldo de la otra.
+
+#### 3.2 SUBSISTEMAS
+
+De acuerdo con el estándar **TIA-942**, la infraestructura de soporte de un CPD estará compuesta por cuatro subsistemas:
+
+- **Telecomunicaciones**: Cableado de armarios y horizontal, accesos redundantes, cuarto de entrada, área de distribución, backbone, elementos activos y alimentación redundantes, patch panels y latiguillos, documentación.
+- **Arquitectura**: Selección de ubicación, tipo de construcción, protección ignífuga y requerimientos **NFPA 75** (Sistemas de protección contra el fuego para información), barreras de vapor, techos y pisos, áreas de oficina, salas de UPS y baterías, sala de generador, control de acceso, CCTV, NOC (Network Operations Center).
+- **Sistema eléctrico**: Número de accesos, puntos de fallo, cargas críticas, redundancia de UPS y topología de UPS, puesta a tierra, **EPO** (Emergency Power Off- sistemas de corte de emergencia), baterías, monitorización, generadores, sistemas de transferencia.
+- **Sistema mecánico**: Climatización, presión positiva, tuberías y drenajes, **CRACs** (Computer Room Air Conditioner) y condensadores, control de **HVAC** (High Ventilating Air Conditioning), detección de incendios y sprinklers, extinción por agente limpio (**NFPA 2001**), detección por aspiración (**ASD**), detección de líquidos.
+
+#### 3.3 ELEMENTOS
+
+Según los estándares definidos por la norma **TIA-942**, generalmente en un centro de proceso de datos deberíamos encontrar los siguientes elementos, desde el punto de vista de organización de las comunicaciones:
+
+- **Centro de operaciones**: oficina aledaña a las salas de servidores en donde se encuentran los operadores y técnicos de operación y soporte. Dispone habitualmente de sistemas de monitorización e inspección remota. Habitualmente se realiza también el control de acceso a las salas.
+- **Sala de entrada**: Contiene los elementos de comunicaciones de los proveedores de acceso, así como almacenes o áreas de carga y descarga.
+- **Sala principal**: Sala que contiene los servidores y otros equipos que forman parte del CPD. Habitualmente cuenta con un falso suelo para el mantenimiento más sencillo del cableado, y los equipos se distribuyen en armarios (**rack**) situados en hileras.
+- **Armarios de comunicaciones**: La norma **TIA-942** presenta un enfoque estructurado de los elementos de conectividad estableciendo una arquitectura en estrella, con una zona principal de distribución que agrupa el cableado del “backbone” de red, así como los conmutadores, enrutadores y centralitas del “core” de la **LAN**. Esta norma incluye el cable de categoría 6A como el nuevo mínimo.
+
+#### 3.4 DISEÑO
+
+Los aspectos de diseño más relevantes a la hora del diseño de un centro de proceso de datos tienen mucho que ver con los requisitos de disponibilidad de los servicios que alberga.
+
+La norma **TIA-942** recoge la clasificación en “tiers”, que proporcionan un marco de evaluación de la disponibilidad de los servicios de TI que puede ofrecer un centro:
+
+- **Tier 1 (CPD básico)**: No hay redundancia en administración eléctrica y refrigeración. Puede tener o no suelo elevado y SAI (Sistema de Alimentación Ininterrumpido). El servicio puede interrumpirse por paradas programadas o no programadas. Tasa máxima de disponibilidad: 99,671 % (que equivaldría a ~28,82 horas al año de servicio interrumpido).
+- **Tier 2 (CPD redundante)**: Menos susceptible a paradas programadas o no. Tiene componentes redundantes. Tiene suelos elevados y SAI. Una única línea de distribución eléctrica y refrigeración. Tasa máxima de disponibilidad: 99,741 % (que equivaldría a ~22,69 horas al año de servicio interrumpido).
+- **Tier 3 (CPD concurrentemente mantenible)**: Permite planificar mantenimiento sin afectar al servicio, pero pueden existir paradas no planificadas. Tiene componentes redundantes, múltiples líneas de distribución eléctrica y de refrigeración, pero con una sola activa. Tasa máxima de disponibilidad: 99,982 % (que equivaldría a ~1,58 horas al año de servicio interrumpido).
+- **Tier 4 (CPD tolerante a fallos)**: Sin pérdida de servicio por paradas programadas, es capaz de soportar un evento no programado del tipo “peor escenario” sin pérdida de servicio. Múltiples líneas de distribución eléctrica y refrigeración, con múltiples componentes redundantes (ej.: 2 SAI redundados). Tasa máxima de disponibilidad: 99,995 % (que equivaldría a ~26,28 minutos al año de servicio interrumpido).
+
+Son muchos los factores que influyen en el diseño de un centro de proceso de datos:
+
+- Ubicación
+- Distribución y uso del espacio de la sala
+- Sistema eléctrico y de generación
+- Sistemas de refrigeración
+- Sistemas de detección y extinción de incendios
+- Emplazamiento de los armarios o bastidores
+- Cableado para la red de datos
+- Monitorización y vigilancia
+
+##### 3.4.1 Sistema eléctrico y de generación
+
+El “**Uptime Institute**” recomienda considerar el suministro de las compañías eléctricas como un suministro auxiliar de bajo coste, y la generación en el propio centro (mediante células de combustible, generadores u otros medios fiables), con el respaldo de unidades de suministro ininterrumpido (**SAI**).
+
+- **Grupos electrógenos**: los generadores más habituales son los grupos electrógenos a gasolina o diésel.
+- **Sistemas de alimentación ininterrumpida (SAI)**: su potencia se mide en kVA.
+- **Ruta de distribución y cuadros eléctricos**: es recomendable que existan dos rutas de suministro al equipamiento en paralelo.
+
+##### 3.4.2 Sistemas de refrigeración
+
+Las condiciones de climatización se resumen en una temperatura entre **18°C y 27°C** y una humedad relativa entre **30% y 50%**.
+
+Técnicas de climatización de aire:
+
+- Sistemas de expansión directa (**DX**)
+- Sistema de refrigeración por condensación en torre de refrigeración
+- Sistemas de gestión de aire centralizado
+- Entrega de aire a baja presión
+- Técnicas de pasillo frío/caliente
+- Refrigeración por aire exterior (“free-cooling”)
+- Cerramiento de pasillos
+- Cerramiento de bastidores
+
+#### 3.5 MÉTRICAS DE EFICIENCIA EN LOS CPD
+
+- **Power Usage Effectiveness (PUE)**: El PUE hace referencia a la eficacia del uso de la energía y es la métrica más común a efectos de comparación y benchmarking. Se define como:
+
+```PUE = Consumo total / Consumo del equipamiento TI```
+
+Dado que, en la realidad, un PUE de 1 es un objetivo imposible, el objetivo estándar para la mayoría de Data Center es lograr un PUE inferior a 2. Además, el PUE objetivo para un Data Center de nueva construcción (dada la tecnología actual) debería ser inferior a 1,2; mientras que los Data Centers más energéticamente eficientes ya son capaces de alcanzar PUEs por debajo de 1,06.
+
+- **Carbon Usage Effectiveness (CUE)**: El CUE hace referencia a la eficacia del uso del carbono, y mide las emisiones de carbono que emite un centro de datos a diario. Mientras que el PUE tiene un valor ideal de 1,0, el CUE tiene un valor ideal de 0,0.
+
+- **Water Usage Effectiveness (WUE)**: La efectividad del uso del agua mide la cantidad de agua utilizada en el funcionamiento de un centro de datos, y se define como:
+
+```WUE = Consumo total de agua / Consumo del equipamiento TI```
+
+Al igual que el PUE y el CUE, un WUE ideal es bajo. Un objetivo deseable para muchos Data Centers es mantener su WUE por debajo de 1,0, lo que indicaría que el consumo de agua es eficiente en relación con la carga de trabajo.
+
+

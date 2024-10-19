@@ -27,6 +27,7 @@
 - Seguridad
   - [Riesgos de seguridad en móviles](./temas/Seguridad/riesgos-seguridad-moviles.md)
   - [Soluciones de seguridad del CCN](./temas/Seguridad/soluciones-ccn.md)
+  - [Seguridad en Redes](./temas/Seguridad/seguridad-redes.md)
 - DAFO
   - [Plantilla Genérica](./temas/DAFO/plantilla_generica.md)
 - Factores críticos de éxito
