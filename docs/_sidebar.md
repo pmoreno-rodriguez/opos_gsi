@@ -53,6 +53,8 @@
   - [Ejemplos de diagramas de red](./temas/Arquitectura-Fisica/diagramas-de-red.md)
   - [Interconectar dos CPDs](./temas/Arquitectura-Fisica/2-cpd-conectados.md)
   - [Diseño de un CPD](./temas/Arquitectura-Fisica/diseno-cpd.md)
+  - [RAID](./temas/Arquitectura-Fisica/raid.md)
+  - [Clasificación TIER](./temas/Arquitectura-Fisica/clasificacion-tier.md)
 - Backup
   - [Procedimientos de copias de seguridad](./temas/Backup/procedimientos.md)
 - Monitorización
