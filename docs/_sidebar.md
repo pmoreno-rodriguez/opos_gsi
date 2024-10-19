@@ -24,6 +24,9 @@
 - Análisis de riesgos
   - [ChatGPT](./temas/Analisis-de-riesgos/chatgpt.md)
   - [Preparatic](./temas/Analisis-de-riesgos/preparatic.md)
+- Seguridad
+  - [Riesgos de seguridad en móviles](./temas/Seguridad/riesgos-seguridad-moviles.md)
+  - [Soluciones de seguridad del CCN](./temas/Seguridad/soluciones-ccn.md)
 - DAFO
   - [Plantilla Genérica](./temas/DAFO/plantilla_generica.md)
 - Factores críticos de éxito
@@ -31,6 +34,8 @@
   - [Plantilla Genérica (Manual)](./temas/Factores-Criticos-Exito/plantilla-generica-manual.md)
 - Nube SARA
   - [Ventajas e Inconvenientes](./temas/Nube-SARA/ventajas-inconvenientes.md)
+- Servicios Comunes y Compartidos
+  - [Servicios Compartidos de la AGE](./temas/Servicios-Comunes-Compartidos/servicios-compartidos.md)
 - Ayuda para el supuesto práctico
   - [Planteamiento previo](./temas/Consideraciones-del-supuesto/planteamiento-previo.md)
   - [Preguntas para identificar actores y funcionalidades](./temas/Consideraciones-del-supuesto/Preguntas-indentificar-actores-funcionalidades.md)
@@ -39,6 +44,7 @@
   - [Análisis de un sistema para un procedimiento administrativo](./temas/Consideraciones-del-supuesto/analisis-sistema-procedimiento-administrativo.md)
 - Tecnologías aplicables al supuesto
   - [Alternativas tecnológicas para el desarrollo de sistemas](./temas/Tecnologias/alternativas-tecnologicas-desarrollo-sistemas.md)
+  - [Elección de pila tecnológica](./temas/Tecnologias/eleccion-pila-tecnologica.md)
 - Análisis del dominio
   - [Qué es y en qué consiste un análisis de dominio](./temas/Analisis-Dominio/analisis-dominio.md)
 - Arquitectura Lógica
