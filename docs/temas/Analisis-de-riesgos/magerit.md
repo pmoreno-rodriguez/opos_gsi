@@ -1,5 +1,8 @@
 ## Análisis de Riesgos con la Metodología MAGERIT <!-- {docsify-ignore} -->
 
+> [!NOTE|style:callout|label:Contenido Verificado]
+> Respuesta de ChatGPT sobre Análisis de riesgos con metodología Magerit.
+
 La metodología **MAGERIT** para el análisis de riesgos sigue un enfoque estructurado para proteger los activos críticos de una organización. A continuación, se presenta las fases y conceptos, propios de esta metodología.
 
 
