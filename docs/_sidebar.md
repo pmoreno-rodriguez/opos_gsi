@@ -24,6 +24,7 @@
 - Análisis de riesgos
   - [ChatGPT](./temas/Analisis-de-riesgos/chatgpt.md)
   - [Preparatic](./temas/Analisis-de-riesgos/preparatic.md)
+  - [Fases y conceptos de Magerit](./temas/Analisis-de-riesgos/magerit.md)
 - Seguridad
   - [Riesgos de seguridad en móviles](./temas/Seguridad/riesgos-seguridad-moviles.md)
   - [Soluciones de seguridad del CCN](./temas/Seguridad/soluciones-ccn.md)

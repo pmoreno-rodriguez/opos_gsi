@@ -59,6 +59,6 @@ La **arquitectura de microservicios** es un enfoque que divide una aplicación e
 | **Tolerancia a Fallos**      | Menos tolerante a fallos, toda la aplicación puede verse afectada | Alta tolerancia a fallos, un microservicio fallido no afecta a los demás |
 | **Tecnologías**              | Generalmente se basa en tecnologías monolíticas          | Diversas tecnologías y lenguajes, cada microservicio puede usar lo que mejor le convenga |
 
-### Conclusión
+### Conclusión <!-- {docsify-ignore} -->
 
 Ambos modelos arquitectónicos tienen sus ventajas y desventajas. La elección entre una arquitectura lógica de 3 o 4 capas y una arquitectura de microservicios depende de factores como el tamaño del proyecto, la complejidad, los requisitos de escalabilidad, y el equipo de desarrollo. La arquitectura de microservicios es ideal para aplicaciones grandes y en constante evolución, mientras que la arquitectura de 3 o 4 capas puede ser más adecuada para aplicaciones más simples o menos complejas. En ambos casos, la planificación cuidadosa y la consideración de las necesidades del negocio son cruciales para el éxito del proyecto.
