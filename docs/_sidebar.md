@@ -50,6 +50,7 @@
   - [Qué es y en qué consiste un análisis de dominio](./temas/Analisis-Dominio/analisis-dominio.md)
 - Arquitectura Lógica
   - [Ejemplos gráficos](./temas/Arquitectura-logica/ejemplos-graficos.md)
+  - [Diferencias entre arquitectura de capas y microservicios](./temas/Arquitectura-logica/diferencias-modelo-capas-microservicios.md)
 - Arquitectura Física
   - [Ejemplos de diagramas de red](./temas/Arquitectura-Fisica/diagramas-de-red.md)
   - [Interconectar dos CPDs](./temas/Arquitectura-Fisica/2-cpd-conectados.md)
