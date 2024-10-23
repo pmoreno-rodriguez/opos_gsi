@@ -47,6 +47,7 @@
 - Tecnologías aplicables al supuesto
   - [Alternativas tecnológicas para el desarrollo de sistemas](./temas/Tecnologias/alternativas-tecnologicas-desarrollo-sistemas.md)
   - [Elección de pila tecnológica](./temas/Tecnologias/eleccion-pila-tecnologica.md)
+  - [Ecosistema JAVA](./temas/Tecnologias/ecosistema-java.md)
 - Análisis del dominio
   - [Qué es y en qué consiste un análisis de dominio](./temas/Analisis-Dominio/analisis-dominio.md)
 - Arquitectura Lógica
