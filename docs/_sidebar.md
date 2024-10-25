@@ -13,6 +13,8 @@
   - [Real Decreto 203/2021 Reglamento de actuación y funcionamiento del sector público por medios electrónicos](./temas/Legal/RD-203-2021.md)
   - [Catálogo de Servicios Comunes](./temas/Legal/servicios-comunes.md)
   - [Autorización y Autenticación en la AGE](./temas/Legal/autorizacion-autenticacion.md)
+- Esquema Nacional de Interoperabilidad
+  - [Resumen](./temas/ENI/resumen.md)
 - Esquema Nacional de Seguridad
   - [Dimensiones de Seguridad](./temas/ENS/dimensiones-seguridad.md)
   - [Principios Básicos](./temas/ENS/principios-basicos.md)
