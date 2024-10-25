@@ -15,6 +15,9 @@
   - [Autorización y Autenticación en la AGE](./temas/Legal/autorizacion-autenticacion.md)
 - Esquema Nacional de Interoperabilidad
   - [Resumen](./temas/ENI/resumen.md)
+  - [NTI Digitalización](./temas/ENI/nti-digitalizacion.md)
+  - [NTI Documento Electrónico](./temas/ENI/nti-documento-electronico.md)
+  - [NTI Expediente Electrónico](./temas/ENI/nti-expediente-electronico.md)
 - Esquema Nacional de Seguridad
   - [Dimensiones de Seguridad](./temas/ENS/dimensiones-seguridad.md)
   - [Principios Básicos](./temas/ENS/principios-basicos.md)
