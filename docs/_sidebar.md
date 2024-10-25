@@ -49,6 +49,7 @@
   - [Posibles preguntas Parte 1](./temas/Estadisticas-preguntas/posibles-preguntas-1.md)
   - [Textos de ejemplo para introducir temas](./temas/Consideraciones-del-supuesto/textos-ejemplo.md)
   - [Análisis de un sistema para un procedimiento administrativo](./temas/Consideraciones-del-supuesto/analisis-sistema-procedimiento-administrativo.md)
+  - [Guía para identificar actores e interfaces](./temas/Consideraciones-del-supuesto/guia-identificar-actores.md)
 - Tecnologías aplicables al supuesto
   - [Alternativas tecnológicas para el desarrollo de sistemas](./temas/Tecnologias/alternativas-tecnologicas-desarrollo-sistemas.md)
   - [Elección de pila tecnológica](./temas/Tecnologias/eleccion-pila-tecnologica.md)
@@ -56,8 +57,10 @@
 - Análisis del dominio
   - [Qué es y en qué consiste un análisis de dominio](./temas/Analisis-Dominio/analisis-dominio.md)
 - Arquitectura Lógica
+  - [Guia para el diseño de la arquitectura lógica de un sistema](./temas/Arquitectura-logica/guia-diseno-arquitectura-logica.md)
   - [Ejemplos gráficos](./temas/Arquitectura-logica/ejemplos-graficos.md)
   - [Diferencias entre arquitectura de capas y microservicios](./temas/Arquitectura-logica/diferencias-modelo-capas-microservicios.md)
+  - [Módulos Software](./temas/Arquitectura-logica/modulos-sw.md)
 - Arquitectura Física
   - [Ejemplos de diagramas de red](./temas/Arquitectura-Fisica/diagramas-de-red.md)
   - [Interconectar dos CPDs](./temas/Arquitectura-Fisica/2-cpd-conectados.md)
@@ -66,6 +69,8 @@
   - [Clasificación TIER](./temas/Arquitectura-Fisica/clasificacion-tier.md)
 - Backup
   - [Procedimientos de copias de seguridad](./temas/Backup/procedimientos.md)
+- CI/CD
+  - [Resumen](./temas/ci-cd/resumen.md)
 - Monitorización
   - [Sistemas de monitorización](./temas/Monitorizacion/sistema-monitorizacion.md)
 - Cloud Computing
