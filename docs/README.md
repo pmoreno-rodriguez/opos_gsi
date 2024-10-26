@@ -23,7 +23,7 @@ Material diverso, no estructurado, para la preparación de la oposición de Gest
     - [ ] Plan de gestión del cambio (migraciones, estrategias de sustitución, etc)
     - [X] Teletrabajo y movilidad
     - [X] Servicios comunes
-    - [ ] Soluciones de seguridad CCN
+    - [X] Soluciones de seguridad CCN
     - [ ] Planificación de proyectos
     - [ ] Big Data
 - [ ] Añadir supuestos de práctica, completos y corregidos
