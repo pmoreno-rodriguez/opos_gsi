@@ -89,6 +89,7 @@
   - [Ejemplo 2 Diagrama de Secuencia](./temas/Diagramas/ejemplo2-diagrama-secuencia.md)
   - [Ejemplo 1 Diagrama de Casos de Uso](./temas/Diagramas/ejemplo1-diagrama-casos-de-uso.md)
   - [Diagrama de red básico](./temas/Diagramas/diagrama-red-basico.md)
+  - [Diagrama de clases genérico](./temas/Diagramas/diagrama-clases-generico.md)
 - Sistemas de recomendación
   - [Qué son](./temas/Sistemas-Recomendacion/que_son.md)
 - Teletrabajo

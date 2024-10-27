@@ -1,0 +1,1 @@
+[filename](../../diagramas/diagrama_clases_generico.drawio ':include :type=code')
