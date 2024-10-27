@@ -23,9 +23,10 @@
   - [Principios Básicos](./temas/ENS/principios-basicos.md)
   - [Requisitos Mínimos](./temas/ENS/requisitos-minimos.md)
   - [Auditorías](./temas/ENS/auditorias.md)
-  - [Categorización de un sistema](./temas/ENS/categorizacion-sistema.md)
   - [Principales medidas del ENS](./temas/ENS/principales-medidas.md)
   - [Resumen de medidas del ENS](./temas/ENS/resumen-medidas.md)
+  - [Categorización de un sistema](./temas/ENS/categorizacion-sistema.md)
+  - [Plantilla para la determinación de niveles de seguriad](./temas/ENS/plantilla-determinacion-niveles.md)
 - Análisis de riesgos
   - [ChatGPT](./temas/Analisis-de-riesgos/chatgpt.md)
   - [Preparatic](./temas/Analisis-de-riesgos/preparatic.md)
