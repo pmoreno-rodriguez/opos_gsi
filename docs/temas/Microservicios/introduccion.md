@@ -9,15 +9,15 @@ La arquitectura de microservicios es un enfoque de diseño y desarrollo de softw
 
 <!-- TOC -->
 
-- [Desacoplamiento e Independencia de Servicios :id=desacoplamiento](#desacoplamiento)
-- [Separación e Independencia de los Datos :id=sep-datos](#sep-datos)
-- [Autonomía de los Equipos de Desarrollo :id=autonomia](#autonomia)
-- [Escalabilidad Flexible y Granular :id=escalabilidad](#escalabilidad)
-- [Despliegue y Desarrollo Continuo :id=despliegue](#despliegue)
-- [Tecnologías y Lenguajes de Programación Independientes :id=tecnologias](#tecnologias)
-- [Descentralización del Mantenimiento y el Control :id= descentralizacion](#descentralizacion)
-- [Comunicación Basada en APIs :id=comunicacion-api](#comunicacion-api)
-- [Conclusión :id=conclusion](#conclusion)
+- [Desacoplamiento e Independencia de Servicios](#desacoplamiento)
+- [Separación e Independencia de los Datos](#sep-datos)
+- [Autonomía de los Equipos de Desarrollo](#autonomia)
+- [Escalabilidad Flexible y Granular](#escalabilidad)
+- [Despliegue y Desarrollo Continuo](#despliegue)
+- [Tecnologías y Lenguajes de Programación Independientes](#tecnologias)
+- [Descentralización del Mantenimiento y el Control](#descentralizacion)
+- [Comunicación Basada en APIs](#comunicacion-api)
+- [Conclusión](#conclusion)
 
 <!-- /TOC -->
 
@@ -81,7 +81,7 @@ Cada microservicio en una arquitectura de microservicios puede desarrollarse en 
   
 - **Mejora de Productividad y Creatividad:** Al no estar limitados por un único lenguaje o herramienta, los equipos pueden desarrollar soluciones más innovadoras y adaptadas a los requerimientos específicos.
 
-### 7. Descentralización del Mantenimiento y el Control :id= descentralizacion <!-- {docsify-ignore} -->
+### 7. Descentralización del Mantenimiento y el Control :id=descentralizacion <!-- {docsify-ignore} -->
 
 En una arquitectura de microservicios, la gobernanza y el control están descentralizados, lo que significa que la administración de los servicios es distribuida y adaptada a las necesidades de cada equipo:
 
