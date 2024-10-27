@@ -18,7 +18,7 @@ Material diverso, no estructurado, para la preparación de la oposición de Gest
 - [X] Añadir diagramas de casos de uso, generados por plugins de Docsify
 - [ ] Añadir diagramas de despliegue, como imágenes de Draw.io
 - [ ] Añadir diagramas de paquetes, como imágenes de Draw.io
-- [ ] Añadir diagramas de clases, generados por plugins de Docsify
+- [X] Añadir diagramas de clases, generados por plugins de Docsify
 - [ ] Añadir Documentación sobre
     - [ ] Plan de gestión del cambio (migraciones, estrategias de sustitución, etc)
     - [X] Teletrabajo y movilidad
