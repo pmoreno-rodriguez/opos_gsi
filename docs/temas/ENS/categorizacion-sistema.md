@@ -1,6 +1,6 @@
 La **categorización de un sistema** según el **Esquema Nacional de Seguridad (ENS)** es un proceso fundamental para determinar las medidas de seguridad que deben implementarse en función del nivel de riesgo que puedan suponer los sistemas de información y los servicios que estos prestan. Este proceso se basa en el análisis del **impacto o perjuicio** que la pérdida de las dimensiones de seguridad (disponibilidad, integridad, confidencialidad, autenticidad y trazabilidad) podría causar sobre los servicios, activos o personas.
 
-### **Legislación aplicable a la categorización de un Sistema**
+### **Legislación aplicable a la categorización de un Sistema** <!-- {docsify-ignore} -->
 
 Al realizar la categorización de un sistema según el *Esquema Nacional de Seguridad* (ENS), es importante referirse a diversas normativas y documentos que regulan o guían este proceso. Aquí te presento una lista con las normativas relevantes y sus artículos específicos relacionados con la categorización de sistemas:
 

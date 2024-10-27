@@ -5,7 +5,7 @@
 
 La arquitectura de microservicios es un enfoque de diseño y desarrollo de software donde una aplicación se estructura como un conjunto de servicios pequeños, autónomos y altamente especializados, llamados *microservicios*. Este modelo representa un cambio significativo respecto a las aplicaciones monolíticas tradicionales, en las que toda la funcionalidad de la aplicación se encuentra en un solo paquete de código. A continuación, se detallan las características clave de la arquitectura de microservicios, explicando por qué resultan fundamentales para aprovechar al máximo esta estructura.
 
-**TABLA DE CONTENIDOS**
+**RESUMEN DE CARACTERÍSTICAS**
 
 <!-- TOC -->
 
