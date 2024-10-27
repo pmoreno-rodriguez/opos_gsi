@@ -1,11 +1,23 @@
-## Características de una arquitectura basada en Microservicios
+## Características de una arquitectura basada en Microservicios <!-- {docsify-ignore} -->
 
 > [!NOTE|style:callout|label:Contenido Verificado]
 > Respuesta de ChatGPT sobre características de los microservicios.
 
 La arquitectura de microservicios es un enfoque de diseño y desarrollo de software donde una aplicación se estructura como un conjunto de servicios pequeños, autónomos y altamente especializados, llamados *microservicios*. Este modelo representa un cambio significativo respecto a las aplicaciones monolíticas tradicionales, en las que toda la funcionalidad de la aplicación se encuentra en un solo paquete de código. A continuación, se detallan las características clave de la arquitectura de microservicios, explicando por qué resultan fundamentales para aprovechar al máximo esta estructura.
 
----
+<!-- TOC depthfrom:3 -->
+
+- [Desacoplamiento e Independencia de Servicios](#desacoplamiento-e-independencia-de-servicios)
+- [Separación e Independencia de los Datos](#separaci%C3%B3n-e-independencia-de-los-datos)
+- [Autonomía de los Equipos de Desarrollo](#autonom%C3%ADa-de-los-equipos-de-desarrollo)
+- [Escalabilidad Flexible y Granular](#escalabilidad-flexible-y-granular)
+- [Despliegue y Desarrollo Continuo](#despliegue-y-desarrollo-continuo)
+- [Tecnologías y Lenguajes de Programación Independientes](#tecnolog%C3%ADas-y-lenguajes-de-programaci%C3%B3n-independientes)
+- [Descentralización del Mantenimiento y el Control](#descentralizaci%C3%B3n-del-mantenimiento-y-el-control)
+- [Comunicación Basada en APIs](#comunicaci%C3%B3n-basada-en-apis)
+- [Conclusión](#conclusi%C3%B3n)
+
+<!-- /TOC -->
 
 ### 1. Desacoplamiento e Independencia de Servicios <!-- {docsify-ignore} -->
 

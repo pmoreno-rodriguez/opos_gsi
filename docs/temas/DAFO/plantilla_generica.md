@@ -5,7 +5,7 @@
 
 **Ejemplo de DAFO para el supuesto práctico del examen de la OEP 2022, sobre Sistema de Información de Explotaciones agrícolas, ganaderas y de la producción agraria** (Extensible en muchos aspectos a otros DAFOS)
 
-## Factores Internos
+## Factores Internos <!-- {docsify-ignore} -->
 
 ### Debilidades <!-- {docsify-ignore} -->
 1. **Falta de personal técnico**: Existe una histórica falta de personal especializado en TI dentro de la Administración, lo que ha llevado a depender de personal externo. Esto conlleva la pérdida de **know-how** cuando los contratistas cambian de proyecto, comprometiendo la continuidad del conocimiento y la experiencia técnica.
@@ -37,7 +37,7 @@
 
 8. **Apoyo de la Unión Europea a la Administración electrónica**.
 
-## Factores Externos
+## Factores Externos <!-- {docsify-ignore} -->
 
 ### Amenazas <!-- {docsify-ignore} -->
 1. **Sector agrícola poco digitalizado**: Existe una baja adopción de tecnologías digitales en el sector agrícola, lo que puede ralentizar la implementación de soluciones innovadoras.
@@ -74,7 +74,7 @@
 10. **Mayor accesibilidad para usuarios externos**: Usuarios que antes realizaban trámites de manera presencial ahora podrán hacerlo de manera digital, ahorrando tiempo y recursos.
 
 
-## PROPUESTA DE PREPARATIC
+## PROPUESTA DE PREPARATIC <!-- {docsify-ignore} -->
 
 ### Amenazas <!-- {docsify-ignore} -->
 
