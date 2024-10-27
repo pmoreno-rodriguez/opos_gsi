@@ -5,21 +5,23 @@
 
 La arquitectura de microservicios es un enfoque de diseño y desarrollo de software donde una aplicación se estructura como un conjunto de servicios pequeños, autónomos y altamente especializados, llamados *microservicios*. Este modelo representa un cambio significativo respecto a las aplicaciones monolíticas tradicionales, en las que toda la funcionalidad de la aplicación se encuentra en un solo paquete de código. A continuación, se detallan las características clave de la arquitectura de microservicios, explicando por qué resultan fundamentales para aprovechar al máximo esta estructura.
 
-<!-- TOC depthfrom:3 -->
+**TABLA DE CONTENIDOS**
 
-- [Desacoplamiento e Independencia de Servicios](#desacoplamiento-e-independencia-de-servicios)
-- [Separación e Independencia de los Datos](#separaci%C3%B3n-e-independencia-de-los-datos)
-- [Autonomía de los Equipos de Desarrollo](#autonom%C3%ADa-de-los-equipos-de-desarrollo)
-- [Escalabilidad Flexible y Granular](#escalabilidad-flexible-y-granular)
-- [Despliegue y Desarrollo Continuo](#despliegue-y-desarrollo-continuo)
-- [Tecnologías y Lenguajes de Programación Independientes](#tecnolog%C3%ADas-y-lenguajes-de-programaci%C3%B3n-independientes)
-- [Descentralización del Mantenimiento y el Control](#descentralizaci%C3%B3n-del-mantenimiento-y-el-control)
-- [Comunicación Basada en APIs](#comunicaci%C3%B3n-basada-en-apis)
-- [Conclusión](#conclusi%C3%B3n)
+<!-- TOC -->
+
+- [Desacoplamiento e Independencia de Servicios :id=desacoplamiento](#desacoplamiento)
+- [Separación e Independencia de los Datos :id=sep-datos](#sep-datos)
+- [Autonomía de los Equipos de Desarrollo :id=autonomia](#autonomia)
+- [Escalabilidad Flexible y Granular :id=escalabilidad](#escalabilidad)
+- [Despliegue y Desarrollo Continuo :id=despliegue](#despliegue)
+- [Tecnologías y Lenguajes de Programación Independientes :id=tecnologias](#tecnologias)
+- [Descentralización del Mantenimiento y el Control :id= descentralizacion](#descentralizacion)
+- [Comunicación Basada en APIs :id=comunicacion-api](#comunicacion-api)
+- [Conclusión :id=conclusion](#conclusion)
 
 <!-- /TOC -->
 
-### 1. Desacoplamiento e Independencia de Servicios <!-- {docsify-ignore} -->
+### 1. Desacoplamiento e Independencia de Servicios :id=desacoplamiento <!-- {docsify-ignore} -->
 
 En una arquitectura de microservicios, cada servicio es autónomo e independiente. Esto significa que cada uno de estos componentes funciona como una unidad independiente que puede desarrollarse, desplegarse y mantenerse por separado. Esta independencia ofrece varias ventajas:
 
@@ -29,7 +31,7 @@ En una arquitectura de microservicios, cada servicio es autónomo e independient
   
 - **Resiliencia y Recuperación ante Errores:** Cuando un microservicio falla, los otros servicios de la aplicación pueden continuar funcionando de manera independiente. Esto ayuda a minimizar el impacto de fallos individuales, mejorando la tolerancia a fallos del sistema.
 
-### 2. Separación e Independencia de los Datos <!-- {docsify-ignore} -->
+### 2. Separación e Independencia de los Datos :id=sep-datos <!-- {docsify-ignore} -->
 
 Cada microservicio tiene su propia base de datos o, en algunos casos, su propio esquema dentro de una base de datos compartida. Esta separación de datos es crucial porque asegura que cada servicio gestione sus propios datos, permitiendo una mayor autonomía y mejor control sobre su dominio.
 
@@ -39,7 +41,7 @@ Cada microservicio tiene su propia base de datos o, en algunos casos, su propio 
   
 - **Reducción de Dependencias y Conflictos:** Los microservicios tienen acceso limitado o nulo a las bases de datos de otros servicios, lo que reduce los conflictos y asegura que los cambios en un esquema de base de datos no rompan otros servicios.
 
-### 3. Autonomía de los Equipos de Desarrollo <!-- {docsify-ignore} -->
+### 3. Autonomía de los Equipos de Desarrollo :id=autonomia <!-- {docsify-ignore} -->
 
 Una de las ventajas clave de los microservicios es la posibilidad de asignar equipos de desarrollo independientes a cada servicio. Esta autonomía se traduce en beneficios directos en la gestión y productividad del equipo:
 
@@ -49,7 +51,7 @@ Una de las ventajas clave de los microservicios es la posibilidad de asignar equ
   
 - **Reducción de Conflictos en el Código:** La autonomía de cada equipo minimiza las modificaciones y conflictos en el código de otros equipos, lo que facilita el desarrollo en paralelo y reduce el tiempo de integración y pruebas.
 
-### 4. Escalabilidad Flexible y Granular <!-- {docsify-ignore} -->
+### 4. Escalabilidad Flexible y Granular :id=escalabilidad <!-- {docsify-ignore} -->
 
 La arquitectura de microservicios permite una escalabilidad granular y específica, ya que cada servicio puede ser escalado de manera independiente:
 
@@ -59,7 +61,7 @@ La arquitectura de microservicios permite una escalabilidad granular y específi
   
 - **Soporte a Picos de Demanda:** Si un microservicio específico experimenta un aumento en la demanda, es posible escalarlo rápidamente sin afectar a otros servicios. Esto resulta ideal para aplicaciones que necesitan responder a picos de tráfico en tiempo real.
 
-### 5. Despliegue y Desarrollo Continuo <!-- {docsify-ignore} -->
+### 5. Despliegue y Desarrollo Continuo :id=despliegue <!-- {docsify-ignore} -->
 
 La arquitectura de microservicios facilita el despliegue y desarrollo continuo (CI/CD), uno de los elementos esenciales en las prácticas modernas de DevOps:
 
@@ -69,7 +71,7 @@ La arquitectura de microservicios facilita el despliegue y desarrollo continuo (
   
 - **Facilidad en Rollback y Rollforward:** En caso de errores en producción, los microservicios permiten realizar retrocesos y despliegues rápidos de versiones anteriores o nuevas sin comprometer la estabilidad de toda la aplicación.
 
-### 6. Tecnologías y Lenguajes de Programación Independientes <!-- {docsify-ignore} -->
+### 6. Tecnologías y Lenguajes de Programación Independientes :id=tecnologias <!-- {docsify-ignore} -->
 
 Cada microservicio en una arquitectura de microservicios puede desarrollarse en el lenguaje de programación y con las herramientas que mejor se adapten a su propósito. Esta flexibilidad es conocida como **poliglotismo tecnológico** y brinda varios beneficios:
 
@@ -79,7 +81,7 @@ Cada microservicio en una arquitectura de microservicios puede desarrollarse en 
   
 - **Mejora de Productividad y Creatividad:** Al no estar limitados por un único lenguaje o herramienta, los equipos pueden desarrollar soluciones más innovadoras y adaptadas a los requerimientos específicos.
 
-### 7. Descentralización del Mantenimiento y el Control <!-- {docsify-ignore} -->
+### 7. Descentralización del Mantenimiento y el Control :id= descentralizacion <!-- {docsify-ignore} -->
 
 En una arquitectura de microservicios, la gobernanza y el control están descentralizados, lo que significa que la administración de los servicios es distribuida y adaptada a las necesidades de cada equipo:
 
@@ -89,7 +91,7 @@ En una arquitectura de microservicios, la gobernanza y el control están descent
   
 - **Mantenimiento en Pequeñas Partes:** Como cada microservicio es un componente pequeño y especializado, su mantenimiento es menos complejo y más manejable, lo cual permite responder rápidamente ante problemas.
 
-### 8. Comunicación Basada en APIs <!-- {docsify-ignore} -->
+### 8. Comunicación Basada en APIs :id=comunicacion-api <!-- {docsify-ignore} -->
 
 Los microservicios suelen interactuar entre sí a través de **APIs** (Interfaces de Programación de Aplicaciones), que permiten una comunicación clara y estructurada entre servicios:
 
@@ -99,6 +101,6 @@ Los microservicios suelen interactuar entre sí a través de **APIs** (Interface
   
 - **Escalabilidad y Resiliencia en Comunicación:** En lugar de compartir datos o procesos internamente, la comunicación a través de APIs permite que cada microservicio pueda gestionar fallos en otros servicios y realizar reintentos en caso de errores.
 
-### Conclusión <!-- {docsify-ignore} -->
+### Conclusión :id=conclusion <!-- {docsify-ignore} -->
 
 La arquitectura de microservicios ofrece una amplia gama de beneficios en términos de escalabilidad, flexibilidad, autonomía y resiliencia. Sin embargo, esta arquitectura también presenta retos, como la complejidad en la gestión y el monitoreo de múltiples servicios, así como la necesidad de infraestructura sólida para asegurar la comunicación y administración de los mismos.
