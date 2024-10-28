@@ -1,6 +1,6 @@
 ## CATÁLOGO DE SERVICIOS COMUNES DE LA AGE <!-- {docsify-ignore} -->
 
->[!ATTENTION]
+>[!NOTE]
 >
 > El listado abarca un amplio abanico de servicios comunes de cara al supuesto práctico, aunque probablemente no estén todos, sí que están los más importantes para su desarrollo en el examen.
 

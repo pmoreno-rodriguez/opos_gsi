@@ -343,4 +343,16 @@ La adecuada implementación del Reglamento General de Protección de Datos (RGPD
 
 - **Diagramas y Casos de Uso**: Incluir diagramas sobre procesos como el borrado de identidad puede enriquecer la documentación y proporcionar claridad sobre cómo se gestionan los datos.
 
-- **Plantillas y Notificaciones a la AEPD**: Es crucial adaptar cualquier plantilla utilizada para notificaciones a la AEPD, asegurándose de que cumpla con los requerimientos actuales del RGPD.
+- **Plantillas y Notificaciones a la AEPD**: Es crucial adaptar cualquier plantilla utilizada para notificaciones a la AEPD, asegurándose de que cumpla con los requerimientos actuales del RGPD.Voy a elaborar un artículo detallado basado en el documento sobre la Protección de Datos, actualizada en julio de 2019, incluyendo una tabla con los datos personales especialmente protegidos, en el apartado correspondiente.
+
+#### **Tabla de Datos Personales Especialmente Protegidos**
+
+| Tipo de Dato | Ejemplos | Base Jurídica y Requisitos de Tratamiento |
+|--------------|----------|-------------------------------------------|
+| **Raza o Etnia** | Datos de identificación étnica | Prohibido, salvo interés público esencial |
+| **Ideología Política** | Preferencias políticas | Consentimiento explícito o intereses esenciales de AAPP |
+| **Convicciones Religiosas o Filosóficas** | Pertenencia a grupos religiosos o filosóficos | Prohibido, salvo en casos de interés público |
+| **Afiliación Sindical** | Miembros de sindicatos | Tratamiento permitido solo con consentimiento |
+| **Datos de Salud** | Información médica o condiciones de salud | Prohibido salvo interés en salud pública |
+| **Orientación Sexual** | Preferencias sexuales | Tratamiento bajo consentimiento explícito |
+| **Datos Biométricos y Genéticos** | Huellas dactilares, ADN | Solo para identificación y en casos de interés público |
