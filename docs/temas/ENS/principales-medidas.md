@@ -1,10 +1,10 @@
 ## PRINCIPALES MEDIDAS CLAVE PARA LA SEGURIDAD <!-- {docsify-ignore} -->
 *Según el Esquema Nacional de Seguridad (ENS)*
 
-1. **Proceso de gestión de derechos de acceso [op.acc.4]** 
-    Actividades y procedimientos necesarios para gestionar y controlar los derechos de acceso de los usuarios a los sistemas de información.
+1. **Proceso de gestión de derechos de acceso [op.acc.4]**  
+   Actividades y procedimientos necesarios para gestionar y controlar los derechos de acceso de los usuarios a los sistemas de información.
     
-2. **Mecanismos de autenticación (usuarios externos y de la organización) [op.acc.5 y 6]**
+2. **Mecanismos de autenticación (usuarios externos y de la organización) [op.acc.5 y 6]**  
    Implementación de mecanismos robustos de autenticación para asegurar que solo usuarios autorizados accedan a los sistemas.
 
 3. **Perímetro seguro [mp.com.1]**  
