@@ -26,6 +26,7 @@
   - [Auditorías](./temas/ENS/auditorias.md)
   - [Principales medidas del ENS](./temas/ENS/principales-medidas.md)
   - [Resumen de medidas del ENS](./temas/ENS/resumen-medidas.md)
+  - [Tabla de medidas](./temas/ENS/tabla-medidas.md)
   - [Categorización de un sistema](./temas/ENS/categorizacion-sistema.md)
   - [Plantilla para la determinación de niveles de seguriad](./temas/ENS/plantilla-determinacion-niveles.md)
 - Análisis de riesgos
