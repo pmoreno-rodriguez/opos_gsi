@@ -1,4 +1,4 @@
-## Tabla de medidas ENS
+## Tabla de medidas ENS <!-- {docsify-ignore} -->
 
 > [!NOTE|style:callout|label:Contenido Verificado]
 > Contenido extraído del ENS RD 311/2022.
