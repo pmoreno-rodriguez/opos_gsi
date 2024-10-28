@@ -1,6 +1,6 @@
-# Textos posibles para introducción <!-- {docsify-ignore} -->
+## Textos posibles para introducción <!-- {docsify-ignore} -->
 
-## Texto para introducir el examen
+### Texto para introducir el examen
 
 El proyecto XXXX se enmarca dentro de la actual Estrategia  TIC de la Administración General del Estado (AGE), representada en el vigente plan de Digitalización de las Administraciones Públicas (AA.PP) 2021-2025, en concreto en:
 
@@ -19,11 +19,11 @@ El proyecto XXXX se enmarca dentro de la actual Estrategia  TIC de la Administra
     * Puesto de trabajo inteligente
 - **Linea 5**: Ciberseguridad
 
-## Texto para introducir un DAFO
+### Texto para introducir un DAFO <!-- {docsify-ignore} -->
 
 A continuación se representa una matriz DAFO para ayudarnos a definir una estrategia que nos ayude a contrarrestar las amenzas externas, aprovechando las oportunidades existentes, minimizando las debilidades del sistema y maximizando sus fortalezas.
 
-## Ventajas de Nube SARA
+### Ventajas de Nube SARA <!-- {docsify-ignore} -->
 
 > [!NOTE]
 > En caso de especificar que el sistema también puede utilizar la Nube SARA, es interesante explicar cuáles son sus ventajas.
@@ -37,3 +37,68 @@ A continuación se representa una matriz DAFO para ayudarnos a definir una estra
 - Modelo de uso con un único proveedor (SGAD), sin necesidad de contratación externa.
 - Garantía en la protección de datos y que se quedan en la AGE.
 - Alineado con Estrategia TIC de la AGE. Utilización de manera compartida de medios y servicios comunes.
+
+### Texto para defender una Arquitectura de 3 capas <!-- {docsify-ignore} -->
+
+> [!NOTE|style:callout|label:Contenido Verificado]
+> Contenido adaptado de volcados de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/), sobre el supuesto de CARPET@, convocatoria 2019
+
+La capa de presentación es el medio para que ciudadanos, empresas y funcionarios accedan a Carpeta, por lo que en su desarrollo se prestará especial atención a los principios de accesibilidad, facilidad de uso y personalización definidos en el artículo 2 del RD 203/2021. Se acatará la normativa de accesibilidad del RD 1112/2018 y la norma UNE 301 549:2020 mediante el cumplimiento de los niveles A y AA de WCAG 2.1. También se seguirán los principios de usabilidad de Jakob Nielsen, como el feedback de las acciones del usuario.
+
+**Estándares y Legislación:**
+
+* **Normativa de Accesibilidad (RD 1112/2018):** Garantizar que todas las funcionalidades sean accesibles para personas con discapacidades.
+
+* **Norma UNE 301 549:2020:** Cumplir con los niveles A y AA de WCAG 2.1, incluyendo medidas específicas como:
+
+    - Uso de texto alternativo para imágenes.
+    - Navegación por teclado sin trabas.
+    - Contraste adecuado de colores.
+
+* **Principios de Usabilidad de Jakob Nielsen:** Asegurar un diseño intuitivo y retroalimentación clara de las acciones del usuario.
+
+La capa de presentación contiene los siguientes módulos:
+
+* **Frontal ciudadano:** Conserva la funcionalidad actual y se amplía para permitir acceso al área de documentos, documentos compartidos, las declaraciones, la recepción de alertas y la gestión del dispositivo vinculado.
+
+    - El submódulo de la app también permitirá la descarga de documentos para operación offline y autenticación biométrica.
+
+* **Frontal empresa:** Permite a las empresas acceso a documentos compartidos.
+
+* **Frontal administración:** Permite al personal de la SGAD administrar el área de ciudadanos, las alertas, y acceso al módulo de seguimiento y CM.
+
+* **Frontal organismos:** Permite a los funcionarios del sector público acceso a las incidencias y el seguimiento de los trámites que ofrece su organismo.
+
+Se implementará como una app web utilizando HTML5+CSS+Javascript, utilizando el framework empleado para el diseño original, o Angular en su defecto. Puesto que será una app responsive mediante media-queries para adaptarse a cualquier dispositivo, la app se implementará como una aplicación híbrida, utilizando el framework Apache Cordova. Se comunicará con la lógica mediante API-REST y se seguirá la guía CCN-STIC 812 de seguridad en servicios web.
+
+**Ventajas de la Arquitectura de 3 Capas:**
+
+1. **Reutilización de Componentes:** Utilizar el framework del desarrollo actual permite aprovechar conocimientos previos y optimizar tiempos.
+
+2. **Flexibilidad:** Las aplicaciones híbridas permiten adaptarse rápidamente a diferentes dispositivos y plataformas.
+
+3. **Mantenimiento:** La separación en capas facilita la gestión y actualización de cada componente.
+
+4. **Acceso a Componentes Biométricos:** A través de Apache Cordova, es posible integrar funcionalidades como autenticación biométrica, crucial para mejorar la seguridad.
+
+Para dotar de funcionalidad al sistema, la capa lógica se encargará de los tratamientos de datos necesarios, implementándose en Java mediante Jakarta EE. Esta elección se debe a que Java, según el índice TIOBE, es el tercer lenguaje de programación más utilizado en la industria, además de ser abierto y basado en estándares, lo cual facilita la integración y el mantenimiento. 
+
+La capa lógica se estructura en los siguientes módulos:
+
+- **Backoffice**: Este módulo se centrará en mantener la funcionalidad actual del sistema y proveer soporte a la gestión de alertas.
+  
+- **MICC**: Similar al módulo anterior, proporcionará soporte a los nuevos servicios y asegurará la continuidad de las funcionalidades existentes.
+
+- **Gestión de área documental**: Diseñado para administrar las áreas documentales de los ciudadanos, este módulo utiliza Inside junto con el gestor documental Alfresco. La integración entre ambos se realiza a través de la API CMIS, permitiendo a la Subdirección General de Administración Digital (SGAD) gestionar las áreas documentales de manera centralizada.
+
+- **Declaraciones y formularios**: Este módulo permitirá a los funcionarios crear formularios tipo para distintas declaraciones. A su vez, proporcionará a los ciudadanos la posibilidad de completar sus declaraciones basándose en estos formularios.
+
+- **Monitorización automática**: Su función es detectar y registrar incidencias en el acceso a los trámites, facilitando a los funcionarios la consulta y gestión de dichas incidencias. Este proceso de monitorización es esencial para asegurar el funcionamiento continuo del sistema y anticiparse a posibles problemas de acceso.
+
+- **Seguimiento y cuadro de mandos (CM)**: Este módulo permitirá el seguimiento de las interacciones de los ciudadanos y el uso de los trámites. Además, realizará procesos de extracción, transformación y carga (ETL) de datos para alimentar el data warehouse (DW). Utilizando Pentaho, generará cuadros de mando tanto para la SGAD como para otros organismos, dotándolos de indicadores relevantes y actualizados.
+
+En cuanto a la **capa de acceso a datos y servicios**, esta se centrará en la persistencia de datos y en el acceso a servicios externos. Los datos se almacenarán en bases de datos MySQL, conectadas a la capa lógica mediante Java Persistence API (JPA) con implementación en Hibernate. Adicionalmente, se empleará un NAS para almacenar los documentos gestionados por el sistema documental de los ciudadanos, y se utilizará el data warehouse de la SGAD para los datos de seguimiento. 
+
+Para el **despliegue del sistema**, se contempla el uso del Centro de Procesamiento de Datos (CPD) de la SGAD, partiendo de la premisa de que cuenta con la capacidad suficiente, lo que optimizaría el aprovechamiento de recursos.
+
+Concluyendo, la arquitectura de 3 capas no solo garantiza un desarrollo ordenado y eficiente, sino que también asegura la adherencia a estándares y normativas vigentes, permitiendo un producto final accesible, usable y seguro para todos los usuarios.
