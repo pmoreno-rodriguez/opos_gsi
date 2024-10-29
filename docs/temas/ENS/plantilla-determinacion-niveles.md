@@ -16,51 +16,56 @@ La categoría, en materia de seguridad, modula el equilibrio entre la importanci
 Los niveles de seguridad determinados para la información se imputarán a todos los activos que manejen la información correspondiente. Los niveles de seguridad determinados para los servicios se imputarán a todos los activos que concurran para prestar el servicio correspondiente.
 
 <table>
-  <tr>
-    <th>Denominación del activo esencial</th>
-    <th>tipo<a id="nota1"><sup>1</sup></a></th>
-    <th>C<a id="nota1"><sup>2</sup></a></th>
-    <th>I</th>
-    <th>T</th>
-    <th>A</th>
-    <th>D</th>
-  </tr>
-  <tr style="height: 50px;">
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr style="height: 50px;">
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr style="height: 50px;">
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td colspan="2">Valor máximo del nivel registrado en las dimensiones de seguridad</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
+  <thead>
+    <tr>
+      <th>Denominación del activo esencial</th>
+      <th>tipo<a id="nota1"><sup>1</sup></a></th>
+      <th>C<a id="nota1"><sup>2</sup></a></th>
+      <th>I</th>
+      <th>T</th>
+      <th>A</th>
+      <th>D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="height: 50px;">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr style="height: 50px;">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr style="height: 50px;">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="2">Valor máximo del nivel registrado en las dimensiones de seguridad</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
 </table>
+
 
 <small>Figura 1. Categorización de un Sistema a partir de los Niveles en cada Dimensión de sus Activos Esenciales.</small>
 
