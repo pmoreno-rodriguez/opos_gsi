@@ -1,135 +1,277 @@
-La **categorización de un sistema** según el **Esquema Nacional de Seguridad (ENS)** es un proceso fundamental para determinar las medidas de seguridad que deben implementarse en función del nivel de riesgo que puedan suponer los sistemas de información y los servicios que estos prestan. Este proceso se basa en el análisis del **impacto o perjuicio** que la pérdida de las dimensiones de seguridad (disponibilidad, integridad, confidencialidad, autenticidad y trazabilidad) podría causar sobre los servicios, activos o personas.
+## IDENTIFICACIÓN Y CATEGORIZACIÓN DEL SISTEMA <!-- {docsify-ignore} -->
 
-### **Legislación aplicable a la categorización de un Sistema** <!-- {docsify-ignore} -->
+> [!NOTE|style:callout|label:Contenido Verificado]
+> Contenido extraído de la documentación de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/).
 
-Al realizar la categorización de un sistema según el *Esquema Nacional de Seguridad* (ENS), es importante referirse a diversas normativas y documentos que regulan o guían este proceso. Aquí te presento una lista con las normativas relevantes y sus artículos específicos relacionados con la categorización de sistemas:
+Según el art. 40 del RD 311/2022 y su Anexo I, la categoría de seguridad de un sistema modula el equilibrio entre la importancia de la información que maneja y los servicios que presta y el esfuerzo de seguridad requerido, en función de los riesgos a los que está expuesto, bajo el principio de proporcionalidad. La valoración se hace en base a la guía de seguridad CCN-STIC-803. En los siguientes pasos se hace un resumen del proceso de categorización.
 
-1. RD 311/2022, que regula el Esquema Nacional de Seguridad, en adelante ENS
+1. **Identificación del sistema**
 
-2. Art. 40 ENS. Categorías de seguridad.
+   En primer lugar, se ha de identificar qué es lo que nos están pidiendo categorizar. Es posible que:
+   - Nos pidan categorizar todo el sistema, o
+   - Parte de él, o
+   - Que nosotros decidamos dividir lo que nos piden categorizar en subsistemas. (*)
 
-3. CCN STIC 801 Responsabilidades y Funciones en el ENS
-   - Responsable de la Información (evaluará la información)
-   - Responsable de los Servicios (evaluará los servicios)
-   - Responsable de la Seguridad (firmará la Declaración de Aplicabilidad según Artículo 28 ENS)
-   - El Administrador de Seguridad (realizará la implantación de las medidas de seguridad, anexo II del ENS y guía 804 de Implantación.)
+   (*) Esto es posible si los subsistemas pueden ser independientes, se puede establecer una interfaz clara entre ellos, y se pueden aplicar medidas de seguridad diferentes. RD 302/2011, Anexo II, Sección 2 (Selección de medidas de seguridad), apartado 2.
 
-4. Guía CCN STIC 803 Valoración de Sistemas en el ENS
+2. **Asignación de niveles de seguridad a las dimensiones**
 
-5. Guía CCN STIC 815 Indicadores y Métricas en el ENS
+   La categorización se va a hacer para cada dimensión de la seguridad, es decir:
+   - A – Autenticidad
+   - C – Confidencialidad
+   - I – Integridad
+   - D – Disponibilidad
+   - T – Trazabilidad
 
-### **Pasos para la categorización de un sistema según el ENS** <!-- {docsify-ignore} -->
+   Para cada dimensión se asignará una de las siguientes opciones según el nivel de seguridad requerido:
+   - No aplica.
+   - Bajo.
+   - Medio.
+   - Alto.
 
-1. **Identificación de los servicios**: El primer paso es identificar los servicios prestados por el sistema y los activos implicados en esos servicios.
+   Por lo tanto, habrá que rellenar la siguiente tabla combinando lo visto hasta ahora. Si tenemos varios sistemas o subsistemas a categorizar, habrá que hacer una tabla por cada uno de ellos.
 
-2. **Evaluación del impacto o perjuicio**: Se evalúa el tipo de perjuicio que podría causar una falla en alguna de las dimensiones de seguridad del sistema. Estos perjuicios pueden ser clasificados en tres niveles: bajo, medio y alto, según su severidad.
+   |                   | Disponibilidad | Autenticidad | Integridad | Confidencialidad | Trazabilidad |
+|-------------------|----------------|--------------|------------|------------------|--------------|
+| **Información**   | -              | ¿?           | ¿?         | ¿?               | ¿?           |
+| **Servicios**     | ¿?             | -            | -          | -                | -            |
 
-   - **Bajo**: Si el impacto es limitado y puede recuperarse fácilmente.
-   - **Medio**: Si el impacto es considerable y afecta de manera significativa a la organización, pero no es catastrófico.
-   - **Alto**: Si el impacto es muy severo, afecta gravemente el servicio y pone en riesgo la viabilidad del sistema, la organización o personas.
+Lo habitual es que no se categorice la disponibilidad de la información sino del servicio ya que se asume que el servicio da acceso a la información. De forma similar no se categoriza el resto de dimensiones para el servicio ya que suelen aplicar a la información. En cualquier caso, cada persona tiene su propio criterio y puede darse el caso de que el ejercicio de pie, por ejemplo, a necesitar categorizar la integridad del servicio.
 
-3. **Determinación del nivel de seguridad**: Dependiendo de la severidad de los impactos, se clasifica el sistema en uno de los tres niveles de seguridad: **bajo**, **medio** o **alto**. Esto se realiza para cada una de las dimensiones de seguridad (disponibilidad, confidencialidad e integridad).
+Para asignar un nivel de seguridad u otro a cada dimensión se tendrá que valorar el impacto de un incidente sobre:
+- Alcanzar los objetivos del sistema.
+- Proteger los activos a su cargo.
+- Garantizar la conformidad con el ordenamiento jurídico.
 
-4. **Asignación de medidas de seguridad**: En función de la categorización obtenida, se asignan las medidas de seguridad correspondientes a cada nivel.
+Para una evaluación más amplia del impacto habría que tener en cuenta (consulta la guía del CCN para más detalles):
+- Disposición legal.
+- Perjuicio directo.
+- Incumplimiento de una norma.
+- Pérdidas económicas.
+- Reputación.
+- Protestas.
+- Delitos.
 
-### **Factores a tener en cuenta en la categorización** <!-- {docsify-ignore} -->
+La asignación de un nivel u otro es algo muy personal, la experiencia te lo irá dando, pero lo importante es que esté justificado y que se atienda a una serie de cuestiones base:
+- La disponibilidad se puede categorizar según el RTO. Busca en la guía 803 del CCN.
+- Un nivel Alto suele estar vinculado con: riesgo de muerte para las personas, perjuicio muy alto para el país, etc. Si se pone hay que tenerlo muy justificado y asumir que se pueden implantar las medidas que este nivel requiere.
+- Piensa que cada nivel implica unas medidas de seguridad. Valora si compensa aplicar dichas medidas en tu sistema. ¿Me va a costar más las medidas que el sistema? ¿Me va a llevar mucho administrarlo? ¿Cuál es el tipo de usuario que va a utilizar la aplicación y de qué medios disponen o tienen la obligación de disponer?
 
-- **Tipo de perjuicio**: Evaluar el impacto en caso de pérdida de confidencialidad, integridad o disponibilidad del sistema.
-- **Naturaleza del servicio**: Considerar la criticidad del servicio prestado por el sistema.
-- **Impacto sobre activos**: Evaluar la afectación sobre los activos de información y tecnológicos.
-- **Cumplimiento de leyes o regulaciones**: Evaluar si existen normativas legales o reglamentarias que exijan un nivel de protección particular.
-- **Perjuicio a las personas**: Determinar si la falta de seguridad del sistema podría causar daños personales, sociales o económicos a los usuarios.
+> [!INFO|style:callout|label:Consejo de Preparatic]
+> Si nos piden categorizar el sistema, dedica unos minutos para justificar el motivo por el que se asigna un nivel de seguridad u otro.
 
-### **Tabla de Categorización según el ENS (Bajo, Medio, Alto)** <!-- {docsify-ignore} -->
+### Nivel de categorización del sistema <!-- {docsify-ignore} -->
 
-| **Factor de evaluación**            | **Bajo**                                           | **Medio**                                          | **Alto**                                           |
-|-------------------------------------|----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-| **Tipo de Perjuicio**               | Impacto leve que no afecta significativamente      | Perjuicio considerable con impacto notable         | Perjuicio muy grave, afectando de forma crítica    |
-| **Servicio**                        | Impacto mínimo en la prestación del servicio       | Afectación importante al servicio, pero recuperable| Pérdida del servicio esencial o crítico            |
-| **Activos**                         | Pérdida de activos sin valor estratégico           | Pérdida de activos con valor significativo         | Pérdida de activos clave o estratégicos            |
-| **Ley o Regulación**                | Incumplimiento formal subsanable     | Incumplimiento material o formal no subsanable        | Incumplimiento grave de leyes o normativas         |
-| **Perjuicio a Individuos**          | Daño leve o sin consecuencias importantes (reparable)         | Daño notable a individuos, afectación significativa (difícil reparación)| Daño severo, pérdida de derechos o confidencialidad (difícil o imposible reparación)|
+La categoría del sistema conforme al ENS se determina de la siguiente forma:
+- **Básica**: Si todas las dimensiones de seguridad tienen el nivel bajo.
+- **Media**: Si alguna de las dimensiones de seguridad tiene el nivel medio y ninguna el nivel alto.
+- **Alto**: Si alguna de las dimensiones de seguridad tiene el nivel alto.
 
-### **Niveles de Impacto** <!-- {docsify-ignore} -->
+## MEDIDAS DE SEGURIDAD Y COHERENCIA CON EL RESTO DEL EJERCICIO <!-- {docsify-ignore} -->
 
-Cada una de las categorías puede tener diferentes niveles de impacto (bajo, medio o alto) que deben ser evaluados:
+A continuación, se recogen una serie de medidas base por cada dimensión y nivel de seguridad que se pueden incluir en el ejercicio. En el anexo se encuentra un detalle más amplio.
 
-- **Bajo**: El impacto es limitado y no interfiere gravemente en la operación.
-- **Medio**: El impacto es considerable, afecta al servicio o al funcionamiento, pero no es devastador.
-- **Alto**: El impacto es crítico y puede paralizar el sistema, poner en peligro a la organización o a las personas.
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Nivel</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4">Integridad/firma (mp.info.3)</td>
+      <td>Bajo</td>
+      <td>Cualquier firma.</td>
+    </tr>
+    <tr>
+      <td>Medio</td>
+      <td>
+        • Firma electrónica avanzada basada en cert. cualif.<br>
+        • Firma no criptográfica si autorizada y se puede acreditar la voluntad.<br>
+        • Algoritmos CCN (mp.com.3/mp.info.3) + CCN-STIC-807
+      </td>
+    </tr>
+    <tr>
+      <td>Alto</td>
+      <td>
+        • Firma electrónica avanzada basada en cert. cualif. + algo que se sabe/es.<br>
+        • Disp. HW en VPN (mp.com.3)<br>
+        • Productos certificados (mp.com.3)
+      </td>
+    </tr>
+    <tr>
+      <td>Refuerzo</td>
+      <td>Firma cualificada</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Disponibilidad</td>
+      <td>Bajo</td>
+      <td>
+        • RTO 1-4D.<br>
+        • Backup (mp.info.6)
+      </td>
+    </tr>
+    <tr>
+      <td>Medio</td>
+      <td>
+        • RTO 4-24H<br>
+        • SLA (op.ext.1)<br>
+        • DoS.
+      </td>
+    </tr>
+    <tr>
+      <td>Alto</td>
+      <td>
+        • RTO ≤ 4H<br>
+        • DoS. Detección y reacción.<br>
+        • Plan de continuidad.<br>
+        • Pruebas.<br>
+        • Medios alternativos para la info. (op.cont.4)<br>
+        • Medios alternativos para el personal. (op.cont.4)
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="4">Autenticidad / Credenciales (op.acc.5 y op.acc.6)</td>
+      <td>Bajo</td>
+      <td>
+        • Cl@vePIN - Nivel básico<br>
+        • Cl@vePermanente sin OTP.<br>
+        • Bloqueo usuario.<br>
+        • Y:<br>
+          ◦ Usuario + Password + complejidad, o<br>
+          ◦ Pwd+OTP (op.acc.5), o pwd + otro factor (op.acc.6), o<br>
+          ◦ Certificados cualificados, o<br>
+          ◦ Cert cualificados en Disp. Físico
+      </td>
+    </tr>
+    <tr>
+      <td>Medio</td>
+      <td>
+        • Cl@vePIN - Nivel avanzado<br>
+        • Cl@ve Permanente con OTP.<br>
+        • Registros de acceso e indicar el último (op.acc.5 y op.acc.6).<br>
+        • Y (para op.acc.5, en op.acc.6 sigue aplicando lo de bajo)<br>
+          ◦ Pwd+OTP, o<br>
+          ◦ Certificados cualificados, o<br>
+          ◦ Cert cualificados en Disp. Físico.<br>
+        • Doble factor desde zonas no contraladas (op.acc.6)<br>
+        • Algoritmos CCN (mp.com.3)
+      </td>
+    </tr>
+    <tr>
+      <td>Alto (interno op.acc.6)</td>
+      <td>
+        • Ventana de acceso.<br>
+        • Suspensión de no uso.<br>
+        • Productos certificados (mp.info.3)
+      </td>
+    </tr>
+    <tr>
+      <td>Refuerzo</td>
+      <td>Límite de horarios/suspensión por no uso.</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Trazabilidad (op.exp.8)</td>
+      <td>Bajo</td>
+      <td>
+        • Registro de acceso.<br>
+        • Acciones en servidores.
+      </td>
+    </tr>
+    <tr>
+      <td>Medio</td>
+      <td>
+        • Revisión informal.<br>
+        • Retención.<br>
+        • Control de acceso a admins.<br>
+        • Sincronización de servidor de logs.
+      </td>
+    </tr>
+    <tr>
+      <td>Alto</td>
+      <td>
+        • Revisión automática y correlación.<br>
+        • Sello de tiempo (mp.info.4).
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="3">Confidencialidad</td>
+      <td>Bajo</td>
+      <td>
+        • Borrado seguro (mp.si.5).<br>
+        • Limpieza de metadatos (mp.info.5).<br>
+        • Comunicaciones: VPN (mp.com.2).
+      </td>
+    </tr>
+    <tr>
+      <td>Medio</td>
+      <td>
+        • Comunicaciones: algoritmos CCN (mp.com.2).<br>
+        • Dispositivos removibles. I y C (mp.si.2) + CCN-STIC-807.
+      </td>
+    </tr>
+    <tr>
+      <td>Alto</td>
+      <td>
+        • Comunicaciones: HW para VPN, productos certificados (mp.com.2).<br>
+        • Dispositivos removibles: productos certificados (mp.si.2).
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2">Todas las dimensiones</td>
+      <td></td>
+      <td>
+        • op.pl1. AARR<br>
+        • org.1 Política de seguridad CCN-STIC-805
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-### Explicación del Proceso de Categorización: <!-- {docsify-ignore} -->
+## ENS Y GUÍAS DE SEGURIDAD DEL CCN	<!-- {docsify-ignore} -->
 
-1. **Tipo de Perjuicio**:
-   - **Bajo**: Un fallo en la seguridad no tiene consecuencias significativas.
-   - **Medio**: El perjuicio causado por una brecha de seguridad es considerable, pero la situación es recuperable sin graves implicaciones.
-   - **Alto**: El perjuicio es severo, afectando de forma crítica al sistema, la organización o las personas.
+En la siguiente tabla se establecen las guías principales del CCN en materia de ENS:
 
-2. **Servicio**:
-   - **Bajo**: La pérdida del servicio tiene un impacto menor o tolerable.
-   - **Medio**: El servicio es afectado de manera considerable, pero el sistema puede continuar operando de forma limitada o parcial.
-   - **Alto**: La pérdida del servicio impide su funcionamiento por completo, y es vital para el funcionamiento de la organización.
+| **CCN-STIC**      | **Denominación**                                            |
+|-------------------|-------------------------------------------------------------|
+| **801**           | Responsabilidades y funciones en el ENS.                    |
+| **802**           | Auditoría.                                                  |
+| **803**           | Valoración/categorización de sistemas en el ENS.            |
+| **804**           | Medidas e implantación del ENS.                             |
+| **805**           | Política de seguridad de la información.                   |
+| **806**           | Plan de adecuación del ENS.                                |
+| **808**           | Verificación de cumplimiento de medidas.                    |
+| **809**           | Declaración y certificación de conformidad con el ENS.      |
+| **815**           | Métricas e indicadores para el ENS.                         |
+| **824**           | Informe del Estado de Seguridad.                            |
+| **844**           | Manual de INES.                                             |
+| **CCN-CERT BP/14**| Declaración de aplicabilidad.                               |
 
-3. **Activos**:
-   - **Bajo**: Los activos que se ven afectados no tienen un valor estratégico.
-   - **Medio**: Los activos perdidos o dañados tienen un valor importante y afectan al funcionamiento organizacional.
-   - **Alto**: Los activos afectados son críticos para la operativa de la organización, y su pérdida supone un gran riesgo.
+Atendiendo a estas guías, el proceso de adecuación al ENS sería el siguiente:
 
-4. **Ley o Regulación**:
-   - **Bajo**: El incumplimiento de leyes o normativas no genera consecuencias graves.
-   - **Medio**: El incumplimiento conlleva sanciones o riesgos legales importantes, pero no catastróficos.
-   - **Alto**: El incumplimiento genera serias repercusiones legales, afectando gravemente la continuidad de las operaciones o poniendo en riesgo a la organización.
+1. Preparar y aprobar la política de seguridad (**CCN-STIC-805**), incluyendo roles y responsabilidades (**CCN-STIC-801**).
+2. Categorizar los sistemas según la valoración de información y servicios (**CCN-STIC-803**).
+3. Realizar el AARR (metodología en función del nivel del sistema).
+4. Preparar y aprobar Declaración de aplicabilidad de medidas del Anexo II (**CCN-CERT BP/14**) y perfiles de cumplimiento.
+5. Elaborar un plan de adecuación (**CCN-STIC-806**).
+6. Implantar, operar y monitorizar las medidas de seguridad mediante gestión continuada (**CCN-STIC-804**).
+7. Auditar la seguridad (**CCN-STIC-802** y **CCN-STIC-808**).
+8. Publicar la conformidad en la Sede Electrónica (**CCN-STIC-809**).
+9. Mejorar e informar sobre el estado de la seguridad (**CCN-STIC-815/824**).
 
-5. **Perjuicio a Individuos**:
-   - **Bajo**: El perjuicio para los individuos afectados es leve, sin repercusiones graves en sus derechos o situación.
-   - **Medio**: El perjuicio para los individuos es notable, afectando su vida o derechos de manera considerable.
-   - **Alto**: El perjuicio es grave, afectando de manera severa la privacidad, los derechos o el bienestar de las personas involucradas.
+## ENS Y TELETRABAJO <!-- {docsify-ignore} -->
 
-### Ejemplo de Categorización <!-- {docsify-ignore} -->
+En el marco operacional del ENS dentro de las medidas de **“Control de Acceso”** se establecen mecanismos de autenticación tanto para usuarios internos como para usuarios externos. Estas medidas se aplican desde sistemas de categoría básica, implantando diferentes mecanismos de autenticación según el nivel de seguridad requerido.
 
-Imaginemos un sistema de gestión de datos personales dentro de una administración pública. Se podrían identificar los siguientes impactos:
+> [!INFO|style:callout|label:Consejo de Preparatic]
+> Si en tu solución al supuesto planteas la contratación de servicios externos, será positivo tener este punto en cuenta a la hora del acceso a la información y servicios de la AGE del personal que da el servicio.
 
-- **Disponibilidad**: Medio (si el sistema está caído, el servicio a los ciudadanos se vería afectado significativamente).
-- **Confidencialidad**: Alto (pérdida de datos personales altamente sensibles).
-- **Integridad**: Alto (la alteración de los datos podría afectar la calidad y la exactitud del servicio prestado).
-- **Autenticidad**: Medio (la suplantación de identidad podría comprometer la autenticidad del servicio).
-- **Trazabilidad**: Medio (pérdida de registros sobre los accesos a la información).
+Las medidas de seguridad **“Protección de dispositivos portátiles”** y **“Protección de la confidencialidad”** tiene en cuenta los dispositivos que salgan de las instalaciones de la unidad y el uso de VPNs para la comunicación. Ambas aplican a todas las categorías de seguridad.
 
-De acuerdo con esta categorización, el sistema debería cumplir con las medidas de seguridad correspondientes a un **nivel medio o alto**.
-
-### **CUADRO RESUMEN** <!-- {docsify-ignore} -->
-
-**CONFIDENCIALIDAD**: Porque su relevancia causaría ...
-
-**INTEGRIDAD**: Porque su manipulación o modificación no autorizada causaría ...
-
-**AUTENTICIDAD**:Porque la falsedad en su origen o en su destinatario causaría...
-
-||||||||
-|--------|-------|--------|-------|--------|-------|-------|
-||Nº personas que deben conocerlo (solo aplica confidencialidad)| Un daño ...| Incumplimiento ... de una norma (N/A autenticidad)|Pérdidas €€|Daño reputacional|Protestas|
-|**ALTO**|Nº reducido de personas|Grave, de difícil reparación|Grave|Elevadas|Grave|Masivas (alteración seria orden público)|
-|**MEDIO**|Sólo para trabajar con autorización|Importante, aunque subsanable|Material o formal|Importantes|Importante|Públicas (alteración orden público)|
-|**BAJO**|No deben conocerla personas ajenas a la organización|Algún perjuicio|Leve|Apreciables|Apreciable|Mútliples individuales|
-
-**Sin valorar** (CONFIDENCIALIDAD): Inforamción de carácter público, accesible por cualquier persona
-**Sin valorar** (AUTENTICIDAD): cuando origen/destino es irrelevante (conocido por otros medios/difusión anónima)
-**Sin valorar** (INTEGRIDAD): cuando los errores en su contenido carecen de consecuencias o son fácil y rápidamente reparables
-
-|**TRAZABILIDAD**|||||
-|----|----|----|----|----|
-||Porque la incapacidad para rastrear un acceso a la infomación|
-||Impediría/dificultaría notablemente la capacidad para subsanar un error...|Dificultaría ... la capacidad para perseguir delitos|Facilitaría ... la comisión de delitos ...|
-|**ALTO**|Grave|Notablemente|Enormemente Graves||
-|**MEDIO**|Importante|Notablemente¿?|Nada en los puntos||
-|**BAJO**|No notablemente|Nada en los puntos|N/A||
-
-**Sin valorar** (TRAZABILIDAD): cuando no se pueden producir errores de importancia (o son fácilmente reparables por otros medios), o no se pueden perpetrar delitos relevantes ( o su investigación es fácil por otros medios)
-
-|**DISPONIBILIDAD**|||
-|---|---|---|
-||RTO (tiempo máximo que el servicio puede permanecer interrumpido)||
-|**ALTO**|<4 horas||
-|**MEDIO**|4h - 1d||
-|**BAJO**|1d - 5d||
-|**Sin valorar|> 5d||
+Ejemplos de medidas que se pueden aplicar:
+- Gestión de credenciales, fortaleza de contraseñas, uso de 2FA cuando se accede desde una zona no controlada.
+- En sistemas de categoría media o alta: certificado + 2FA + registro previo, certificado en dispositivo físico, registro de accesos, ventana de accesos, suspensión por no utilización.
+- Bloqueo del equipo tras tiempo prudencial sin actividad, cierre de sesiones.
+- Instalación en todos los equipos de EDR, configuración de protección en tiempo real, escaneos periódicos.
