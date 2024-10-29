@@ -43,7 +43,7 @@ Para asignar un nivel de seguridad u otro a cada dimensión se tendrá que valor
 - Proteger los activos a su cargo.
 - Garantizar la conformidad con el ordenamiento jurídico.
 
-Para una evaluación más amplia del impacto habría que tener en cuenta (consulta la [guía del CCN](../../temas/ENS/criterios-valoracion.md#criterios-comunes) para más detalles):
+Para una evaluación más amplia del impacto habría que tener en cuenta (consulta la [guía del CCN](/temas/ENS/criterios-valoracion.md#criterios-comunes) para más detalles):
 - Disposición legal.
 - Perjuicio directo.
 - Incumplimiento de una norma.
@@ -53,7 +53,7 @@ Para una evaluación más amplia del impacto habría que tener en cuenta (consul
 - Delitos.
 
 La asignación de un nivel u otro es algo muy personal, la experiencia te lo irá dando, pero lo importante es que esté justificado y que se atienda a una serie de cuestiones base:
-- La disponibilidad se puede categorizar según el RTO. Busca en la [guía 803 del CCN](../../temas/ENS/criterios-valoracion.md#rto).
+- La disponibilidad se puede categorizar según el RTO. Busca en la [guía 803 del CCN](/temas/ENS/criterios-valoracion.md#rto).
 - Un nivel Alto suele estar vinculado con: riesgo de muerte para las personas, perjuicio muy alto para el país, etc. Si se pone hay que tenerlo muy justificado y asumir que se pueden implantar las medidas que este nivel requiere.
 - Piensa que cada nivel implica unas medidas de seguridad. Valora si compensa aplicar dichas medidas en tu sistema. ¿Me va a costar más las medidas que el sistema? ¿Me va a llevar mucho administrarlo? ¿Cuál es el tipo de usuario que va a utilizar la aplicación y de qué medios disponen o tienen la obligación de disponer?
 
