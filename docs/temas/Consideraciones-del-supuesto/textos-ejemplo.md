@@ -1,6 +1,6 @@
 ## Textos posibles para introducción <!-- {docsify-ignore} -->
 
-### Texto para introducir el examen
+### Texto para introducir el examen <!-- {docsify-ignore} -->
 
 El proyecto XXXX se enmarca dentro de la actual Estrategia  TIC de la Administración General del Estado (AGE), representada en el vigente plan de Digitalización de las Administraciones Públicas (AA.PP) 2021-2025, en concreto en:
 
@@ -69,7 +69,7 @@ La capa de presentación contiene los siguientes módulos:
 
 * **Frontal organismos:** Permite a los funcionarios del sector público acceso a las incidencias y el seguimiento de los trámites que ofrece su organismo.
 
-Se implementará como una app web utilizando HTML5+CSS+Javascript, utilizando el framework empleado para el diseño original, o Angular en su defecto. Puesto que será una app responsive mediante media-queries para adaptarse a cualquier dispositivo, la app se implementará como una aplicación híbrida, utilizando el framework Apache Cordova. Se comunicará con la lógica mediante API-REST y se seguirá la guía CCN-STIC 812 de seguridad en servicios web.
+Se implementará como una app web utilizando HTML5+CSS+Javascript, utilizando el framework empleado para el diseño original, o Angular en su defecto. Puesto que será una app responsive mediante media-queries para adaptarse a cualquier dispositivo, la app se implementará como una aplicación híbrida, utilizando el framework Apache Cordova. Se comunicará con la lógica mediante API-REST y se seguirá la guía CCN-STIC 812 de seguridad en servicios web. Previamente al desarrollo del aplicativo, se consultará en el Directorio General de Aplicaciones de la AGE la reutilización de soluciones parciales o totales para los módulos, de acuerdo al art. 64 del RD 203/2021.
 
 **Ventajas de la Arquitectura de 3 Capas:**
 
