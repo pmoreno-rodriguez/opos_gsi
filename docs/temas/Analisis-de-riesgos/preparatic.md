@@ -1,5 +1,5 @@
-> [!NOTE|label:Contenido adaptado de Preparatic 29]
-> Grupo de apoyo a la preparación de la XXIII convocatoria de  oposiciones  al  Cuerpo Superior  de  Sistemas  y  Tecnologías  de  la Información de la Administración del Estado 
+> [!NOTE|style:callout|label:Contenido Verificado]
+> Contenido extraído de la documentación de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/).
 
 ## ANÁLISIS DE RIESGOS <!-- {docsify-ignore} -->
 
