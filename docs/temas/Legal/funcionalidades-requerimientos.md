@@ -1,3 +1,8 @@
+<style>
+table thead {
+    background-color: #610a2c5c;
+}
+</style>
 ## Funcionalidades de un Sistema de Información y Requerimientos Legales (Ley 39/2015) <!-- {docsify-ignore} -->
 
 | **REQUERIMIENTO LEGAL**            | **FUNCIONALIDAD DEL SISTEMA**                                           | 

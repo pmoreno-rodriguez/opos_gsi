@@ -1,4 +1,5 @@
-**Grupo de apoyo a la preparación de la XXIII convocatoria ![](Aspose.Words.77dcbdda-1d42-467a-8c15-58de6f131bd1.001.png) de  oposiciones  al  Cuerpo Superior  de  Sistemas  y  Tecnologías  de  la Información de la Administración del Estado** 
+> [!NOTE|label:Contenido adaptado de Preparatic 29]
+> Grupo de apoyo a la preparación de la XXIII convocatoria de  oposiciones  al  Cuerpo Superior  de  Sistemas  y  Tecnologías  de  la Información de la Administración del Estado 
 
 ## ANÁLISIS DE RIESGOS <!-- {docsify-ignore} -->
 

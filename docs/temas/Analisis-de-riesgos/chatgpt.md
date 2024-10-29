@@ -1,4 +1,4 @@
-# Análisis de riesgos <!-- {docsify-ignore} -->
+## Análisis de riesgos <!-- {docsify-ignore} -->
 
 > [!NOTE|style:callout|label:Contenido Verificado]
 > Respuesta de ChatGPT para un Análisis de Riesgos de un sistema

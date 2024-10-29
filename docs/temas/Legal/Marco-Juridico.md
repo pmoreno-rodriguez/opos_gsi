@@ -19,5 +19,13 @@
 
 * **Directiva (UE) 2016/2102** del Parlamento Europeo y del Consejo, que establece requisitos mínimos de accesibilidad para sitios web y aplicaciones móviles de organismos públicos. 
     - Abarca sitios web de administraciones públicas, universidades, hospitales, etc., y obliga a cumplir los **criterios WCAG 2.1** de nivel "AA"
-* **Norma UNE 139803:2012**.
-   - Esta norma técnica adapta los **estándares WCAG (Web Content Accessibility Guidelines)** a la normativa española
+
+* **Norma UNE 139803:2012** requisitos de accesi­bilidad para contenidos web basándose en las Pautas de Accesibilidad para el Contenido Web (WCAG)
+* **Norma UNE 301549:2020** Requisitos de accesibilidad para productos y servicios TIC
+
+| **Características** | **Norma UNE 139803:2012** | **Norma UNE 301549:2020** |
+|---------------------|--------------------------|--------------------------|
+| **Enfoque**         | Requisitos de accesibilidad para contenidos en la web | Requisitos de accesibilidad para productos y servicios de las TIC |
+| **Base**            | Basada en las WCAG 2.0   | Basada en las WCAG 2.1   |
+| **Aplicación**      | Específicamente para contenidos web | Cubre una gama más amplia de productos y servicios, incluyendo sitios web y aplicaciones móviles |
+| **Objetivo**        | Garantizar que los contenidos web sean accesibles para personas con discapacidades | Asegurar la accesibilidad de una variedad más amplia de productos y servicios de TIC |

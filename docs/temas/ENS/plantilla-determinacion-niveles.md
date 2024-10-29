@@ -1,9 +1,9 @@
-## DETERMINACIÓN DE LOS NIVELES Y CATEGORÍA DEL SISTEMA
+## DETERMINACIÓN DE LOS NIVELES Y CATEGORÍA DEL SISTEMA <!-- {docsify-ignore} -->
 
 > [!NOTE|style:callout|label:Contenido Verificado]
 > Contenido extraído del ENS RD 311/2022.
 
-### VALORACIÓN DE LAS DIMENSIONES DE LOS ACTIVOS ESENCIALES
+### VALORACIÓN DE LAS DIMENSIONES DE LOS ACTIVOS ESENCIALES <!-- {docsify-ignore} -->
 
 Por cada activo esencial, sea de tipo información o de tipo servicio, se solicita la valoración de su nivel (bajo, medio o alto) en cada dimensión de seguridad (ver Anexo I del ENS):
    - Para Servicios: Disponibilidad (D).
