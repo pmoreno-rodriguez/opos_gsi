@@ -274,4 +274,16 @@ Ejemplos de medidas que se pueden aplicar:
 - Gestión de credenciales, fortaleza de contraseñas, uso de 2FA cuando se accede desde una zona no controlada.
 - En sistemas de categoría media o alta: certificado + 2FA + registro previo, certificado en dispositivo físico, registro de accesos, ventana de accesos, suspensión por no utilización.
 - Bloqueo del equipo tras tiempo prudencial sin actividad, cierre de sesiones.
-- Instalación en todos los equipos de EDR, configuración de protección en tiempo real, escaneos periódicos.
+- Instalación en todos los equipos de EDR (*), configuración de protección en tiempo real, escaneos periódicos.
+
+(*) **Endpoint Detection and Response**, es una tecnología de seguridad que monitorea y responde a amenazas en los dispositivos finales, como computadoras y móviles. Al instalar EDR en todos los equipos, se mejora significativamente la capacidad de detectar, investigar y responder a actividades sospechosas o maliciosas en la red. Es como tener un guardia de seguridad digital vigilando constantemente.
+
+Algunos ejemplos de EDR son los siguientes:  
+1. Microsoft Defender for Endpoint
+2. CrowdStrike Falcon
+3. FireEye Endpoint Security
+4. Bitdefender GravityZone
+5. Sophos Intercept X
+6. Cisco Talos
+7. Cybereason Defense Platform
+8. VMware Carbon Black
