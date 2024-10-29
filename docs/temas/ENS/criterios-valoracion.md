@@ -11,7 +11,7 @@ Esta guía incluye criterios que pueden resultar de aplicación a una o varias d
 
 Cada criterio de valoración es codificado para facilitar su referencia cuando se justifiquen las decisiones de valoración.
 
-### CRITERIOS COMUNES APLICABLES A TODAS LAS DIMENSIONES <!-- {docsify-ignore} -->
+### CRITERIOS COMUNES APLICABLES A TODAS LAS DIMENSIONES :id=criterios-comunes <!-- {docsify-ignore} -->
 
 Se establecen criterios que son de aplicación a todas las dimensiones de seguridad (seleccionando un nivel BAJO, MEDIO o ALTO, de acuerdo al ENS), tanto de tipos de información como de servicios, considerando las consecuencias de un impacto negativo sobre la seguridad de la información y de los servicios, atendiendo, conforme al artículo 43 del Real Decreto 3/2010, a su repercusión en la capacidad de la organización para el logro de sus objetivos, la protección de sus activos, el cumplimiento de sus obligaciones de servicio, el respeto de la legalidad y los derechos de los ciudadanos.
 
@@ -34,7 +34,7 @@ Los criterios de impacto considerados son los siguientes:
 ![Criterios de valoración ENS](../../img/criterios_ens1.png)
 ![Criterios de valoración ENS](../../img/criterios_ens2.png)
 
-### RTO (TIEMPO DE RECUPERACIÓN OBJETIVO) <!-- {docsify-ignore} -->
+### RTO (TIEMPO DE RECUPERACIÓN OBJETIVO) :id=rto <!-- {docsify-ignore} -->
 
 | RTO             | < 4 horas | 4 horas - 1 día | 1 día – 5 días | > 5 días    |
 |-----------------|------------|----------------|----------------|-------------|
