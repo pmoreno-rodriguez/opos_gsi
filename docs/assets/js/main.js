@@ -1,4 +1,5 @@
 (function () {
+    // Función de configuración para extraer claves como :class=<nombre_clase>
     function getAndRemoveConfig(str = '') {
       const config = {};
   
@@ -21,12 +22,16 @@
   
     var addHeadingClassesPlugin = function (hook, vm) {
       hook.beforeEach(function (markdown) {
-        const headingClassPattern = /^(#{1,6})\s*(.*?)\s*:\s*class=([\w-]+)/gm;
+        // Expresión regular que asegura un espacio antes de ":class="
+        const headingClassPattern = /^(#{1,6})\s*(.*?)\s+:class=([\w-]+)/gm;
   
         return markdown.replace(headingClassPattern, function (match, hashes, title, classConfig) {
-          const level = hashes.length;
-          const { str: cleanTitle, config } = getAndRemoveConfig(title);
+          const level = hashes.length; // Nivel de encabezado (#, ##, etc.)
+          
+          // Extrae el texto del título y la configuración
+          const { str: cleanTitle, config } = getAndRemoveConfig(`"${title} :class=${classConfig}"`);
   
+          // Si existe configuración de clase, se añade al encabezado
           if (config.class) {
             return `<h${level} class="${config.class}">${cleanTitle}</h${level}>`;
           } else {
@@ -36,6 +41,7 @@
       });
     };
   
+    // Registro del plugin en Docsify
     $docsify = $docsify || {};
     $docsify.plugins = [].concat($docsify.plugins || [], addHeadingClassesPlugin);
   })();
