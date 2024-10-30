@@ -87,15 +87,10 @@
   - [Introdución](./temas/Cloud-Computing/introduccion.md)
 - Virtualización
   - [Ventajas y Desventajas](./temas/Virtualizacion/ventajas-desventajas.md)
+- Métrica V3
+  - [Análisis de los Sistemas de Información](./temas/Metrica3/Analisis-de-sistemas-de-informacion.md)
 - Metodología Ágil
   - [Historias de usuario](./temas/Metologia-Agil/historias-de-usuario.md)
-- Diagramas
-  - [Ejemplo 1 Diagrama de Secuencia](./temas/Diagramas/ejemplo1-diagrama-secuencia.md)
-  - [Ejemplo 2 Diagrama de Secuencia](./temas/Diagramas/ejemplo2-diagrama-secuencia.md)
-  - [Ejemplo Diagrama de Secuencia (supuesto AEBOE)](./temas/Diagramas/diagrama-secuencia-subasta-aoboe.md)
-  - [Ejemplo 1 Diagrama de Casos de Uso](./temas/Diagramas/ejemplo1-diagrama-casos-de-uso.md)
-  - [Diagrama de red básico](./temas/Diagramas/diagrama-red-basico.md)
-  - [Diagrama de clases genérico](./temas/Diagramas/diagrama-clases-generico.md)
 - Sistemas de recomendación
   - [Qué son](./temas/Sistemas-Recomendacion/que_son.md)
 - Teletrabajo
@@ -103,6 +98,13 @@
   - [Desarrollo de PWA](./temas/Teletrabajo/desarrollo-pwa.md)
   - [BYOD, CYOD, COPE y COBO](./temas/Teletrabajo/byod-cyod-cope-cobo.md)
   - [Servicio Unificado de Telecomunicaciones](./temas/Teletrabajo/servicio-unificado-teleco.md)
+- Diagramas
+  - [Ejemplo 1 Diagrama de Secuencia](./temas/Diagramas/ejemplo1-diagrama-secuencia.md)
+  - [Ejemplo 2 Diagrama de Secuencia](./temas/Diagramas/ejemplo2-diagrama-secuencia.md)
+  - [Ejemplo Diagrama de Secuencia (supuesto AEBOE)](./temas/Diagramas/diagrama-secuencia-subasta-aoboe.md)
+  - [Ejemplo 1 Diagrama de Casos de Uso](./temas/Diagramas/ejemplo1-diagrama-casos-de-uso.md)
+  - [Diagrama de red básico](./temas/Diagramas/diagrama-red-basico.md)
+  - [Diagrama de clases genérico](./temas/Diagramas/diagrama-clases-generico.md)
 - Supuestos
   - [2019 Supuesto 2 - PANACE@ (CHATGPT)](./supuestos/2019-panacea/chatgpt.md)
   - [Ejemplo de categorización según ENS para el supuesto de AEAT](./supuestos/aeat/ejemplo-categorizacion-ens.md)

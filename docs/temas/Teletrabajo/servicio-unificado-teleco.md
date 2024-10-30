@@ -1,4 +1,4 @@
-## **Resumen Extenso del Servicio Unificado de Telecomunicaciones en la Administración General del Estado (AGE)** <!-- {docsify-ignore} -->
+## Servicio Unificado de Telecomunicaciones en la Administración General del Estado (AGE) <!-- {docsify-ignore} -->
 
 > [!NOTE|style:callout|label:Contenido Verificado]
 > Respuesta de ChatGPT sobre el Servicio Unificado de Telecomunicaciones.
