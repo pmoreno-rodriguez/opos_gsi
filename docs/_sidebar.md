@@ -49,6 +49,7 @@
   - [Ventajas e Inconvenientes](./temas/Nube-SARA/ventajas-inconvenientes.md)
 - Servicios Comunes y Compartidos
   - [Servicios Compartidos de la AGE](./temas/Servicios-Comunes-Compartidos/servicios-compartidos.md)
+  - [Guía de aplicación de Servicios en Red SARA](./temas/Servicios-Comunes-Compartidos/guia-redsara.md)
 - Ayuda para el supuesto práctico
   - [Planteamiento previo](./temas/Consideraciones-del-supuesto/planteamiento-previo.md)
   - [Preguntas para identificar actores y funcionalidades](./temas/Consideraciones-del-supuesto/Preguntas-indentificar-actores-funcionalidades.md)
