@@ -1,7 +1,7 @@
 > [!ATTENTION|label:Contenido NO Verificado]
 > Respuesta de ChatGPT para el Supuesto Práctico del examen del año 2019. **PANACE@**
 
-!> [Link al supuesto (PDF)](supuestos/2019-panacea/2019-LIBRE.pdf)
+!> [Link al supuesto (PDF)](https://pmoreno-rodriguez.github.io/opos_gsi/supuestos/2019-panacea/2019-LIBRE.pdf)
 
 ## PREGUNTA 1. Indicar los factores críticos de éxito que se deberían tener en cuenta en el diseño de la arquitectura del sistema PANACE@. 
 
