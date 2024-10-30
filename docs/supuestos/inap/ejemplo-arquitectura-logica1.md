@@ -6,7 +6,7 @@
 > La intención es tener una idea básica de cómo explicar el diagrama de Arquitectura Lógica.
 ---
 
-!> [Enlace al supuesto](https://pmoreno-rodriguez.github.io/opos_gsi/supuestos/B3C2SOLUCION-M-ANGELES-GONZALO.pdf)
+!> [Enlace al supuesto](https://pmoreno-rodriguez.github.io/opos_gsi/supuestos/inap/B3C2SOLUCION-M-ANGELES-GONZALO.pdf)
 
 ![](../../img/ejemplo_arquitectura_logica1.jpg)
 
