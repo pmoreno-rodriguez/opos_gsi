@@ -89,6 +89,7 @@
   - [Ventajas y Desventajas](./temas/Virtualizacion/ventajas-desventajas.md)
 - Métrica V3
   - [Análisis de los Sistemas de Información](./temas/Metrica3/Analisis-de-sistemas-de-informacion.md)
+  - [Diseño del sistema](./temas/Metrica3/Diseno-del-sistema.md)
 - Metodología Ágil
   - [Historias de usuario](./temas/Metologia-Agil/historias-de-usuario.md)
 - Sistemas de recomendación

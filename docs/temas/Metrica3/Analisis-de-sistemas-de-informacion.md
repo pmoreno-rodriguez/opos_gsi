@@ -16,18 +16,18 @@ Se debe:
 2. **Especificación de estándares y normas**: Actualizar el catálogo de normas del EVS, teniendo en cuenta normativas, leyes y estándares necesarios para el desarrollo.
 3. **Identificación de usuarios**: Actualizar el catálogo de usuarios, definiendo funciones, asignando responsabilidades y desarrollando un plan de trabajo.
 
-#### Productos Obtenidos
-- Catálogo de requisitos
-- Glosario
-- Descripción general del entorno tecnológico
-- Catálogo de normas
-- Catálogo de usuarios
-- Planificación del análisis
-- Contexto del sistema
-- Modelo conceptual de datos
-- **Orientación a objetos**:
-  - Modelo de negocio
-  - Modelo de dominio
+> [!INFO|style:callout|label:Productos obtenidos]
+> - Catálogo de requisitos
+> - Glosario
+> - Descripción general del entorno tecnológico
+> - Catálogo de normas
+> - Catálogo de usuarios
+> - Planificación del análisis
+> - Contexto del sistema
+> - Modelo conceptual de datos
+> - **Orientación a objetos**:
+>   - Modelo de negocio
+>   - Modelo de dominio
 
 ### ASI 02: Establecimiento de Requisitos
 
@@ -39,10 +39,10 @@ Esta actividad define los requerimientos del sistema, necesarios para asegurar q
 3. **Análisis de requisitos**: Revisar los requisitos para identificar inconsistencias, ambigüedades o duplicidades, estableciendo relaciones y prioridades.
 4. **Validación de requisitos**: Confirmación de la consistencia y completitud de requisitos y casos de uso por parte de los usuarios.
 
-#### Productos Obtenidos
-- Catálogo de requisitos
-- Modelo de Casos de Uso
-- Especificación de Casos de Uso
+> [!INFO|style:callout|label:Productos obtenidos]
+> - Catálogo de requisitos
+> - Modelo de Casos de Uso
+> - Especificación de Casos de Uso
 
 ### ASI 03: Identificación de Subsistemas de Análisis
 
@@ -52,11 +52,11 @@ Esta actividad se realiza en paralelo a la generación de modelos de análisis p
 1. **Determinación de subsistemas de análisis**: Basada en procesos de negocio o criterios lógicos como homogeneidad, prioridad y afinidad de requisitos.
 2. **Integración de subsistemas de análisis**: Coordinación de modelos para evitar duplicidades y enriquecer el catálogo de glosarios.
 
-#### Productos Obtenidos
-- **Análisis estructurado**: Modelo de procesos
-- **Orientación a objetos**:
-  - Descripción de Subsistemas de Análisis
-  - Descripción de Interfaces entre Subsistemas
+> [!INFO|style:callout|label:Productos obtenidos]
+> - **Análisis estructurado**: Modelo de procesos
+> - **Orientación a objetos**:
+>  - Descripción de Subsistemas de Análisis
+>  - Descripción de Interfaces entre Subsistemas
 
 ### ASI 04: Análisis de Casos de Uso
 
@@ -66,8 +66,8 @@ Esta actividad aplica solo en análisis orientado a objetos. Se realiza mediante
 1. **Identificación de clases asociadas a un caso de uso**: Creación de una lista de clases candidatas que se refina en esta y en otras actividades.
 2. **Descripción de interacción de objetos**: Diagramas de interacción (secuencia y colaboración) que muestran la cooperación entre objetos en un caso de uso.
 
-#### Productos Obtenidos
-- **Orientación a objetos**: Modelo de Clases de Análisis
+> [!INFO|style:callout|label:Productos obtenidos]
+> - **Orientación a objetos**: Modelo de Clases de Análisis
 
 ### ASI 05: Análisis de Clases
 
@@ -78,10 +78,10 @@ Este análisis, realizado solo en orientación a objetos, describe y estructura 
 2. **Identificación de asociaciones y agregaciones**: Definir relaciones entre clases, con enfoque en cardinalidad, direccionalidad y papel desempeñado.
 3. **Identificación de generalizaciones**: Representación de una organización de clases basada en herencia y agrupación semántica.
 
-#### Productos Obtenidos
-- **Orientación a objetos**:
-  - Modelo de Clases de Análisis
-  - Comportamiento de Clases de Análisis
+> [!INFO|style:callout|label:Productos obtenidos]
+> - **Orientación a objetos**:
+>   - Modelo de Clases de Análisis
+>   - Comportamiento de Clases de Análisis
 
 ### ASI 06 - La Elaboración del Modelo de Datos
 
@@ -117,11 +117,11 @@ Esta actividad se lleva a cabo solo cuando nos encontramos en análisis estructu
      - Prioridad de carga.
      - Requisitos de conversión de información.
 
-#### Productos Obtenidos
-- Modelo Conceptual de Datos
-- Modelo Lógico de Datos
-- Modelo Lógico de Datos Normalizado
-- Plan de Migración y Carga Inicial de Datos
+> [!INFO|style:callout|label:Productos obtenidos]
+> - Modelo Conceptual de Datos
+> - Modelo Lógico de Datos
+> - Modelo Lógico de Datos Normalizado
+> - Plan de Migración y Carga Inicial de Datos
 
 ### ASI 07 - Elaboración del Modelo de Procesos
 
@@ -145,10 +145,10 @@ Esta actividad se lleva a cabo solo en análisis estructurados de datos. Es nece
    - Formato de datos intercambiados.
    - Frecuencia de intercambio.
 
-#### Productos Obtenidos
-- Modelo de Procesos
-- Matriz de Procesos / Localización Geográfica (ampliada)
-- Descripción de Interfaz con Otros Sistemas
+> [!INFO|style:callout|label:Productos obtenidos]
+> - Modelo de Procesos
+> - Matriz de Procesos / Localización Geográfica (ampliada)
+> - Descripción de Interfaz con Otros Sistemas
 
 ### ASI 08 - Definición de Interfaces de Usuario para el Análisis del SI en Métrica V3
 
@@ -171,17 +171,17 @@ En la actividad de interfaces, se debe elaborar un buen conjunto de productos.
    - Identificar diálogos críticos y utilizar diagramas de transición de estados para especificar comportamientos complejos.
    - Especificar formatos de impresión.
 
-#### Productos Obtenidos
-- Especificación de Interfaz de Usuario:
-  - Principios generales de la interfaz.
-  - Descomposición Funcional en Diálogos.
-  - Catálogos de Perfiles de Usuario.
-  - Formatos individuales de interfaz de pantalla.
-  - Catálogos de Controles y Elementos de Diseño de Interfaz de Pantalla.
-  - Modelo de Navegación de Interfaz de Pantalla.
-  - Prototipo de Interfaz Iterativa.
-  - Formatos de Impresión.
-  - Prototipo de Interfaz de Impresión.
+> [!INFO|style:callout|label:Productos obtenidos]
+> - Especificación de Interfaz de Usuario:
+>   - Principios generales de la interfaz.
+>   - Descomposición Funcional en Diálogos.
+>   - Catálogos de Perfiles de Usuario.
+>   - Formatos individuales de interfaz de pantalla.
+>   - Catálogos de Controles y Elementos de Diseño de Interfaz de Pantalla.
+>   - Modelo de Navegación de Interfaz de Pantalla.
+>   - Prototipo de Interfaz Iterativa.
+>   - Formatos de Impresión.
+>   - Prototipo de Interfaz de Impresión.
 
 ### ASI 09 - Análisis de Consistencia y Especificación de Requisitos
 
@@ -198,17 +198,17 @@ En la actividad de interfaces, se debe elaborar un buen conjunto de productos.
 3. **Validación de Modelos**  
    Validar el catálogo de requisitos mediante trazabilidad y la validación directa del cliente.
 
-#### Productos Obtenidos
-- Especificación de Interfaz de Usuario.
-- Resultado de Análisis de Consistencia.
-- Especificación de Requisitos de Software (ERS):
-  - Introducción.
-  - Ámbito y alcance.
-  - Participantes.
-  - Requisitos del sistema de información.
-  - Visión general del SI.
-  - Referencia a productos a entregar.
-  - Plan de acción.
+> [!INFO|style:callout|label:Productos obtenidos]
+> - Especificación de Interfaz de Usuario.
+> - Resultado de Análisis de Consistencia.
+> - Especificación de Requisitos de Software (ERS):
+>   - Introducción.
+>   - Ámbito y alcance.
+>   - Participantes.
+>   - Requisitos del sistema de información.
+>   - Visión general del SI.
+>   - Referencia a productos a entregar.
+>   - Plan de acción.
 
 ### ASI 010 - Especificación del Plan de Pruebas en el Análisis del SI en Métrica V3
 
@@ -224,16 +224,16 @@ En la actividad de interfaces, se debe elaborar un buen conjunto de productos.
 3. **Entorno de Pruebas y Pruebas de Aceptación del Sistema**  
    Especificar características del entorno y herramientas auxiliares.
 
-#### Productos Obtenidos
-- Plan de Pruebas:
-  - Especificación de los niveles de pruebas.
-  - Definición de Requisitos del Entorno de Pruebas.
-  - Definición de las Pruebas de Aceptación del Sistema.
+> [!INFO|style:callout|label:Productos obtenidos]
+> - Plan de Pruebas:
+>   - Especificación de los niveles de pruebas.
+>   - Definición de Requisitos del Entorno de Pruebas.
+>   - Definición de las Pruebas de Aceptación del Sistema.
 
 ### ASI 011 - Aprobación del Análisis del Sistema de Información
 
 Para la aprobación del Análisis del SI en métrica V3, será necesario presentarlo (Especificación de Requisitos de Software y Plan de Pruebas) a la dirección para su aprobación.
 
-#### Productos Obtenidos
-- Aprobación del Análisis del Sistema de Información.
+> [!INFO|style:callout|label:Productos obtenidos]
+> - Aprobación del Análisis del Sistema de Información.
 
