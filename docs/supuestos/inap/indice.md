@@ -5,4 +5,4 @@
 > Supuestos del INAP para sus cursos de preparación a oposiciones.
 ---
 
-1. [Ejemplo de Arquitectura Lógica básica](../../supuestos/inap/ejemplo-arquitectura-logica1.md)
+1. [Ejemplo de Arquitectura Lógica básica](/supuestos/inap/ejemplo-arquitectura-logica1.md)
