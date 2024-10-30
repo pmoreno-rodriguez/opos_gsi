@@ -10,7 +10,7 @@
 
 ![](../../img/ejemplo_arquitectura_logica1.jpg)
 
-## Capa de Presentación <!-- {docsify-ignore} -->
+## Capa de Presentación :class=titulo-color <!-- {docsify-ignore} -->
 
 ### Interfaz del ciudadano
 - El ciudadano o entidad que se vaya a relacionar con la Administración accederá a través de cualquier sede electrónica o carpeta ciudadana.
@@ -24,7 +24,7 @@
 ### Interfaz del Administrador
 - El Administrador también se autenticará a través de AUTENTIC@.
 
-## Capa de Lógica de Negocio <!-- {docsify-ignore} -->
+## Capa de Lógica de Negocio :class=titulo-color <!-- {docsify-ignore} -->
 
 ### Gestión de solicitudes
 - Una vez realizada la presentación del formulario al ciudadano, el ciudadano lo rellenará y deberá firmarlo con un certificado electrónico reconocido X.509 v3, de los admitidos por las Administraciones Públicas (en un futuro se estudiará la posibilidad de realizar la firma utilizando firma básica), para comprobar la firma se utilizará @firma.
@@ -48,7 +48,7 @@
 ### Gestión de usuarios
 - Actualmente AUTENTIC@ proporciona identificación pero no autorización a las aplicaciones. La autorización de los funcionarios se realizará en este módulo.
 
-## Capa de Acceso a datos y servicios <!-- {docsify-ignore} -->
+## Capa de Acceso a datos y servicios :class=titulo-color <!-- {docsify-ignore} -->
 ### En la capa de acceso a datos se encuentra:
 - La base de datos relacional donde se almacenarán los datos necesarios para el funcionamiento de la aplicación.
 - El data warehouse donde se almacenarán los datos a tratar por el cuadro de mandos.
