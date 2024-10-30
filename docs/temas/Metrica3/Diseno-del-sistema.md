@@ -6,7 +6,7 @@ En primer lugar, es necesario definir los niveles de la arquitectura del softwar
 
 A continuación, actualizaremos el catálogo de requisitos después de especificar los requisitos que están íntimamente ligados al diseño o arquitectura. Por ejemplo: criterios de ubicación de módulos, lenguajes, rendimientos de los elementos de la arquitectura, datos de los nodos, etc.
 
-### Excepciones, estándares, normas y Subsistema de diseño
+### Excepciones, estándares, normas y Subsistema de diseño :class=titulo-h3-color
 
 Llegados a este punto, tendremos que definir los comportamientos no habituales en el sistema. Para ello, se debe establecer los criterios de catalogación y clasificación de los mismos; y el detalle con el que se van a describir. La catalogación es vital para la especificación técnica de pruebas y para el propio diseño del sistema. En función del nivel de especificación, se recomienda añadir las excepciones particulares.
 

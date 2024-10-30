@@ -2,7 +2,7 @@
 
 Este proceso tiene como objetivo principal la entrega y aceptación del sistema en su totalidad, y la realización de todas las actividades necesarias para el paso a producción del mismo.
 
-### IAS 01: Establecimiento del plan de implantación :class=titulo-h3-color <!-- {docsify-ignore} -->
+<h3 class="titulo-h3-color">IAS 01: Establecimiento del plan de implantación</h3> <!-- {docsify-ignore} -->
 
 En un primer punto, partimos de la estrategia de implantación que ha sido creado en el EVS. En consecuencia, se debe revisar los requisitos y procedimientos de implantación establecidos en los requisitos de información de la implantación (DSI). De esta forma, se asegura la adecuación a la estrategia global de implantación. A posteriori, se define el plan de implantación que recoja adecuadamente el esfuerzo y los recursos necesarios para el éxito de la implantación, incluyendo:
 
@@ -18,7 +18,7 @@ En segundo lugar, es necesario especificar el equipo de trabajo para la implanta
 > - Plan de Implantación
 > - Equipo de Implantación
 
-### IAS 02: Formación necesaria para la implantación :class=titulo-h3-color <!-- {docsify-ignore} -->
+<h3 class="titulo-h3-color">IAS 02: Formación necesaria para la implantación</h3> <!-- {docsify-ignore} -->
 
 En primer lugar, es necesario preparar la formación del Equipo de implantación. En otras palabras, se debe establecer el esquema de formación para cada tipo de perfil y cuanto durará el curso. Se deben determinar los recursos necesarios y convocar a las personas (esperando su confirmación). Con todo ello, obtenemos el plan de formación.
 
@@ -40,7 +40,7 @@ Por último, dentro de esta actividad del proceso de Implantación y Aceptación
 >   - Planificación de Formación
 >   - Registro de Asistencia
 
-### IAS 03: Incorporación del sistema al entorno de operación :class=titulo-h3-color <!-- {docsify-ignore} -->
+<h3 class="titulo-h3-color">IAS 03: Incorporación del sistema al entorno de operación</h3> <!-- {docsify-ignore} -->
 
 Para continuar, se describirá la tarea de Preparación de la Instalación. En ella, se debe asegurar que la infraestructura necesaria está disponible y que cumple los requisitos de implantación. Es necesario prestarle especial atención a los procedimientos de seguridad y control de acceso, operación y administración del sistema.
 
@@ -61,14 +61,14 @@ Finalmente, cuando se comprueba que es correcta la instalación del sistema, se 
 > - Código Fuente de los Componentes de Migración y Carga Inicial de Datos (instalado)
 > - Procedimiento de Migración y Carga Inicial de Datos (instalado)
 
-### IAS 04: Carga de datos al entorno de operación :class=titulo-h3-color <!-- {docsify-ignore} -->
+<h3 class="titulo-h3-color">IAS 04: Carga de datos al entorno de operación</h3> <!-- {docsify-ignore} -->
 
 El siguiente paso es la migración y carga inicial de datos en el nuevo sistema. En primer lugar, se realiza la carga inicial de datos. Una vez validado el proceso, se continúa con la que la migración de datos. Tras la ejecución de los procedimientos correspondientes (y una depuración posterior), se efectúa la transformación de esos datos de la estructura previa a la nueva.
 
 > [!INFO|style:callout|label:Productos obtenidos]
 > - Base de Datos / Ficheros Cargados
 
-### IAS 05: Pruebas de implantación del sistema :class=titulo-h3-color <!-- {docsify-ignore} -->
+<h3 class="titulo-h3-color">IAS 05: Pruebas de implantación del sistema</h3> <!-- {docsify-ignore} -->
 
 En este quinto punto, vamos a validar la implantación del sistema. Para ello, comenzaremos con la preparación de las pruebas de implantación donde nos aseguramos que:
 
@@ -94,7 +94,7 @@ Como último, punto se realizan las correcciones imprescindibles para su viabili
 > - Resultado de las Pruebas de Implantación
 > - Evaluación del Resultado de las Pruebas de Implantación
 
-### IAS 06: Pruebas de aceptación del sistema :class=titulo-h3-color <!-- {docsify-ignore} -->
+<h3 class="titulo-h3-color">IAS 06: Pruebas de aceptación del sistema</h3> <!-- {docsify-ignore} -->
 
 Este es uno de los puntos claves desde el punto de vista de un QA, la validación de que el sistema cumple con los requerimientos solicitados. En primer lugar, se realizará la preparación de las pruebas de aceptación. Para ello, se revisa el plan de pruebas efectuado previamente, basándonos en los criterios de aceptación. Sobre todo, si se considera necesario, se añadirían los casos. En todo momento, se debe comunicar ese plan de pruebas final, a los diferentes perfiles (consultando la Especificación del equipo de implantación).
 
@@ -107,7 +107,7 @@ Finalmente, se debe efectuar una evaluación del resultado de las pruebas de ace
 > - Resultado de las pruebas de aceptación
 > - Evaluación del Resultado de las pruebas de aceptación
 
-#### IAS 07: Preparación del mantenimiento del sistema  :class=titulo-h3-color<!-- {docsify-ignore} -->
+<h3 class="titulo-h3-color">IAS 07: Preparación del mantenimiento del sistema</h3> <!-- {docsify-ignore} -->
 
 En principio, el objetivo de esta séptima actividad es lograr una familiarización con el sistema por parte del responsable de mantenimiento. La primera tarea será el establecimiento de la infraestructura para el manteamiento. En este sentido, se debe recopilar los productos de los SI implicados para un análisis exhaustivo por parte del responsable de mantenimiento. Este determinará si la información es suficiente para asegurar que los sistemas estén completos, actualizados, consistentes y precisos. También, se deberá verificar la correcta configuración de los sistemas y determinar si el software y hardware actual es suficiente. En caso contrario, será necesario identificar alternativas para su incorporación. En último lugar, es necesario definir los mecanismos de registro y evaluación de peticiones de mantenimiento. Todo quedará formalizado en el plan de mantenimiento.
 
@@ -116,7 +116,7 @@ En segundo punto, se realizará la formalización del plan de mantenimiento. Una
 > [!INFO|style:callout|label:Productos obtenidos]
 > Plan de mantenimiento
 
-#### IAS 08: Establecimiento del acuerdo de nivel de servicio :class=titulo-h3-color <!-- {docsify-ignore} -->
+<h3 class="titulo-h3-color">IAS 08: Establecimiento del acuerdo de nivel de servicio</h3> <!-- {docsify-ignore} -->
 
 Esta es una actividad muy importante antes de entregar el software. En primer lugar, se deben identificar los servicios requeridos por el cliente. Para ello, es necesario negociar con los máximos responsables de operaciones y de usuarios. Se deben especificar para cada uno de los tipos de servicios:
 
@@ -136,11 +136,11 @@ De esta forma, tendremos especificados los niveles de servicios para la Implanta
 > [!INFO|style:callout|label:Productos obtenidos]
 > - Plan de mantenimiento
 
-#### IAS 09: Presentación y aprobación del sistema :class=titulo-h3-color <!-- {docsify-ignore} -->
+<h3 class="titulo-h3-color">IAS 09: Presentación y aprobación del sistema</h3> <!-- {docsify-ignore} -->
 
 Esta actividad se divide en dos partes. Primeramente, se prepara la convocatoria de presentación del sistema. En ella se hace una recopilación de los entregables del sistema de los que disponemos: plan de pruebas, plan de mantenimiento y acuerdo de nivel de servicio. Una vez confirmada la asistencia a la convocatoria, preparamos la presentación. En segundo lugar, se obtiene la aprobación del sistema. Una vez acontecida la reunión de presentación del sistema al comité de dirección, se recibe formalmente la aprobación del sistema.
 
-#### IAS 10: Paso a producción, paso final de la Implantación y Aceptación del SI :class=titulo-h3-color <!-- {docsify-ignore} -->
+<h3 class="titulo-h3-color">IAS 10: Paso a producción, paso final de la Implantación y Aceptación del SI</h3> <!-- {docsify-ignore} -->
 
 En último lugar, tenemos la actividad del paso a producción. Primeramente, se debe preparar el entorno de producción. Para ello, se debe identificar los componentes necesarios a incorporar e instalarlos. Por otro, lado, se deben preparar los datos. Puede ser necesario migrar todos los datos, o una parte de ellos, o, sin embargo, quizás sea necesario una carga nueva o inicialización. A continuación, se debe confirmar que la instalación es correcta y determinar la fecha de activación del sistema y la eliminación del antiguo. Sin olvidar, establecer cómo será la transición de uno a otro.
 

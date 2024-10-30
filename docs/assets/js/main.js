@@ -1,14 +1,44 @@
-// Plugin para Docsify que agrega clases a encabezados de Markdown
-(function(hook) {
-    hook.beforeEach(function(content) {
-      // Expresión regular para detectar encabezados con clases
-      const headingClassPattern = /^(#{1,6})\s*(.*?)\s*:\s*class-[\w-]+=([\w-]+)/gm;
+(function () {
+    function getAndRemoveConfig(str = '') {
+      const config = {};
   
-      // Reemplaza los encabezados con una versión que incluye un span con la clase deseada
-      return content.replace(headingClassPattern, function(match, hashes, title, className) {
-        const level = hashes.length; // El número de "#" indica el nivel del encabezado
-        return `<h${level} class="${className}">${title}</h${level}>`;
+      if (str) {
+        str = str
+          .replace(/^('|")/, '')
+          .replace(/('|")$/, '')
+          .replace(/(?:^|\s):([\w-]+:?)=?([\w-%]+)?/g, (m, key, value) => {
+            if (key.indexOf(':') === -1) {
+              config[key] = (value && value.replace(/&quot;/g, '')) || true;
+              return '';
+            }
+            return m;
+          })
+          .trim();
+      }
+  
+      return { str, config };
+    }
+  
+    var addHeadingClassesPlugin = function (hook, vm) {
+      hook.beforeEach(function (markdown) {
+        const headingClassPattern = /^(#{1,6})\s*(.*?)\s*:\s*class=([\w-]+)/gm;
+  
+        return markdown.replace(headingClassPattern, function (match, hashes, title, classConfig) {
+          const level = hashes.length;
+          const { str: cleanTitle, config } = getAndRemoveConfig(title);
+  
+          if (config.class) {
+            return `<h${level} class="${config.class}">${cleanTitle}</h${level}>`;
+          } else {
+            return `<h${level}>${cleanTitle}</h${level}>`;
+          }
+        });
       });
-    });
-  })(window.$docsify);
+    };
+  
+    $docsify = $docsify || {};
+    $docsify.plugins = [].concat($docsify.plugins || [], addHeadingClassesPlugin);
+  })();
+  
+  
   
