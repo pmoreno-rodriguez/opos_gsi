@@ -1,12 +1,16 @@
-## DSI 01: Definición de la Arquitectura del Sistema <!-- {docsify-ignore} -->
+## Diseño del Sistema de Información
 
-### Arquitectura del sistema y Requisitos de diseño/construcción
+El objetivo del proceso de Diseño del Sistema de Información (DSI) es la definición de la arquitectura del sistema y del entorno tecnológico que le va a dar soporte, junto con la especificación detallada de los componentes del sistema de información.
+
+### DSI 01: Definición de la Arquitectura del Sistema :class=titulo-color <!-- {docsify-ignore} -->
+
+#### Arquitectura del sistema y Requisitos de diseño/construcción
 
 En primer lugar, es necesario definir los niveles de la arquitectura del software. En otras palabras, debemos definir las principales particiones físicas del SI: nodos con características propias de función o ejecución, diseño y construcción. Se deben describir con suficiente detalle para una solución concreta, pero no es necesario describir nodo a nodo. En cuanto a infraestructura, es recomendable especificar: Gestores de datos, servidores, comunicaciones, tipos de puesto de cliente, tipos de dispositivos de impresión y monitores de teleproceso. Las comunicaciones son las conexiones entre distintos nodos (unidireccional o bidireccional), se deben indicar los protocolos y tipos de mensajes utilizados. Sobre todo, es importante tener en cuenta los criterios para el diseño qué parten de la documentación inicial del proyecto (directrices tecnológicas o de integración, catálogo de requisitos o directrices propias de la instalación) y se debe prestar especialmente atención a usuarios, datos y procesos.
 
 A continuación, actualizaremos el catálogo de requisitos después de especificar los requisitos que están íntimamente ligados al diseño o arquitectura. Por ejemplo: criterios de ubicación de módulos, lenguajes, rendimientos de los elementos de la arquitectura, datos de los nodos, etc.
 
-### Excepciones, estándares, normas y Subsistema de diseño :class=titulo-h3-color
+#### Excepciones, estándares, normas y Subsistema de diseño 
 
 Llegados a este punto, tendremos que definir los comportamientos no habituales en el sistema. Para ello, se debe establecer los criterios de catalogación y clasificación de los mismos; y el detalle con el que se van a describir. La catalogación es vital para la especificación técnica de pruebas y para el propio diseño del sistema. En función del nivel de especificación, se recomienda añadir las excepciones particulares.
 
@@ -21,7 +25,7 @@ En segundo lugar, se deben tener en cuenta las excepciones obligatorias: sobre n
 
 Aquí también elaboraremos el catálogo de normas, producto de entrada para todas las tareas de diseño y construcción. En conclusión, se deben definir cuáles son los estándares técnicos y de nomenclatura, recomendaciones y normas que condicionan nuestro proyecto.
 
-### Subsistema de diseño en el Diseño del Sistema de Información
+#### Subsistema de diseño en el Diseño del Sistema de Información
 
 Siempre se ha dicho «divide y vencerás«, pues en el diseño de sistema de información, también se utiliza esta técnica. En este caso, se divide de forma lógica el sistema para reducir la complejidad y tener un mantenimiento más llevadero. Partiremos del ASI o se aplicarán nuevos criterios de diseños:
 - Facilidad de mantenimiento,
@@ -34,15 +38,15 @@ Seguramente surjan nuevos subsistemas (y módulos, clases o servicios) no especi
 
 En diseños Estructurados, presentaremos un diagrama de estructura a alto nivel y una definición de interfaz de cada subsistema. Diferenciaremos entre dos tipos de subsistemas:
 
-#### Subsistemas Específicos
+##### Subsistemas Específicos
 
 Son las funcionalidades propias del sistema.
 
-#### Subsistemas de soporte
+##### Subsistemas de soporte
 
 Cubren los servicios comunes, dando un acceso transparente a los distintos servicios. Por ejemplo: comunicaciones entre subsistemas, gestión de transacciones, gestión de datos, seguridad y control de acceso. Control y gestión de errores, gestión de interfaz o interacción con los recursos del propio sistema.
 
-### Entorno tecnológico y Requisitos de operación y seguridad
+#### Entorno tecnológico y Requisitos de operación y seguridad
 
 En cuarto lugar, continuaremos con la especificación al detalle de los distintos elementos del entorno tecnológico. Para ello, se agruparán según tres conceptos: hardware, software y comunicaciones. Es probable que se generen restricciones técnicas que afecten a la construcción o diseño del SI. Por otro lado, no se puede olvidar la estimación de planificación de capacidades donde especificaremos los parámetros de los equipos de Explotación y Sistemas. No se debe olvidar señalar, al menos, las necesidades de almacenamiento, procesamiento y comunicaciones. Nos enfocaremos en conocer:
 - Diseño físico de datos optimizados,
@@ -73,7 +77,7 @@ Además, definiremos los requisitos de operación y procedimientos asociados con
 > - Procedimiento de Seguridad y Control de Acceso
 > - Procedimiento de Operación y Administración del Sistema
 
-## DSI 02: Diseño de la arquitectura de soporte <!-- {docsify-ignore} -->
+### DSI 02: Diseño de la arquitectura de soporte :class=titulo-color <!-- {docsify-ignore} -->
 
 Esta actividad se compone de dos partes: el diseño de los subsistemas de soporte y la identificación de los mecanismos genéricos de soporte. En primer lugar, revisaremos el diseño de los subsistemas de soporte. El objeto de este es realizar la especificación y diseño de módulos y/o clases que conforman los subsistemas de soporte. Es necesario realizarlo, siempre que no se disponga de una instalación de servicios comunes. Por tanto, es una tarea importante, ya que permite la reutilización de los subsistemas de soporte. Podemos apoyarnos en el histórico de otros proyectos y para su realización se siguen las pautas genéricas salvo algunas peculiaridades. En algunas ocasiones, es posible detectar comportamientos excepcionales, en esos casos son incorporados al catálogo de excepciones.
 
@@ -83,9 +87,9 @@ En este párrafo, vamos a repasar los mecanismos genéricos de soporte. Lo que s
 > - Diseño detallado de los Subsistemas de Soporte
 > - Mecanismos Genéricos de Diseño y Construcción
 
-## DSI 03: Diseño de los casos de uso reales en el Diseño del Sistema de Información <!-- {docsify-ignore} -->
+### DSI 03: Diseño de los casos de uso reales en el Diseño del Sistema de Información :class=titulo-color <!-- {docsify-ignore} -->
 
-### Diseño de los casos de uso reales
+#### Diseño de los casos de uso reales
 
 Esta actividad solo es necesaria llevarla a cabo para sistemas donde hay Diseño Orientado a Objetos y se realiza en paralelo al diseño de clases (DSI04). En primer lugar, se lleva a cabo una identificación de las clases que intervienen en los casos de uso (partimos de la identificación de las clases adicionales del punto DSI04). De igual forma, al ir realizando el estudio de los casos de uso, podrán surgir nuevas clases de diseño. Estas serán incorporadas al modelo de clases.
 
@@ -93,7 +97,7 @@ En segundo lugar, para esta actividad del Diseño del Sistema de Información, e
 
 En último lugar, de cara a la tarea de Diseño de la Jerarquía (DSI04) se estudiarán los escenarios, para identificar puntos comunes.
 
-### Revisión de subsistemas e interfaces de usuario
+#### Revisión de subsistemas e interfaces de usuario
 
 En la segunda parte de esta actividad, pondremos el foco en la revisión de la interfaz de usuario, en primer lugar. Para ello, realizaremos un diseño detallado del comportamiento de la interfaz. ¿Cómo? Pues revisando la propia interfaz, los elementos que forman cada interfaz, si cumplen sus características y disposición. Además, se debe revisar la navegación entre las ventanas y los eventos relacionados. Cuando dispongamos de prototipo de interfaz, lo tomaremos como punto de referencia. Sobre todo, es importante tener en cuenta que si son necesarias realizar modificaciones significativas sobre la interfaz, esta debe ser validada.
 
@@ -110,9 +114,9 @@ En último lugar, hay que tener en cuenta la revisión de los subsistemas de dis
 > - Modelo de navegación de Interfaz de pantalla gráfica
 > - Formatos de impresión
 
-## DSI 04: El diseño de clases en el Diseño del Sistema de Información <!-- {docsify-ignore} -->
+### DSI 04: El diseño de clases en el Diseño del Sistema de Información :class=titulo-color <!-- {docsify-ignore} -->
 
-### Diseño de clases
+#### Diseño de clases
 
 En el caso de Diseño orientado a objetos, comenzaremos con la identificación de las clases adicionales. Por tanto, se identificarán el conjunto de clases que completen nuestro modelo, partiendo del ASI09. En todo momento, se debe tener en cuenta que cada interfaz corresponde al diseño de una clase. El conjunto de clases inicial podrá modificarse en función de las tecnologías utilizadas en el desarrollo. Trabajaremos con 4 tipos de clases:
 - Clases de control: coordinación y secuencia entre objetos. Tienen la lógica de negocio.
@@ -126,7 +130,7 @@ Realizaremos las asociaciones y agregaciones entre clases partiendo de la descri
 - Se debe modelizar las rutas de acceso óptimas,
 - Hay asociaciones que se pueden diseñar como clases.
 
-### Atributos y operaciones de las clases
+#### Atributos y operaciones de las clases
 
 En tercer lugar, se debe revisar el modelo de clases obtenido del Análisis de Sistema de información (ASI09) para identificar y describir los atributos de las clases. En otras palabras, para cada atributo se debe definir: tipo, formatos específicos y restricciones (si existieran). Puede darse el caso de convertir atributos en clases cuando:
 - El atributo esté definido en varias clases del diseño.
@@ -134,7 +138,7 @@ En tercer lugar, se debe revisar el modelo de clases obtenido del Análisis de S
 
 En cuarto lugar, es necesario realizar una descripción de las operaciones de las clases. En otras palabras, se describirán los valores de nombre, parámetros y visibilidad para cada una de las operaciones. De esta forma, daremos respuesta a las responsabilidades de las clases de análisis y podremos definir las interfaces asociadas. Partiremos del modelo de clases (ASI), del diseño de casos de uso reales y de los requisitos de diseño. Cuando las operaciones presentan distintos estados, nos es de ayuda utilizar un diagrama de transición de estados.
 
-### Jerarquía, Métodos de operaciones y Migraciones y carga inicial de datos
+#### Jerarquía, Métodos de operaciones y Migraciones y carga inicial de datos
 
 Es importante tomarse un tiempo para revisar el diseño de las jerarquías. A raíz de las últimas tareas han surgido nuevas clases, y se debe constatar que son viables. Además, identificaremos clases abstractas (superclases), que nos permitirán agrupar atributos y operaciones.
 
@@ -148,7 +152,7 @@ En último lugar, se deben especificar las necesidades de migración y carga ini
 > - Comportamiento de clases de Diseño
 > - Plan de Migración y Carga Inicial de Datos
 
-## DSI 05: Diseño de la arquitectura de módulos del sistema <!-- {docsify-ignore} -->
+### DSI 05: Diseño de la arquitectura de módulos del sistema :class=titulo-color <!-- {docsify-ignore} -->
 
 Esta actividad se lleva a cabo para casos de Diseño Estructurado. En ella, definimos los módulos del sistema de información con el objeto de que tenga una interfaz sencilla, y que trate un proceso específico del sistema. La actividad se realiza en paralelo con las DSI1, DSI2 y DSI6.
 
@@ -156,7 +160,7 @@ En primer lugar, realizamos la tarea del diseño de módulos del sistema, donde 
 
 Gracias al análisis previo y a la arquitectura propuesta, diseñaremos la estructura de módulos con lenguaje natural o pseudocódigo, teniendo en cuenta tanto las excepciones, como las premisas de mínimo acoplamiento y máxima cohesión. Para sistemas interactivos, con complejidad en la gestión de pantalla, será necesario perfeccionar el diseño de la interfaz del usuario (DSI5).
 
-### Comunicaciones entre módulos e interfaz de usuario
+#### Comunicaciones entre módulos e interfaz de usuario
 
 En segundo lugar, definiremos interfaces sencillas que permitan entender las comunicaciones de control y los datos del propio sistema. Partiendo de la estructura modular, completamos las descripciones de las comunicaciones existentes entre los módulos. Se debe garantizar el cumplimiento de los requisitos del sistema en relación con el rendimiento, disponibilidad y seguridad. Ojo: Quizás sea necesaria el rediseño de la lógica asociada o la incorporación de nuevos módulos.
 
@@ -182,13 +186,13 @@ A continuación, será necesario revisar la interfaz de usuario. Para ello, real
 >  - Prototipo de Interfaz de Pantalla
 >  - Prototipo de Interfaz de Impresión
 
-## DSI 06: Diseño físico de datos durante el Diseño del Sistema de Información <!-- {docsify-ignore} -->
+### DSI 06: Diseño físico de datos durante el Diseño del Sistema de Información :class=titulo-color <!-- {docsify-ignore} -->
 
 Inicialmente, se debe realizar el diseño del modelo físico de datos, a partir del modelo lógico de datos normalizado o del modelo de clases. Analizaremos las singularidades del gestor de BBDD o el sistema de archivo para conocer junto con las necesidades de utilización y volumen de ocurrencias de cada entidad o clase. También, analizaremos el volumen de estructuras de datos implicadas, en caso de ser necesaria una migración de datos. De esta forma, podremos decidir el mejor modelo de datos/modelo de clases y disponer de una estimación de espacio de almacenamiento lo más acertada posible. En último lugar, se especifica cómo se convertirán las entidades/clases en las tablas, especificando los datos necesarios y definiendo otros elementos a implementar (si fuera necesario).
 
 En segundo lugar, debemos especificar los caminos de acceso a los datos. Nuestro objetivo es optimizar el rendimiento de los gestores de datos o sistema de ficheros. Para ello, analizaremos los módulos o clases que sean de tratamiento crítico, tengan alta concurrencia o requieran de un acceso complejo a los datos. Revisaremos cada tabla o fichero, el tipo de acceso que requieran, el orden, y con ello se realizará una estimación de número de accesos, frecuencia y prioridad. En otras palabras, identificaremos los accesos altamente costosos o redundantes que puedan comprometer el correcto rendimiento del sistema.
 
-### Optimización del MFD y Especificación de la distribución de los datos
+#### Optimización del MFD y Especificación de la distribución de los datos
 
 Con el objetivo de mejorar los tiempos de respuestas de los accesos persistentes y cumplir con los requisitos de rendimiento exigidos, será necesario realizar una Optimización del Modelo físico de Datos. Para ello, será preciso realizar una des-normalización controlada (evitando anomalías) para reducir o simplificar el número de accesos al sistema de almacenamiento de datos.
 
@@ -201,7 +205,7 @@ En último lugar, como parte del Diseño del Sistema de Información se debe rea
 > - Esquemas físicos de datos
 > - Asignación Esquemas físicos de Datos a Nodos
 
-## DSI 07: Verificación y aceptación de la arquitectura del sistema <!-- {docsify-ignore} -->
+### DSI 07: Verificación y aceptación de la arquitectura del sistema :class=titulo-color <!-- {docsify-ignore} -->
 
 En tercer lugar, nos centraremos en la actividad que desea garantizar la calidad de las especificaciones y la viabilidad de nuestro sistema de información. Es importante tener esa certeza antes de comenzar con generación de especificaciones de construcción (DSI08). Por tanto, comenzamos con la verificación de las especificaciones del diseño. Los modelos deben haber seguido las técnicas, normas y estándares adecuados según el catálogo en normas.
 
@@ -209,7 +213,7 @@ Después de eso, es necesario el análisis de consistencia de las especificacion
 
 Adicionalmente, para diseño estructurado se debe verificar el diseño detallado de subsistemas frente al modelo físico de datos y en segundo lugar frente a la interfaz de usuario. Mientras que para el diseño orientado a objetos, debemos verificar el modelo de clases contra el modelo físico de datos en primer lugar, y posteriormente, frente a los diagramas dinámicos. Después de eso, opcionalmente se podrán contrastar las diferentes matrices existentes.
 
-### Aceptación de la Arquitectura del Sistema
+#### Aceptación de la Arquitectura del Sistema
 
 Esta actividad es primordial para poder valorar el impacto del sistema en la instalación y para el Diseño del SI según Métrica V3. Será necesaria la aceptación de áreas de explotación y sistemas, la de arquitectura de SI, y como no la de requisitos de operaciones y seguridad.
 
@@ -229,7 +233,7 @@ Esta actividad es primordial para poder valorar el impacto del sistema en la ins
 >  - Modelo de Clases de Diseño
 >  - Comportamiento de Clases de Diseño
 
-## DSI 08: Generación de especificaciones de construcción <!-- {docsify-ignore} -->
+### DSI 08: Generación de especificaciones de construcción :class=titulo-color <!-- {docsify-ignore} -->
 
 En esta actividad se desarrollarán las especificaciones de la construcción del SI a partir del diseño detallado. En primer lugar, se acometerá la especificación del entorno de construcción. Para ello, se propone una definición completa y detallada del entorno a partir de unos conceptos:
 - Se debe definir el entorno tecnológico. Es decir, el hardware, software y las comunicaciones utilizadas en este sistema.
@@ -244,7 +248,7 @@ De esta forma, podremos ofrecer mayor nivel de detalle en cada componente, subdi
 
 Por último, es buena idea crear un plan de integración del SI donde se enumere la organización y la secuencia de construcción. Y donde también, se incluya el plan de pruebas del subsistema de construcción.
 
-### Elaboración de Especificaciones de Construcción y Modelo de Datos
+#### Elaboración de Especificaciones de Construcción y Modelo de Datos
 
 En primer lugar, se debe realizar una especificación de cada componente. Para ello, utilizaremos lenguaje natural o pseudo código, y completaremos dicha información con lo necesario según el entorno tecnológico. Después de eso, será necesario completar la definición con las especificaciones de construcción. En otras palabras, se especificarán los parámetros o elementos complementarios para la propia construcción en el entorno tecnológico elegido.
 
@@ -259,7 +263,7 @@ En segundo lugar, para un buen Diseño del SI según Métrica V3, es necesario d
 > - Especificación detallada de Componentes
 > - Especificación de la Estructura Física de Datos
 
-## DSI 09: Diseño de la migración y la carga inicial de datos en el Diseño del SI según Métrica <!-- {docsify-ignore} -->
+### DSI 09: Diseño de la migración y la carga inicial de datos en el Diseño del SI según Métrica :class=titulo-color <!-- {docsify-ignore} -->
 
 En primer lugar, se debe tener en cuenta que esta actividad se realiza solo, cuando es necesario realizar una migración de datos de otro sistema o carga inicial. Se debe tener en cuenta que en el caso de empezar desde cero, de ser una carga inicial no será algo tan complejo. El objetivo de la misma es garantizar una implementación adecuada de los procesos de migración y carga inicial de datos.
 
@@ -272,23 +276,23 @@ El segundo punto, efectuaremos el diseño de procedimientos de migración y carg
 
 Se pueden diferenciar los siguientes procedimientos divididos en tres bloques:
 
-### Procedimientos de Seguridad
+#### Procedimientos de Seguridad
 - Control de acceso a la información
 - Copias de seguridad de los procesos
 - Recuperación de la información
 - Tratamiento de las posibles contingencias
 
-### De carga inicial de datos
+#### De carga inicial de datos
 - Depuraciones iniciales de información
 - Procesos de validación
 - Procesos de importación
 - Procesos de carga y prioridades
 
-### De verificación y comprobación
+#### De verificación y comprobación
 - Verificación de los procesos
 - Comprobación de la integridad de información resultante
 
-### Diseño detallado y revisión del plan
+#### Diseño detallado y revisión del plan
 
 En esta segunda parte, abordaremos el diseño detallado de componentes de migración y carga inicial para un correcto Diseño del SI según Métrica V3. Se deben especificar a bajo nivel los detalles de los módulos utilizados, especificando la jerarquía y el orden en el que se ejecutarán. En otras palabras, el diseño se realizará de la misma forma que cualquier otro módulo, teniendo en cuenta modelo físico de datos, estructura de datos y sistema de origen. Además, se debe completar el plan de migración y carga inicial con la definición de las pruebas a ejecutar.
 
@@ -302,7 +306,7 @@ Finalmente, es importante efectuar la revisión de la planificación de la migra
 > - Especificación Técnica de las Pruebas de Migración y Carga Inicial
 > - Planificación de la Migración y Carga Inicial
 
-## DSI 010: Especificación Técnica de plan de pruebas <!-- {docsify-ignore} -->
+### DSI 010: Especificación Técnica de plan de pruebas :class=titulo-color <!-- {docsify-ignore} -->
 
 En esta actividad se lleva a cabo la realización del plan de pruebas. En función del análisis del SI, se incluirán o no cada uno de los niveles de pruebas establecidos: unitarias, de integración, de sistemas, de implantación y de aceptación. Sobre todo, para confeccionarlo partimos del plan de pruebas o el plan de integración del sistema de información. El catálogo de requisitos, el de excepciones y el diseño detallado del SI nos permite definir las verificaciones que deben realizarse en cada nivel de pruebas, asegurando que cumple los requisitos planteados.
 
@@ -315,7 +319,7 @@ La primera tarea es la especificación del entorno de pruebas. Para ello, debes 
 
 Además, es importante tener presentes las herramientas necesarias para la extracción de juegos de ensayo, análisis de resultados y utilidades para una mejor gestión del entorno. No se debe olvidar en esa especificación incluir: la planificación de capacidades previstas o la información necesaria para planificar, los procedimientos de promoción de elementos entre entornos y los procedimientos de vuelta atrás, emergencia o recuperación.
 
-### Técnica de niveles de pruebas y revisión de la planificación
+#### Técnica de niveles de pruebas y revisión de la planificación
 
 En un segundo punto, se debe proceder con la especificación técnica de los niveles de prueba para realizar un correcto Diseño del SI según Métrica Ve. Se partirá del plan de prueba en primer lugar. Para la realización de las pruebas integradas y de sistema, tomaremos como referencia el plan de integración del SI. A continuación, para definir el detalle de las diferentes verificaciones a comprobar y los niveles de pruebas, es necesario basarse en la arquitectura propuesta para el sistema y las características intrínsecas del diseño del SI. En cualquier caso, se deben cubrir aspectos funcionales, no funcionales, excepciones y las soluciones adoptadas.
 
@@ -342,15 +346,15 @@ En último lugar, se debe hacer una revisión de la planificación de pruebas. P
 > - Especificación Técnica de Niveles de Pruebas
 > - Planificación de las Pruebas
 
-## DSI 011: Establecimiento de requisitos de implantación <!-- {docsify-ignore} -->
+#### DSI 011: Establecimiento de requisitos de implantación :class=titulo-color <!-- {docsify-ignore} -->
 
 Esta tarea se divide en dos partes: la especificación de los requisitos de Documentación de Usuario y la especificación de Requisitos de Implantación. En ambas, se tiene como objetivo el completar el catálogo de requisitos.
 
-### Requisitos de documentación de usuario
+##### Requisitos de documentación de usuario
 
 El objetivo de esta tarea es recoger toda la documentación a entregar al usuario, incluyendo manuales de usuario y de explotación. Para ello, debes tener en cuenta unos aspectos: estándares y tipos de documentos a tomar como referencia, formato de los mismos y estructura. Además, debes conocer el soporte en el que se crearán, el control de versiones y la distribución, mantenimiento y copias de la documentación.
 
-### Especificación de Requisitos de Implantación
+##### Especificación de Requisitos de Implantación
 
 En segundo punto, se deben especificar los documentos de implantación. Sobre todo, se debe tener en cuenta que en el Diseño del SI según Métrica V3 es necesario especificar de forma detallada cuáles son los requisitos para la implantación de forma anticipada. En otras palabras, se debe tener en cuenta la formación, infraestructura necesarias para la instalación. Después de eso, hay que poner el foco en los conocimientos particulares que necesitan los usuarios finalizar para interactuar con el nuevo sistema. Del mismo modo, es frecuente realizar un plan de formación, con los requisitos indispensables, que se desarrollará en la actividad: IAS, Implantación y Aceptación del sistema.
 
@@ -359,7 +363,7 @@ De igual manera, se deben tener en cuenta cuál es la estrategia de implantació
 > [!INFO|style:callout|label:Productos obtenidos]
 > - Catálogo de requisitos
 
-## DSI 012: Aprobación del diseño del Sistema de información <!-- {docsify-ignore} -->
+### DSI 012: Aprobación del diseño del Sistema de información :class=titulo-color <!-- {docsify-ignore} -->
 
 En último lugar, revisaremos este punto que aunque simple, no siempre es sencillo: Es necesario obtener la aprobación final del sistema de información. Por ello, se presenta el diseño del SI al comité de Dirección.
 

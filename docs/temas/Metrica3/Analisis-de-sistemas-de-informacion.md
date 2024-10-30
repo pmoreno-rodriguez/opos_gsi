@@ -1,7 +1,6 @@
 ## Análisis de Sistemas de Información utilizando Métrica V3 <!-- {docsify-ignore} -->
 
-### ASI 01: Definición del Sistema <!-- {docsify-ignore} -->
-
+### ASI 01: Definición del Sistema :class=titulo-color 
 #### Descripción
 Para realizar esta actividad, se basa en los productos obtenidos del Estudio de Viabilidad del Sistema (EVS). En esta fase, se organizan sesiones de trabajo con el jefe de proyecto, analistas, directores de usuarios y equipo de soporte técnico.
 
@@ -29,7 +28,7 @@ Se debe:
 >   - Modelo de negocio
 >   - Modelo de dominio
 
-### ASI 02: Establecimiento de Requisitos
+### ASI 02: Establecimiento de Requisitos :class=titulo-color
 
 Esta actividad define los requerimientos del sistema, necesarios para asegurar que la modelización corresponde con las necesidades. Se realiza en sesiones de trabajo con usuarios expertos y analistas, apoyándose en los productos generados en ASI 0.1.
 
@@ -44,7 +43,7 @@ Esta actividad define los requerimientos del sistema, necesarios para asegurar q
 > - Modelo de Casos de Uso
 > - Especificación de Casos de Uso
 
-### ASI 03: Identificación de Subsistemas de Análisis
+### ASI 03: Identificación de Subsistemas de Análisis :class=titulo-color
 
 Esta actividad se realiza en paralelo a la generación de modelos de análisis para asegurar una visión unificada. Se llevan a cabo sesiones de trabajo con el jefe de proyecto y analistas.
 
@@ -58,7 +57,7 @@ Esta actividad se realiza en paralelo a la generación de modelos de análisis p
 >  - Descripción de Subsistemas de Análisis
 >  - Descripción de Interfaces entre Subsistemas
 
-### ASI 04: Análisis de Casos de Uso
+### ASI 04: Análisis de Casos de Uso :class=titulo-color
 
 Esta actividad aplica solo en análisis orientado a objetos. Se realiza mediante la identificación de clases asociadas a cada caso de uso.
 
@@ -69,7 +68,7 @@ Esta actividad aplica solo en análisis orientado a objetos. Se realiza mediante
 > [!INFO|style:callout|label:Productos obtenidos]
 > - **Orientación a objetos**: Modelo de Clases de Análisis
 
-### ASI 05: Análisis de Clases
+### ASI 05: Análisis de Clases :class=titulo-color
 
 Este análisis, realizado solo en orientación a objetos, describe y estructura las clases surgidas durante el análisis, elaborando un modelo para cada subsistema.
 
@@ -83,7 +82,7 @@ Este análisis, realizado solo en orientación a objetos, describe y estructura 
 >   - Modelo de Clases de Análisis
 >   - Comportamiento de Clases de Análisis
 
-### ASI 06 - La Elaboración del Modelo de Datos
+### ASI 06 - La Elaboración del Modelo de Datos :class=titulo-color
 
 Esta actividad se lleva a cabo solo cuando nos encontramos en análisis estructurados de datos. Se realizan en paralelo a las actividades ASI2, ASI3, ASI7 y ASI8. Su objetivo es obtener un modelo de datos en el cual se contemplen todos los elementos para dar respuesta a las necesidades del sistema de información: entidades, relaciones, atributos y reglas de negocio.
 
@@ -123,7 +122,7 @@ Esta actividad se lleva a cabo solo cuando nos encontramos en análisis estructu
 > - Modelo Lógico de Datos Normalizado
 > - Plan de Migración y Carga Inicial de Datos
 
-### ASI 07 - Elaboración del Modelo de Procesos
+### ASI 07 - Elaboración del Modelo de Procesos :class=titulo-color
 
 Esta actividad se lleva a cabo solo en análisis estructurados de datos. Es necesario establecer el conjunto de procesos del sistema, aplicando un proceso de descomposición.
 
@@ -150,7 +149,7 @@ Esta actividad se lleva a cabo solo en análisis estructurados de datos. Es nece
 > - Matriz de Procesos / Localización Geográfica (ampliada)
 > - Descripción de Interfaz con Otros Sistemas
 
-### ASI 08 - Definición de Interfaces de Usuario para el Análisis del SI en Métrica V3
+### ASI 08 - Definición de Interfaces de Usuario para el Análisis del SI en Métrica V3 :class=titulo-color
 
 En la actividad de interfaces, se debe elaborar un buen conjunto de productos.
 
@@ -183,7 +182,7 @@ En la actividad de interfaces, se debe elaborar un buen conjunto de productos.
 >   - Formatos de Impresión.
 >   - Prototipo de Interfaz de Impresión.
 
-### ASI 09 - Análisis de Consistencia y Especificación de Requisitos
+### ASI 09 - Análisis de Consistencia y Especificación de Requisitos :class=titulo-color
 
 1. **Calidad Formal de los Modelos**  
    Revisar que los modelos son correctos en función de la técnica utilizada para su elaboración.
@@ -210,7 +209,7 @@ En la actividad de interfaces, se debe elaborar un buen conjunto de productos.
 >   - Referencia a productos a entregar.
 >   - Plan de acción.
 
-### ASI 010 - Especificación del Plan de Pruebas en el Análisis del SI en Métrica V3
+### ASI 010 - Especificación del Plan de Pruebas en el Análisis del SI en Métrica V3 :class=titulo-color
 
 1. **Desarrollo del Plan de Pruebas**  
    Definir el alcance de las pruebas, planificando puntos necesarios y justificando su realización.
@@ -230,7 +229,7 @@ En la actividad de interfaces, se debe elaborar un buen conjunto de productos.
 >   - Definición de Requisitos del Entorno de Pruebas.
 >   - Definición de las Pruebas de Aceptación del Sistema.
 
-### ASI 011 - Aprobación del Análisis del Sistema de Información
+### ASI 011 - Aprobación del Análisis del Sistema de Información :class=titulo-color
 
 Para la aprobación del Análisis del SI en métrica V3, será necesario presentarlo (Especificación de Requisitos de Software y Plan de Pruebas) a la dirección para su aprobación.
 
