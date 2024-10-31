@@ -25,7 +25,6 @@ Material diverso, no estructurado, para la preparación de la oposición de Gest
     - [X] Servicios comunes
     - [X] Soluciones de seguridad CCN
     - [ ] Planificación de proyectos
-    - [ ] Big Data
 - [ ] Añadir supuestos de práctica, completos y corregidos
 - [ ] Añadir supuestos oficiales del INAP, corregidos
 
