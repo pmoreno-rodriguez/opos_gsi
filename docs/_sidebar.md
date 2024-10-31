@@ -70,6 +70,7 @@
   - [Módulos Software](./temas/Arquitectura-logica/modulos-sw.md)
 - Microservicios
   - [Introducción](./temas/Microservicios/introduccion.md)
+  - [Arquitectura de microservicios](./temas/Microservicios/arquitectura-microservicios.md)
   - [Qué es una API Gateway](./temas/Microservicios/que-es-una-apigateway.md)
 - Arquitectura Física
   - [Ejemplos de diagramas de red](./temas/Arquitectura-Fisica/diagramas-de-red.md)
