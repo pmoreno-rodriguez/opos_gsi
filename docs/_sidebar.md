@@ -28,6 +28,7 @@
   - [Principales medidas del ENS](./temas/ENS/principales-medidas.md)
   - [Resumen de medidas del ENS](./temas/ENS/resumen-medidas.md)
   - [Tabla de medidas](./temas/ENS/tabla-medidas.md)
+  - [Tabla de Guías del CCN-CERT](./temas/ENS/tabla-guias-ccn.md)
   - [Categorización de un sistema](./temas/ENS/categorizacion-sistema.md)
   - [Criterios de valoración según el ENS](./temas/ENS/criterios-valoracion.md)
   - [Plantilla para la determinación de niveles de seguriad](./temas/ENS/plantilla-determinacion-niveles.md)
