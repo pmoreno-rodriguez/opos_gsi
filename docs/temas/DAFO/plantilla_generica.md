@@ -2,9 +2,6 @@
 > [!NOTE|style:callout|label:Contenido Verificado]
 > Respuesta elaborada a partir de documentación propia.
 ---
-> [!TIP|label: Texto de ejemplo para introducir los DAFO en el supuesto]
-> El análisis DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) es una herramienta fundamental para identificar los puntos fuertes y las áreas de mejora dentro del sistema, así como las oportunidades externas que podrían potenciar su rendimiento y las amenazas que podrían comprometer su éxito. A continuación, se presenta un análisis detallado del sistema XXX<sup>1</sup>, donde se abordan cada uno de estos cuatro aspectos clave.<br><br><small>(1) Nombre del sistema según el supuesto</small>
----
 | **Factores Internos** | **Factores Externos** |
 | :- | :- |
 | Debilidades | Amenazas |
@@ -82,6 +79,9 @@
 
 
 ### PROPUESTA DE PREPARATIC <!-- {docsify-ignore} -->
+
+> [!NOTE|style:callout|label:Contenido Verificado]
+> Contenido extraído de la documentación de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/).
 
 #### Amenazas <!-- {docsify-ignore} -->
 

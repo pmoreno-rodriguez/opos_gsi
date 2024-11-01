@@ -5,9 +5,13 @@
 
 - Temas del supuesto (según las Bases de la Oposición)
   - [Temario (Bloque 3 y 4)](./temas/Bases-Opo/temario.md)
-- Accesibilidad
-  - [Plan de Accesibilidad y Usabilidad de un desarrollo móvil](./temas/Accesibilidad/plan-accesibilidad-usabilidad.md)
-  - [Principios de usabilidad de Jakob Nielsen](./temas/Accesibilidad/principios-jakob-nielsen.md)
+- Ayuda para el supuesto práctico
+  - [Planteamiento previo](./temas/Consideraciones-del-supuesto/planteamiento-previo.md)
+  - [Preguntas para identificar actores y funcionalidades](./temas/Consideraciones-del-supuesto/Preguntas-indentificar-actores-funcionalidades.md)
+  - [Posibles preguntas Parte 1](./temas/Estadisticas-preguntas/posibles-preguntas-1.md)
+  - [Textos de ejemplo para introducir temas](./temas/Consideraciones-del-supuesto/textos-ejemplo.md)
+  - [Análisis de un sistema para un procedimiento administrativo](./temas/Consideraciones-del-supuesto/analisis-sistema-procedimiento-administrativo.md)
+  - [Guía para identificar actores e interfaces](./temas/Consideraciones-del-supuesto/guia-identificar-actores.md)
 - Legal
   - [Requerimientos legales y funcionalidades de un sistema](./temas/Legal/funcionalidades-requerimientos.md)
   - [Marco Jurídico aplicable al supuesto práctico](./temas/Legal/Marco-Juridico.md)
@@ -15,6 +19,9 @@
   - [Catálogo de Servicios Comunes](./temas/Legal/servicios-comunes.md)
   - [Autorización y Autenticación en la AGE](./temas/Legal/autorizacion-autenticacion.md)
   - [Ley de Protección de Datos y Garantía de Derechos Digitales](./temas/Legal/LOPDGDD.md)
+- Accesibilidad
+  - [Plan de Accesibilidad y Usabilidad de un desarrollo móvil](./temas/Accesibilidad/plan-accesibilidad-usabilidad.md)
+  - [Principios de usabilidad de Jakob Nielsen](./temas/Accesibilidad/principios-jakob-nielsen.md)
 - Esquema Nacional de Interoperabilidad
   - [Resumen](./temas/ENI/resumen.md)
   - [NTI Digitalización](./temas/ENI/nti-digitalizacion.md)
@@ -51,13 +58,6 @@
 - Servicios Comunes y Compartidos
   - [Servicios Compartidos de la AGE](./temas/Servicios-Comunes-Compartidos/servicios-compartidos.md)
   - [Guía de aplicación de Servicios en Red SARA](./temas/Servicios-Comunes-Compartidos/guia-redsara.md)
-- Ayuda para el supuesto práctico
-  - [Planteamiento previo](./temas/Consideraciones-del-supuesto/planteamiento-previo.md)
-  - [Preguntas para identificar actores y funcionalidades](./temas/Consideraciones-del-supuesto/Preguntas-indentificar-actores-funcionalidades.md)
-  - [Posibles preguntas Parte 1](./temas/Estadisticas-preguntas/posibles-preguntas-1.md)
-  - [Textos de ejemplo para introducir temas](./temas/Consideraciones-del-supuesto/textos-ejemplo.md)
-  - [Análisis de un sistema para un procedimiento administrativo](./temas/Consideraciones-del-supuesto/analisis-sistema-procedimiento-administrativo.md)
-  - [Guía para identificar actores e interfaces](./temas/Consideraciones-del-supuesto/guia-identificar-actores.md)
 - Tecnologías aplicables al supuesto
   - [Alternativas tecnológicas para el desarrollo de sistemas](./temas/Tecnologias/alternativas-tecnologicas-desarrollo-sistemas.md)
   - [Elección de pila tecnológica](./temas/Tecnologias/eleccion-pila-tecnologica.md)

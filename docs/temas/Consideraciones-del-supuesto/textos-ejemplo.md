@@ -1,6 +1,9 @@
-## Textos posibles para introducción <!-- {docsify-ignore} -->
+> [!INFO|label: Textos posibles para introducción en diferentes preguntas]
+> Estos textos son ejemplos para realizar una pequeña introducción a diferentes tipos de preguntas
 
-### Texto para introducir el examen <!-- {docsify-ignore} -->
+### TEXTOS PARA INTRODUCCIÓN DEL SUPUESTO :class=titulo-color
+
+#### TEXTO INTRODUCTORIO 1
 
 El proyecto XXXX se enmarca dentro de la actual Estrategia  TIC de la Administración General del Estado (AGE), representada en el vigente plan de Digitalización de las Administraciones Públicas (AA.PP) 2021-2025, en concreto en:
 
@@ -19,26 +22,30 @@ El proyecto XXXX se enmarca dentro de la actual Estrategia  TIC de la Administra
     * Puesto de trabajo inteligente
 - **Linea 5**: Ciberseguridad
 
-### Texto para introducir un DAFO <!-- {docsify-ignore} -->
+### TEXTO PARA INTRODUCIR UN DATO :class=titulo-color <!-- {docsify-ignore} -->
 
-A continuación se representa una matriz DAFO para ayudarnos a definir una estrategia que nos ayude a contrarrestar las amenzas externas, aprovechando las oportunidades existentes, minimizando las debilidades del sistema y maximizando sus fortalezas.
+**Texto 1 de ejemplo para introducir los DAFO en el supuesto**
+> El análisis DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) es una herramienta fundamental para identificar los puntos fuertes y las áreas de mejora dentro del sistema, así como las oportunidades externas que podrían potenciar su rendimiento y las amenazas que podrían comprometer su éxito. A continuación, se presenta un análisis detallado del sistema XXX<sup>1</sup>, donde se abordan cada uno de estos cuatro aspectos clave.<br><br><small>(1) Nombre del sistema según el supuesto</small>
 
-### Ventajas de Nube SARA <!-- {docsify-ignore} -->
+**Texto 2 de ejemplo para introducir los DAFO en el supuesto**
+> A continuación se representa una matriz DAFO para ayudarnos a definir una estrategia que nos ayude a contrarrestar las amenzas externas, aprovechando las oportunidades existentes, minimizando las debilidades del sistema y maximizando sus fortalezas.
+
+### VENTAJAS DE LA NUBE SARA :class=titulo-color <!-- {docsify-ignore} -->
 
 > [!NOTE]
 > En caso de especificar que el sistema también puede utilizar la Nube SARA, es interesante explicar cuáles son sus ventajas.
 
-- Rapidez y agilidad en despliegue o aumentos de recursos.
-- Simplicidad, seguridad, robusted y fiabilidad.
-- Alta disponibilidad a bajo coste, sin contratación externa.
-- El dinero gastado no va a un proveedor externo, permanece en el ámbito de la AGE
-- Eficiencia, pago por uso con costes conocidos de antemano.
-- Flexibilidad ante reestructuraciones ministeriales.
-- Modelo de uso con un único proveedor (SGAD), sin necesidad de contratación externa.
-- Garantía en la protección de datos y que se quedan en la AGE.
-- Alineado con Estrategia TIC de la AGE. Utilización de manera compartida de medios y servicios comunes.
+>- Rapidez y agilidad en despliegue o aumentos de recursos.
+>- Simplicidad, seguridad, robusted y fiabilidad.
+>- Alta disponibilidad a bajo coste, sin contratación externa.
+>- El dinero gastado no va a un proveedor externo, permanece en el ámbito de la AGE
+>- Eficiencia, pago por uso con costes conocidos de antemano.
+>- Flexibilidad ante reestructuraciones ministeriales.
+>- Modelo de uso con un único proveedor (SGAD), sin necesidad de >contratación externa.
+>- Garantía en la protección de datos y que se quedan en la AGE.
+>- Alineado con Estrategia TIC de la AGE. Utilización de manera compartida de medios y servicios comunes.
 
-### Texto para defender una Arquitectura de 3 capas <!-- {docsify-ignore} -->
+### TEXTO PARA DEFENDER UNA ARQUITECTURA DE CAPAS :class=titulo-color<!-- {docsify-ignore} -->
 
 > [!NOTE|style:callout|label:Contenido Verificado]
 > Contenido adaptado de volcados de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/), sobre el supuesto de CARPET@, convocatoria 2019
