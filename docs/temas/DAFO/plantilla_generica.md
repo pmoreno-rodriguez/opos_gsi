@@ -1,13 +1,20 @@
+## Análisis DAFO
+> [!NOTE|style:callout|label:Contenido Verificado]
+> Respuesta elaborada a partir de documentación propia.
+---
+> [!TIP|label: Texto de ejemplo para introducir los DAFO en el supuesto]
+> El análisis DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) es una herramienta fundamental para identificar los puntos fuertes y las áreas de mejora dentro del sistema, así como las oportunidades externas que podrían potenciar su rendimiento y las amenazas que podrían comprometer su éxito. A continuación, se presenta un análisis detallado del sistema XXX<sup>1</sup>, donde se abordan cada uno de estos cuatro aspectos clave.<br><br><small>(1) Nombre del sistema según el supuesto</small>
+---
 | **Factores Internos** | **Factores Externos** |
 | :- | :- |
 | Debilidades | Amenazas |
 | Fortalezas | Oportunidades |
-
+---
 **Ejemplo de DAFO para el supuesto práctico del examen de la OEP 2022, sobre Sistema de Información de Explotaciones agrícolas, ganaderas y de la producción agraria** (Extensible en muchos aspectos a otros DAFOS)
 
-## Factores Internos <!-- {docsify-ignore} -->
+### Factores Internos <!-- {docsify-ignore} -->
 
-### Debilidades <!-- {docsify-ignore} -->
+#### Debilidades <!-- {docsify-ignore} -->
 1. **Falta de personal técnico**: Existe una histórica falta de personal especializado en TI dentro de la Administración, lo que ha llevado a depender de personal externo. Esto conlleva la pérdida de **know-how** cuando los contratistas cambian de proyecto, comprometiendo la continuidad del conocimiento y la experiencia técnica.
    
 2. **Pérdida de conocimiento interno**: El envejecimiento del personal público y su jubilación está provocando la pérdida del conocimiento acumulado (know-how), especialmente en áreas críticas. La falta de formación y actualización en temas tecnológicos y de seguridad también es un problema en algunos empleados públicos.
@@ -20,7 +27,7 @@
 
 6. **Posible falta de una fuente de datos confiable**: En algunos casos, no se cuenta con una **fuente privilegiada de datos** o **golden source**, lo que podría dificultar la verificación y calidad de la información.
 
-### Fortalezas <!-- {docsify-ignore} -->
+#### Fortalezas <!-- {docsify-ignore} -->
 1. **Existencia de una fuente de datos confiable (golden source)**: En algunas áreas clave, se dispone de una fuente centralizada de datos, lo que permite evitar duplicaciones y garantizar la calidad y la coherencia de la información.
 
 2. **Conocimiento sectorial**: Ya se cuenta con personal con experiencia en la materia agrícola, lo que facilita la gestión de sistemas y procesos relacionados.
@@ -37,9 +44,9 @@
 
 8. **Apoyo de la Unión Europea a la Administración electrónica**.
 
-## Factores Externos <!-- {docsify-ignore} -->
+### Factores Externos <!-- {docsify-ignore} -->
 
-### Amenazas <!-- {docsify-ignore} -->
+#### Amenazas <!-- {docsify-ignore} -->
 1. **Sector agrícola poco digitalizado**: Existe una baja adopción de tecnologías digitales en el sector agrícola, lo que puede ralentizar la implementación de soluciones innovadoras.
 
 2. **Riesgo de ciberataques**: La constante evolución de la ciberdelincuencia y la vulnerabilidad de los sistemas de agricultores y ganaderos representan una amenaza significativa para la seguridad del sistema.
@@ -52,7 +59,7 @@
 
 6. **Desalineación con FEAGA y FEADER**: No coordinarse adecuadamente con las iniciativas de FEAGA y FEADER podría dificultar el acceso a fondos y subvenciones clave.
 
-### Oportunidades <!-- {docsify-ignore} -->
+#### Oportunidades <!-- {docsify-ignore} -->
 1. **Financiación europea**: Se dispone de fondos europeos que pueden utilizarse para dotar de recursos financieros y tecnológicos el desarrollo y mejora del sistema.
 
 2. **Alta demanda del sistema**: Dado que el sistema gestionará subvenciones para entidades privadas agrarias y ganaderas, la demanda por parte de los usuarios será elevada.
@@ -74,9 +81,9 @@
 10. **Mayor accesibilidad para usuarios externos**: Usuarios que antes realizaban trámites de manera presencial ahora podrán hacerlo de manera digital, ahorrando tiempo y recursos.
 
 
-## PROPUESTA DE PREPARATIC <!-- {docsify-ignore} -->
+### PROPUESTA DE PREPARATIC <!-- {docsify-ignore} -->
 
-### Amenazas <!-- {docsify-ignore} -->
+#### Amenazas <!-- {docsify-ignore} -->
 
 - Desconfianza de los usuarios.
 - Falta de promoción y comunicación que derive en una falta de conocimiento de los usuarios.
@@ -93,7 +100,7 @@
 - Que existan problemas de usabilidad y accesibilidad para los usuarios.
 
 
-### Oportunidades <!-- {docsify-ignore} -->
+#### Oportunidades <!-- {docsify-ignore} -->
 
 - Ventajas del sistema.
 - Dado el carácter estratégico del procedimiento en el que se aplica, es una gran oportunidad para introducir el uso de la administración electrónica en colectivos muy amplios.
@@ -112,7 +119,7 @@
 - Proporcionar servicios de calidad a los ciudadanos o a otras AAPP.
 
 
-### Debilidades <!-- {docsify-ignore} -->
+#### Debilidades <!-- {docsify-ignore} -->
 
 - Resistencia al cambio de toda organización administrativa.
 - Necesidad de formación en el nuevo aplicativo.
@@ -123,7 +130,7 @@
 - Necesidad de una visión compartida, un alto nivel de coordinación y alianzas internas y externas que, en ocasiones, es complejo.
 - Si es un nuevo organismo: poca experiencia y personal que proviene de otros centros.
 
-### Fortalezas <!-- {docsify-ignore} -->
+#### Fortalezas <!-- {docsify-ignore} -->
 
 - Apoyo y liderazgo de la Dirección del proyecto.
 - Impulso de la eAdmin desde la perspectiva legal.
