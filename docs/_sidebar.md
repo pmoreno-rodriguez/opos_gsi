@@ -115,6 +115,8 @@
     - [Diagrama de red básico](./temas/Diagramas/diagrama-red-basico.md)
   - Diagramas de Clases
     - [Diagrama de clases genérico](./temas/Diagramas/diagrama-clases-generico.md)
+  - Diagramas de Contexto
+    - [Diagrama de contexto 1](./temas/Diagramas/diagrama-contexto-1.md)
 - Supuestos
   - [2019 Supuesto 2 - PANACE@ (CHATGPT)](./supuestos/2019-panacea/chatgpt.md)
   - [Ejemplo de categorización según ENS para el supuesto de AEAT](./supuestos/aeat/ejemplo-categorizacion-ens.md)
