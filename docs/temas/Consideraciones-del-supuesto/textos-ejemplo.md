@@ -22,13 +22,52 @@ El proyecto XXXX se enmarca dentro de la actual Estrategia  TIC de la Administra
     * Puesto de trabajo inteligente
 - **Linea 5**: Ciberseguridad
 
-### TEXTO PARA INTRODUCIR UN DATO :class=titulo-color <!-- {docsify-ignore} -->
+#### TEXTO INTRODUCTORIO 2
+
+El proyecto de modernización de los sistemas de XXXXXXX responde a los objetivos del *Plan de Digitalización de las Administraciones Públicas 2021-2025*, parte esencial del *Plan de Recuperación, Transformación y Resiliencia*. En concordancia con la iniciativa *España Digital 2026*, este proyecto busca crear servicios de XXXXX digital accesibles, eficientes y seguros que beneficien a los ciudadanos mediante una gestión optimizada y personalizada de sus servicios de XXXXXXXX. La mejora en la eficiencia y en la calidad del servicio, junto con la reutilización de infraestructuras tecnológicas y el cumplimiento de las normativas de seguridad y accesibilidad, colocan a *ORGANISMO* en un lugar central en el proceso de modernización y digitalización de la *Área del organismo (sanidad, trabajo, protección social, etc)*.
+
+**Normativa de referencia que se usará en el supuesto**
+
+1. **Esquema Nacional de Seguridad (ENS) - Serie 800:**
+    - **CCN-STIC-801**: Esquema Nacional de Seguridad. Responsabilidades y funciones.
+    - **CCN-STIC-802**: Auditorías de seguridad.
+    - **CCN-STRC-803**: ENS. Valoración de sistemas
+    - **CCN-STIC-804**: Esquema Nacional de Seguridad. Guía de implantación.
+    - **CCN-STIC-805**: Política de seguridad de la información del ENS.
+    - **CCN-STIC-806**: Plan de Adecuación del Esquema Nacional de Seguridad.
+
+2. **Esquema Nacional de Interoperabilidad (ENI) - NTI:**
+   - NTI de Documento Electrónico.
+   - NTI de Política de Firma Electrónica y Certificados.
+   - NTI de Procedimientos de Copia Auténtica y Conversión.
+   - NTI de Gestión de Documentos Electrónicos.
+   - NTI de Requisitos de conexión a la Red de comunicaciones de las Administraciones Públicas españolas.
+   - NTI de Protocolos de intermediación de datos
+
+3. **Normativa de Protección de Datos y Derechos Digitales:**
+   - Ley Orgánica de Protección de Datos Personales y Garantía de los Derechos Digitales (LOPD-GDD).
+
+4. **Normativa de Procedimiento Administrativo:**
+   - Ley 39/2015, de Procedimiento Administrativo Común de las Administraciones Públicas.
+   - Ley 40/2015, de Régimen Jurídico del Sector Público.
+
+5. **Normativa de Accesibilidad:**
+   - Real Decreto 1112/2018, sobre accesibilidad de los sitios web y aplicaciones móviles del sector público. 
+
+Esta normativa servirá de base para asegurar que el proyecto no solo cumpla con los requisitos legales y de seguridad, sino que también garantice la accesibilidad y protección de los datos de los usuarios.
+
+### TEXTOS PARA INTRODUCIR UN DAFO :class=titulo-color <!-- {docsify-ignore} -->
 
 **Texto 1 de ejemplo para introducir los DAFO en el supuesto**
 > El análisis DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) es una herramienta fundamental para identificar los puntos fuertes y las áreas de mejora dentro del sistema, así como las oportunidades externas que podrían potenciar su rendimiento y las amenazas que podrían comprometer su éxito. A continuación, se presenta un análisis detallado del sistema XXX<sup>1</sup>, donde se abordan cada uno de estos cuatro aspectos clave.<br><br><small>(1) Nombre del sistema según el supuesto</small>
 
 **Texto 2 de ejemplo para introducir los DAFO en el supuesto**
 > A continuación se representa una matriz DAFO para ayudarnos a definir una estrategia que nos ayude a contrarrestar las amenzas externas, aprovechando las oportunidades existentes, minimizando las debilidades del sistema y maximizando sus fortalezas.
+
+### TEXTOS PARA INTRODUCIR LOS FCE :class=titulo-color
+
+**Texto 1 de ejemplo para introducir los FCE en el supuesto**
+> Para identificar los Factores Críticos de Éxito (FCE) que afectan al sistema, debemos identificar primero los objetivos que queremos conseguir con el mismo, identificar unos factores de éxito derivados de esos objetivos y de éstos extraer aquellos que se consideran críticos
 
 ### VENTAJAS DE LA NUBE SARA :class=titulo-color <!-- {docsify-ignore} -->
 
@@ -45,7 +84,9 @@ El proyecto XXXX se enmarca dentro de la actual Estrategia  TIC de la Administra
 >- Garantía en la protección de datos y que se quedan en la AGE.
 >- Alineado con Estrategia TIC de la AGE. Utilización de manera compartida de medios y servicios comunes.
 
-### TEXTO PARA DEFENDER UNA ARQUITECTURA DE CAPAS :class=titulo-color<!-- {docsify-ignore} -->
+### TEXTOS PARA DEFENDER UNA ARQUITECTURA DE CAPAS :class=titulo-color<!-- {docsify-ignore} -->
+
+#### TEXTO 1
 
 > [!NOTE|style:callout|label:Contenido Verificado]
 > Contenido adaptado de volcados de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/), sobre el supuesto de CARPET@, convocatoria 2019

@@ -24,6 +24,7 @@
   - [Principios de usabilidad de Jakob Nielsen](./temas/Accesibilidad/principios-jakob-nielsen.md)
 - Esquema Nacional de Interoperabilidad
   - [Resumen](./temas/ENI/resumen.md)
+  - [Tabla NTIs](./temas/ENI/tabla-nti.md)
   - [NTI Digitalización](./temas/ENI/nti-digitalizacion.md)
   - [NTI Documento Electrónico](./temas/ENI/nti-documento-electronico.md)
   - [NTI Expediente Electrónico](./temas/ENI/nti-expediente-electronico.md)
