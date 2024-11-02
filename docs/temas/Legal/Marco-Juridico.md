@@ -17,6 +17,8 @@
 
 ### Legislación UE <!-- {docsify-ignore} -->
 
+* **Reglamento UE 2016/679 de Protección de datos personales**
+
 * **Directiva (UE) 2016/2102** del Parlamento Europeo y del Consejo, que establece requisitos mínimos de accesibilidad para sitios web y aplicaciones móviles de organismos públicos. 
     - Abarca sitios web de administraciones públicas, universidades, hospitales, etc., y obliga a cumplir los **criterios WCAG 2.1** de nivel "AA"
 

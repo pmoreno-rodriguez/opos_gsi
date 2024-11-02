@@ -5,6 +5,8 @@
     title Ejemplo 1 diagrama secuencia
     actor Solicitante
 
+
+    activate Solicitante
     Solicitante->Interfaz: solicitar X (datos,documentos)
     Interfaz->Control: solicitar X (datos,documentos)
     Control->@Firma: Comprobar sellos de documentos

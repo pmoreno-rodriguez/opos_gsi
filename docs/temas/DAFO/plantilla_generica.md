@@ -1,4 +1,4 @@
-## Análisis DAFO
+## Análisis DAFO <!-- {docsify-ignore} -->
 > [!NOTE|style:callout|label:Contenido Verificado]
 > Respuesta elaborada a partir de documentación propia.
 ---
