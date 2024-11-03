@@ -20,13 +20,13 @@
         end
     end
     Interfaz->+FIRE: solicitar Firma Usuario
-    FIRE->Interfaz: solicitar Firma Usuario
-    Interfaz->+Solicitante: solicitar Firma usuario
+    FIRE-->Interfaz: solicitar Firma Usuario
+    Interfaz-->+Solicitante: solicitar Firma usuario
     Solicitante->Interfaz: Si/No
     Interfaz->FIRE:  redirection
     FIRE->+Autofirma: redirection
     deactivate FIRE
-    Autofirma->Solicitante: solicitud de certificado para firmar
+    Autofirma-->Solicitante: solicitud de certificado para firmar
     Solicitante-->-Autofirma: certificado elegido
     Autofirma-->-Interfaz: <
     Interfaz->+GEISER: registrar solicitud/documentos
@@ -35,7 +35,7 @@
     INSIDE-->-Interfaz: Ok/Id Expediente
     Interfaz->+SGBDR: Almacenar datos solicitud
     SGBDR-->-Interfaz: Ok/No Ok
-    Interfaz-->+Justificante: crear
+    Interfaz->+Justificante: crear
     Justificante->+INTEGRA: incluir sello pdf justificante
     INTEGRA-->-Justificante: Ok (Pdf firmado)
     Justificante->+CSV Creator
