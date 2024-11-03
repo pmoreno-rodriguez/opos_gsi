@@ -91,13 +91,13 @@ Esta normativa servirá de base para asegurar que el proyecto no solo cumpla con
 > [!NOTE|style:callout|label:Contenido Verificado]
 > Contenido adaptado de volcados de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/), sobre el supuesto de CARPET@, convocatoria 2019
 
-La capa de presentación es el medio para que ciudadanos, empresas y funcionarios accedan a Carpeta, por lo que en su desarrollo se prestará especial atención a los principios de accesibilidad, facilidad de uso y personalización definidos en el artículo 2 del RD 203/2021. Se acatará la normativa de accesibilidad del RD 1112/2018 y la norma UNE 301 549:2020 mediante el cumplimiento de los niveles A y AA de WCAG 2.1. También se seguirán los principios de usabilidad de Jakob Nielsen, como el feedback de las acciones del usuario.
+La capa de presentación es el medio para que ciudadanos, empresas y funcionarios accedan a Carpeta, por lo que en su desarrollo se prestará especial atención a los principios de accesibilidad, facilidad de uso y personalización definidos en el artículo 2 del RD 203/2021. Se acatará la normativa de accesibilidad del RD 1112/2018 y la norma UNE 301 549:2022 mediante el cumplimiento de los niveles A y AA de WCAG 2.1. También se seguirán los principios de usabilidad de Jakob Nielsen, como el feedback de las acciones del usuario.
 
 **Estándares y Legislación:**
 
 * **Normativa de Accesibilidad (RD 1112/2018):** Garantizar que todas las funcionalidades sean accesibles para personas con discapacidades.
 
-* **Norma UNE 301 549:2020:** Cumplir con los niveles A y AA de WCAG 2.1, incluyendo medidas específicas como:
+* **Norma UNE 301 549:2022:** Cumplir con los niveles A y AA de WCAG 2.1, incluyendo medidas específicas como:
 
     - Uso de texto alternativo para imágenes.
     - Navegación por teclado sin trabas.

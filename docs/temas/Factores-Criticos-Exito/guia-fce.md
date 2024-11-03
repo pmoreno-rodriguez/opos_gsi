@@ -23,5 +23,5 @@
 
    | **OBJETIVO**| **FACTORES DE ÉXITO**|
    | ----------- | ---------------------|
-   | Que el sistema sea altamente usado | - Que sea usable (usabilidad). Cumplir con los principios de Jakob Nielsen, etc<br>- Que sea accesible (accesibilidad). Normativa RD 1112/2018, UNE 301549:2020<br>- Apoyo de la alta dirección para desarrollar e implantar el sistema |
+   | Que el sistema sea altamente usado | - Que sea usable (usabilidad). Cumplir con los principios de Jakob Nielsen, etc<br>- Que sea accesible (accesibilidad). Normativa RD 1112/2018, UNE 301549:2022<br>- Apoyo de la alta dirección para desarrollar e implantar el sistema |
    

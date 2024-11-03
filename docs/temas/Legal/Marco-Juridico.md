@@ -23,9 +23,9 @@
     - Abarca sitios web de administraciones públicas, universidades, hospitales, etc., y obliga a cumplir los **criterios WCAG 2.1** de nivel "AA"
 
 * **Norma UNE 139803:2012** requisitos de accesi­bilidad para contenidos web basándose en las Pautas de Accesibilidad para el Contenido Web (WCAG)
-* **Norma UNE 301549:2020** Requisitos de accesibilidad para productos y servicios TIC
+* **Norma UNE 301549:2022** Requisitos de accesibilidad para productos y servicios TIC
 
-| **Características** | **Norma UNE 139803:2012** | **Norma UNE 301549:2020** |
+| **Características** | **Norma UNE 139803:2012** | **Norma UNE 301549:2022** |
 |---------------------|--------------------------|--------------------------|
 | **Enfoque**         | Requisitos de accesibilidad para contenidos en la web | Requisitos de accesibilidad para productos y servicios de las TIC |
 | **Base**            | Basada en las WCAG 2.0   | Basada en las WCAG 2.1   |
