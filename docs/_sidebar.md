@@ -120,4 +120,5 @@
 - Supuestos
   - [2019 Supuesto 2 - PANACE@ (CHATGPT)](./supuestos/2019-panacea/chatgpt.md)
   - [Ejemplo de categorización según ENS para el supuesto de AEAT](./supuestos/aeat/ejemplo-categorizacion-ens.md)
-  - [Supuestos del INAP](./supuestos/inap/indice.md)
+  - Supuestos del INAP
+    - [Indice](./supuestos/inap/indice.md)
