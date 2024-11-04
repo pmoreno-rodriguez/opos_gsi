@@ -40,7 +40,7 @@ Estará repartida por la sala y contará con baterías independientes para funci
 Se realizará de manera que haya espacio suficiente para trabajar con comodidad. Los armarios estarán enfrentados creando así pasillos de aire frío y caliente, dejando suficiente espacio de trabajo tanto por la parte frontal como trasera de los armarios. Dichos armarios contarán con puertas con rejilla tanto frontal como trasera para permitir la correcta refrigeración de los equipos y la expulsión del aire caliente de éstos. Serán metálicos y estarán conectados a la toma de tierra
 independiente de la sala. El esquema sería el siguiente que aparece en la Figura 1.
 
-![Disposición del equipamiento](../../img/sala_cpd.jpg 'Figura 1: Disposición del equipamiento')
+![Disposición del equipamiento](../../img/supuestos/inap/sala_cpd.jpg 'Figura 1: Disposición del equipamiento')
 
 ##### Canalizaciones y cableado estructurado:
 
@@ -50,7 +50,7 @@ independiente de la sala. El esquema sería el siguiente que aparece en la Figur
   - **Alimentación eléctrica**:
     Para la canalización del cableado de alimentación se usará preferentemente canalización metálica tipo rejiban o estanca a ser posible, e irá convenientemente conectada a la toma de tierra independiente de la sala. Por seguridad, y para evitar interferencias entre el cableado de alimentación eléctrica y el cableado de comunicaciones (principalmente el de cobre), entre ellas habrá como mínimo 300 mm de distancia. Para ello se realizará una distribución de la canalización de comunicaciones de manera perimetral y la distribución de canalizaciones de alimentación eléctrica se distribuirá de manera central, como se indica en la siguiente figura:
 
-![Cableado](../../img/distribucion_electricidad.jpg 'Figura 2: Disposición del cableado')
+![Cableado](../../img/supuestos/inap/distribucion_electricidad.jpg 'Figura 2: Disposición del cableado')
 
 #### 2. Equipamiento eléctrico del CPD: esquema de conexiones, redundancia :class=titulo-color
 
@@ -64,7 +64,7 @@ El cuadro eléctrico contará con un selector automático de redes para conmutar
 
 Por último mencionar que toda la instalación contará con una toma de tierra independiente según la normativa UNE EN 50310. El esquema sería el siguiente:
 
-![Esquema eléctrico](../../img/esquema_electrico.jpg 'Figura 3: Esquema eléctrico')
+![Esquema eléctrico](../../img/supuestos/inap/esquema_electrico.jpg 'Figura 3: Esquema eléctrico')
 
 ### 3. Infraestructuras precisas en el CPD: sistemas de refrigeración, sistemas de detección y extinción de incendios, control de humedad :class=titulo-color
 
@@ -107,7 +107,7 @@ Aunque a lo largo del documento ya se han tratado algunos aspectos referentes a 
 - **Sistema de Alimentación Ininterrumpida (SAI)**:
   Mencionado anteriormente, si es mayor de 100 KVA o tiene baterías compuestas de ácido se instalará fuera del CPD, en una sala anexa y con refrigeración óptima. El cálculo de la capacidad de la SAI se hará en función de la siguiente fórmula:
   
-  ![](../../img/formula_cpd_potencia.png)
+  ![](../../img/supuestos/inap/formula_cpd_potencia.png)
   
   Donde el factor de potencia cos φ = 0,6
   Y Potencia estimada será la suma de la potencia de todos los equipos instalados en los armarios rack. Para el cálculo se estima que cada armario consumirá 10.000W aproximadamente.
@@ -128,7 +128,7 @@ Aunque a lo largo del documento ya se han tratado algunos aspectos referentes a 
 - **Seguridad perimetral**:
   Se contará con todos los elementos necesarios para garantizar la seguridad en la red, para ello se seguirá el siguiente esquema de red:
 
-  ![Esquema de red](../../img/esquema_red_cpd.jpg 'Figura 4. Esquema de red')
+  ![Esquema de red](../../img/supuestos/inap/esquema_red_cpd.jpg 'Figura 4. Esquema de red')
 
   Por simplicidad en el esquema, no se han incluido los elementos redundantes del sistema, ni los segmentos de red de los equipos de usuario, sistemas de impresión en red, telefonía IP, red WiFi, y demás posibles redes de propósito general. A continuación se comentan brevemente los servicios implicados en la seguridad lógica:
 
