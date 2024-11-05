@@ -20,4 +20,4 @@ Otros componentes importantes incluyen el **cableado estructurado** siguiendo **
 En resumen, un diseño de CPD que cumpla con la normativa ANSI/TIA-942 integra cuidadosamente ubicación, control de temperatura, protección contra incendios y agua, estructura física sólida, sistemas eléctricos redundantes y seguridad en todas sus formas, asegurando una operación continua y estable que proteja tanto los datos como los activos de la empresa.
 
 ---
-<a href="./plantillas/indice.md" role="button" class="button">Volver al índice</a>
+<a href="../plantillas/indice.md" role="button" class="button">Volver al índice</a>
