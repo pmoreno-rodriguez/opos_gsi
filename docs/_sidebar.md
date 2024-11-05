@@ -117,6 +117,8 @@
     - [Diagrama de clases genérico](./temas/Diagramas/diagrama-clases-generico.md)
   - Diagramas de Contexto
     - [Diagrama de contexto 1](./temas/Diagramas/diagrama-contexto-1.md)
+- Plantillas
+  - [Plantilla para diseño de un CPD](./plantillas/diseno-cpd.md)
 - Supuestos
   - [2019 Supuesto 2 - PANACE@ (CHATGPT)](./supuestos/2019-panacea/chatgpt.md)
   - [Ejemplo de categorización según ENS para el supuesto de AEAT](./supuestos/aeat/ejemplo-categorizacion-ens.md)
