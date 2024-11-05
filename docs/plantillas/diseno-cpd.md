@@ -18,3 +18,6 @@ El **sistema eléctrico** garantiza la continuidad del CPD y su estabilidad. ANS
 Otros componentes importantes incluyen el **cableado estructurado** siguiendo **ANSI/TIA-568**, que asegura escalabilidad y alta velocidad de transmisión, y un sistema de **monitoreo** integral que permite controlar variables como temperatura, humedad, energía y seguridad. Finalmente, la seguridad física se refuerza mediante cámaras de vigilancia, control de acceso y perímetros de seguridad, en línea con las mejores prácticas de ANSI/TIA-942.
 
 En resumen, un diseño de CPD que cumpla con la normativa ANSI/TIA-942 integra cuidadosamente ubicación, control de temperatura, protección contra incendios y agua, estructura física sólida, sistemas eléctricos redundantes y seguridad en todas sus formas, asegurando una operación continua y estable que proteja tanto los datos como los activos de la empresa.
+
+---
+<a href="/plantillas/indice.md" role="button" class="button">Volver al índice</a>
