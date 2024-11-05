@@ -27,7 +27,7 @@
     FIRE->+Autofirma: redirection
     deactivate FIRE
     Autofirma-->Solicitante: solicitud de certificado para firmar
-    Solicitante-->-Autofirma: certificado elegido
+    Solicitante->-Autofirma: certificado elegido
     Autofirma-->-Interfaz: <
     Interfaz->+GEISER: registrar solicitud/documentos
     GEISER-->-Interfaz: OK/Código REGAGE

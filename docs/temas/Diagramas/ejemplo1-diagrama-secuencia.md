@@ -5,12 +5,12 @@
     title Ejemplo 1 diagrama secuencia
     actor Solicitante
 
-
-    activate Solicitante
     Solicitante->Interfaz: solicitar X (datos,documentos)
+    activate Interfaz
     Interfaz->Control: solicitar X (datos,documentos)
+    activate Control
     Control->@Firma: Comprobar sellos de documentos
-    activate @Firma
+        activate @Firma
     loop @Firma
         @Firma->@Firma: Comprobar sello internamente (documentos)
     end
@@ -24,16 +24,12 @@
     activate Fire
     Fire-->Interfaz: redirección
     deactivate Fire
-    activate Interfaz
     Interfaz->Autofirma: redirección
-    deactivate Interfaz
     activate Autofirma    
     Autofirma-->Solicitante: Solicitud Elección de certificado
-    activate Solicitante
     Solicitante->Autofirma: Ok(opción certificado)/No Ok
-    deactivate Solicitante
+    deactivate Interfaz
     Autofirma-->Control: Ok(Firma de usuario)/No Ok
-    activate Control
     Control->Geiser: Registrar solicitud y documentos
     deactivate Autofirma
     activate Geiser
