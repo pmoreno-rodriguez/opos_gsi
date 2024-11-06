@@ -1,6 +1,6 @@
 ## PRINCIPALES MEDIDAS CLAVE PARA LA SEGURIDAD <!-- {docsify-ignore} -->
 ---
-> [!TIP|icon: fa fa-check|label: Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído del ENS y útil para hacer referencia a él en el supuesto
 ---
 1. **Marco organizativo [org]**  
