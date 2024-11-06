@@ -8,7 +8,7 @@
 - Ayuda para el supuesto práctico
   - [Planteamiento previo](./temas/Consideraciones-del-supuesto/planteamiento-previo.md)
   - [Preguntas para identificar actores y funcionalidades](./temas/Consideraciones-del-supuesto/Preguntas-indentificar-actores-funcionalidades.md)
-  - [Posibles preguntas Parte 1](./temas/Estadisticas-preguntas/posibles-preguntas-1.md)
+  - [Posibles preguntas B3 y B4](./temas/Estadisticas-preguntas/posibles-preguntas-1.md)
   - [Textos de ejemplo para introducir temas](./temas/Consideraciones-del-supuesto/textos-ejemplo.md)
   - [Análisis de un sistema para un procedimiento administrativo](./temas/Consideraciones-del-supuesto/analisis-sistema-procedimiento-administrativo.md)
   - [Guía para identificar actores e interfaces](./temas/Consideraciones-del-supuesto/guia-identificar-actores.md)
