@@ -1,5 +1,9 @@
 ## Posibles Preguntas del B3 y B4 <!-- {docsify-ignore} -->
 
+> [!TIP|label: Bloque no estructurado]
+> *Este bloque nos da una idea de qué tipo de preguntas salen en los supuestos, pero no está estructurado
+> y se organizará en el futuro. Para profundizar en alguno de estos puntos, consulta el resto de la página.*
+
 ### Preguntas Supuestos (2014 - 2019)
 
 - Diagrama de Casos de Uso (10)
