@@ -6,11 +6,11 @@
 entity "Solicitante" as solicitante {
     id_solicitante
 }
-entity "Ciudadano(Persona)" as ciudadano {
+class "Ciudadano(Persona)" as ciudadano {
     id_ciudadano
     dni/nif
 }
-entity "Representante" as representante{
+class "Representante" as representante{
     id_representante
     nif/nrp
 }
@@ -38,7 +38,7 @@ entity "Directivo" as directivo{
 entity "Recurso Administrativo" as recurso {
     Id_recurso
 }
-entity "Empleado Público" as epublico {
+class "Empleado Público" as epublico {
     NRP
 }
 
