@@ -57,8 +57,8 @@ expte "1..1" - "1..2" resol: genera
 
 resol "1..n" -up- "1..1" admtivo: redacta
 resol "1..n" -up- "1..1" directivo: firma
-directivo -up- epublico
-admtivo -up- epublico
+directivo -up-|> epublico
+admtivo -up-|> epublico
 resol "0..N" -right- "1..1" recurso: "puede interponerse"
 
 @enduml
