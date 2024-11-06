@@ -41,15 +41,19 @@ entity "Recurso Administrativo" as recurso {
 class "Empleado Público" as epublico {
     NRP
 }
+entity "Norarial" as rnotarial
+entity "Profesional" as rprofesional
+entity "Público" as rpublico
+entity "Privado" as rprivado
 
 solicitante <|--ciudadano
 ciudadano "1..n" - "0..n" representante: "es representado"
 ciudadano <|--pfisica
 ciudadano <|--pjuridica
-representante <|--entity Notarial
-representante <|--entity Profesional
-representante <|--entity Público
-representante <|--entity Privado
+representante <|--rnotarial
+representante <|--rprofesional
+representante <|--rpublico
+representante <|--rprivado
 
 solicitante "1..1" - "1..n" solicitud: crea
 solicitud "1..1" - "1..1" expte: genera
