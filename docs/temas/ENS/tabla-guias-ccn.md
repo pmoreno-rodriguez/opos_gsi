@@ -1,6 +1,6 @@
 ## Principales Guías STIC del CCN-CERT <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído del CCN-CERT y útil para hacer referencia a él en el supuesto
 
 ### Guías más importantes del CCN-CERT

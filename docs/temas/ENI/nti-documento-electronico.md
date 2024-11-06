@@ -1,6 +1,6 @@
 ## NTI de Documento Electrónico: Normativa y Requisitos <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído de la documentación de [Preparatic 30](https://www.preparatic.org/material-preparatic-30/).
 
 La Norma Técnica de Interoperabilidad (NTI) de Documento Electrónico, aprobada por la resolución 19/07/2011 por la Secretaría de Estado para la Función Pública, establece las pautas fundamentales para el manejo, intercambio y comunicación de documentos electrónicos en el ámbito de la administración pública. Su objetivo principal es garantizar la interoperabilidad y facilitar la gestión eficiente de la documentación electrónica.

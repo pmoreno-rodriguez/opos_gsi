@@ -3,7 +3,7 @@
 
 ### TEXTOS PARA INTRODUCCIÓN DEL SUPUESTO :class=titulo-color
 
-#### TEXTO INTRODUCTORIO 1 :class=subtitulo-color
+#### TEXTO INTRODUCTORIO 1
 
 El proyecto XXXX se enmarca dentro de la actual Estrategia  TIC de la Administración General del Estado (AGE), representada en el vigente plan de Digitalización de las Administraciones Públicas (AA.PP) 2021-2025, en concreto en:
 
@@ -22,7 +22,7 @@ El proyecto XXXX se enmarca dentro de la actual Estrategia  TIC de la Administra
     * Puesto de trabajo inteligente
 - **Linea 5**: Ciberseguridad
 
-#### TEXTO INTRODUCTORIO 2 :class=subtitulo-color
+#### TEXTO INTRODUCTORIO 2
 
 El proyecto de modernización de los sistemas de XXXXXXX responde a los objetivos del *Plan de Digitalización de las Administraciones Públicas 2021-2025*, parte esencial del *Plan de Recuperación, Transformación y Resiliencia*. En concordancia con la iniciativa *España Digital 2026*, este proyecto busca crear servicios de XXXXX digital accesibles, eficientes y seguros que beneficien a los ciudadanos mediante una gestión optimizada y personalizada de sus servicios de XXXXXXXX. La mejora en la eficiencia y en la calidad del servicio, junto con la reutilización de infraestructuras tecnológicas y el cumplimiento de las normativas de seguridad y accesibilidad, colocan a *ORGANISMO* en un lugar central en el proceso de modernización y digitalización de la *Área del organismo (sanidad, trabajo, protección social, etc)*.
 
@@ -56,9 +56,9 @@ El proyecto de modernización de los sistemas de XXXXXXX responde a los objetivo
 
 Esta normativa servirá de base para asegurar que el proyecto no solo cumpla con los requisitos legales y de seguridad, sino que también garantice la accesibilidad y protección de los datos de los usuarios.
 
-#### TEXTO INTRODUCTORIO 3 :class=subtitulo-color
+#### TEXTO INTRODUCTORIO 3
 
-En un contexto marcado por la **Agenda España Digital 2025** y el **Plan de Digitalización de las Administraciones Públicas 2021-2025**, se establece la necesidad de implementar un nuevo sistema de gestión informática <sup>1</sup> que optimice la eficiencia, seguridad y accesibilidad de los servicios públicos digitales. Este sistema <sup>1</sup> se alinea con los objetivos estratégicos del Estado, orientados a proporcionar servicios inclusivos y de alta calidad para ciudadanos y empresas. La Administración busca modernizar su infraestructura digital para garantizar una interacción fluida, eficiente y centrada en el usuario, mejorando los tiempos de respuesta y optimizando el uso de los recursos.
+En un contexto marcado por la **Agenda España Digital 2025** y el **Plan de Digitalización de las Administraciones Públicas 2021-2025**, se establece la necesidad de implementar un nuevo sistema de gestión informática que optimice la eficiencia, seguridad y accesibilidad de los servicios públicos digitales. Este sistema se alinea con los objetivos estratégicos del Estado, orientados a proporcionar servicios inclusivos y de alta calidad para ciudadanos y empresas. La Administración busca modernizar su infraestructura digital para garantizar una interacción fluida, eficiente y centrada en el usuario, mejorando los tiempos de respuesta y optimizando el uso de los recursos.
 
 El desarrollo del nuevo sistema se centrará en asegurar el cumplimiento de normativas clave en ciberseguridad, interoperabilidad y accesibilidad. En materia de seguridad, se observará el **Esquema Nacional de Seguridad (ENS)** y las siguientes guías del **CCN-CERT**:
 - **Guía CCN-STIC-801**: Esquema Nacional de Seguridad. Responsabilidades y funciones.
@@ -68,7 +68,7 @@ El desarrollo del nuevo sistema se centrará en asegurar el cumplimiento de norm
 - **Guía CCN-STIC-805**: Política de Seguridad de la Información del ENS.
 - **Guía CCN-STIC-811**: Interconexión en el ENS.
 
-El sistema <sup>1</sup> también cumplirá con el **Esquema Nacional de Interoperabilidad (ENI), RD 4/2010**, y las **Notas Técnicas de Interoperabilidad (NTI)**:
+El sistema también cumplirá con el **Esquema Nacional de Interoperabilidad (ENI), RD 4/2010**, y las **Notas Técnicas de Interoperabilidad (NTI)**:
 1. Documento Electrónico.
 2. Firma Electrónica y Certificados.
 3. Expediente Electrónico.
@@ -79,13 +79,11 @@ En cuanto a la normativa administrativa, el sistema respetará los preceptos de 
 
 Estas normativas serán la base de referencia para el desarrollo e implementación del sistema informático planteado en este supuesto.
 
-<small>**(1) Nombre del sistema si lo indican en el supuesto**</small>
+#### TEXTO INTRODUCTORIO 4
 
-#### TEXTO INTRODUCTORIO 4 :class=subtitulo-color
+La transformación digital de la Administración Pública es una prioridad estratégica que busca agilizar los servicios y mejorar la relación con ciudadanos y empresas mediante un sistema de gestión informatizado adaptado a las normativas de seguridad, interoperabilidad y accesibilidad. En línea con el **Plan de Transformación Digital de la Administración General del Estado**, el nuevo sistema ofrecerá una plataforma segura y eficiente que centraliza la gestión de datos y procesos, reduciendo los tiempos de tramitación y mejorando la calidad de la experiencia de los usuarios.
 
-La transformación digital de la Administración Pública es una prioridad estratégica que busca agilizar los servicios y mejorar la relación con ciudadanos y empresas mediante un sistema de gestión informatizado adaptado a las normativas de seguridad, interoperabilidad y accesibilidad. En línea con el **Plan de Transformación Digital de la Administración General del Estado**, el nuevo sistema <sup>1</sup> ofrecerá una plataforma segura y eficiente que centraliza la gestión de datos y procesos, reduciendo los tiempos de tramitación y mejorando la calidad de la experiencia de los usuarios.
-
-Este sistema <sup>1</sup> adoptará principios rectores de seguridad y protección de datos basados en el **Esquema Nacional de Seguridad (ENS)**, junto con las siguientes guías del **CCN-CERT**:
+Este sistema adoptará principios rectores de seguridad y protección de datos basados en el **Esquema Nacional de Seguridad (ENS)**, junto con las siguientes guías del **CCN-CERT**:
 - **Guía CCN-STIC-801**: Esquema Nacional de Seguridad. Responsabilidades y funciones.
 - **Guía CCN-STIC-802**: Auditorías de Seguridad.
 - **Guía CCN-STIC-803**: ENS: Valoración de sistemas.
@@ -104,11 +102,9 @@ La implementación seguirá las disposiciones de la **Ley 39/2015, de 1 de octub
 
 Estas normativas orientarán el desarrollo del sistema, garantizando una administración digital accesible, segura y eficaz.
 
-<small>**(1) Nombre del sistema si lo indican en el supuesto**</small>
+#### TEXTO INTRODUCTORIO 5
 
-#### TEXTO INTRODUCTORIO 5 :class=subtitulo-color
-
-El nuevo sistema informático <sup>1</sup> que aquí se propone responde a la necesidad de impulsar la transformación digital de la Administración Pública Española, en un contexto donde la digitalización y modernización de los servicios públicos es clave para mejorar la eficiencia y adaptarse a las expectativas de ciudadanos y empresas. Este sistema <sup>1</sup> será un pilar estratégico en el marco del **Plan de Recuperación, Transformación y Resiliencia de la economía española** y está diseñado para responder a las exigencias de una Administración del siglo XXI, en la que la transparencia, la accesibilidad y la seguridad son fundamentales.
+El nuevo sistema informático que aquí se propone responde a la necesidad de impulsar la transformación digital de la Administración Pública Española, en un contexto donde la digitalización y modernización de los servicios públicos es clave para mejorar la eficiencia y adaptarse a las expectativas de ciudadanos y empresas. Este sistema será un pilar estratégico en el marco del **Plan de Recuperación, Transformación y Resiliencia de la economía española** y está diseñado para responder a las exigencias de una Administración del siglo XXI, en la que la transparencia, la accesibilidad y la seguridad son fundamentales.
 
 Para garantizar la conformidad con la normativa vigente, el sistema se regirá por los principios del **Esquema Nacional de Seguridad (ENS)** y las siguientes guías del **CCN-CERT**:
 - **Guía CCN-STIC-801**: Esquema Nacional de Seguridad. Responsabilidades y funciones.
@@ -128,8 +124,6 @@ En cuanto a interoperabilidad, el sistema respetará el **Esquema Nacional de In
 Además, el sistema se desarrollará conforme a las leyes administrativas **Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas** y **Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público**. En protección de datos, se observarán la **Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales (LOPDGDD)** y el **Reglamento General de Protección de Datos (RGPD) 2016/679** de la Unión Europea. Finalmente, se adoptarán los estándares de accesibilidad establecidos en el **Real Decreto 1112/2018, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público**, la **norma UNE-EN 301549:2022, Requisitos de accesibilidad para productos y servicios TIC**, y las pautas **WCAG 2.1** para asegurar un acceso universal.
 
 Estas normativas serán la base de referencia para el desarrollo y la implementación del sistema informático, garantizando que se respeten los estándares de seguridad, interoperabilidad, protección de datos y accesibilidad.
-
-<small>**(1) Nombre del sistema si lo indican en el supuesto**</small>
 
 ### TEXTOS PARA INTRODUCIR UN DAFO :class=titulo-color <!-- {docsify-ignore} -->
 
@@ -163,7 +157,7 @@ Estas normativas serán la base de referencia para el desarrollo y la implementa
 
 #### TEXTO 1
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido adaptado de volcados de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/), sobre el supuesto de CARPET@, convocatoria 2019
 
 La capa de presentación es el medio para que ciudadanos, empresas y funcionarios accedan a Carpeta, por lo que en su desarrollo se prestará especial atención a los principios de accesibilidad, facilidad de uso y personalización definidos en el artículo 2 del RD 203/2021. Se acatará la normativa de accesibilidad del RD 1112/2018 y la norma UNE 301 549:2022 mediante el cumplimiento de los niveles A y AA de WCAG 2.1. También se seguirán los principios de usabilidad de Jakob Nielsen, como el feedback de las acciones del usuario.

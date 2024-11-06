@@ -1,6 +1,6 @@
 ## NTI de Expediente Electrónico: Estructura y Requisitos <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído de la documentación de [Preparatic 30](https://www.preparatic.org/material-preparatic-30/).
 
 La Norma Técnica de Interoperabilidad (NTI) de Expediente Electrónico, aprobada el 19 de julio de 2011 por la Secretaría de Estado para la Función Pública, establece las bases necesarias para la creación, gestión y intercambio de expedientes electrónicos en el ámbito de la administración pública. Esta normativa es fundamental para garantizar la interoperabilidad y la eficiencia en los procedimientos administrativos.

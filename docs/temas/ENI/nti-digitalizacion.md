@@ -1,6 +1,6 @@
 ## NTI de Digitalización de Documentos: Normativa y Requisitos <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído de la documentación de [Preparatic 30](https://www.preparatic.org/material-preparatic-30/).
 
 La Norma Técnica de Interoperabilidad (NTI) de Digitalización de Documentos, aprobada el 19 de julio de 2011 por la Secretaría de Estado para la Función Pública, establece un marco normativo para la digitalización de documentos en soporte papel u otros soportes no electrónicos. Esta normativa es fundamental para garantizar la integridad, autenticidad y accesibilidad de los documentos en su formato digital.

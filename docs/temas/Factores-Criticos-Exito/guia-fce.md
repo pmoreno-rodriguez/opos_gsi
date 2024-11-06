@@ -1,6 +1,6 @@
 ## Guía General para Identificar Factores Críticos de Éxito (FCE) en el Diseño o Implantación de un Sistema Informático
 ---
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre el los pasos para identificar los Factores Críticos de Éxito.
 ---
 > [!TIP|label: Texto de ejemplo para introducir los FCE en el supuesto]

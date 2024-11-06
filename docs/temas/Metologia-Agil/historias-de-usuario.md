@@ -1,6 +1,6 @@
 ## Utilización de las Historias de Usuario en Metodologías Ágiles para el Desarrollo de un Sistema <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre el uso de la metodología ágil en el desarrollo de un sistema y cómo se realizan Historias de usuario.
 
 Las **historias de usuario** son una de las herramientas más fundamentales en las metodologías ágiles, como Scrum y Kanban. Son una forma ágil de capturar requisitos y facilitan la comunicación entre el equipo de desarrollo y los interesados (stakeholders). Estas historias se enfocan en lo que un usuario final quiere lograr con el sistema, en lugar de especificar cómo se debe implementar la funcionalidad. A continuación, detallaremos su estructura, su papel en el proceso de desarrollo y cómo se utilizan, junto con un ejemplo para facilitar su comprensión.

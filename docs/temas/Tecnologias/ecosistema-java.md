@@ -1,6 +1,6 @@
 ## Soluciones tecnológicas del ecosistema Java <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre el ecosistema JAVA.
 
 

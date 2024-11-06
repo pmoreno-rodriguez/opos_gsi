@@ -1,6 +1,6 @@
 ## Características de una arquitectura basada en Microservicios <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre características de los microservicios.
 
 La arquitectura de microservicios es un enfoque de diseño y desarrollo de software donde una aplicación se estructura como un conjunto de servicios pequeños, autónomos y altamente especializados, llamados *microservicios*. Este modelo representa un cambio significativo respecto a las aplicaciones monolíticas tradicionales, en las que toda la funcionalidad de la aplicación se encuentra en un solo paquete de código. A continuación, se detallan las características clave de la arquitectura de microservicios, explicando por qué resultan fundamentales para aprovechar al máximo esta estructura.

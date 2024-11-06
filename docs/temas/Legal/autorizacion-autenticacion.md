@@ -1,6 +1,6 @@
 ## **Autenticación y Autorización en la Administración del Estado** <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre Autorización y Autenticación en la AGE
 
 La **autenticación** y la **autorización** son fundamentales en el entorno de la Administración Pública, ya que garantizan la identificación correcta de los usuarios y la correcta asignación de derechos y permisos dentro de los sistemas electrónicos. Esto es crucial para proteger los datos personales, evitar fraudes y garantizar la correcta ejecución de los procedimientos administrativos.

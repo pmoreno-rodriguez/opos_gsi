@@ -1,6 +1,6 @@
 ## Ejemplo Práctico de Análisis de Riesgos según MAGERIT <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre un ejemplo de Análisis de Riesgos de un sistema siguiendo la metodología Magerit
 
 #### Activos Identificados y Valoración <!-- {docsify-ignore} -->

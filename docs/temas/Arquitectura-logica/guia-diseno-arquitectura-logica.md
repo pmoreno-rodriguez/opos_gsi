@@ -1,6 +1,6 @@
 ## Guía para el Diseño de Arquitectura Lógica en Sistemas de Administración Electrónica <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído parcialmente de la documentación de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/).
 
 El diseño de la arquitectura lógica es fundamental en el desarrollo de sistemas para la administración pública. No solo representa el núcleo estructural que sustenta el sistema, sino que también permite responder a los requisitos específicos, normativos y funcionales de cada aplicación, garantizando escalabilidad, seguridad y un correcto flujo de información. Esta guía ofrece un enfoque detallado en cinco áreas clave para crear una arquitectura lógica efectiva y alineada con las necesidades de la administración electrónica.

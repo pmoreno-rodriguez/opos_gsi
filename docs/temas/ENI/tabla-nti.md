@@ -1,6 +1,6 @@
 ## Principales Notas Técnicas de Interoperabilidad (NTI) del ENI <!-- {docsify-ignore} -->
 ---
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído del [Portal de Administración Electrónica](https://administracionelectronica.gob.es/) y útil para hacer referencia a él en el supuesto
 
 ### Relación de NTI

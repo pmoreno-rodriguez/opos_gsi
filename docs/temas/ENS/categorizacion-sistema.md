@@ -1,6 +1,6 @@
 ## IDENTIFICACIÓN Y CATEGORIZACIÓN DEL SISTEMA <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído de la documentación de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/).
 
 Según el art. 40 del RD 311/2022 y su Anexo I, la categoría de seguridad de un sistema modula el equilibrio entre la importancia de la información que maneja y los servicios que presta y el esfuerzo de seguridad requerido, en función de los riesgos a los que está expuesto, bajo el principio de proporcionalidad. La valoración se hace en base a la guía de seguridad CCN-STIC-803. En los siguientes pasos se hace un resumen del proceso de categorización.

@@ -1,6 +1,6 @@
 ## Análisis del Dominio de los Sistemas Informáticos: Una Visión Multinivel <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre el Análisis del dominio de los sistemas informáticos.
 
 El análisis del dominio de los sistemas informáticos es una etapa clave en el ciclo de vida del desarrollo de software. Consiste en comprender y modelar la estructura, los procesos y el comportamiento del sistema en su entorno. Este análisis se puede realizar en varios niveles: estático (modelo de datos), funcional (modelo de procesos) y dinámico (modelo de comportamiento). Utilizando herramientas como el Lenguaje de Modelado Unificado (UML) y los Diagramas de Entidad-Relación Extendido (DER Extendido), podemos capturar y representar cada aspecto de manera precisa y eficiente.

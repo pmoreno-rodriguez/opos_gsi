@@ -1,6 +1,6 @@
 ## Servicio Unificado de Telecomunicaciones en la Administración General del Estado (AGE) <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre el Servicio Unificado de Telecomunicaciones.
 
 El **Servicio Unificado de Telecomunicaciones** surge como una iniciativa en el marco de las reformas promovidas por el informe CORA (Comisión para la Reforma de las Administraciones Públicas), que recomendaba la consolidación de las infraestructuras de telecomunicaciones de la Administración General del Estado (AGE). Este servicio es el primer contrato de tecnología de la información y comunicación (TIC) unificado y plenamente operativo en la AGE, con el objetivo de centralizar y optimizar los servicios de telecomunicaciones para mejorar la eficiencia y reducir costos.

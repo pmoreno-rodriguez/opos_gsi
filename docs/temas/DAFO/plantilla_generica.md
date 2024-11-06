@@ -1,5 +1,5 @@
 ## Análisis DAFO <!-- {docsify-ignore} -->
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta elaborada a partir de documentación propia.
 ---
 | **Factores Internos** | **Factores Externos** |
@@ -80,7 +80,7 @@
 
 ### PROPUESTA DE PREPARATIC <!-- {docsify-ignore} -->
 
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído de la documentación de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/).
 
 #### Amenazas <!-- {docsify-ignore} -->

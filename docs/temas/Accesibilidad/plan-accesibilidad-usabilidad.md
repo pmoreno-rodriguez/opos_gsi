@@ -1,4 +1,4 @@
-> [!NOTE|style:callout|label:Contenido Verificado]
+> [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT para un Plan de Accesibilidad y Usabilidad de un desarrollo móvil
 
 Para verificar la **accesibilidad y usabilidad** de un desarrollo móvil dirigido a la administración pública, utilizando el **RD 1112/2018**, la norma **UNE-EN 301 549:2022**, las **WCAG 2.1** y la **ISO 9241**, el Plan de Pruebas debe contemplar varios aspectos. A continuación, te detallo un resumen de los puntos clave que deberían abordarse:
