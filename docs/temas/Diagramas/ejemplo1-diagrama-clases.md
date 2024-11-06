@@ -50,10 +50,10 @@ solicitante <|--ciudadano
 ciudadano "1..n" - "0..n" representante: "es representado"
 ciudadano <|--pfisica
 ciudadano <|--pjuridica
-representante <|--rnotarial
-representante <|--rprofesional
-representante <|--rpublico
-representante <|--rprivado
+representante <|-down- rnotarial
+representante <|-down- rprofesional
+representante <|-down- rpublico
+representante <|-down- rprivado
 
 solicitante "1..1" - "1..n" solicitud: crea
 solicitud "1..1" - "1..1" expte: genera
