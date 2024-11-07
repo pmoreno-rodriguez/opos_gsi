@@ -6,12 +6,12 @@
 #### Correspondencia entre los niveles de seguridad exigidos en cada dimensión y las medidas de seguridad con sus refuerzos
 
 <style>
-.fondo_rojo     { background-color: #FF6600; }
-.fondo_azul     { background-color: #8ec5fa; }
-.fondo_verde    {background-color: #99CC00;}
-.fondo_amarillo { background-color: #FFFF66; }
-.fondo_oscuro   { background-color: #D6D6D6; }
-.fondo_claro    { background-color: #d8b4bf;}
+.fondo_rojo     { background-color: #FF6600 !important; }
+.fondo_azul     { background-color: #8ec5fa !important; }
+.fondo_verde    {background-color: #99CC00 !important;}
+.fondo_amarillo { background-color: #FFFF66 !important; }
+.fondo_oscuro   { background-color: #D6D6D6 !important; }
+.fondo_claro    { background-color: #d8b4bf !important;}
 </style>
 <table class="tabla_ancha">
     <colgroup>
