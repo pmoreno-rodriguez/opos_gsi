@@ -47,7 +47,7 @@ Por lo tanto, acabamos en posibles daños a individuos físicos; en este caso se
 - Con violación de trazabilidad (básicamente algunos atacantes han borrado los logs o los han manipulado para ocultar el ataque), ¿se pueden cumplir los objetivos? Sí.
 - Con violación de trazabilidad (básicamente algunos atacantes han borrado los logs o los han manipulado para ocultar el ataque), ¿se pueden mantener protegidos los activos? No, porque si no te has enterado estás facilitando que roben más datos de alta confidencialidad, por lo tanto copia a la confidencialidad. **TRAZABILIDAD ALTA**
 
----
+
 
 - **DISPONIBILIDAD MEDIA**
 - **INTEGRIDAD MEDIA**

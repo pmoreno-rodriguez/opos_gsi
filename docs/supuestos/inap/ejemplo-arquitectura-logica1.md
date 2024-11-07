@@ -1,10 +1,10 @@
 ## Ejemplo de como explicar una Arquitectura Lógica  <!-- {docsify-ignore} -->
----
+
 
 > [!NOTE|style:callout|label: Nota Aclaratoria]
 > El texto y la imagen de este artículo están extraidos del supuesto del INAP adjunto.
 > La intención es tener una idea básica de cómo explicar el diagrama de Arquitectura Lógica.
----
+
 
 !> [Enlace al supuesto](https://pmoreno-rodriguez.github.io/opos_gsi/supuestos/inap/B3C2SOLUCION-M-ANGELES-GONZALO.pdf)
 

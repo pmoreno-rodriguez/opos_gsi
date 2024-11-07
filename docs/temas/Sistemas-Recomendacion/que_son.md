@@ -1,6 +1,6 @@
 ## Sistemas de recomendación <!-- {docsify-ignore} -->
 
----
+
 
 En el mundo de hoy, cada usuario o cliente de las diferentes plataformas online se enfrenta a múltiples opciones. Por ejemplo, si estoy buscando una película para ver sin tener una idea específica de lo que quiero, hay una amplia gama de posibilidades en cómo mi búsqueda podría tener éxito. Es posible que pierda mucho tiempo navegando por Internet y repasando varios sitios con la esperanza de encontrar recomendaciones de diferentes personas con diferentes gustos.
 

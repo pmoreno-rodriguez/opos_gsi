@@ -32,7 +32,7 @@ Las PWA se apoyan en tres pilares fundamentales: **capacidad de respuesta, conec
 
 4. **Distribución limitada en tiendas de aplicaciones**: Aunque hay formas de integrar las PWA en tiendas de aplicaciones como Google Play o la Microsoft Store, la mayoría no se distribuyen de manera tradicional a través de estas plataformas. Esto puede suponer una desventaja si el público objetivo prefiere descargar aplicaciones desde tiendas conocidas.
 
----
+
 
 ### **Proceso de Desarrollo de PWA** <!-- {docsify-ignore} -->
 
@@ -65,7 +65,7 @@ Este enfoque utiliza tecnologías que permiten a las PWA funcionar en múltiples
 - **Compatibilidad multiplataforma**: Los desarrolladores pueden escribir una única base de código en JavaScript que funcione tanto en plataformas web como móviles nativas.
 - **Desempeño híbrido**: Aunque estas soluciones permiten un acceso más profundo a las características nativas, en términos de rendimiento pueden no ser tan eficientes como las aplicaciones nativas puras.
 
----
+
 
 ### **Auditar una PWA con Google Lighthouse** <!-- {docsify-ignore} -->
 

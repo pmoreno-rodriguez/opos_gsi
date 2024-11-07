@@ -26,7 +26,7 @@ La Nube SARA (Sistema de Aplicaciones y Redes para las Administraciones), es una
 6. **Alta disponibilidad y redundancia**:
    - **Infraestructura resiliente**: La Nube SARA está diseñada para ofrecer alta disponibilidad y continuidad de los servicios, con sistemas de redundancia y mecanismos de recuperación ante fallos.
 
----
+
 
 ### **Inconvenientes de utilizar la Nube SARA** <!-- {docsify-ignore} -->
 
@@ -50,7 +50,7 @@ La Nube SARA (Sistema de Aplicaciones y Redes para las Administraciones), es una
    - **Innovación limitada**: La Nube SARA podría no ser la opción más adecuada para organismos que requieren soluciones tecnológicas de vanguardia o personalizaciones avanzadas, ya que las soluciones ofrecidas pueden ser más conservadoras y estandarizadas.
    - **Evolución más lenta**: El proceso de actualización de la infraestructura o la incorporación de nuevas tecnologías en SARA podría ser más lento que en entornos de nubes comerciales, lo que podría impactar en la competitividad tecnológica de los organismos.
 
----
+
 
 ### **Consideraciones adicionales** <!-- {docsify-ignore} -->
 
@@ -58,6 +58,6 @@ La Nube SARA (Sistema de Aplicaciones y Redes para las Administraciones), es una
 
 - **Soporte y formación**: Otro aspecto a considerar es que los organismos públicos pueden requerir formación adicional para gestionar y sacar el máximo provecho de los servicios de la Nube SARA, lo cual puede requerir una curva de aprendizaje inicial.
 
----
+
 
 En resumen, la Nube SARA es una excelente opción para organismos públicos que buscan seguridad, interoperabilidad y ahorro de costes, pero presenta desafíos en términos de flexibilidad, personalización y la velocidad de adopción tecnológica. La elección de utilizar SARA depende en gran medida de las necesidades específicas de cada organismo y de cómo se prioricen aspectos como la seguridad, el cumplimiento normativo o la capacidad de innovación.

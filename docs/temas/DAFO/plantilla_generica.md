@@ -1,12 +1,12 @@
 ## Análisis DAFO <!-- {docsify-ignore} -->
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta elaborada a partir de documentación propia.
----
+
 | **Factores Internos** | **Factores Externos** |
 | :- | :- |
 | Debilidades | Amenazas |
 | Fortalezas | Oportunidades |
----
+
 **Ejemplo de DAFO para el supuesto práctico del examen de la OEP 2022, sobre Sistema de Información de Explotaciones agrícolas, ganaderas y de la producción agraria** (Extensible en muchos aspectos a otros DAFOS)
 
 ### Factores Internos <!-- {docsify-ignore} -->

@@ -58,7 +58,7 @@ El último paso es redactar un informe final con los hallazgos y recomendaciones
 
 - **Mejora continua o rediseño:** Si los problemas encontrados son manejables, se puede optar por un proceso de mejora continua. Sin embargo, si los problemas son numerosos o críticos, es probable que se recomiende un rediseño total del producto.
   
----
+
 
 ### Anexo: Herramientas para pruebas de usabilidad y accesibilidad :class=titulo-color
 

@@ -1,8 +1,8 @@
 ## PRINCIPALES MEDIDAS CLAVE PARA LA SEGURIDAD <!-- {docsify-ignore} -->
----
+
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído del ENS y útil para hacer referencia a él en el supuesto
----
+
 1. **Marco organizativo [org]**  
     Las cuatro medidas del marco organizativo se aplican en todos los niveles. Éstas son:
     - **[org.1] Política de seguridad**

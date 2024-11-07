@@ -1,6 +1,7 @@
 > [!NOTE|style: callout|label: Supuesto del INAP 2018]
 > ## Supuesto 1: ADHESIONES <!-- {docsify-ignore} -->
----
+> **Autor: Andrés García Cañizares**
+
 ### SOLUCIÓN
 
 #### 1. Elabore el diagrama de casos de uso. Identificando los actores involucrados
@@ -58,4 +59,6 @@ El desarrollo se podría realizar utilizando el lenguaje de programación PHP 7.
 > c) ¿Sería necesario el acceso al aplicativo vía internet? Justifique su respuesta.
 
 La publicación de la solución web en internet no sería necesaria, debido a que la mayoría de organismos tienen conexión con la Red Sara, el servicio se publicaría en la misma, evitando así los posibles problemas de seguridad que pudieran ser ocasionados por tal exposición.
+
+<a href="https://pmoreno-rodriguez.github.io/opos_gsi/#/supuestos/inap/indice.md" role="button" class="button">Volver al índice de Supuestos del INAP</a>
 

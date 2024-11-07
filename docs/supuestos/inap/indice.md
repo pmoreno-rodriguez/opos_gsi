@@ -1,9 +1,9 @@
 ## Supuestos del INAP  <!-- {docsify-ignore} -->
----
+
 
 > [!NOTE|style:callout|label: Índice de supuestos]
 > Supuestos del INAP para sus cursos de preparación a oposiciones.
----
+
 
 > [!INFO|icon: far fa-folder-open|label: PARCIALES - Extractos de supuestos]
 
