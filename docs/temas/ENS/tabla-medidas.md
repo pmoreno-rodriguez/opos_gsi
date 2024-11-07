@@ -11,6 +11,7 @@
 .fondo_verde    {background-color: #99CC00;}
 .fondo_amarillo { background-color: #FFFF66; }
 .fondo_oscuro   { background-color: #D6D6D6; }
+.fondo_claro    { background-color: #d8b4bf;}
 </style>
 <table class="tabla_ancha">
     <colgroup>
@@ -125,7 +126,7 @@
         <td class="fondo_oscuro"> </td>
         <td class="fondo_oscuro"> </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>op.pl</td>
         <td>Planificación</td>
         <td> </td>
@@ -134,7 +135,7 @@
         <td> </td>
       </tr>
       <tr>
-        <td>op.pl.1</td>
+        <td class="fondo_azul">op.pl.1</td>
         <td>Análisis de riesgos</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -148,7 +149,7 @@
         </td>
       </tr>
       <tr>
-        <td>op.pl.2</td>
+        <td class="fondo_azul">op.pl.2</td>
         <td>Arquitectura de Seguridad</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -201,7 +202,7 @@
           <p>aplica</p>
         </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>op.acc</td>
         <td>Control de acceso</td>
         <td> </td>
@@ -224,7 +225,7 @@
         </td>
       </tr>
       <tr>
-        <td>op.acc.2</td>
+        <td class="fondo_azul">op.acc.2</td>
         <td>Requisitos de acceso</td>
         <td>C I T A</td>
         <td class="fondo_verde">
@@ -291,7 +292,7 @@
           <p>+ [R1 o R2 o R3 o R4] + R5 + R6 + R7 + R8 + R9</p>
         </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>op.exp</td>
         <td>Explotación</td>
         <td> </td>
@@ -314,7 +315,7 @@
         </td>
       </tr>
       <tr>
-        <td>op.exp.2</td>
+        <td class="fondo_azul">op.exp.2</td>
         <td>Configuración de seguridad</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -328,7 +329,7 @@
         </td>
       </tr>
       <tr>
-        <td>op.exp.3</td>
+        <td class="fondo_azul">op.exp.3</td>
         <td>Gestión de la configuración de seguridad</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -439,7 +440,7 @@
           <p>+ R1</p>
         </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>op.ext</td>
         <td>Recursos externos</td>
         <td> </td>
@@ -495,7 +496,7 @@
           <p>+ R1</p>
         </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>op.nub</td>
         <td>Servicios en la nube</td>
         <td> </td>
@@ -517,7 +518,7 @@
           <p>+ R1 + R2</p>
         </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>op.cont</td>
         <td>Continuidad del servicio</td>
         <td> </td>
@@ -573,7 +574,7 @@
           <p>aplica</p>
         </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>op.mon</td>
         <td>Monitorización del sistema</td>
         <td> </td>
@@ -631,7 +632,7 @@
         <td class="fondo_oscuro"> </td>
         <td class="fondo_oscuro"> </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>mp.if</td>
         <td>Protección de las instalaciones e infraestructuras</td>
         <td> </td>
@@ -737,7 +738,7 @@
           <p>aplica</p>
         </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>mp.per</td>
         <td>Gestión del personal</td>
         <td> </td>
@@ -801,7 +802,7 @@
           <p>aplica</p>
         </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>mp.eq</td>
         <td>Protección de los equipos</td>
         <td> </td>
@@ -863,7 +864,7 @@
           <p>+ R1</p>
         </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>mp.com</td>
         <td>Protección de las comunicaciones</td>
         <td> </td>
@@ -927,7 +928,7 @@
           <p>+ [R2 o R3] + R4</p>
         </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>mp.si</td>
         <td>Protección de los soportes de información</td>
         <td> </td>
@@ -1001,7 +1002,7 @@
           <p>+ R1</p>
         </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>mp.sw</td>
         <td>Protección de las aplicaciones informáticas</td>
         <td> </td>
@@ -1035,7 +1036,7 @@
           <p>+ R1</p>
         </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>mp.info</td>
         <td>Protección de la información</td>
         <td> </td>
@@ -1127,7 +1128,7 @@
           <p>+ R1 + R2</p>
         </td>
       </tr>
-      <tr>
+      <tr class="fondo_claro">
         <td>mp.s</td>
         <td>Protección de los servicios</td>
         <td> </td>
