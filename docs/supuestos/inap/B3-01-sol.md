@@ -60,6 +60,6 @@ El desarrollo se podría realizar utilizando el lenguaje de programación PHP 7.
 
 La publicación de la solución web en internet no sería necesaria, debido a que la mayoría de organismos tienen conexión con la Red Sara, el servicio se publicaría en la misma, evitando así los posibles problemas de seguridad que pudieran ser ocasionados por tal exposición.
 <p class="my-3">
-<a href="https://pmoreno-rodriguez.github.io/opos_gsi/#/supuestos/inap/indice.md" role="button" class="button">Volver al índice de Supuestos del INAP</a>
+<a href="https://pmoreno-rodriguez.github.io/opos_gsi/#/supuestos/inap/indice.md">Volver al índice de Supuestos del INAP</a>
 </p>
 

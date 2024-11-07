@@ -174,7 +174,7 @@ Este servidor recogerá los datos de gestión de control de los sistemas y los a
 
 También se puede diseñar un sistema ad-hoc para monitorización de los sistemas con la herramienta “nmap” (hay una guía CCN-STIC para su utilización), y mediante scripts sencillos comprobar el estado y actuar o enviar una alarma al administrador del servicio mediante un servicio de mensajería gratuito y de código abierto como puede ser la aplicación Telegram, mediante el uso de bots. De esta manera el administrador podría recibir las alertas que se produzcan en su Smartphone e incluso podría interactuar con el mencionado bot para recibir información adicional acerca del estado de la infraestructura.
 <p class="my-2">
-<a href="https://pmoreno-rodriguez.github.io/opos_gsi/#/supuestos/inap/indice.md" role="button" class="button">Volver al índice de Supuestos del INAP</a>
+<a href="https://pmoreno-rodriguez.github.io/opos_gsi/#/supuestos/inap/indice.md">Volver al índice de Supuestos del INAP</a>
 </p>
 
 
