@@ -10,52 +10,68 @@
     - **[org.3] Procedimientos de seguridad**
     - **[org.4] Proceso de autorización**
 
-2. **[op.pl.4] Dimensionamiento/gestión de la capacidad**  
+2. **[op.pl.1] Análisis de riesgos**  
+   Se realizará un análisis de riesgos informal, semiformal (R1) o formal (R2).
+
+3. **[op.pl.2] Arquitectura de seguridad**  
+   La seguridad del sistema se detallará integralmente, incluyendo documentación de instalaciones y sistema, líneas de defensa, y métodos de identificación y autenticación de usuarios.
+
+4. **[op.pl.4] Dimensionamiento/gestión de la capacidad**  
    Garantizar que los recursos del sistema estén bien dimensionados y gestionados para soportar la carga operativa, evitando fallos por sobrecarga.
 
-3. **[op.pl.5] Componentes certificados**  
+5. **[op.pl.5] Componentes certificados**  
     Uso de componentes y tecnologías que cuenten con certificaciones de seguridad reconocidas, garantizando su fiabilidad.
 
-4. **[op.acc.4] Proceso de gestión de derechos de acceso**  
+6. **[op.acc.2] Requisitos de acceso**  
+   La protección de recursos y derechos de acceso se realiza mediante mecanismos específicos, gestionados según políticas de seguridad y controlando acceso a componentes críticos. Incluye refuerzos de privilegios y control de dispositivos según niveles de seguridad.
+
+7. **[op.acc.4] Proceso de gestión de derechos de acceso**  
    Actividades y procedimientos necesarios para gestionar y controlar los derechos de acceso de los usuarios a los sistemas de información.
     
-5. **[op.acc.5] Mecanismos de autenticación (usuarios externos)**  
+8. **[op.acc.5] Mecanismos de autenticación (usuarios externos)**  
    Implementación de mecanismos robustos de autenticación para asegurar que solo usuarios autorizados accedan a los sistemas.
 
-6. **[op.acc.6] Mecanismo de autenticación (usuarios de la organización)**
+9. **[op.acc.6] Mecanismo de autenticación (usuarios de la organización)**  
+   Esta medida se refiere a personal del organismo, propio o contratado, estable o circunstancial, que pueda tener acceso a información contenida en el sistema.
 
-7. **[op.exp.7] Gestión de incidentes**  
+10. **[op.exp.2] Configuración de seguridad**  
+   Se configurarán los equipos previamente a su entrada en operación.
+
+11. **[op.exp.3] Gestión de la configuración de seguridad**  
+   La gestión continua de la configuración de seguridad asegura la funcionalidad mínima y el mínimo privilegio, adapta el sistema a nuevas necesidades autorizadas, y responde a vulnerabilidades e incidentes, permitiendo solo a personal autorizado editar la configuración.
+
+12. **[op.exp.7] Gestión de incidentes**  
     Implementación de un plan de gestión que permita la detección, respuesta y mitigación eficaz de incidentes de seguridad.
 
-8. **[op.exp.8] Registro de la actividad**  
+13. **[op.exp.8] Registro de la actividad**  
    Establecimiento de registros detallados de todas las actividades en los sistemas, para facilitar auditorías y análisis forenses.
 
-9. **[op.exp.10] Protección de claves criptográficas**  
+14. **[op.exp.10] Protección de claves criptográficas**  
     Establecimiento de procedimientos seguros para la gestión y protección de las claves criptográficas que aseguran la confidencialidad y autenticidad.
 
-10. **[op.cont.4] Medios alternativos**  
+15. **[op.cont.1] Análisis de impacto**  
+   Se realizará un análisis de impacto que permita determinar los requisitos de disponibilidad de cada servicio (impacto de una interrupción durante un periodo de tiempo determinado), así como los elementos que son críticos para la prestación de cada servicio.
+
+16. **[op.cont.2] Plan de continuidad**  
+   Se desarrollará un plan de continuidad que establezca las acciones a ejecutar en caso de interrupción de los servicios prestados con los medios habituales.
+
+17. **[op.cont.4] Medios alternativos**  
    Garantizar medios alternativos que permitan la continuidad operativa en caso de fallos o incidentes graves.
 
-11. **[mp.com.1] Perímetro seguro**  
-   Definición y protección del perímetro de la red, asegurando que todas las comunicaciones hacia el exterior o interior estén controladas.
-
-12. **[mp.com.3] Protección de la integridad y de la autenticidad**  
-   Implementación de medidas que aseguren la veracidad y no alteración de los datos durante su almacenamiento y transmisión.
-
-13. **[mp.com.4] Separación de flujos de información en la red**  
-   Segregación de redes y sistemas para evitar que la información sensible se mezcle con flujos no seguros.
-
-14. **[op.cont.1] Análisis de impacto**  
-   Realización de análisis detallados sobre el impacto de posibles fallos o incidentes en las operaciones, para preparar respuestas adecuadas.
-
-15. **[op.cont.2] Plan de continuidad**  
-   Desarrollo de un plan que asegure la rápida recuperación y continuidad de las operaciones en caso de incidentes o fallos graves.
-
-16. **[mp.info.6] Copias de seguridad**  
-    Establecimiento de mecanismos regulares y seguros para la creación de copias de seguridad, protegiendo la información crítica.
-
-17. **[op.mon.1] Detección de intrusión**  
+18. **[op.mon.1] Detección de intrusión**  
     Implantación de sistemas de detección de intrusiones para identificar y responder a amenazas dentro de la red en tiempo real.
 
-18. **[mp.com.2] Protección de la confidencialidad**  
+19. **[mp.com.1] Perímetro seguro**  
+   Definición y protección del perímetro de la red, asegurando que todas las comunicaciones hacia el exterior o interior estén controladas.
+
+20. **[mp.com.2] Protección de la confidencialidad**  
     Implementación de mecanismos que aseguren que solo usuarios y sistemas autorizados puedan acceder a información sensible.
+
+21. **[mp.com.3] Protección de la integridad y de la autenticidad**  
+   Implementación de medidas que aseguren la veracidad y no alteración de los datos durante su almacenamiento y transmisión.
+
+22. **[mp.com.4] Separación de flujos de información en la red**  
+   Segregación de redes y sistemas para evitar que la información sensible se mezcle con flujos no seguros.
+
+23. **[mp.info.6] Copias de seguridad**  
+    Establecimiento de mecanismos regulares y seguros para la creación de copias de seguridad, protegiendo la información crítica.
