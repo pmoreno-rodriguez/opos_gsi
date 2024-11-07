@@ -3,7 +3,13 @@
 
 ### TEXTOS PARA INTRODUCCIÓN DEL SUPUESTO :class=titulo-color
 
-#### TEXTO INTRODUCTORIO 1
+#### TEXTO COMÚN A LOS DEMÁS TEXTOS INTRODUCTORIOS :class=subtitulo-color
+
+**Para hacer referencia al artículo 103 de la CE y a la ley 2/2012 de Sostenibilidad Financiera y Equilibrio Presupuestario**
+
+_La Administración Pública, en su compromiso de servir con objetividad los intereses generales, actúa conforme a los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación, siempre bajo el pleno sometimiento a la ley y al Derecho, tal como establece el artículo 103 de la Constitución de 1978. En este contexto, y ante un escenario de contención del gasto público, el presente sistema informático se ha diseñado con el objetivo de reutilizar los servicios comunes de la Administración del Estado. Este enfoque no solo busca optimizar los recursos disponibles, sino también mejorar la eficiencia y la calidad de los servicios ofrecidos a los ciudadanos._
+
+#### TEXTO INTRODUCTORIO 1 :class=subtitulo-color
 
 El proyecto XXXX se enmarca dentro de la actual Estrategia  TIC de la Administración General del Estado (AGE), representada en el vigente plan de Digitalización de las Administraciones Públicas (AA.PP) 2021-2025, en concreto en:
 
@@ -22,7 +28,7 @@ El proyecto XXXX se enmarca dentro de la actual Estrategia  TIC de la Administra
     * Puesto de trabajo inteligente
 - **Linea 5**: Ciberseguridad
 
-#### TEXTO INTRODUCTORIO 2
+#### TEXTO INTRODUCTORIO 2 :class=subtitulo-color
 
 El proyecto de modernización de los sistemas de XXXXXXX responde a los objetivos del *Plan de Digitalización de las Administraciones Públicas 2021-2025*, parte esencial del *Plan de Recuperación, Transformación y Resiliencia*. En concordancia con la iniciativa *España Digital 2026*, este proyecto busca crear servicios de XXXXX digital accesibles, eficientes y seguros que beneficien a los ciudadanos mediante una gestión optimizada y personalizada de sus servicios de XXXXXXXX. La mejora en la eficiencia y en la calidad del servicio, junto con la reutilización de infraestructuras tecnológicas y el cumplimiento de las normativas de seguridad y accesibilidad, colocan a *ORGANISMO* en un lugar central en el proceso de modernización y digitalización de la *Área del organismo (sanidad, trabajo, protección social, etc)*.
 
@@ -56,7 +62,7 @@ El proyecto de modernización de los sistemas de XXXXXXX responde a los objetivo
 
 Esta normativa servirá de base para asegurar que el proyecto no solo cumpla con los requisitos legales y de seguridad, sino que también garantice la accesibilidad y protección de los datos de los usuarios.
 
-#### TEXTO INTRODUCTORIO 3
+#### TEXTO INTRODUCTORIO 3 :class=subtitulo-color
 
 En un contexto marcado por la **Agenda España Digital 2025** y el **Plan de Digitalización de las Administraciones Públicas 2021-2025**, se establece la necesidad de implementar un nuevo sistema de gestión informática que optimice la eficiencia, seguridad y accesibilidad de los servicios públicos digitales. Este sistema se alinea con los objetivos estratégicos del Estado, orientados a proporcionar servicios inclusivos y de alta calidad para ciudadanos y empresas. La Administración busca modernizar su infraestructura digital para garantizar una interacción fluida, eficiente y centrada en el usuario, mejorando los tiempos de respuesta y optimizando el uso de los recursos.
 
@@ -79,7 +85,7 @@ En cuanto a la normativa administrativa, el sistema respetará los preceptos de 
 
 Estas normativas serán la base de referencia para el desarrollo e implementación del sistema informático planteado en este supuesto.
 
-#### TEXTO INTRODUCTORIO 4
+#### TEXTO INTRODUCTORIO 4 :class=subtitulo-color
 
 La transformación digital de la Administración Pública es una prioridad estratégica que busca agilizar los servicios y mejorar la relación con ciudadanos y empresas mediante un sistema de gestión informatizado adaptado a las normativas de seguridad, interoperabilidad y accesibilidad. En línea con el **Plan de Transformación Digital de la Administración General del Estado**, el nuevo sistema ofrecerá una plataforma segura y eficiente que centraliza la gestión de datos y procesos, reduciendo los tiempos de tramitación y mejorando la calidad de la experiencia de los usuarios.
 
@@ -102,7 +108,7 @@ La implementación seguirá las disposiciones de la **Ley 39/2015, de 1 de octub
 
 Estas normativas orientarán el desarrollo del sistema, garantizando una administración digital accesible, segura y eficaz.
 
-#### TEXTO INTRODUCTORIO 5
+#### TEXTO INTRODUCTORIO 5 :class=subtitulo-color
 
 El nuevo sistema informático que aquí se propone responde a la necesidad de impulsar la transformación digital de la Administración Pública Española, en un contexto donde la digitalización y modernización de los servicios públicos es clave para mejorar la eficiencia y adaptarse a las expectativas de ciudadanos y empresas. Este sistema será un pilar estratégico en el marco del **Plan de Recuperación, Transformación y Resiliencia de la economía española** y está diseñado para responder a las exigencias de una Administración del siglo XXI, en la que la transparencia, la accesibilidad y la seguridad son fundamentales.
 
