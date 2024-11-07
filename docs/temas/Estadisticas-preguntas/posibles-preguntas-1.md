@@ -1,28 +1,10 @@
-# Supuesto 1: Posibles Preguntas del B3 y Posibles Preguntas Complementarias de B4 <!-- {docsify-ignore} -->
+## Posibles Preguntas del B3 y B4 <!-- {docsify-ignore} -->
 
-## Diagrama de Casos de Uso <!-- {docsify-ignore} -->
-- **5** Diagrama de casos de uso
+> [!TIP|label: Bloque no estructurado]
+> *Este bloque nos da una idea de qué tipo de preguntas salen en los supuestos, pero no está estructurado
+> y se organizará en el futuro. Para profundizar en alguno de estos puntos, consulta el resto de la página.*
 
-## Diagrama de Clases / Modelo Entidad-Relación <!-- {docsify-ignore} -->
-- **3** Diagrama de clases / 2 Modelo Entidad/Relación extendido (estos dos son el mismo diagrama, es un diagrama para modelar los datos que van a la base de datos o en cambio modelar todo el sistema, todo de lo que hable el supuesto vaya o no a la base de datos)
-
-## Arquitectura Tecnológica para Movilidad <!-- {docsify-ignore} -->
-- **3** Arquitectura tecnológica para movilidad
-
-## Propuesta Tecnológica <!-- {docsify-ignore} -->
-- **2** Propuesta tecnológica
-
-## Diagramas <!-- {docsify-ignore} -->
-- **2** Diagrama de paquetes
-- **2** Diagrama de secuencia
-
-## Otros <!-- {docsify-ignore} -->
-- **1** Factores críticos de éxito
-- **1** DAFO
-
----
-
-## Preguntas Supuesto 1 (2014 - 2019)
+### Preguntas Supuestos (2014 - 2019)
 
 - Diagrama de Casos de Uso (10)
 - Diagrama de Clases (7)
@@ -50,14 +32,14 @@
 - Planificación proyecto (actividades, subactividades, tareas…) (1)
 - ENS Categorización por dimensiones y características, implantar medidas: Registro de la actividad de los usuarios [op.exp.8], Mecanismo de autenticación [op.acc.5] y Perímetro seguro [mp.com.1]
 
-### Pregunta sobre Arquitectura del Sistema <!-- {docsify-ignore} -->
+### Pregunta sobre Arquitectura del Sistema 
 Es hacer un diagrama en 4 capas: 
 - Presentación
 - Lógica de negocio
 - Acceso a datos
 - Acceso a servicios externos (si nosotros damos servicio a otros sistemas, nuestro API Gateway (nuestro proxy inverso para prestar servicios) también está en esta última capa).
 
-### Posibles Preguntas del Bloque 4 en el Supuesto 1 más de Bloque 3 <!-- {docsify-ignore} -->
+### Posibles Preguntas del Bloque 4 dentro de Bloque 3
 
 - **Teletrabajo**: ¿qué usamos para teletrabajo: una VPN, escritorio virtual, remote desktop? → Mi opinión es hacer VPN porque es más barato.
   
@@ -121,10 +103,10 @@ Es hacer un diagrama en 4 capas:
 
 ---
 
-## Diagrama de Contexto <!-- {docsify-ignore} -->
+### Diagrama de Contexto 
 **Mecanismos E/S**: Indicar cómo accedería al sistema de información cada actor o sistema que interactúa con el mismo, así como los intercambios de información.
 
-### Actores del Sistema de Información <!-- {docsify-ignore} -->
+### Actores del Sistema de Información 
 1. **Ciudadano (Humano)**:
    - Mecanismo de entrada/salida: interfaz web HTTPS (túnel TLS) con un navegador web. Acceso a través de una red WAN, usualmente internet.
   
