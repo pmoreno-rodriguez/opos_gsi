@@ -9,11 +9,14 @@ ciudadano -down- movil
 pc -down--> fw: WAN
 movil -down--> fw: WAN
 fw -->"Container A"
-"Container A" -left->"Physical Device"
+"Container A" -right->"Physical Device"
 "Physical Device" -->"Container B"
 "Container B" -->"Container C"
 "Container B" -->"Container D"
 "Container B" -->"Container E"
+"Container C" -->"Container F" : "Api interna Java"
+"Container D" -->"Container F" : "Api interna Java"
+"Container E" -->"Container F" : "Api interna Java"
 
 
 node "PC" as pc <<PC>> {
@@ -45,6 +48,17 @@ node "Container D" <<VIRTUAL CONTAINER>> {
 node "Container E" <<VIRTUAL CONTAINER>> {
     component "Servidor Web Apache 3"
 }
+node "Container F" <<VIRTUAL CONTAINER>> {
+    component "Interfaces con Servicios Web"
+}
+"Container F" ..> "Cl@ve Identificacion"
+"Container F" ..> "FIRE"
+"Container F" ..> "NOTIFICA"
+"Container F" ..> "PLATA"
+"Container F" ..> "GEISER"
+"Container F" ..> "INSIDE"
+"Container F" ..> "ARCHIVE"
+"Container F" ..> "SIM"
 
 @enduml
 ```
