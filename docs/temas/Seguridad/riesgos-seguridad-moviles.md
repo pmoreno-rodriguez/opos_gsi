@@ -2,7 +2,7 @@
 
 | Código | Riesgo de Seguridad                       | Descripción                                                                                                       |
 |--------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| M1     | **Uso Improper de Credenciales**        | Implica el manejo inadecuado de credenciales, como contraseñas o tokens de sesión, que pueden ser robadas o utilizadas incorrectamente. |
+| M1     | **Uso Inapropiado de Credenciales**        | Implica el manejo inadecuado de credenciales, como contraseñas o tokens de sesión, que pueden ser robadas o utilizadas incorrectamente. |
 | M2     | **Seguridad de la Cadena de Suministro**| Involucra la falta de controles de seguridad para bibliotecas de terceros, aumentando el riesgo de vulnerabilidades externas. |
 | M3     | **Autenticación/Autorización Insegura** | Se refiere a la implementación defectuosa de mecanismos de autenticación, lo que permite a atacantes eludir controles de acceso. |
 | M4     | **Validación de Entrada/Salida Insuficiente** | La ausencia de validación adecuada puede dar lugar a inyecciones de código o la manipulación de datos, comprometiendo la integridad de la aplicación. |

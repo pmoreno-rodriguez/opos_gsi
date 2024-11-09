@@ -40,10 +40,26 @@
         });
       });
     };
-  
+    
+    function addTableClasses() {
+      var tables = document.querySelectorAll('table');
+      tables.forEach(function(table) {
+        var rows = table.querySelectorAll('tr');
+        rows.forEach(function(row) {
+          row.querySelectorAll('th, td').forEach(function(cell) {
+            var matches = cell.textContent.match(/:class=([\w-]+)/);
+            if (matches) {
+              var className = matches[1];
+              cell.className = className;
+              cell.innerHTML = cell.innerHTML.replace(/:class=[\w-]+/, '');
+            }
+          });
+        });
+      });
+    }
     // Registro del plugin en Docsify
     $docsify = $docsify || {};
-    $docsify.plugins = [].concat($docsify.plugins || [], addHeadingClassesPlugin);
+    $docsify.plugins = [].concat($docsify.plugins || [], addHeadingClassesPlugin, addTableClasses);
   })();
   
   
