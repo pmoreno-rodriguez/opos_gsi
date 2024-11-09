@@ -139,7 +139,7 @@ Otra clasificación en cuanto al rol en la prestación de servicios:
 
 #### 3.2 SUBSISTEMAS :class=titulo-color2
 
-De acuerdo con el estándar **TIA-942**, la infraestructura de soporte de un CPD estará compuesta por cuatro subsistemas:
+De acuerdo con el estándar **ANSI/TIA-942**, la infraestructura de soporte de un CPD estará compuesta por cuatro subsistemas:
 
 - **Telecomunicaciones**: Cableado de armarios y horizontal, accesos redundantes, cuarto de entrada, área de distribución, backbone, elementos activos y alimentación redundantes, patch panels y latiguillos, documentación.
 - **Arquitectura**: Selección de ubicación, tipo de construcción, protección ignífuga y requerimientos **NFPA 75** (Sistemas de protección contra el fuego para información), barreras de vapor, techos y pisos, áreas de oficina, salas de UPS y baterías, sala de generador, control de acceso, CCTV, NOC (Network Operations Center).
@@ -148,18 +148,18 @@ De acuerdo con el estándar **TIA-942**, la infraestructura de soporte de un CPD
 
 #### 3.3 ELEMENTOS :class=titulo-color2
 
-Según los estándares definidos por la norma **TIA-942**, generalmente en un centro de proceso de datos deberíamos encontrar los siguientes elementos, desde el punto de vista de organización de las comunicaciones:
+Según los estándares definidos por la norma **ANSI/TIA-942**, generalmente en un centro de proceso de datos deberíamos encontrar los siguientes elementos, desde el punto de vista de organización de las comunicaciones:
 
 - **Centro de operaciones**: oficina aledaña a las salas de servidores en donde se encuentran los operadores y técnicos de operación y soporte. Dispone habitualmente de sistemas de monitorización e inspección remota. Habitualmente se realiza también el control de acceso a las salas.
 - **Sala de entrada**: Contiene los elementos de comunicaciones de los proveedores de acceso, así como almacenes o áreas de carga y descarga.
 - **Sala principal**: Sala que contiene los servidores y otros equipos que forman parte del CPD. Habitualmente cuenta con un falso suelo para el mantenimiento más sencillo del cableado, y los equipos se distribuyen en armarios (**rack**) situados en hileras.
-- **Armarios de comunicaciones**: La norma **TIA-942** presenta un enfoque estructurado de los elementos de conectividad estableciendo una arquitectura en estrella, con una zona principal de distribución que agrupa el cableado del “backbone” de red, así como los conmutadores, enrutadores y centralitas del “core” de la **LAN**. Esta norma incluye el cable de categoría 6A como el nuevo mínimo.
+- **Armarios de comunicaciones**: La norma **ANSI/TIA-942** presenta un enfoque estructurado de los elementos de conectividad estableciendo una arquitectura en estrella, con una zona principal de distribución que agrupa el cableado del “backbone” de red, así como los conmutadores, enrutadores y centralitas del “core” de la **LAN**. Esta norma incluye el cable de categoría 6A como el nuevo mínimo.
 
 #### 3.4 DISEÑO :class=titulo-color2
 
 Los aspectos de diseño más relevantes a la hora del diseño de un centro de proceso de datos tienen mucho que ver con los requisitos de disponibilidad de los servicios que alberga.
 
-La norma **TIA-942** recoge la clasificación en “tiers”, que proporcionan un marco de evaluación de la disponibilidad de los servicios de TI que puede ofrecer un centro:
+La norma **ANSI/TIA-942** recoge la clasificación en “tiers”, que proporcionan un marco de evaluación de la disponibilidad de los servicios de TI que puede ofrecer un centro:
 
 - **Tier 1 (CPD básico)**: No hay redundancia en administración eléctrica y refrigeración. Puede tener o no suelo elevado y SAI (Sistema de Alimentación Ininterrumpido). El servicio puede interrumpirse por paradas programadas o no programadas. Tasa máxima de disponibilidad: 99,671 % (que equivaldría a ~28,82 horas al año de servicio interrumpido).
 - **Tier 2 (CPD redundante)**: Menos susceptible a paradas programadas o no. Tiene componentes redundantes. Tiene suelos elevados y SAI. Una única línea de distribución eléctrica y refrigeración. Tasa máxima de disponibilidad: 99,741 % (que equivaldría a ~22,69 horas al año de servicio interrumpido).
