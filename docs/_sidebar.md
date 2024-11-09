@@ -115,6 +115,7 @@
     - [Ejemplo 2 Diagrama de Casos de Uso](./temas/Diagramas/ejemplo2-diagrama-casos-de-uso.md)
   - Diagramas de Red
     - [Diagrama de red básico](./temas/Diagramas/diagrama-red-basico.md)
+    - [Diagrama de red ampliado](./temas/Diagramas/diagrama-red-ampliado.md)
   - Diagramas de Clases
     - [Diagrama de clases genérico](./temas/Diagramas/ejemplo1-diagrama-clases.md)
   - Diagramas de Contexto

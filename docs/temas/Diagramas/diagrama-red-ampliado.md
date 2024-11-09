@@ -1,0 +1,1 @@
+[filename](../../diagramas/Diagrama-red-ampliado.drawio ':include :type=code')
