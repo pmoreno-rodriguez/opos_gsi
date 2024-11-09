@@ -449,8 +449,8 @@
         <td> </td>
       </tr>
       <tr>
-        <td>op.ext.1</td>
-        <td>Contratación y acuerdos de nivel de servicio</td>
+        <td class="fondo_azul">op.ext.1</td>
+        <td>Contratación y acuerdos de nivel de servicio (SLA)</td>
         <td>Categoría</td>
         <td>n.a.</td>
         <td class="fondo_amarillo">
@@ -1073,7 +1073,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.info.3</td>
+        <td class="fondo_azul">mp.info.3</td>
         <td>Firma electrónica</td>
         <td>I A</td>
         <td class="fondo_verde">
