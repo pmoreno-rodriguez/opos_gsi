@@ -80,7 +80,7 @@ La **seguridad lógica** es tan importante como la física, ya que protege los d
 ##### Bastionado de servidores :class=subtitulo-color
 
 - El **bastionado** consiste en configurar los servidores para reducir su superficie de ataque. Esto incluye deshabilitar servicios y puertos innecesarios, aplicar políticas estrictas de acceso, y configurar correctamente los permisos para minimizar riesgos de ataques.
-  
+
 ##### Firewalls y Web Application Firewall (WAF) :class=subtitulo-color
 
 - Los **firewalls** protegen los perímetros del CPD, asegurando que solo se permita el tráfico autorizado entre redes internas y externas. Los **WAF (Web Application Firewall)** son esenciales para proteger aplicaciones web contra ataques específicos como el **SQL Injection** o el **Cross-Site Scripting (XSS)**.
@@ -96,7 +96,7 @@ La **seguridad lógica** es tan importante como la física, ya que protege los d
 ##### Auditorías de seguridad :class=subtitulo-color
 
 - Las auditorías de seguridad periódicas son esenciales para detectar vulnerabilidades. Estas auditorías pueden ser internas o externas, y permiten evaluar la efectividad de las políticas de seguridad y realizar ajustes cuando sea necesario.
-  
+
 ##### Política de actualizaciones de software base :class=subtitulo-color
 
 - Mantener el software del sistema operativo y las aplicaciones actualizados es crucial para evitar que vulnerabilidades conocidas sean explotadas. Las políticas de actualización deben incluir la instalación de **parches de seguridad** de manera regular.
