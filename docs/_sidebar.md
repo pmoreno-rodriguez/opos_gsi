@@ -64,6 +64,7 @@
   - [Alternativas tecnológicas para el desarrollo de sistemas](./temas/Tecnologias/alternativas-tecnologicas-desarrollo-sistemas.md)
   - [Elección de pila tecnológica](./temas/Tecnologias/eleccion-pila-tecnologica.md)
   - [Ecosistema JAVA](./temas/Tecnologias/ecosistema-java.md)
+  - [SOAP y REST](./temas/Tecnologias/soap-rest.md)
 - Análisis del dominio
   - [Qué es y en qué consiste un análisis de dominio](./temas/Analisis-Dominio/analisis-dominio.md)
 - Arquitectura Lógica
@@ -105,6 +106,7 @@
   - [Desarrollo de PWA](./temas/Teletrabajo/desarrollo-pwa.md)
   - [BYOD, CYOD, COPE y COBO](./temas/Teletrabajo/byod-cyod-cope-cobo.md)
   - [Servicio Unificado de Telecomunicaciones](./temas/Teletrabajo/servicio-unificado-teleco.md)
+  - [VPN para el teletrabajo](./temas/Teletrabajo/vpn-teletrabajo.md)
 - Diagramas
   - Diagramas de Secuencia
     - [Ejemplo 1 Diagrama de Secuencia](./temas/Diagramas/ejemplo1-diagrama-secuencia.md)
