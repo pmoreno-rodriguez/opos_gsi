@@ -9,7 +9,11 @@
   - [Planteamiento previo](./temas/Consideraciones-del-supuesto/planteamiento-previo.md)
   - [Preguntas para identificar actores y funcionalidades](./temas/Consideraciones-del-supuesto/Preguntas-indentificar-actores-funcionalidades.md)
   - [Posibles preguntas Parte 1](./temas/Estadisticas-preguntas/posibles-preguntas-1.md)
-  - [Textos de ejemplo para introducir temas](./temas/Consideraciones-del-supuesto/textos-ejemplo.md)
+  - Respuestas de ejemplo para el supuesto
+    - [Textos de ejemplo para introducir temas](./temas/Consideraciones-del-supuesto/respuestas-de-ejemplo/textos-introduccion-ejemplos.md)
+    - [Respuesta de ejemplo para Protocolos de Intercambio de datos](./temas/Consideraciones-del-supuesto/respuestas-de-ejemplo/ejemplo-respuesta-protocolos-intercambio-datos.md)
+    - [Respuesta de ejemplo Funcionalidades de una App Móvil](./temas/Consideraciones-del-supuesto/respuestas-de-ejemplo/ejemplo-respuesta-app-movil.md)
+    - [Respuesta de ejemplo para las especificaciones de un CPD](./temas/Consideraciones-del-supuesto/respuestas-de-ejemplo/ejemplo-respuesta-cpd.md)
   - [Análisis de un sistema para un procedimiento administrativo](./temas/Consideraciones-del-supuesto/analisis-sistema-procedimiento-administrativo.md)
   - [Guía para identificar actores e interfaces](./temas/Consideraciones-del-supuesto/guia-identificar-actores.md)
 - Legal
