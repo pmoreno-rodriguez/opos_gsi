@@ -191,5 +191,3 @@ No se valoran servicios internos o auxiliares como correo electrónico, director
 Es esencial documentar todo el proceso que ha llevado a determinar la categoría del sistema, justificando los niveles de impacto y la categorización final.
 
 Con esto, el sistema queda categorizado y listo para la implantación de medidas según el Esquema Nacional de Seguridad.
-
-Si necesitas agregar algo más o adaptar algún detalle adicional, házmelo saber.
