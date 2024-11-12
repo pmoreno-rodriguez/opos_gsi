@@ -1,7 +1,7 @@
-## Integración Continua y Despliegue Continuo: CI/CD <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído parcialmente de la documentación de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/).
+
+## Integración Continua y Despliegue Continuo: CI/CD <!-- {docsify-ignore} -->
 
 La integración continua (CI) y el despliegue continuo (CD) son metodologías clave en el desarrollo de software moderno, conocidas en conjunto como CI/CD. Este enfoque permite a los equipos de desarrollo y operaciones automatizar, supervisar y coordinar la entrega de nuevas aplicaciones a clientes. Es una solución eficaz para problemas comunes en la integración de código, facilitando la colaboración y optimizando la entrega de software a través de un canal continuo.
 

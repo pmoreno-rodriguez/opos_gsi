@@ -1,7 +1,7 @@
-## Sistemas RAID Utilizables en un CPD <!-- {docsify-ignore} -->
-
 > [!ATTENTION|style:callout|label:Contenido NO Verificado]
 > Respuesta de ChatGPT sobre los sistemas RAID.
+
+## Sistemas RAID Utilizables en un CPD <!-- {docsify-ignore} -->
 
 Los sistemas RAID (Redundant Array of Independent Disks) son fundamentales en un Centro de Procesamiento de Datos (CPD) de la Administración Pública Española, donde la seguridad de la información y la disponibilidad de los sistemas son esenciales. La Administración Pública maneja grandes volúmenes de datos sensibles, como registros sanitarios, documentos fiscales y datos personales, lo que requiere un almacenamiento robusto y seguro.
 

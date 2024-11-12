@@ -1,7 +1,7 @@
-## SOLUCIONES DE SEGURIDAD DEL CCN <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre las soluciones de seguridad del CCN.
+
+## SOLUCIONES DE SEGURIDAD DEL CCN <!-- {docsify-ignore} -->
 
 | Solución         | Descripción                                                               |
 |------------------|---------------------------------------------------------------------------|

@@ -1,7 +1,7 @@
-## Modelos de Arquitectura en Desarrollo de Software: Arquitectura Lógica de 3 o 4 Capas y Microservicios <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre diferencias entre arquitectura lógica de 3 o 4 capas y microservicios.
+
+## Modelos de Arquitectura en Desarrollo de Software: Arquitectura Lógica de 3 o 4 Capas y Microservicios <!-- {docsify-ignore} -->
 
 La arquitectura de software es un componente fundamental en el desarrollo de aplicaciones, ya que establece la estructura y los patrones de diseño que guiarán el desarrollo, la implementación y el mantenimiento del software. Dos de los modelos arquitectónicos más utilizados son la arquitectura lógica de 3 o 4 capas y la arquitectura de microservicios. A continuación, se explicará en qué consiste cada uno de estos modelos, sus componentes y se presentarán las diferencias clave entre ellos.
 

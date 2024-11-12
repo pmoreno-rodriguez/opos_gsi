@@ -1,26 +1,32 @@
-## Utilización de las Historias de Usuario en Metodologías Ágiles para el Desarrollo de un Sistema <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre el uso de la metodología ágil en el desarrollo de un sistema y cómo se realizan Historias de usuario.
+
+## Utilización de las Historias de Usuario en Metodologías Ágiles para el Desarrollo de un Sistema <!-- {docsify-ignore} -->
 
 Las **historias de usuario** son una de las herramientas más fundamentales en las metodologías ágiles, como Scrum y Kanban. Son una forma ágil de capturar requisitos y facilitan la comunicación entre el equipo de desarrollo y los interesados (stakeholders). Estas historias se enfocan en lo que un usuario final quiere lograr con el sistema, en lugar de especificar cómo se debe implementar la funcionalidad. A continuación, detallaremos su estructura, su papel en el proceso de desarrollo y cómo se utilizan, junto con un ejemplo para facilitar su comprensión.
 
 ### ¿Qué son las Historias de Usuario? <!-- {docsify-ignore} -->
 
-Una historia de usuario es una **descripción breve y simple de una funcionalidad desde la perspectiva del usuario final**. En lugar de enfocarse en los aspectos técnicos de una tarea, se centran en el valor que esa funcionalidad aporta al usuario. El formato clásico de una historia de usuario es el siguiente:
+<!-- TOC -->
 
-> **Como** [tipo de usuario], **quiero** [acción o funcionalidad], **para** [beneficio o valor].
+- [Utilización de las Historias de Usuario en Metodologías Ágiles para el Desarrollo de un Sistema](#utilizaci%C3%B3n-de-las-historias-de-usuario-en-metodolog%C3%ADas-%C3%A1giles-para-el-desarrollo-de-un-sistema)
+    - [¿Qué son las Historias de Usuario?](#%C2%BFqu%C3%A9-son-las-historias-de-usuario)
+    - [Las 3 C’s de las Historias de Usuario: Card, Conversation, Confirmation](#las-3-cs-de-las-historias-de-usuario-card-conversation-confirmation)
+    - [Uso de las Historias de Usuario en el Ciclo de Desarrollo](#uso-de-las-historias-de-usuario-en-el-ciclo-de-desarrollo)
+        - [Identificación de Historias de Usuario](#identificaci%C3%B3n-de-historias-de-usuario)
+        - [División de Historias en Tareas Técnicas](#divisi%C3%B3n-de-historias-en-tareas-t%C3%A9cnicas)
+        - [Implementación y Validación](#implementaci%C3%B3n-y-validaci%C3%B3n)
+        - [Pruebas y Demostración](#pruebas-y-demostraci%C3%B3n)
+    - [Ejemplo Completo de Historia de Usuario](#ejemplo-completo-de-historia-de-usuario)
+        - [Contexto:](#contexto)
+        - [Historia de Usuario Card:](#historia-de-usuario-card)
+        - [Conversación Conversation:](#conversaci%C3%B3n-conversation)
+        - [Confirmación Confirmation:](#confirmaci%C3%B3n-confirmation)
+        - [Tareas Técnicas:](#tareas-t%C3%A9cnicas)
+        - [Pruebas:](#pruebas)
+    - [Conclusión](#conclusi%C3%B3n)
 
-Por ejemplo:
-
-> **Como** cliente de una tienda en línea, **quiero** recibir una notificación cuando mi pedido sea enviado, **para** estar informado sobre el estado de mi compra.
-
-### Las 3 C’s de las Historias de Usuario: **Card, Conversation, Confirmation** <!-- {docsify-ignore} -->
-
-Las historias de usuario se organizan en tres componentes clave que son conocidas como las **3 C’s**:
-
-1. **Card (Tarjeta)**: La tarjeta es el soporte físico o digital que contiene la historia de usuario. No es un documento extenso; es un recordatorio simple de lo que el equipo necesita implementar. Suele contener la historia en el formato mencionado y algunas notas básicas.
-   
+<!-- /TOC -->
    - Ejemplo de una tarjeta:
      ```
      Como cliente, quiero recibir un correo electrónico cuando mi pedido sea enviado para saber cuándo esperar mi entrega.

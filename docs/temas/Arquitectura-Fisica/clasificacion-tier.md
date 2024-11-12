@@ -1,7 +1,7 @@
-## TABLA DE CLASIFICACIÓN TIER DE LOS CPDs <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre la clasificación TIER de los CPDs.
+
+## TABLA DE CLASIFICACIÓN TIER DE LOS CPDs <!-- {docsify-ignore} -->
 
 La clasificación **TIER** de los Centros de Procesamiento de Datos (CPDs) está basada en las normas definidas por el **Uptime Institute** y su estándar oficial conocido como **"ANSI/TIA-942: Infrastructure Standard for Data Centers"**. Este estándar es una guía técnica que detalla los requisitos para la infraestructura de los CPDs en términos de redundancia, disponibilidad y tolerancia a fallos. La clasificación TIER es reconocida mundialmente y permite a las organizaciones medir el rendimiento y la capacidad de los CPDs.
 

@@ -1,7 +1,7 @@
-## Ejemplo de categorización de un sistema siguiendo el ENS <!-- {docsify-ignore} -->
-
-> [!NOTE|label: Nota Aclaratoria]
+> [!NOTE|style:callout|label: Nota Aclaratoria]
 > Procedemos a categoriar el sistema de la app del IRPF (consideramos que por detrás tenemos el backend de Renta Web):
+
+## Ejemplo de categorización de un sistema siguiendo el ENS <!-- {docsify-ignore} -->
 
 Daremos niveles n. a. (no aplica), bajo, medio o alto para las dimensiones de seguridad DICAT (Disponibilidad, Integridad, Confidencialidad, Autenticidad y Trazabilidad), seguiremos el anexo I del ENS (Esquema Nacional de Seguridad) real decreto 311/2022, y la [Guía ccn stic 803](https://pmoreno-rodriguez.github.io/opos_gsi/pdf/803_ENS-valoracion.pdf) de valoración de los sistemas
 

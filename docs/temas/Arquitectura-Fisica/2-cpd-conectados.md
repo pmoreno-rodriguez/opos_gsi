@@ -1,7 +1,7 @@
-## Solución tecnológica para interconectar el CPD principal con uno de respaldo <!-- {docsify-ignore} -->
-
 > [!NOTE|style:callout|label:Contenido del INAP]
 > Contenido extraído de supuestos prácticos de cursos de formación del INAP para preparación de oposiciones
+
+## Solución tecnológica para interconectar el CPD principal con uno de respaldo <!-- {docsify-ignore} -->
 
 Para implementar una solución a largo plazo que interconecte el CPD principal con un CPD de respaldo, la idea es lograr que ambos centros operen como si fueran una única red, lo que se conoce como **CPD Extendido**. Esto implica desplegar una WAN que conecte las LANs de cada centro de forma transparente y que mantenga el mismo direccionamiento IP. Para ello, tecnologías como **MPLS (MultiProtocol Label Switching)** o **VPLS (Virtual Private LAN Service)** pueden ser utilizadas. Aunque MPLS ofrece la posibilidad de conectar varias sedes y gestionar eficientemente tráfico mixto como voz, vídeo y datos, **VPLS** es más segura y ofrece un mejor rendimiento para interconectar un número reducido de sedes, como en este caso, donde se maneja principalmente tráfico de datos.
 

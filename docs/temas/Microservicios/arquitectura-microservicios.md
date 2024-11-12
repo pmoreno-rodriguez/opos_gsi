@@ -1,7 +1,7 @@
-## Arquitectura de Microservicios <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído de [Atlassian](https://www.atlassian.com/es)
+
+## Arquitectura de Microservicios <!-- {docsify-ignore} -->
 
 En el mundo actual, la modernización de aplicaciones a menudo implica migrar a aplicaciones nativas de la nube construidas como microservicios. Este enfoque, adoptado por gigantes como Netflix y Atlassian, mejora significativamente la escalabilidad, la velocidad de desarrollo y la iteración de servicios.
 

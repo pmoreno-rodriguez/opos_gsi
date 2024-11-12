@@ -1,7 +1,7 @@
-### Introducción a las VPN en el Teletrabajo de la Administración Pública bajo el Esquema Nacional de Seguridad <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre el uso de VPN en teletrabajo.
+
+### Introducción a las VPN en el Teletrabajo de la Administración Pública bajo el Esquema Nacional de Seguridad <!-- {docsify-ignore} -->
 
 El uso de redes privadas virtuales (VPN) ha ganado relevancia en la Administración Pública, especialmente en el contexto del teletrabajo. Estas redes permiten establecer conexiones seguras entre empleados remotos y los recursos internos de una organización, protegiendo la confidencialidad y la integridad de la información, incluso en redes públicas. Según la guía del CCN-STIC 836 y el Real Decreto 311/2022 del Esquema Nacional de Seguridad (ENS), la implementación de VPN en entornos públicos debe seguir rigurosas medidas de seguridad que protejan los datos sensibles y garanticen un acceso controlado y seguro.
 

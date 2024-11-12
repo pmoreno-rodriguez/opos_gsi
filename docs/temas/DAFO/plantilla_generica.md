@@ -1,6 +1,7 @@
-## Análisis DAFO <!-- {docsify-ignore} -->
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta elaborada a partir de documentación propia.
+
+## Análisis DAFO <!-- {docsify-ignore} -->
 
 | **Factores Internos** | **Factores Externos** |
 | :- | :- |

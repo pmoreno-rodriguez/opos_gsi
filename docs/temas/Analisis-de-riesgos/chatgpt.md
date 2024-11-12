@@ -1,7 +1,7 @@
-## Análisis de riesgos <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT para un Análisis de Riesgos de un sistema
+
+## Análisis de riesgos <!-- {docsify-ignore} -->
 
 El análisis de riesgos con la herramienta **PILAR** (Planificación, Identificación, Localización, Análisis y Resolución) del **Centro Criptológico Nacional (CCN)** sigue un enfoque estructurado para evaluar los riesgos de seguridad en la información y los sistemas informáticos. PILAR se basa en el **Esquema Nacional de Seguridad (ENS)** de España y proporciona una metodología detallada para identificar y gestionar riesgos. A continuación te explico cómo realizar un análisis de riesgos utilizando PILAR y los principales pasos a seguir:
 

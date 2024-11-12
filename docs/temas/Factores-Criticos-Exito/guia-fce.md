@@ -1,21 +1,20 @@
-## Guía General para Identificar Factores Críticos de Éxito (FCE) en el Diseño o Implantación de un Sistema Informático
----
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre el los pasos para identificar los Factores Críticos de Éxito.
----
+
+## Guía General para Identificar Factores Críticos de Éxito (FCE) en el Diseño o Implantación de un Sistema Informático
+
 > [!TIP|label: Texto de ejemplo para introducir los FCE en el supuesto]
 > *Para identificar los Factores Críticos de Éxito (FCE) que afectan al sistema, debemos identificar primero los objetivos que queremos conseguir con el mismo, identificar unos factores de éxito derivados de esos objetivos y de éstos extraer aquellos que se consideran críticos*
----
-### **Fase 1: Definir los objetivos del sistema o desarrollo**
-   - **Descripción**: Establecer con claridad los objetivos que se esperan lograr con el sistema o desarrollo informático. Los objetivos deben estar alineados con las necesidades de la organización y resolver problemas específicos.
-   - **Ejemplos**: Automatizar procesos, mejorar la gestión de datos, incrementar la seguridad de la información, facilitar el acceso remoto, optimizar el rendimiento, etc.
 
-### **Fase 2: Identificar Factores de Éxito para alcanzar esos objetivos**
-   - **Descripción**: Una vez establecidos los objetivos, se deben definir los factores de éxito que faciliten el cumplimiento de estos. Cada factor de éxito debe responder a un aspecto esencial del objetivo planteado.
-   - **Ejemplos**: Interoperabilidad con otros sistemas, facilidad de uso para los usuarios finales, alto rendimiento, escalabilidad, seguridad de los datos, integración con plataformas de terceros, disponibilidad continua, entre otros.
+<!-- TOC -->
 
-### **Fase 3: Extraer los Factores Críticos de Éxito (FCE)**
-   - **Descripción**: De entre los factores de éxito, se seleccionan aquellos que son absolutamente críticos, es decir, aquellos cuya falla significaría el fracaso del sistema en su totalidad. Estos factores son esenciales para el cumplimiento del objetivo general del sistema.
+- [Guía General para Identificar Factores Críticos de Éxito FCE en el Diseño o Implantación de un Sistema Informático](#gu%C3%ADa-general-para-identificar-factores-cr%C3%ADticos-de-%C3%A9xito-fce-en-el-dise%C3%B1o-o-implantaci%C3%B3n-de-un-sistema-inform%C3%A1tico)
+    - [Fase 1: Definir los objetivos del sistema o desarrollo](#fase-1-definir-los-objetivos-del-sistema-o-desarrollo)
+    - [Fase 2: Identificar Factores de Éxito para alcanzar esos objetivos](#fase-2-identificar-factores-de-%C3%A9xito-para-alcanzar-esos-objetivos)
+    - [Fase 3: Extraer los Factores Críticos de Éxito FCE](#fase-3-extraer-los-factores-cr%C3%ADticos-de-%C3%A9xito-fce)
+    - [EJEMPLO](#ejemplo)
+
+<!-- /TOC -->pción**: De entre los factores de éxito, se seleccionan aquellos que son absolutamente críticos, es decir, aquellos cuya falla significaría el fracaso del sistema en su totalidad. Estos factores son esenciales para el cumplimiento del objetivo general del sistema.
    - **Ejemplos**: Seguridad y protección de datos en sistemas de salud, disponibilidad continua en servicios críticos, integración funcional en sistemas de receta electrónica, cumplimiento normativo en sistemas de información gubernamentales, etc.
 
 

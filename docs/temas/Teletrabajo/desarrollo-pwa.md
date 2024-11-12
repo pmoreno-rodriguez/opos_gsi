@@ -1,8 +1,7 @@
-## **Introducción a las Progressive Web Apps (PWA)** <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre desarrollo de aplicaciones web (PWA) para dispositivos móviles.
 
+## **Introducción a las Progressive Web Apps (PWA)** <!-- {docsify-ignore} -->
 
 Las **Progressive Web Apps (PWA)** son un enfoque innovador que combina lo mejor de las aplicaciones web y las aplicaciones nativas, ofreciendo una experiencia de usuario similar a las aplicaciones móviles convencionales, pero utilizando tecnologías web. Las PWA son aplicaciones web que se comportan como aplicaciones nativas, permitiendo a los usuarios instalarlas en sus dispositivos móviles o de escritorio, acceder a ellas sin conexión a Internet, recibir notificaciones push, y ofrecer un rendimiento rápido, incluso en condiciones de red poco fiables.
 

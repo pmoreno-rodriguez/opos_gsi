@@ -1,7 +1,7 @@
-## El Motor de Workflow en los Sistemas Informáticos: Clave para la Automatización y Eficiencia en Procesos de Negocio <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre la definición de un Workflow en la Arquitectura Lógica de Sistemas.
+
+## El Motor de Workflow en los Sistemas Informáticos: Clave para la Automatización y Eficiencia en Procesos de Negocio <!-- {docsify-ignore} -->
 
 En el ámbito de los sistemas informáticos, la gestión de procesos de negocio implica la coordinación eficiente de una serie de tareas, usuarios, y datos para cumplir con los objetivos de una organización. Uno de los componentes clave en estos sistemas es el **Motor de Workflow**, una herramienta fundamental que permite definir, automatizar y supervisar los flujos de trabajo en diversos entornos. Este artículo explora el rol y los beneficios de un Motor de Workflow en la arquitectura de sistemas, y su contribución a la mejora de procesos empresariales.
 

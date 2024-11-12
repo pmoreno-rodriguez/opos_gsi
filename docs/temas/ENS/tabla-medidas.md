@@ -1,7 +1,7 @@
-## Tabla de medidas ENS <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído del ENS RD 311/2022.
+
+## Tabla de medidas ENS <!-- {docsify-ignore} -->
 
 #### Correspondencia entre los niveles de seguridad exigidos en cada dimensión y las medidas de seguridad con sus refuerzos
 

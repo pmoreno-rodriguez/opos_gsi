@@ -1,7 +1,8 @@
-### Ventajas y Desventajas de la Virtualización <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre Virtualización
+
+
+### Ventajas y Desventajas de la Virtualización <!-- {docsify-ignore} -->
 
 **Ventajas:**
 

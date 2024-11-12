@@ -1,7 +1,8 @@
-## Glosario de Términos <!-- {docsify-ignore} -->
-
 > [!INFO|style: callout|icon: fa fa-book|label: GLOSARIO DE TÉRMINOS]
 > Significado de algunos de los términos utilizados en los temas.
+
+
+## Glosario de Términos <!-- {docsify-ignore} -->
 
 | **Nombre del término** | **Descripción** |
 | :-: | :- |

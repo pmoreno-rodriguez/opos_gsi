@@ -1,7 +1,8 @@
-## Protección de Datos <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído de la documentación de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/).
+
+
+## Protección de Datos <!-- {docsify-ignore} -->
 
 ### RGPD - Adaptación a las AAPP <!-- {docsify-ignore} -->
 

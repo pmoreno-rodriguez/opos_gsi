@@ -1,7 +1,7 @@
-## Cloud Computing: Introducción
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre el Cloud Computing.
+
+## Cloud Computing: Introducción
 
 **Cloud Computing** o computación en la nube es un modelo de provisión de servicios tecnológicos que permite acceder a recursos informáticos como almacenamiento, procesamiento y software a través de internet. Esta tecnología ha revolucionado la forma en que tanto empresas privadas como organismos públicos gestionan su infraestructura tecnológica, permitiendo una mayor flexibilidad, escalabilidad y reducción de costos.
 

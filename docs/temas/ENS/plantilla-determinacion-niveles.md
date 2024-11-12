@@ -1,7 +1,7 @@
-## DETERMINACIÓN DE LOS NIVELES Y CATEGORÍA DEL SISTEMA <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído del ENS RD 311/2022.
+
+## DETERMINACIÓN DE LOS NIVELES Y CATEGORÍA DEL SISTEMA <!-- {docsify-ignore} -->
 
 ### VALORACIÓN DE LAS DIMENSIONES DE LOS ACTIVOS ESENCIALES <!-- {docsify-ignore} -->
 

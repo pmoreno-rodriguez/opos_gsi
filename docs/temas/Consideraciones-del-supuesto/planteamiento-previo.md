@@ -1,7 +1,7 @@
-## Supuesto de ejemplo (Oficina Española de Patentes y Marcas) <!-- {docsify-ignore} -->
+> [!TIP|style: callout|icon: fa fa-check|label: Nota]
+> Contenido parcialmente extraído del simulacro de supuesto (ForjaTIC)
 
-> [!NOTE]
-> Simulacro de supuesto (ForjaTIC)
+## Supuesto de ejemplo (Oficina Española de Patentes y Marcas) <!-- {docsify-ignore} -->
 
 **Apuntamos:**
 

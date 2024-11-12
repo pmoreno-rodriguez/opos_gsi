@@ -1,20 +1,12 @@
-## IDENTIFICACIÓN Y CATEGORIZACIÓN DEL SISTEMA <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído de la documentación de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/).
 
+
+## IDENTIFICACIÓN Y CATEGORIZACIÓN DEL SISTEMA <!-- {docsify-ignore} -->
+
 Según el art. 40 del RD 311/2022 y su Anexo I, la categoría de seguridad de un sistema modula el equilibrio entre la importancia de la información que maneja y los servicios que presta y el esfuerzo de seguridad requerido, en función de los riesgos a los que está expuesto, bajo el principio de proporcionalidad. La valoración se hace en base a la guía de seguridad CCN-STIC-803. En los siguientes pasos se hace un resumen del proceso de categorización.
 
-1. **Identificación del sistema**
-
-   En primer lugar, se ha de identificar qué es lo que nos están pidiendo categorizar. Es posible que:
-   - Nos pidan categorizar todo el sistema, o
-   - Parte de él, o
-   - Que nosotros decidamos dividir lo que nos piden categorizar en subsistemas. (*)
-
-   (*) Esto es posible si los subsistemas pueden ser independientes, se puede establecer una interfaz clara entre ellos, y se pueden aplicar medidas de seguridad diferentes. RD 302/2011, Anexo II, Sección 2 (Selección de medidas de seguridad), apartado 2.
-
-2. **Asignación de niveles de seguridad a las dimensiones**
+### Asignación de niveles de seguridad a las dimensiones
 
    La categorización se va a hacer para cada dimensión de la seguridad, es decir:
    - A – Autenticidad

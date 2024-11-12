@@ -1,7 +1,7 @@
-## CRITERIOS DE VALORACIÓN <!-- {docsify-ignore} -->
-
 > [!INFO|style:callout|label:Contenido Literal]
 > Contenido literal extraído de la Guía CCN-STIC 803. ENS. Valoración de los sistemas.
+
+## CRITERIOS DE VALORACIÓN <!-- {docsify-ignore} -->
 
 Habitualmente, se procede a la valoración individualizada de los distintos tipos de información y servicios en el ámbito de aplicación, considerando las dimensiones relevantes para cada uno de ellos.
 

@@ -1,7 +1,7 @@
-## **Centros de Procesamiento de Datos (CPD): Arquitectura, Seguridad y Componentes** <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre Diseño de un CPD, características, seguridad, clasificación, etc.
+
+## **Centros de Procesamiento de Datos (CPD): Arquitectura, Seguridad y Componentes** <!-- {docsify-ignore} -->
 
 Un **Centro de Procesamiento de Datos (CPD)** es una instalación especializada que alberga servidores y otros equipos informáticos para procesar, almacenar y distribuir información. Su diseño y estructura deben garantizar un funcionamiento ininterrumpido, seguridad física y lógica, así como una alta disponibilidad y eficiencia energética. A continuación, profundizamos en los elementos clave de un CPD.
 

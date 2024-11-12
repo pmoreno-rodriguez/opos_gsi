@@ -1,4 +1,4 @@
-> \[!ATTENTION\]  
+> [!ATTENTION]  
 > **Este contenido sirve para cualquier supuesto de carácter administrativo, con solicitudes, resoluciones, funcionarios habilitados, registros, etc.**
 > 
 > PREGUNTA. Análisis del sistema

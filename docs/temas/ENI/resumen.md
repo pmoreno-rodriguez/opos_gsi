@@ -1,8 +1,7 @@
-## Esquema Nacional de Interoperabilidad (ENI) <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído de la documentación de [Preparatic 30](https://www.preparatic.org/material-preparatic-30/).
 
+## Esquema Nacional de Interoperabilidad (ENI) <!-- {docsify-ignore} -->
 
 | **Apartado** | **Contenido** |
 |--------------|---------------|

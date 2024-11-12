@@ -1,7 +1,7 @@
-## ¿Cómo funcionan las API de SOAP y las API de REST? <!-- {docsify-ignore} -->
-
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre SOAP y REST.
+
+## ¿Cómo funcionan las API de SOAP y las API de REST? <!-- {docsify-ignore} -->
 
 SOAP es una tecnología antigua que requiere un contrato de comunicación estricto entre sistemas. Con el tiempo, se han agregado nuevos estándares de servicios web para adaptarse a los cambios tecnológicos, pero generan gastos generales adicionales. REST se desarrolló después de SOAP y soluciona de forma inherente muchas de sus deficiencias. Los servicios web REST también se denominan servicios web RESTful.
 
