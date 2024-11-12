@@ -54,6 +54,7 @@
   - [Riesgos de seguridad en móviles](./temas/Seguridad/riesgos-seguridad-moviles.md)
   - [Soluciones de seguridad del CCN](./temas/Seguridad/soluciones-ccn.md)
   - [Seguridad en Redes](./temas/Seguridad/seguridad-redes.md)
+  - [Seguridad Perimetral](./temas/Seguridad/seguridad-perimetral.md)
 - DAFO
   - [Plantilla Genérica](./temas/DAFO/plantilla_generica.md)
 - Factores críticos de éxito
@@ -87,6 +88,7 @@
   - [Diseño de un CPD](./temas/Arquitectura-Fisica/diseno-cpd.md)
   - [RAID](./temas/Arquitectura-Fisica/raid.md)
   - [Clasificación TIER](./temas/Arquitectura-Fisica/clasificacion-tier.md)
+  - [¿Qué son las SD-WAN?](./temas/Arquitectura-Fisica/sd-wan.md)
 - Backup
   - [Procedimientos de copias de seguridad](./temas/Backup/procedimientos.md)
 - CI/CD
