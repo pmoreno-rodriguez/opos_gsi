@@ -92,6 +92,7 @@
   - [RAID](./temas/Arquitectura-Fisica/raid.md)
   - [Clasificación TIER](./temas/Arquitectura-Fisica/clasificacion-tier.md)
   - [¿Qué son las SD-WAN?](./temas/Arquitectura-Fisica/sd-wan.md)
+  - [Routers VRRP](./temas/Arquitectura-Fisica/routers-vrrp.md)
 - Backup
   - [Procedimientos de copias de seguridad](./temas/Backup/procedimientos.md)
 - CI/CD
