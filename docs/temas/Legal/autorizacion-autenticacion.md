@@ -6,16 +6,7 @@
 La **autenticación** y la **autorización** son fundamentales en el entorno de la Administración Pública, ya que garantizan la identificación correcta de los usuarios y la correcta asignación de derechos y permisos dentro de los sistemas electrónicos. Esto es crucial para proteger los datos personales, evitar fraudes y garantizar la correcta ejecución de los procedimientos administrativos.
 
 ### **Niveles de Seguridad: "Algo que Tienes, Algo que Sabes, Algo que Eres"**
-<!-- TOC -->
 
-- [Autenticación y Autorización en la Administración del Estado](#autenticaci%C3%B3n-y-autorizaci%C3%B3n-en-la-administraci%C3%B3n-del-estado)
-    - [Niveles de Seguridad: "Algo que Tienes, Algo que Sabes, Algo que Eres"](#niveles-de-seguridad-algo-que-tienes-algo-que-sabes-algo-que-eres)
-    - [Aspectos Normativos](#aspectos-normativos)
-    - [Cl@ve: Qué es, en qué consiste y qué integra](#clve-qu%C3%A9-es-en-qu%C3%A9-consiste-y-qu%C3%A9-integra)
-    - [Certificados Digitales y el Reglamento EIDAS](#certificados-digitales-y-el-reglamento-eidas)
-    - [Conclusión](#conclusi%C3%B3n)
-
-<!-- /TOC -->
 ### **Cl@ve: Qué es, en qué consiste y qué integra**
 
 **Cl@ve** es el sistema de **identificación y firma electrónica** diseñado por las Administraciones Públicas para facilitar a los ciudadanos el acceso a los servicios electrónicos de forma segura y sencilla. Es una plataforma **interoperable** que permite a los ciudadanos realizar trámites administrativos sin necesidad de tener un **certificado digital** o el **DNI electrónico** en cada ocasión. Cl@ve integra varios métodos de autenticación, facilitando la autenticación de usuarios mediante distintos niveles de seguridad.
