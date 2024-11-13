@@ -43,7 +43,7 @@ Cuando RouterA falla, todas las PC cambian la puerta de enlace a la puerta de en
 
     Como se muestra en la figura a continuación: RA, RB y RC son routers VRRP, que forman un grupo de respaldo VRRP. RA es el router principal, mientras que RB y RC son routers de respaldo. Estos tres routers parecen uno solo desde el exterior, formando así un grupo de routers virtuales. El router virtual tiene una dirección IP virtual de 10.1.1.1 (la IP del router principal de RA). RA es el propietario de la dirección IP y el router principal.
 
-    ![Router Virtual](../../img/vrrp3.png 'Router Virtual')
+    ![Router Virtual](../../img/vrrp4.png 'Router Virtual')
 
 7. **Dirección IP virtual y dirección MAC virtual**: el router virtual en el grupo VRRP (grupo de respaldo) aparece con una dirección MAC virtual única, con el formato de dirección 00–00–5e-00–01-[VRID], y el VRID es el número del grupo VRRP, que va desde 0 hasta 255.
 
