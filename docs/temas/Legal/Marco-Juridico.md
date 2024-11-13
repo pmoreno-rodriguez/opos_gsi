@@ -5,6 +5,11 @@
 * **RD. 311/2022** que regula el Esquema Nacional de Seguridad (ENS)
 * **RD. 4/2010**, Esquema Nacional de Seguridad (ENI)
 * **Ley 40/2015** de Régimen Jurídico del Sector Público
+    *   **Art. 156**: 
+    1. El Esquema Nacional de Interoperabilidad comprende el conjunto de criterios y recomendaciones en materia de seguridad, conservación y normalización de la información, de los formatos y de las aplicaciones que deberán ser tenidos en cuenta por las Administraciones Públicas para la toma de decisiones tecnológicas que garanticen la interoperabilidad.
+    2. El Esquema Nacional de Seguridad tiene por objeto establecer la política de seguridad en la utilización de medios electrónicos en el ámbito de la presente Ley, y está constituido por los principios básicos y requisitos mínimos que garanticen adecuadamente la seguridad de la información tratada.
+    * **Artículo 157** (Más info en [Servicios Comunes](/temas/Legal/servicios-comunes.md))
+ 
 * **Ley 39/2015** de Procedimiento Administrativo Común de las AA.PP
 * **Ley 3/2018**, de Protección de Datos y Garantías de Derechos Digitales
 * **Ley 19/2013** de Transparencia, acceso a la información pública y Buen Gobierno
