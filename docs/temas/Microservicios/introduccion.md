@@ -6,21 +6,16 @@
 La arquitectura de microservicios es un enfoque de diseño y desarrollo de software donde una aplicación se estructura como un conjunto de servicios pequeños, autónomos y altamente especializados, llamados *microservicios*. Este modelo representa un cambio significativo respecto a las aplicaciones monolíticas tradicionales, en las que toda la funcionalidad de la aplicación se encuentra en un solo paquete de código. A continuación, se detallan las características clave de la arquitectura de microservicios, explicando por qué resultan fundamentales para aprovechar al máximo esta estructura.
 
 **RESUMEN DE CARACTERÍSTICAS**
-<!-- TOC -->
 
-- [Características de una arquitectura basada en Microservicios](#caracter%C3%ADsticas-de-una-arquitectura-basada-en-microservicios)
-    - [Desacoplamiento e Independencia de Servicios :id=desacoplamiento](#desacoplamiento-e-independencia-de-servicios-iddesacoplamiento)
-    - [Separación e Independencia de los Datos :id=sep-datos](#separaci%C3%B3n-e-independencia-de-los-datos-idsep-datos)
-    - [Autonomía de los Equipos de Desarrollo :id=autonomia](#autonom%C3%ADa-de-los-equipos-de-desarrollo-idautonomia)
-    - [Escalabilidad Flexible y Granular :id=escalabilidad](#escalabilidad-flexible-y-granular-idescalabilidad)
-    - [Despliegue y Desarrollo Continuo :id=despliegue](#despliegue-y-desarrollo-continuo-iddespliegue)
-    - [Tecnologías y Lenguajes de Programación Independientes :id=tecnologias](#tecnolog%C3%ADas-y-lenguajes-de-programaci%C3%B3n-independientes-idtecnologias)
-    - [Descentralización del Mantenimiento y el Control :id=descentralizacion](#descentralizaci%C3%B3n-del-mantenimiento-y-el-control-iddescentralizacion)
-    - [Comunicación Basada en APIs :id=comunicacion-api](#comunicaci%C3%B3n-basada-en-apis-idcomunicacion-api)
-    - [Conclusión :id=conclusion](#conclusi%C3%B3n-idconclusion)
-
-<!-- /TOC -->
-<!-- /TOC -->
+- [Desacoplamiento e Independencia de Servicios](#desacoplamiento)
+- [Separación e Independencia de los Datos](#sep-datos)
+- [Autonomía de los Equipos de Desarrollo](#autonomia)
+- [Escalabilidad Flexible y Granular](#escalabilidad)
+- [Despliegue y Desarrollo Continuo](#despliegue)
+- [Tecnologías y Lenguajes de Programación Independientes](#tecnologias)
+- [Descentralización del Mantenimiento y el Control](#descentralizacion)
+- [Comunicación Basada en APIs](#comunicacion-api)
+- [Conclusión](#conclusion)
 
 ### 1. Desacoplamiento e Independencia de Servicios :id=desacoplamiento <!-- {docsify-ignore} -->
 
