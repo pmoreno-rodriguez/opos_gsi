@@ -71,6 +71,8 @@
   - [Elección de pila tecnológica](./temas/Tecnologias/eleccion-pila-tecnologica.md)
   - [Ecosistema JAVA](./temas/Tecnologias/ecosistema-java.md)
   - [SOAP y REST](./temas/Tecnologias/soap-rest.md)
+  - [ORM](./temas/Tecnologias/orm.md)
+  - [Ecosistemas](./temas/Tecnologias/ecosistemas.md)
 - Análisis del dominio
   - [Qué es y en qué consiste un análisis de dominio](./temas/Analisis-Dominio/analisis-dominio.md)
 - Arquitectura Lógica
