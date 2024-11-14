@@ -58,7 +58,7 @@ Para una correcta definición de los subsistemas, es recomendable seguir los sig
 En la administración pública, las interfaces no solo representan el acceso web, sino también la capacidad del sistema de interactuar con otras plataformas y servicios. Esto asegura un servicio continuo y accesible para los ciudadanos.
 
 - **Interfaces de Usuario**: Las interfaces deben cumplir con el **Real Decreto 1112/2018** de accesibilidad para asegurar que todos los ciudadanos puedan interactuar con el sistema, independientemente de sus capacidades o dispositivos.
-- **Integración con Otros Sistemas**: El sistema debe poder conectarse con otros sistemas mediante servicios web o APIs, cumpliendo con las normativas establecidas en el **RD 806/2014**. Este decreto establece la obligatoriedad de ciertos servicios comunes, como Notifica o la Plataforma de Intermediación de Datos (PID).
+- **Integración con Otros Sistemas**: El sistema debe poder conectarse con otros sistemas mediante servicios web o APIs, cumpliendo con las normativas establecidas en el **RD 1125/2024**. Este decreto establece en su Artículo 9, que **la utilización de los medios y servicios transversales será de carácter obligatorio y sustitutivo** respecto a los medios y servicios particulares empleados por las distintas unidades.
 
 Ejemplos de sistemas de integración incluyen:
   - **Notifica**: Permite la gestión de notificaciones administrativas, incluyendo el control de plazos y el seguimiento de entregas.
