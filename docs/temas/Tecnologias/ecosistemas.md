@@ -134,3 +134,79 @@
 - **Python**: Integración con herramientas como Anaconda y Jupyter para proyectos de ciencia de datos dentro de empresas.
 - **PHP**: Laravel para aplicaciones empresariales con una sólida gestión de usuarios y recursos.
 - **JavaScript**: Node.js con Express o NestJS para aplicaciones empresariales modernas.
+
+
+## Tecnologías en el Ecosistema .NET :class=titulo-color <!-- {docsify-ignore} -->
+
+### 1. Frameworks y Bibliotecas :class=subtitulo-color  
+
+- **ASP.NET Core**: Un framework multiplataforma para desarrollar aplicaciones web y APIs modernas, con alto rendimiento y escalabilidad.
+- **Entity Framework Core (EF Core)**: Un ORM que permite a los desarrolladores trabajar con bases de datos usando objetos .NET en lugar de SQL.
+- **Blazor**: Una tecnología que permite desarrollar aplicaciones web interactivas usando C# en lugar de JavaScript, compatible con WebAssembly.
+- **SignalR**: Una biblioteca para implementar comunicación en tiempo real entre clientes y servidores, ideal para notificaciones, chats y streaming.
+- **Xamarin (ahora parte de .NET MAUI)**: Un framework para desarrollar aplicaciones móviles multiplataforma usando .NET y C#.
+- **Dapper**: Una biblioteca ligera para realizar consultas SQL en bases de datos con alto rendimiento.
+
+### 2. Herramientas de Desarrollo :class=subtitulo-color
+
+- **Visual Studio**: El IDE oficial y más completo para desarrollar aplicaciones .NET, con soporte para depuración avanzada, diseño gráfico y administración de proyectos.
+- **Visual Studio Code**: Un editor de código ligero y flexible, con extensiones para trabajar con proyectos .NET.
+- **CLI de .NET (dotnet CLI)**: Una herramienta de línea de comandos para crear, compilar y administrar proyectos .NET.
+- **NuGet**: El gestor de paquetes oficial para .NET, utilizado para instalar y administrar bibliotecas y herramientas de terceros.
+
+### 3. Servidores de Aplicaciones :class=subtitulo-color
+
+- **Kestrel**: Un servidor web ligero y de alto rendimiento incorporado en ASP.NET Core, ideal para escenarios de microservicios y aplicaciones containerizadas.
+- **IIS (Internet Information Services)**: Un servidor web desarrollado por Microsoft, optimizado para alojar aplicaciones .NET en entornos Windows.
+- **Azure App Service**: Una plataforma en la nube de Microsoft para desplegar y escalar aplicaciones web basadas en .NET y otras tecnologías.
+
+### 4. Tecnologías de Microservicios :class=subtitulo-color
+
+- **.NET Core y ASP.NET Core**: Base para construir microservicios escalables y de alto rendimiento.
+- **gRPC**: Un framework para comunicación eficiente entre microservicios mediante Remote Procedure Calls (RPC).
+- **MassTransit**: Una biblioteca para implementar mensajería distribuida en arquitecturas de microservicios.
+- **Dapr (Distributed Application Runtime)**: Una plataforma que simplifica la creación de aplicaciones distribuidas con soporte para .NET.
+- **Azure Service Fabric**: Una plataforma para construir y gestionar microservicios distribuidos en la nube o en entornos locales.
+
+### 5. Tecnologías Relacionadas :class=subtitulo-color
+
+- **.NET MAUI (Multiplatform App UI)**: El sucesor de Xamarin, para crear aplicaciones multiplataforma (Windows, macOS, iOS, Android) con una sola base de código.
+- **WinUI**: Una biblioteca moderna para construir interfaces gráficas en aplicaciones de Windows.
+- **ML.NET**: Un framework para incorporar machine learning en aplicaciones .NET, sin necesidad de experiencia avanzada en inteligencia artificial.
+- **Azure Cognitive Services**: Servicios de IA en la nube que se integran fácilmente con aplicaciones .NET.
+- **PowerShell Core**: Un lenguaje de scripting multiplataforma para la automatización y administración, basado en .NET.
+
+## Escenarios de Uso :class=titulo-color <!-- {docsify-ignore} -->
+
+### Desarrollo de Aplicaciones Web :class=subtitulo-color
+
+- **ASP.NET Core**: Ideal para construir aplicaciones web modernas y APIs RESTful con alto rendimiento y escalabilidad.
+- **Blazor**: Perfecto para aplicaciones web interactivas sin necesidad de escribir JavaScript, utilizando C# y .NET.
+
+### Desarrollo de Aplicaciones de Escritorio :class=subtitulo-color
+
+- **WinUI**: Para construir aplicaciones de escritorio modernas en Windows con soporte para Fluent Design.
+- **WPF (Windows Presentation Foundation)**: Para aplicaciones de escritorio avanzadas con interfaces ricas y personalizables.
+
+### Desarrollo Móvil y Multiplataforma :class=subtitulo-color
+
+- **.NET MAUI**: Una solución unificada para construir aplicaciones multiplataforma con una sola base de código.
+- **Xamarin**: Para aplicaciones móviles con acceso completo a las APIs nativas de iOS y Android.
+
+### Microservicios :class=subtitulo-color
+
+- **ASP.NET Core**: Para construir servicios backend ligeros y escalables.
+- **gRPC**: Para comunicación rápida y eficiente entre microservicios.
+- **MassTransit**: Para gestionar la mensajería entre servicios distribuidos.
+
+### Ciencia de Datos e Inteligencia Artificial :class=subtitulo-color
+
+- **ML.NET**: Para integrar machine learning en aplicaciones .NET.
+- **Azure Cognitive Services**: Para añadir capacidades de IA como reconocimiento de imágenes y procesamiento del lenguaje natural.
+
+### Cloud y DevOps :class=subtitulo-color
+
+- **Azure DevOps**: Para integración continua, despliegue continuo y gestión de proyectos en entornos .NET.
+- **Docker y Kubernetes**: Para contenerizar y orquestar aplicaciones .NET Core en la nube.
+- **Azure App Service**: Para desplegar y escalar aplicaciones web y APIs fácilmente.
+
