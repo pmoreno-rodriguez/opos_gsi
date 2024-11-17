@@ -30,7 +30,9 @@ body,
     .subtitulo-color {
       background-color: #6eb5b75c;
     }
-    .color-verde {
+    .color-verde,
+    .color-verde em,
+    .color-verde strong {
       color: #28a745;
     }
     .fondo_rojo     { background-color: #FF6600 !important; }
