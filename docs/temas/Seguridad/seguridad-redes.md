@@ -206,4 +206,4 @@ Estas medidas ayudan a mitigar el riesgo de **pérdida o robo de información co
 
 #### OWASP y la Seguridad de Aplicaciones Móviles
 
-El proyecto **OWASP (Open Web Application Security Project)**, que se centra en la seguridad de aplicaciones web y móviles, actualizó en 2024 su lista de los **Top 10 mobile risks**. Esta actualización incluye medidas y recomendaciones para evitar vulnerabilidades en las comunicaciones móviles, enfocándose en la seguridad de las redes dentro de infraestructuras móviles.
+El proyecto **OWASP (Open Web Application Security Project)**, que se centra en la seguridad de aplicaciones web y móviles, actualizó en 2024 su lista de los **[Top 10 mobile risks](/temas/Seguridad/riesgos-seguridad-moviles.md)**. Esta actualización incluye medidas y recomendaciones para evitar vulnerabilidades en las comunicaciones móviles, enfocándose en la seguridad de las redes dentro de infraestructuras móviles.

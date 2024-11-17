@@ -23,6 +23,7 @@
   - [Catálogo de Servicios Comunes](./temas/Legal/servicios-comunes.md)
   - [Autorización y Autenticación en la AGE](./temas/Legal/autorizacion-autenticacion.md)
   - [Ley de Protección de Datos y Garantía de Derechos Digitales](./temas/Legal/LOPDGDD.md)
+  - [Derechos de los interesados RGPD](./temas/Legal/derechos-interesados-RGPD.md)
 - Accesibilidad
   - [Plan de Accesibilidad y Usabilidad de un desarrollo móvil](./temas/Accesibilidad/plan-accesibilidad-usabilidad.md)
   - [Principios de usabilidad de Jakob Nielsen](./temas/Accesibilidad/principios-jakob-nielsen.md)
