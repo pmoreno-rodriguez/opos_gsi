@@ -4,7 +4,7 @@
 ## PRINCIPALES MEDIDAS CLAVE PARA LA SEGURIDAD <!-- {docsify-ignore} -->
 
 1. **Marco organizativo [org]**  
-    Las cuatro medidas del marco organizativo se aplican en todos los niveles. Éstas son:
+    Las cuatro medidas del marco organizativo se aplican en [shortcode class="color-verde"]_todos los niveles_[/shortcode]. Éstas son:
     - **[org.1] Política de seguridad**
     - **[org.2] Normativa de seguridad**
     - **[org.3] Procedimientos de seguridad**
@@ -73,5 +73,11 @@
 22. **[mp.com.4] Separación de flujos de información en la red**  
    Segregación de redes y sistemas para evitar que la información sensible se mezcle con flujos no seguros.
 
-23. **[mp.info.6] Copias de seguridad**  
+23. **[mp.info.1]	Datos personales**  
+   Cuando el sistema trate datos personales, el responsable de seguridad recogerá los requisitos de protección de datos que sean fijados por el responsable o por el encargado del tratamiento, contando con el asesoramiento del DPD, y que sean necesarios implementar en los sistemas de acuerdo a la naturaleza, alcance, contexto y fines del mismo, así como de los riesgos para los derechos y libertades de acuerdo a lo establecido en los artículos 24 y 32 del RGPD, y de acuerdo a la evaluación de impacto en la protección de datos, si se ha llevado a cabo (se aplica en [shortcode class="color-verde"]_todos los niveles_[/shortcode]) 
+
+24. **[mp.info.6] Copias de seguridad**  
     Establecimiento de mecanismos regulares y seguros para la creación de copias de seguridad, protegiendo la información crítica.
+
+25. **[mp.per.3] Concienciación**  
+   Se realizarán las acciones necesarias para concienciar regularmente al personal acerca de su papel y responsabilidad para que la seguridad del sistema alcance los niveles exigidos. Se aplica en [shortcode class="color-verde"]_todos los niveles_[/shortcode].

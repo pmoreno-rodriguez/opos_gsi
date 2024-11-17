@@ -60,7 +60,26 @@
     });
   };
 
+  // Plugin para shortcodes personalizados
+  var addShortcodePlugin = function (hook, vm) {
+    hook.beforeEach(function (markdown) {
+      // Expresión regular para encontrar shortcodes del tipo: [shortcode class="clase"]Texto[/shortcode]
+      const shortcodePattern = /\[shortcode\s+class="([^"]+)"\](.*?)\[\/shortcode\]/gs;
+
+      return markdown.replace(shortcodePattern, function (match, classes, content) {
+        // Devuelve el contenido envuelto en un span con las clases especificadas
+        return `<span class="${classes}">${content}</span>`;
+      });
+    });
+  };
+
   // Registro del plugin en Docsify
   $docsify = $docsify || {};
-  $docsify.plugins = [].concat($docsify.plugins || [], addHeadingClassesPlugin, addTableClasses);
+  $docsify.plugins = [].concat(
+    $docsify.plugins || [],
+    addHeadingClassesPlugin,
+    addTableClasses,
+    addShortcodePlugin
+  );
+
 })();
