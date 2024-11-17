@@ -81,3 +81,6 @@
 
 25. **[mp.per.3] Concienciación**  
    Se realizarán las acciones necesarias para concienciar regularmente al personal acerca de su papel y responsabilidad para que la seguridad del sistema alcance los niveles exigidos. Se aplica en [shortcode class="color-verde subrayado"]_todos los niveles_[/shortcode].
+
+26. **[mp.per.4] Formación**  
+   Formación en seguridad del personal de la organizacion. Se aplica en [shortcode class="color-verde subrayado"]_todos los niveles_[/shortcode].
