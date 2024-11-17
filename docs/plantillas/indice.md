@@ -5,3 +5,4 @@
 ## INDICE DE PLANTILLAS  <!-- {docsify-ignore} -->
 
 1. [Plantilla 1 Diseño de un CPD](/plantillas/diseno-cpd.md)
+2. [Plantilla para responder a cuestiones del ENS - 1](/plantillas/ens-1.md)
