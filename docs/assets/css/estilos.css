@@ -30,10 +30,14 @@ body,
     .subtitulo-color {
       background-color: #6eb5b75c;
     }
+
+    .subrayado {
+      text-decoration: underline !important;
+    }
     .color-verde,
     .color-verde em,
     .color-verde strong {
-      color: #28a745;
+      color: #28a745 !important;
     }
     .fondo_rojo     { background-color: #FF6600 !important; }
     .fondo_azul     { background-color: #8ec5fa !important; }
