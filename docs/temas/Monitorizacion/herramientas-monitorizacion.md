@@ -29,7 +29,7 @@ La personalización realizada para el MINHAP sortea bastantes de los problemas d
 **Organismos Responsables**:
 - Ministerio para la Transformación Digital y de la Función Pública
 - Secretaria de Estado de Función Pública
-- Secretaría General de Administración Digital
+- ~~Secretaría General de Administración Digital~~ [shortcode class="color-verde subrayado"](Suprimida por RD 1118/2024 que aprueba el Estatuto de la Agencia Estatal de Administración Digital)[/shortcode]
 
 **Modo de Uso**: Servicio en red de infraestructuras
 

@@ -91,7 +91,7 @@ El Esquema Nacional de Interoperabilidad (ENI) establece los principios y direct
   - Todos los organismos y entidades de derecho público de la AGE deberán aplicar esta política marco.
   - Otras AAPP podrán acogerse a dicha política.
   
-- Las AAPP podrán aprobar otras políticas de firma electrónica dentro de sus competencias, debiendo considerar la norma técnica de Política de Firma Electrónica y de Certificados de la Administración y comunicarlo a la Secretaría General de Administración Digital (SGAD) del Ministerio de Asuntos Económicos y Transformación Digital.
+- Las AAPP podrán aprobar otras políticas de firma electrónica dentro de sus competencias, debiendo considerar la norma técnica de Política de Firma Electrónica y de Certificados de la Administración y comunicarlo a la ~~Secretaría General de Administración Digital~~ [shortcode class="color-verde subrayado"](Suprimida por RD 1118/2024 que aprueba el Estatuto de la Agencia Estatal de Administración Digital)[/shortcode].
 
 - Se deberá utilizar plataformas de validación de certificados y firma electrónica que garanticen lo establecido en el artículo 20, como la plataforma @firma.
 

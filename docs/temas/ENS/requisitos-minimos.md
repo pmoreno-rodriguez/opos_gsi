@@ -22,7 +22,7 @@ El ENS establece una serie de requisitos mínimos que deben cumplir los sistemas
 
 3. En la Administración General del Estado, cada ministerio contará con su política de seguridad, que aprobará la persona titular del Departamento. Los organismos públicos y entidades pertenecientes al sector público institucional estatal podrán contar con su propia política de seguridad, aprobada por el órgano competente, que será coherente con la del Departamento con el que mantenga la relación de vinculación, dependencia o adscripción, o bien quedar comprendidos en el ámbito subjetivo de la política de seguridad de este. También podrán contar con su propia política de seguridad, aprobada por el órgano competente, coherente con la del Departamento del que dependan o al que estén adscritos, los centros directivos de la propia Administración General del Estado que gestionen servicios bajo la declaración de servicios compartidos.
 
-4. La Secretaría General de Administración Digital del Ministerio de Asuntos Económicos y Transformación Digital dispondrá de su propia política de seguridad, que será aprobada por la persona titular de la misma.
+4. La ~~Secretaría General de Administración Digital~~ [shortcode class="color-verde subrayado"](Suprimida por RD 1118/2024 que aprueba el Estatuto de la Agencia Estatal de Administración Digital)[/shortcode] dispondrá de su propia política de seguridad, que será aprobada por la persona titular de la misma.
 
 5. Los municipios podrán disponer de una política de seguridad común elaborada por la entidad local comarcal o provincial que asuma la responsabilidad de la seguridad de la información de los sistemas municipales.
 
