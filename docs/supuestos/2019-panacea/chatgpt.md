@@ -249,7 +249,7 @@ Estas medidas proporcionan una protección integral en distintos niveles: desde 
    * ### Perímetro seguro [mp.com.1] <!-- {docsify-ignore} -->
    * ### Protección de la autenticidad y de la integridad [mp.com.3] <!-- {docsify-ignore} -->
    * ### Segregación de redes [mp.com.4] <!-- {docsify-ignore} -->
-   * ### Medios alternativos [mp.com.9] <!-- {docsify-ignore} -->
+   * ### Medios alternativos [op.cont.4] <!-- {docsify-ignore} -->
 
 > [!NOTE|label: Nota Aclaratoria]
 > Esta es una respuesta muy amplia que evidentemente no nos va a dar tiempo de poner en el examen, pero sí puede servir para darnos pistas y nos ayuda a estudiar las diferentes medidas del ENS respecto de la seguridad perimetral, autenticidad e integridad de un sistema.
@@ -321,9 +321,9 @@ La segregación de redes garantiza que los diferentes componentes del sistema PA
 - **Control de acceso basado en roles (RBAC)**:
   - Implementar **políticas estrictas de acceso basado en roles (RBAC)** para controlar quién tiene acceso a cada una de las redes segmentadas. Por ejemplo, un administrador de la base de datos Oracle solo debería tener acceso a la red que contiene los servidores de base de datos, pero no a la red que gestiona la comunicación con NODOFARMA.
 
-### 4. **Medios alternativos [mp.com.9]** <!-- {docsify-ignore} -->
+### 4. **Medios alternativos [op.cont.4]** <!-- {docsify-ignore} -->
 
-La medida **mp.com.9** del ENS en categoría ALTA exige que se establezcan mecanismos alternativos que aseguren la disponibilidad de los servicios críticos en caso de que fallen los medios principales. Estos medios alternativos deben estar diseñados para garantizar que los servicios puedan seguir operando o restablecerse rápidamente ante fallos.
+La medida **op.cont.4** del ENS en categoría ALTA exige que se establezcan mecanismos alternativos que aseguren la disponibilidad de los servicios críticos en caso de que fallen los medios principales. Estos medios alternativos deben estar diseñados para garantizar que los servicios puedan seguir operando o restablecerse rápidamente ante fallos.
 
 #### **Acciones específicas:**
 - **Planes de contingencia y recuperación ante desastres (DRP)**:
@@ -336,9 +336,7 @@ La medida **mp.com.9** del ENS en categoría ALTA exige que se establezcan mecan
   - Implementar mecanismos de **replicación de datos en tiempo real** entre el CPD principal y el CPD alternativo. Las bases de datos de Oracle y SQL Server deben replicar los datos de manera continua para que, en caso de fallo, los servicios puedan continuar operando con los datos más recientes posibles.
 
 - **Infraestructura redundante**:
-  - El diseño del sistema debe incluir redundancia en los
-
- componentes clave de la infraestructura: servidores, almacenamiento, firewalls, routers, conexiones de red, etc. Esto garantiza que, si uno de los componentes falla, otro pueda asumir su rol sin interrupción del servicio.
+  - El diseño del sistema debe incluir redundancia en los componentes clave de la infraestructura: servidores, almacenamiento, firewalls, routers, conexiones de red, etc. Esto garantiza que, si uno de los componentes falla, otro pueda asumir su rol sin interrupción del servicio.
 
 - **Pruebas periódicas de los medios alternativos**:
   - Realizar **pruebas periódicas** para verificar que los medios alternativos (CPD, sistemas de replicación, etc.) funcionan correctamente y que se puede garantizar la continuidad del servicio en caso de un fallo del sistema principal.
