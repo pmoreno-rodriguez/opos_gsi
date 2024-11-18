@@ -100,6 +100,7 @@
   - [Resumen](./temas/ci-cd/resumen.md)
 - Monitorización
   - [Sistemas de monitorización](./temas/Monitorizacion/sistema-monitorizacion.md)
+  - [Herramientas de monitorización](./temas/Monitorizacion/herramientas-monitorizacion.md)
 - Cloud Computing
   - [Introdución](./temas/Cloud-Computing/introduccion.md)
 - Virtualización
