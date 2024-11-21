@@ -74,7 +74,7 @@ El desarrollo del nuevo sistema se centrará en asegurar el cumplimiento de norm
 - **Guía CCN-STIC-805**: Política de Seguridad de la Información del ENS.
 - **Guía CCN-STIC-811**: Interconexión en el ENS.
 
-El sistema también cumplirá con el **Esquema Nacional de Interoperabilidad (ENI), RD 4/2010**, y las **Notas Técnicas de Interoperabilidad (NTI)**:
+El sistema también cumplirá con el **Esquema Nacional de Interoperabilidad (ENI), RD 4/2010**, y las **Normas Técnicas de Interoperabilidad (NTI)**:
 1. Documento Electrónico.
 2. Firma Electrónica y Certificados.
 3. Expediente Electrónico.
@@ -97,7 +97,7 @@ Este sistema adoptará principios rectores de seguridad y protección de datos b
 - **Guía CCN-STIC-805**: Política de Seguridad de la Información del ENS.
 - **Guía CCN-STIC-811**: Interconexión en el ENS.
 
-En términos de interoperabilidad, el sistema se desarrollará conforme al **Esquema Nacional de Interoperabilidad (ENI), RD 4/2010**, y las **Notas Técnicas de Interoperabilidad (NTI)** en los siguientes ámbitos:
+En términos de interoperabilidad, el sistema se desarrollará conforme al **Esquema Nacional de Interoperabilidad (ENI), RD 4/2010**, y las **Normas Técnicas de Interoperabilidad (NTI)** en los siguientes ámbitos:
 1. Documento Electrónico.
 2. Firma Electrónica y Certificados.
 3. Expediente Electrónico.
@@ -120,7 +120,7 @@ Para garantizar la conformidad con la normativa vigente, el sistema se regirá p
 - **Guía CCN-STIC-805**: Política de Seguridad de la Información del ENS.
 - **Guía CCN-STIC-811**: Interconexión en el ENS.
 
-En cuanto a interoperabilidad, el sistema respetará el **Esquema Nacional de Interoperabilidad (ENI), RD 4/2010**, y las **Notas Técnicas de Interoperabilidad (NTI)** que cubren aspectos como:
+En cuanto a interoperabilidad, el sistema respetará el **Esquema Nacional de Interoperabilidad (ENI), RD 4/2010**, y las **Normas Técnicas de Interoperabilidad (NTI)** que cubren aspectos como:
 1. Documento Electrónico.
 2. Firma Electrónica y Certificados.
 3. Expediente Electrónico.
