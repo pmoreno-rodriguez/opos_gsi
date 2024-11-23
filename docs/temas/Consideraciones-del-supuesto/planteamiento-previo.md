@@ -1,5 +1,5 @@
 > [!TIP|style: callout|icon: fa fa-check|label: Nota]
-> Contenido parcialmente extraído del simulacro de supuesto (ForjaTIC)
+> Contenido parcialmente extraído del simulacro de supuesto (INAP)
 
 ## Supuesto de ejemplo (Oficina Española de Patentes y Marcas) <!-- {docsify-ignore} -->
 
