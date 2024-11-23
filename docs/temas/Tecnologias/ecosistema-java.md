@@ -31,3 +31,8 @@
 |                                   | **Payara**                    | Servidor de aplicaciones compatible con Java EE y MicroProfile, basado en GlassFish.                    |
 |                                   | **WebLogic**                  | Servidor de aplicaciones empresarial desarrollado por Oracle, con soporte completo para Java EE.        |
 |                                   | **WebSphere**                 | Servidor de aplicaciones Java EE desarrollado por IBM, utilizado principalmente en entornos empresariales. |
+
+---
+<h3 class="fondo_claro" style="text-align: center;">ECOSISTEMA JAVA</h3>
+
+![](./ecosistema-java.png)
