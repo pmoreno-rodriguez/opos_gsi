@@ -6,7 +6,7 @@
 #### Correspondencia entre los niveles de seguridad exigidos en cada dimensión y las medidas de seguridad con sus refuerzos
 
 > [!TIP|style: callout|icon: fa fa-info-circle|label: Medidas aplicadas en todas las categorías]
-> Las medidas señaladas en azul, se aplican a todas las categorías. Las categorías Básica, Media y Alta aparecen en verde. A veces, se les llama, coloquialmente, Lechugas del ENS.
+> Las medidas señaladas en azul, son importantes de cara al supuesto. Algunas de ellas, se aplican a todas las categorías. Las categorías Básica, Media y Alta aparecen en verde. A éstas últimas, se les llama, coloquialmente, Lechugas del ENS.
 
 
 <table class="tabla_ancha">
