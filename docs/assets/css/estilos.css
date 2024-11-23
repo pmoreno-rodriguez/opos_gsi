@@ -80,7 +80,12 @@ body,
     .markdown-section em {
         color: #2c3e50;
     }
-    
+    .align-center {
+      text-align: center;
+    }
+    .align-right {
+      text-align: right;
+    }
 
     @media screen and (max-width: 768px) {
       .markdown-section {
