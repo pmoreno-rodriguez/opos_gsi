@@ -47,7 +47,7 @@
 #### 7. **Sostenibilidad y Eficiencia Operativa** :id=sostenibilidad
    - **Optimización de recursos**: Diseñar sistemas de información que optimicen el uso de recursos técnicos y humanos, buscando la eficiencia operativa y reduciendo costes a largo plazo.
    - **Cumplimiento con la Agenda 2030**: Promover sistemas de información que respeten los principios de sostenibilidad, como el uso de tecnologías ecoeficientes o la reducción del impacto medioambiental en el ciclo de vida del sistema.
-   
+
 #### 8. **Continuidad del Negocio y Recuperación ante Desastres** :id=continuidad
    - **Plan de continuidad**: Desarrollar un plan de continuidad operativa que garantice la disponibilidad de los sistemas de información en caso de interrupciones o incidentes, siguiendo las directrices del ENS.
    - **Recuperación ante desastres**: Implementar sistemas de respaldo y recuperación de datos que aseguren la integridad de la información y la pronta recuperación de los sistemas en caso de fallos o ciberataques, alineado con las buenas prácticas definidas por el CCN-CERT.

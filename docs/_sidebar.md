@@ -94,6 +94,7 @@
   - [Clasificación TIER](./temas/Arquitectura-Fisica/clasificacion-tier.md)
   - [¿Qué son las SD-WAN?](./temas/Arquitectura-Fisica/sd-wan.md)
   - [Routers VRRP](./temas/Arquitectura-Fisica/routers-vrrp.md)
+  - [Tipos de SAI](./temas/Arquitectura-Fisica/sai.md)
 - Backup
   - [Procedimientos de copias de seguridad](./temas/Backup/procedimientos.md)
 - CI/CD
@@ -136,6 +137,8 @@
     - [Diagrama de contexto 1](./temas/Diagramas/diagrama-contexto-1.md)
 - Plantillas
   - [Indice de Plantillas](./plantillas/indice.md)
+- Esquemas
+  - [Esquema sobre especificaciones de un CPD](./esquemas/esquemas.md)
 - Supuestos
   - [2019 Supuesto 2 - PANACE@ (CHATGPT)](./supuestos/2019-panacea/chatgpt.md)
   - [Ejemplo de categorización según ENS para el supuesto de AEAT](./supuestos/aeat/ejemplo-categorizacion-ens.md)

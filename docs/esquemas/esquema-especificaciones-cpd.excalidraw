@@ -1,0 +1,1091 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "type": "text",
+      "version": 282,
+      "versionNonce": 1104234247,
+      "isDeleted": false,
+      "id": "WRKgvjO2ZHw9rahaFWtR-",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 358,
+      "y": 298.38264057119096,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "width": 300.36712646484375,
+      "height": 39.00000000000004,
+      "seed": 180173919,
+      "groupIds": [
+        "W0qJXNdrjcqyv-jHUmZeM"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131229499,
+      "link": null,
+      "locked": false,
+      "fontSize": 31.20000000000003,
+      "fontFamily": 1,
+      "text": "Suministro Eléctrico",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Suministro Eléctrico",
+      "lineHeight": 1.25,
+      "baseline": 27
+    },
+    {
+      "type": "line",
+      "version": 785,
+      "versionNonce": 1947193577,
+      "isDeleted": false,
+      "id": "XXIK82J2gOaL2fix3FaTh",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 352.0036782240786,
+      "y": 340.5280280353358,
+      "strokeColor": "#000000",
+      "backgroundColor": "#fff",
+      "width": 643.1213569489014,
+      "height": 297.4644002425154,
+      "seed": 1946755391,
+      "groupIds": [
+        "HqTB67IjyUiDqwKAPy1QC",
+        "W0qJXNdrjcqyv-jHUmZeM"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131229499,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          292.4789633669425
+        ],
+        [
+          643.1213569489014,
+          297.4644002425154
+        ],
+        [
+          641.459544657044,
+          66.47249167430519
+        ],
+        [
+          563.3543669397354,
+          1.8030918025407245
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "line",
+      "version": 418,
+      "versionNonce": 1916849703,
+      "isDeleted": false,
+      "id": "uKNdbWK8b8NI-d3ROelD1",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 913.7092600734813,
+      "y": 341.2960124818799,
+      "strokeColor": "#000000",
+      "backgroundColor": "#868e96",
+      "width": 81.6586527224303,
+      "height": 72.66236047334914,
+      "seed": 187899263,
+      "groupIds": [
+        "HqTB67IjyUiDqwKAPy1QC",
+        "W0qJXNdrjcqyv-jHUmZeM"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131229499,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          72.66236047334914
+        ],
+        [
+          80.2746077610331,
+          71.97033799265076
+        ],
+        [
+          81.6586527224303,
+          62.974045743569356
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "version": 590,
+      "versionNonce": 1771555785,
+      "isDeleted": false,
+      "id": "JnGAM-8_bC8iHcLag_ojs",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 366,
+      "y": 354.38264057119096,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 552.78857421875,
+      "height": 267.9999999999999,
+      "seed": 902052433,
+      "groupIds": [
+        "W0qJXNdrjcqyv-jHUmZeM"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131229499,
+      "link": null,
+      "locked": false,
+      "fontSize": 19.49090909090908,
+      "fontFamily": 1,
+      "text": "1. Distribución eléctrica redundante. Doble acometida\n  Diseño N+1\n\n2. SAI/UPS redundante (N+1), garantizando mínimo 15 min.\n\n3. Generador de Biodiesel, en caso del fallo del SAI. \n   Capacidad de hasta 48h\n\n4. Monitorización de todos los componentes eléctricos.\n\n5. Mantenimiento periódico del sistema eléctrico.",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "1. Distribución eléctrica redundante. Doble acometida\n  Diseño N+1\n\n2. SAI/UPS redundante (N+1), garantizando mínimo 15 min.\n\n3. Generador de Biodiesel, en caso del fallo del SAI. \n   Capacidad de hasta 48h\n\n4. Monitorización de todos los componentes eléctricos.\n\n5. Mantenimiento periódico del sistema eléctrico.",
+      "lineHeight": 1.25,
+      "baseline": 260
+    },
+    {
+      "type": "text",
+      "version": 309,
+      "versionNonce": 1354578985,
+      "isDeleted": false,
+      "id": "Pv48RzsHjbUxoSsLizxi6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 352,
+      "y": 150.87534787744437,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffffff",
+      "width": 178.13674926757812,
+      "height": 35,
+      "seed": 1203685521,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131418940,
+      "link": null,
+      "locked": false,
+      "fontSize": 28,
+      "fontFamily": 1,
+      "text": "PREGUNTA: ",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "PREGUNTA: ",
+      "lineHeight": 1.25,
+      "baseline": 25
+    },
+    {
+      "type": "text",
+      "version": 557,
+      "versionNonce": 703745577,
+      "isDeleted": false,
+      "id": "OTBlErrXjm-Gdwz3Vq42S",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1067.9693913798444,
+      "y": 298.53652891775977,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "width": 520.45751953125,
+      "height": 39.00000000000004,
+      "seed": 1427583281,
+      "groupIds": [
+        "Ewp8xrLU4Qziij7_r4iJZ"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131232007,
+      "link": null,
+      "locked": false,
+      "fontSize": 31.20000000000003,
+      "fontFamily": 1,
+      "text": "Infraestructuras de climatización",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Infraestructuras de climatización",
+      "lineHeight": 1.25,
+      "baseline": 27
+    },
+    {
+      "type": "line",
+      "version": 1022,
+      "versionNonce": 1606403303,
+      "isDeleted": false,
+      "id": "5RuO7ZOyzdnnUpepBkWwA",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1061.973069603923,
+      "y": 340.6819163819046,
+      "strokeColor": "#000000",
+      "backgroundColor": "#fff",
+      "width": 643.1213569489014,
+      "height": 297.4644002425154,
+      "seed": 39576337,
+      "groupIds": [
+        "yQBfe33-iLSZLpvFy6Ndi",
+        "Ewp8xrLU4Qziij7_r4iJZ"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131232007,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          292.4789633669425
+        ],
+        [
+          643.1213569489014,
+          297.4644002425154
+        ],
+        [
+          641.459544657044,
+          66.47249167430519
+        ],
+        [
+          563.3543669397354,
+          1.8030918025407245
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "line",
+      "version": 655,
+      "versionNonce": 1354277129,
+      "isDeleted": false,
+      "id": "s8FKDKLuU7Cv09XZAHImH",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1623.6786514533258,
+      "y": 341.44990082844873,
+      "strokeColor": "#000000",
+      "backgroundColor": "#868e96",
+      "width": 81.6586527224303,
+      "height": 72.66236047334914,
+      "seed": 1810847985,
+      "groupIds": [
+        "yQBfe33-iLSZLpvFy6Ndi",
+        "Ewp8xrLU4Qziij7_r4iJZ"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131232007,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          72.66236047334914
+        ],
+        [
+          80.2746077610331,
+          71.97033799265076
+        ],
+        [
+          81.6586527224303,
+          62.974045743569356
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "version": 1164,
+      "versionNonce": 761565191,
+      "isDeleted": false,
+      "id": "7-wGfDHezeuOLoiPPa73b",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1076.9693913798444,
+      "y": 355.53652891775977,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 617.9244995117188,
+      "height": 219.27272727272717,
+      "seed": 593040081,
+      "groupIds": [
+        "Ewp8xrLU4Qziij7_r4iJZ"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131232007,
+      "link": null,
+      "locked": false,
+      "fontSize": 19.49090909090908,
+      "fontFamily": 1,
+      "text": "1. Redundancia en sistema de climatización, para mante-\n  ner la temperatura entre 18-27º y la HR entre\n  40-60%. \n  Se puede utilizar sistemas CRAC.\n  Configuración: N+1 o 2N\n\n2. Control de zonas frías y calientes. Pasillos fríos y calientes\n   \n3. Instalación de sensores de temperatura y humedad.",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "1. Redundancia en sistema de climatización, para mante-\n  ner la temperatura entre 18-27º y la HR entre\n  40-60%. \n  Se puede utilizar sistemas CRAC.\n  Configuración: N+1 o 2N\n\n2. Control de zonas frías y calientes. Pasillos fríos y calientes\n   \n3. Instalación de sensores de temperatura y humedad.",
+      "lineHeight": 1.25,
+      "baseline": 212
+    },
+    {
+      "type": "text",
+      "version": 676,
+      "versionNonce": 888248297,
+      "isDeleted": false,
+      "id": "lQuhCkjSxuYPj_D-ACSyM",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1777.5499899140293,
+      "y": 298.06093857998985,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "width": 553.3517456054688,
+      "height": 30.5115713809669,
+      "seed": 1327078865,
+      "groupIds": [
+        "O2TtYaMVPCuB02Y11Bkk3"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131232007,
+      "link": null,
+      "locked": false,
+      "fontSize": 24.40925710477352,
+      "fontFamily": 1,
+      "text": "Sistemas de detección y extinción de incendios",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Sistemas de detección y extinción de incendios",
+      "lineHeight": 1.25,
+      "baseline": 21
+    },
+    {
+      "type": "line",
+      "version": 1001,
+      "versionNonce": 2122512167,
+      "isDeleted": false,
+      "id": "BLJryiomp3h2YtTL1BLle",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1772.553668138108,
+      "y": 341.2063260441346,
+      "strokeColor": "#000000",
+      "backgroundColor": "#fff",
+      "width": 643.1213569489014,
+      "height": 297.4644002425154,
+      "seed": 916962225,
+      "groupIds": [
+        "BOPIPkkGb7m7o5ZzAxd6V",
+        "O2TtYaMVPCuB02Y11Bkk3"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131232007,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          292.4789633669425
+        ],
+        [
+          643.1213569489014,
+          297.4644002425154
+        ],
+        [
+          641.459544657044,
+          66.47249167430519
+        ],
+        [
+          563.3543669397354,
+          1.8030918025407245
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "line",
+      "version": 634,
+      "versionNonce": 1487450825,
+      "isDeleted": false,
+      "id": "fyjgo4OKGuF9PiiEJKaKP",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 2334.259249987511,
+      "y": 341.9743104906788,
+      "strokeColor": "#000000",
+      "backgroundColor": "#868e96",
+      "width": 81.6586527224303,
+      "height": 72.66236047334914,
+      "seed": 645340561,
+      "groupIds": [
+        "BOPIPkkGb7m7o5ZzAxd6V",
+        "O2TtYaMVPCuB02Y11Bkk3"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131232007,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          72.66236047334914
+        ],
+        [
+          80.2746077610331,
+          71.97033799265076
+        ],
+        [
+          81.6586527224303,
+          62.974045743569356
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "version": 1507,
+      "versionNonce": 1770486343,
+      "isDeleted": false,
+      "id": "Z3v1wk4seOVqt7d9M3YZH",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1787.5499899140293,
+      "y": 355.06093857998985,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 595.9852905273438,
+      "height": 267.9999999999999,
+      "seed": 230638449,
+      "groupIds": [
+        "O2TtYaMVPCuB02Y11Bkk3"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131232007,
+      "link": null,
+      "locked": false,
+      "fontSize": 19.49090909090908,
+      "fontFamily": 1,
+      "text": "1. Cumplimiento de la normativa NFP75 y NFP76 (no obli-\n  gatoria en España), y la normativa europea \n  UNE 23007-14, y el Reglamento de Instalaciones de \n  Protección Contra Incendios (RIPCI), RD 513/2017\n\n2. Instalación de sensores VESDA\n\n3. Instalación de alarma anti-incendios\n\n4. Sistemas de extinción de incendios basados en agentes lim-\n   pios (CO2) o agua nebulizada (UNE-EN 15004-1)",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "1. Cumplimiento de la normativa NFP75 y NFP76 (no obli-\n  gatoria en España), y la normativa europea \n  UNE 23007-14, y el Reglamento de Instalaciones de \n  Protección Contra Incendios (RIPCI), RD 513/2017\n\n2. Instalación de sensores VESDA\n\n3. Instalación de alarma anti-incendios\n\n4. Sistemas de extinción de incendios basados en agentes lim-\n   pios (CO2) o agua nebulizada (UNE-EN 15004-1)",
+      "lineHeight": 1.25,
+      "baseline": 260
+    },
+    {
+      "type": "line",
+      "version": 1141,
+      "versionNonce": 1358813833,
+      "isDeleted": false,
+      "id": "iW0wQpfgLt7zujIr6mZJx",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 358.5893450413324,
+      "y": 758.5785412269589,
+      "strokeColor": "#000000",
+      "backgroundColor": "#fff",
+      "width": 1012.8218033814331,
+      "height": 468.4627979464515,
+      "seed": 734220977,
+      "groupIds": [
+        "a2H0xoPfn662sFTI0RToz",
+        "BxlP1OQT7VMBtt_fH2DWL",
+        "wu-VKLy6Y-E8fGRmoGpux"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131254045,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          460.611466137293
+        ],
+        [
+          1012.8218033814331,
+          468.4627979464515
+        ],
+        [
+          1010.2046927783808,
+          104.68442412211218
+        ],
+        [
+          887.200494434899,
+          2.8396051093303614
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "line",
+      "version": 900,
+      "versionNonce": 709471879,
+      "isDeleted": false,
+      "id": "dQApeBtgYVjYzcs3VLnJc",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1246.1932448047348,
+      "y": 762.7880040813847,
+      "strokeColor": "#000000",
+      "backgroundColor": "#868e96",
+      "width": 124.60040024856676,
+      "height": 104.34272564280502,
+      "seed": 1107809425,
+      "groupIds": [
+        "a2H0xoPfn662sFTI0RToz",
+        "wu-VKLy6Y-E8fGRmoGpux"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131254045,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          102.43255954321637
+        ],
+        [
+          122.42073244774338,
+          104.34272564280502
+        ],
+        [
+          123.60040024856676,
+          103.1748849374543
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "version": 533,
+      "versionNonce": 995336553,
+      "isDeleted": false,
+      "id": "pFM92MvdLr97vDotuDokz",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 359.8164367675781,
+      "y": 715.9695058886945,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "width": 249.40670776367188,
+      "height": 39.00000000000004,
+      "seed": 436320561,
+      "groupIds": [
+        "mUNwIgisSuGrDaXoXeX5g",
+        "BxlP1OQT7VMBtt_fH2DWL",
+        "wu-VKLy6Y-E8fGRmoGpux"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131254045,
+      "link": null,
+      "locked": false,
+      "fontSize": 31.20000000000003,
+      "fontFamily": 1,
+      "text": "Seguridad Física",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Seguridad Física",
+      "lineHeight": 1.25,
+      "baseline": 27
+    },
+    {
+      "type": "text",
+      "version": 768,
+      "versionNonce": 239093159,
+      "isDeleted": false,
+      "id": "9P1WIf-0gk0DxQgOECZRo",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 372,
+      "y": 818.4695058886945,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffffff",
+      "width": 914.138916015625,
+      "height": 350,
+      "seed": 1861246417,
+      "groupIds": [
+        "BxlP1OQT7VMBtt_fH2DWL",
+        "wu-VKLy6Y-E8fGRmoGpux"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131254045,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "- Control de accesos al CPD, mediante sistemas biométricos, con tarjetas o claves\n  de acceso.\n\n- Seguridad perimetral: puertas de seguridad y cerraduras electrónicas, alarmas, etc.\n\n- CCTV (Circuito Cerrado de TV).\n\n- Sensores de movimiento\n\n- Sistemas de monitorización (Nagios, Zabbix, ...)\n\n- Redundancia en almacenamiento (RAID)\n\n- Redundancia en comunicaciones (Doble tarjeta de red), múltiples proveedores de Internet. ",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "- Control de accesos al CPD, mediante sistemas biométricos, con tarjetas o claves\n  de acceso.\n\n- Seguridad perimetral: puertas de seguridad y cerraduras electrónicas, alarmas, etc.\n\n- CCTV (Circuito Cerrado de TV).\n\n- Sensores de movimiento\n\n- Sistemas de monitorización (Nagios, Zabbix, ...)\n\n- Redundancia en almacenamiento (RAID)\n\n- Redundancia en comunicaciones (Doble tarjeta de red), múltiples proveedores de Internet. ",
+      "lineHeight": 1.25,
+      "baseline": 343
+    },
+    {
+      "type": "line",
+      "version": 1154,
+      "versionNonce": 688753737,
+      "isDeleted": false,
+      "id": "0LRN8_S2oH5DxoRScnvTX",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1409.975029386597,
+      "y": 760.5823489283002,
+      "strokeColor": "#000000",
+      "backgroundColor": "#fff",
+      "width": 1008.5031633490606,
+      "height": 466.46528744052205,
+      "seed": 278841735,
+      "groupIds": [
+        "Tl-j7K__1GyeqQ7UheaI7",
+        "Gl2fi3PQWZ7251pygQeRa",
+        "zstB6flYDRa8hLCUwwz-A",
+        "ok-rwRj1u9xDoewyxxXKU"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131254046,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -2.842170943040401e-14,
+          458.6474334610719
+        ],
+        [
+          1008.5031633490607,
+          466.4652874405222
+        ],
+        [
+          1005.8972120225778,
+          104.23805305933467
+        ],
+        [
+          883.4174996778595,
+          2.827497123246019
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "version": 601,
+      "versionNonce": 1637284039,
+      "isDeleted": false,
+      "id": "rdbKNSl7m-bMuFc7N9HXm",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1414.204061913102,
+      "y": 715.9757489977753,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "width": 256.36151123046875,
+      "height": 39.00000000000004,
+      "seed": 873072447,
+      "groupIds": [
+        "4epfzGeZjSffgEFPy1zIp",
+        "zstB6flYDRa8hLCUwwz-A",
+        "ok-rwRj1u9xDoewyxxXKU"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131254046,
+      "link": null,
+      "locked": false,
+      "fontSize": 31.20000000000003,
+      "fontFamily": 1,
+      "text": "Seguridad Lógica",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Seguridad Lógica",
+      "lineHeight": 1.25,
+      "baseline": 27
+    },
+    {
+      "type": "text",
+      "version": 1076,
+      "versionNonce": 1644632873,
+      "isDeleted": false,
+      "id": "Y3Is6Px4J0RpzC-mGlSrl",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1430.3876251455238,
+      "y": 846.4757489977753,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffffff",
+      "width": 899.3790283203125,
+      "height": 325,
+      "seed": 14993247,
+      "groupIds": [
+        "zstB6flYDRa8hLCUwwz-A",
+        "ok-rwRj1u9xDoewyxxXKU"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131254046,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "- Segmentación de la red en VLANs\n- Sistemas de detección de intrusiones (IDS) y de prevención de intrusiones (IPS)\n- Bastionado de servidores: deshabilitar servicios y puertos innecesarios, aplicar políticas \n  estrictas de acceso, y configurar correctamente los permisos para minimizar riesgos \n  de ataques\n- Firewalls y Web Application Firewall (WAF)\n- Protección antispam y antivirus\n- Política de backups\n- Política de actualizaciones de software base\n- Auditorías de seguridad\n- Seguridad en la autenticación y control de acceso\n- Sistemas de información de seguridad y gestión de eventos (SIEM)\n",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "- Segmentación de la red en VLANs\n- Sistemas de detección de intrusiones (IDS) y de prevención de intrusiones (IPS)\n- Bastionado de servidores: deshabilitar servicios y puertos innecesarios, aplicar políticas \n  estrictas de acceso, y configurar correctamente los permisos para minimizar riesgos \n  de ataques\n- Firewalls y Web Application Firewall (WAF)\n- Protección antispam y antivirus\n- Política de backups\n- Política de actualizaciones de software base\n- Auditorías de seguridad\n- Seguridad en la autenticación y control de acceso\n- Sistemas de información de seguridad y gestión de eventos (SIEM)\n",
+      "lineHeight": 1.25,
+      "baseline": 318
+    },
+    {
+      "type": "line",
+      "version": 1039,
+      "versionNonce": 2045396967,
+      "isDeleted": false,
+      "id": "17QWXZ5IA6n7b8s-attmS",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 2292.4790183197747,
+      "y": 762.8383566296478,
+      "strokeColor": "#000000",
+      "backgroundColor": "#868e96",
+      "width": 124.17197858426107,
+      "height": 101.49680035772292,
+      "seed": 1360692521,
+      "groupIds": [
+        "niOY7fcXLDmBYvDt8ZGdG",
+        "4IRTPZH5EWgdUKAYK8-VO",
+        "ok-rwRj1u9xDoewyxxXKU"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1732131254046,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          99.44388497654685
+        ],
+        [
+          124.17197858426107,
+          101.49680035772292
+        ],
+        [
+          90.65770235295531,
+          74.1847003130074
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "YsvUKmzzIGNg-xGQU0-oh",
+      "type": "text",
+      "x": 348.6835632324219,
+      "y": 191.7287522246221,
+      "width": 1157.9764404296875,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 475596265,
+      "version": 55,
+      "versionNonce": 252880679,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1732131443677,
+      "link": null,
+      "locked": false,
+      "text": "MEJORAS EN CPD PARA INCREMENTAR  SU DISPONIBILIDAD",
+      "fontSize": 36,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 32,
+      "containerId": null,
+      "originalText": "MEJORAS EN CPD PARA INCREMENTAR  SU DISPONIBILIDAD",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "7L8obPoG4PnBLVs39Jzth",
+      "type": "rectangle",
+      "x": 326.0168965657549,
+      "y": 127.72875222462221,
+      "width": 2138.333333333333,
+      "height": 1139.9999999999998,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 387371015,
+      "version": 119,
+      "versionNonce": 646141929,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1732131577190,
+      "link": null,
+      "locked": false
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

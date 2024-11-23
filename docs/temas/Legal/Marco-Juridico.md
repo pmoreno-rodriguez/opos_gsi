@@ -18,6 +18,7 @@
 * **Ley Orgánica 2/2012**, de Estabilidad Presupuestaria y Sostenibilidad Financiera
 * **Real Decreto 1112/2018** sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público. 
     - Abarca sitios web de administraciones públicas, universidades, hospitales, etc., y obliga a cumplir los **criterios WCAG 2.1** de nivel "AA"
+* **Real Decreto 1118/2024**, de 5 de noviembre, por el que se aprueba el Estatuto de la Agencia Estatal de Administración Digital
 
 
 ### Legislación UE <!-- {docsify-ignore} -->
