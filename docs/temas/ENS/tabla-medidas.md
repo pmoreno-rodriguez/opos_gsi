@@ -5,6 +5,10 @@
 
 #### Correspondencia entre los niveles de seguridad exigidos en cada dimensión y las medidas de seguridad con sus refuerzos
 
+> [!TIP|style: callout|icon: fa fa-info-circle|label: Medidas aplicadas en todas las categorías]
+> Las medidas señaladas en azul, se aplican a todas las categorías. Las categorías Básica, Media y Alta aparecen en verde. A veces, se les llama, coloquialmente, Lechugas del ENS.
+
+
 <table class="tabla_ancha">
     <colgroup>
       <col>
@@ -155,7 +159,7 @@
         </td>
       </tr>
       <tr>
-        <td>op.pl.3</td>
+        <td class="fondo_azul">op.pl.3</td>
         <td>Adquisición de nuevos componentes</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -293,7 +297,7 @@
         <td> </td>
       </tr>
       <tr>
-        <td>op.exp.1</td>
+        <td class="fondo_azul">op.exp.1</td>
         <td>Inventario de activos</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -405,7 +409,7 @@
         </td>
       </tr>
       <tr>
-        <td>op.exp.9</td>
+        <td class="fondo_azul">op.exp.9</td>
         <td>Registro de la gestión de incidentes</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -633,7 +637,7 @@
         <td> </td>
       </tr>
       <tr>
-        <td>mp.if.1</td>
+        <td class="fondo_azul">mp.if.1</td>
         <td>Áreas separadas y con control de acceso</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -647,7 +651,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.if.2</td>
+        <td class="fondo_azul">mp.if.2</td>
         <td>Identificación de las personas</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -661,7 +665,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.if.3</td>
+        <td class="fondo_azul">mp.if.3</td>
         <td>Acondicionamiento de los locales</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -689,7 +693,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.if.5</td>
+        <td class="fondo_azul">mp.if.5</td>
         <td>Protección frente a incendios</td>
         <td>D</td>
         <td class="fondo_verde">
@@ -767,7 +771,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.per.3</td>
+        <td class="fondo_azul">mp.per.3</td>
         <td>Concienciación</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -781,7 +785,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.per.4</td>
+        <td class="fondo_azul">mp.per.4</td>
         <td>Formación</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -953,7 +957,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.si.3</td>
+        <td class="fondo_azul">mp.si.3</td>
         <td>Custodia</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -967,7 +971,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.si.4</td>
+        <td class="fondo_azul">mp.si.4</td>
         <td>Transporte</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -1037,7 +1041,7 @@
         <td> </td>
       </tr>
       <tr>
-        <td>mp.info.1</td>
+        <td class="fondo_azul">mp.info.1</td>
         <td>Datos personales</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -1093,7 +1097,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.info.5</td>
+        <td class="fondo_azul">mp.info.5</td>
         <td>Limpieza de documentos</td>
         <td>C</td>
         <td class="fondo_verde">
@@ -1129,7 +1133,7 @@
         <td> </td>
       </tr>
       <tr>
-        <td>mp.s.1</td>
+        <td class="fondo_azul">mp.s.1</td>
         <td>Protección del correo electrónico</td>
         <td>Categoría</td>
         <td class="fondo_verde">
