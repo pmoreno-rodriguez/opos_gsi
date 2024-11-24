@@ -4,6 +4,8 @@
     autonumber
     title Ejemplo 1 diagrama secuencia
     actor Solicitante
+    boundary Interfaz
+    control Control
 
     Solicitante->Interfaz: solicitar X (datos,documentos)
     activate Interfaz
