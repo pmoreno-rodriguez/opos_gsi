@@ -1,94 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 body,
-    .sidebar .sidebar-nav {
-      font-size: 18px;
-    }
-    .sidebar ul li { width: 95%; padding-right: 5px;}
-    .sidebar-nav ul:not(.app-sub-sidebar)>li:not(.file)::before {
-      right: 0;
-      left: unset;
-    }
-    .sidebar ul li a {
-      font-size: 16px;
-    }
-    
-    .sidebar-toggle {
-      background-color: unset;
-      position: fixed !important;
-      top: 0 !important;
-      bottom: auto !important;
-      padding: 10px 10px 10px 10px !important;
-    }
-    table thead {
-      background-color: #8854685c;
-    }
-    .titulo-color {
-      background-color: #b7b16e5c;
-    }
-    .titulo-color {
-      background-color: #af746c5c;
-    }
-    .subtitulo-color {
-      background-color: #6eb5b75c;
-    }
+.sidebar .sidebar-nav {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.sidebar ul li { width: 95%; padding-right: 5px;}
+.sidebar-nav ul:not(.app-sub-sidebar)>li:not(.file)::before {
+  right: 0;
+  left: unset;
+}
+.sidebar ul li a {
+  font-size: 16px;
+}
 
-    .subrayado {
-      text-decoration: underline !important;
-    }
-    .color-verde,
-    .color-verde em,
-    .color-verde strong {
-      color: #28a745 !important;
-    }
-    .fondo_rojo     { background-color: #FF6600 !important; }
-    .fondo_azul     { background-color: #8ec5fa !important; }
-    .fondo_verde    {background-color: #99CC00 !important;}
-    .fondo_amarillo { background-color: #FFFF66 !important; }
-    .fondo_oscuro   { background-color: #D6D6D6 !important; }
-    .fondo_claro    { background-color: #d8b4bf !important;}
-    .markdown-section h5 {
-      font-size: 1.1rem;
-    }
-    .app-name {
-      text-align: left !important;
-      padding: 0 0.5em;
-      text-transform: uppercase;
-      font-weight: 600 !important;
-      background-color: #a71750;
-      color: #fff;
-    }
-    .search {
-      margin: 3em 1em 2em 1em;
-      padding: 3px;
-      border: 1px solid #a71750 !important;
-    }
-    .folder .level-2{
-      font-size: 16px;
-    }
-    .py-2 {
-      padding: 0 2em !important;
-    }
-    .py-3 {
-      padding: 0 3em !important;
-    }
-    .my-2 {
-      margin: 2em 0 !important;
-    }
-    .my-3 {
-      margin: 3em 0 !important;
-    }
+.sidebar-toggle {
+  background-color: unset;
+  position: fixed !important;
+  top: 0 !important;
+  bottom: auto !important;
+  padding: 10px 10px 10px 10px !important;
+}
+table thead {
+  background-color: #8854685c;
+}
+.titulo-color {
+  background-color: #b7b16e5c;
+}
+.titulo-color {
+  background-color: #af746c5c;
+}
+.subtitulo-color {
+  background-color: #6eb5b75c;
+}
 
-    .markdown-section em {
-        color: #2c3e50;
-    }
-    .align-center {
-      text-align: center;
-    }
-    .align-right {
-      text-align: right;
-    }
+.subrayado {
+  text-decoration: underline !important;
+}
+.color-verde,
+.color-verde em,
+.color-verde strong {
+  color: #28a745 !important;
+}
+.fondo_rojo     { background-color: #FF6600 !important; }
+.fondo_azul     { background-color: #8ec5fa !important; }
+.fondo_verde    {background-color: #99CC00 !important;}
+.fondo_amarillo { background-color: #FFFF66 !important; }
+.fondo_oscuro   { background-color: #D6D6D6 !important; }
+.fondo_claro    { background-color: #d8b4bf !important;}
+.markdown-section h5 {
+  font-size: 1.1rem;
+}
+.app-name {
+  text-align: left !important;
+  padding: 0 0.5em;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  background-color: #a71750;
+  color: #fff;
+}
+.search {
+  margin: 3em 1em 2em 1em;
+  padding: 3px;
+  border: 1px solid #a71750 !important;
+}
+.folder .level-2{
+  font-size: 16px;
+}
+.py-2 {
+  padding: 0 2em !important;
+}
+.py-3 {
+  padding: 0 3em !important;
+}
+.my-2 {
+  margin: 2em 0 !important;
+}
+.my-3 {
+  margin: 3em 0 !important;
+}
 
-    @media screen and (max-width: 768px) {
-      .markdown-section {
-        padding: 16px 16px 16px 36px !important;
-      }
-    }
+.markdown-section em {
+    color: #2c3e50;
+}
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .markdown-section {
+    padding: 16px 16px 16px 36px !important;
+  }
+}
