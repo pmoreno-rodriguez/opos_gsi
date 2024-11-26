@@ -2,4 +2,4 @@
 
 ![](./capas-ergpd.png)
 
-<a href="https://pmoreno-rodriguez.github.io/opos_gsi/#/esquemas/esquemas.md">Volver al índice</a>
+<a href="https://pmoreno-rodriguez.github.io/opos_gsi/#/esquemas/indice.md">Volver al índice</a>
