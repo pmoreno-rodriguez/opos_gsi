@@ -14,7 +14,6 @@
 | microCLAUDIA     | Centro de vacunación.                                                    |
 | ELENA            | Simulador de Técnicas de Cibervigilancia.                               |
 | ELSA             | Exposición Local y Superficie de Ataque.                                |
-| EMMA             | Visibilidad y control sobre la red.                                     |
 | GLORIA           | Gestor de logs para responder ante incidentes y amenazas.                |
 | INES             | Informe de Estado de Seguridad en el ENS.                               |
 | IRIS             | Estado de la ciberseguridad.                                            |
