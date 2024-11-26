@@ -7,15 +7,15 @@
 
 Un análisis de riesgos consiste en el estudio de las posibles amenazas y eventos no deseados,  así  como  los  daños  que  éstos  puedan  producir  en  los  activos  de  la organización.
 
-### Magerit <!-- {docsify-ignore} -->
+### Magerit V3 <!-- {docsify-ignore} -->
 
-Aunque  su  utilización  no  es  obligatoria,  la  metodología  más  extendida  en  la Administración a  la hora  de  realizar  análisis  de  riesgos es  Magerit  y,  por  tanto, utilizaremos una notación coherente con ella en este documento.
+Aunque  su  utilización  no  es  obligatoria,  la  metodología  más  extendida  en  la Administración a  la hora  de  realizar  análisis  de  riesgos es  Magerit V3 y,  por  tanto, utilizaremos una notación coherente con ella en este documento.
 
-Como curiosidad, existe una herramienta denominada MicroPILAR, que hace un Análisis  de  Riesgos  inspirado  en  Magerit  aunque  simplificado,  fácil  de  usar  y adaptado al Esquema Nacional de Seguridad.
+Como curiosidad, existe una herramienta denominada MicroPILAR, que hace un Análisis  de  Riesgos  inspirado  en  Magerit V3  aunque  simplificado,  fácil  de  usar  y adaptado al Esquema Nacional de Seguridad.
 
 ### Pasos para realizar un análisis de riesgos <!-- {docsify-ignore} -->
 
-La metodología Magerit propone la siguiente secuencia de acciones:
+La metodología Magerit V3 propone la siguiente secuencia de acciones:
 
 - **Caracterización de los activos**:  se  realiza  una  catalogación  de  los principales  activos  de  la  organización  (incluyendo  datos,  software, hardware y elementos humanos) y se analizan las dependencias entre ellos (un activo A dependerá de otro B cuando la integridad de A se ve comprometida si B es atacado).
 - **Caracterización de las amenzas**: para  cada  posible  amenaza identificada  sobre  un  activo,  se  debe  evaluar  la  vulnerabilidad (probabilidad de que acontezca), el impacto (daño producido) y su riesgo (en función de los dos anteriores). Cada amenaza puede comprometer a un activo en una o varias de las dimensiones de seguridad: Autenticidad, Confidencialidad, Integridad, Disponibilidad y Trazabilidad.
@@ -35,7 +35,7 @@ Si contamos con tiempo suficiente, razonar cómo se llega al estado de riesgo a 
 |**Información**|Acceso a los datos por alguien no autorizado|Media|Alto|Alto|C|
 |**Comunicaciones**|Caída de las redes|Baja|Bajo|Bajo|D|
 
-### Notación de Magerit <!-- {docsify-ignore} -->
+### Notación de Magerit V3 <!-- {docsify-ignore} -->
 
 En el caso del sistema los activos se clasifican en:
 
