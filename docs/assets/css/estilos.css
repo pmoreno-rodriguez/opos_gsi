@@ -22,21 +22,21 @@ body,
   bottom: auto !important;
   padding: 10px 10px 10px 10px !important;
 }
-.sidebar { width: 400px;}
+.sidebar { width: 360px;}
 
-.content { left: 400px;}
+.content { left: 360px;}
 
 body.close .sidebar {
-  transform: translateX(-400px);
+  transform: translateX(-360px);
 }
 @media screen and (max-width: 768px) {
   body.close .sidebar {
-      transform: translateX(400px);
+      transform: translateX(360px);
   }
 }
 @media screen and (max-width: 768px) {
   .sidebar {
-      left: -400px;
+      left: -360px;
   }
 }
 .markdown-section { 
