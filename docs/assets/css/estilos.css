@@ -24,6 +24,8 @@ body,
 }
 .sidebar { width: 400px;}
 
+.content { left: 400px;}
+
 body.close .sidebar {
   transform: translateX(-400px);
 }
