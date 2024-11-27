@@ -6,6 +6,9 @@ body,
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+body.close .sidebar {
+  transform: translateX(-400px);
+}
 .sidebar {
   width: 400px;
 }
