@@ -5,3 +5,4 @@
 
 1. [Especificaciones de un CPD](/esquemas/es-diseno-cpd.md)
 2. [Ejemplo de una interfaz gráfica de pantalla para la apliación eRGPD (Supuesto 2017)](/esquemas/es-capas-ergpd.md)
+3. [Esquema ejemplo RedSARA 2.0](/esquemas/es-redsara2.md)
