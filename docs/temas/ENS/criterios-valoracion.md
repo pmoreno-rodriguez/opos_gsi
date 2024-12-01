@@ -32,7 +32,10 @@ Los criterios de impacto considerados son los siguientes:
 **Delitos**: Facilitaría la comisión de delitos o dificultaría su investigación.
 
 ![Criterios de valoración ENS](../../img/criterios_ens1.png)
-<br><br>
+
+<br>
+<br>
+
 ![Criterios de valoración ENS](../../img/criterios_ens2.png)
 
 ### RTO (TIEMPO DE RECUPERACIÓN OBJETIVO) :id=rto <!-- {docsify-ignore} -->

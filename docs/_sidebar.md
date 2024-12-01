@@ -20,7 +20,6 @@
   - [Requerimientos legales y funcionalidades de un sistema](./temas/Legal/funcionalidades-requerimientos.md)
   - [Marco Jurídico aplicable al supuesto práctico](./temas/Legal/Marco-Juridico.md)
   - [Real Decreto 203/2021 Reglamento de actuación y funcionamiento del sector público por medios electrónicos](./temas/Legal/RD-203-2021.md)
-  - [Catálogo de Servicios Comunes](./temas/Legal/servicios-comunes.md)
   - [Autorización y Autenticación en la AGE](./temas/Legal/autorizacion-autenticacion.md)
   - [Ley de Protección de Datos y Garantía de Derechos Digitales](./temas/Legal/LOPDGDD.md)
   - [Derechos de los interesados RGPD](./temas/Legal/derechos-interesados-RGPD.md)
@@ -66,6 +65,7 @@
 - Nube SARA
   - [Ventajas e Inconvenientes](./temas/Nube-SARA/ventajas-inconvenientes.md)
 - Servicios Comunes y Compartidos
+  - [Catálogo de Servicios Comunes](./temas/Servicios-Comunes-Compartidos/servicios-comunes.md)
   - [Servicios Compartidos de la AGE](./temas/Servicios-Comunes-Compartidos/servicios-compartidos.md)
   - [Guía de aplicación de Servicios en Red SARA](./temas/Servicios-Comunes-Compartidos/guia-redsara.md)
 - Tecnologías aplicables al supuesto
