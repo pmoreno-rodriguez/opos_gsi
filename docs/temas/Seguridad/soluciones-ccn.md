@@ -76,3 +76,45 @@ CARMEN monitoriza el tráfico de red en tiempo real, identificando patrones inus
 - **Monitoreo en Tiempo Real**: Proporciona una visión continua del tráfico de red.
 - **Análisis Forense**: Facilita la investigación de incidentes de seguridad a través de registros detallados.
 
+## SOLUCIONES DEL CCN PARA IMPLANTACIÓN DE UN SIEM :class=titulo-color <!-- {docsify-ignore} -->
+
+### GLORIA (Gestor de logs para responder ante incidentes y amenazas) :class=subtitulo-color
+
+**Gloria** es una plataforma para la gestión de incidentes y amenazas de **ciberseguridad** a través de técnicas de correlación compleja de eventos. Basado en los sistemas SIEM (Security Information and Event Management), va un paso más allá de las capacidades de monitorización, almacenamiento e interpretación de los datos relevantes.
+
+Así, mediante técnicas de correlación compleja de varias fuentes de eventos o análisis de patrones para la identificación de anomalías, permite una **orientación muy flexible hacia la vigilancia del mundo IP**.
+
+La plataforma permite las siguientes funcionalidades a través de distintos módulos:
+
+- **Monitorización de entornos tecnológicos (IT/OT)** y recolección de eventos de seguridad: sistemas de detección de intrusos basados en red (NIDS) y en host (HIDS), sistemas automáticos de análisis de vulnerabilidades, analizadores de tráfico y un conjunto de conectores que permiten obtener los registros o logs de actividad de cualquier sistema o dispositivo del mundo IP.
+
+- **Inteligencia**: a través de técnicas de correlación compleja de eventos que sirve de base para el desarrollo y parametrización de los mismos.
+
+- **Gestión del servicio**: con una consola única de gestión de alertas e incidentes que recoge todas las incidencias o alertas automáticas generadas por el sistema de correlación.
+
+- **Automatización, orquestación y reducción de tiempos de respuesta**: para la mejora de las técnicas de correlación compleja de eventos se hace especialmente necesaria la integración de las capacidades de Security Information and Event Management (SIEM), la notificación de incidentes y la ciberinteligencia. De esta manera permiten la reducción del trabajo manual y repetitivo de los operadores/analistas de seguridad en los procesos de detección y respuesta a incidentes.
+
+### MONICA (Gestión de eventos e información de seguridad) :class=subtitulo-color
+
+Los equipos de ciberseguridad deben hacer frente al creciente volumen y sofisticación de las amenazas. La falta de visibilidad de la red, los análisis manuales que consumen mucho tiempo y la falta de contexto, afectan negativamente a la eficiencia de los equipos. **MÓNICA** es un sistema automatizado de gestión de información y eventos de seguridad que recoge en una única plataforma toda la información existente sobre amenazas potenciales, permitiendo no solo reaccionar ante los ataques, sino adelantarse a ellos para remediarlos antes de que sucedan. 
+
+- Detecta y resuelve amenazas en tiempo real.
+- Prioriza e investiga incidentes relevantes.
+- Punto único de control y almacenamiento centralizado.
+- Tecnología española alineada con la Estrategia Nacional de Ciberseguridad.
+- Analiza el comportamiento del usuario -UEBA-.
+- Ciberinteligencia de Amenazas.
+- Responde de forma automática -SOAR-.
+- Integración con herramienta LUCIA para la Gestión de Ciberincidentes en el ámbito de aplicación del Esquema Nacional de Seguridad.
+
+### LUCIA (Listado Unificado de Coordinación de Incidentes y Amenazas) :class=subtitulo-color
+
+**LUCIA** es una herramienta desarrollada por el CCN-CERT para la Gestión de Ciberincidentes en las entidades del ámbito de aplicación del Esquema Nacional de Seguridad. Con ella se pretende mejorar la coordinación entre el CERT Gubernamental Nacional y los distintos organismos y organizaciones con las que colabora. 
+
+LUCIA ofrece un lenguaje común de peligrosidad y clasificación del incidente y mantiene la trazabilidad y el seguimiento del mismo. El sistema permite, además, automatizar las tareas e integrarse con otros sistemas ya implantados.
+
+Con la herramienta LUCIA, el organismo podrá gestionar tres tipos de ciberincidentes:
+
+* Los incidentes propios del Organismo
+* Los provenientes del Sistema de Alerta Temprana de Red SARA (SAT-SARA).
+* Los provenientes del Sistema de Alerta Temprana de Internet (SAT-INET).
