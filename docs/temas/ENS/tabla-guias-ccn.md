@@ -24,7 +24,8 @@
 17. **CCN-STIC-808**: Verificación del cumplimiento del ENS.
 18. **CCN-STIC-811**: Interconexión en el ENS
 19. **CCN-STIC-812**: Seguridad en entornos y aplicaciones Web.
-20. **CCN-STIC-816**: Seguridad en redes inalámbricas en el ENS.
-21. **CCN-STIC-818**: Herramientas de seguridad en el ENS.
+20. **CCN-STIC-814**: Seguridad en el Servicio de Correo.
+21. **CCN-STIC-816**: Seguridad en redes inalámbricas en el ENS.
 22. **CCN-STIC-817**: Gestión de Ciberincidentes 
-23. **CCN-STIC-836**: Seguridad en VPN en el marco del ENS.
+23. **CCN-STIC-818**: Herramientas de seguridad en el ENS.
+24. **CCN-STIC-836**: Seguridad en VPN en el marco del ENS.
