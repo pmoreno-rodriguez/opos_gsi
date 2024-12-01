@@ -57,6 +57,7 @@
   - [Soluciones de seguridad del CCN](./temas/Seguridad/soluciones-ccn.md)
   - [Seguridad en Redes](./temas/Seguridad/seguridad-redes.md)
   - [Seguridad Perimetral](./temas/Seguridad/seguridad-perimetral.md)
+  - [Medidas de bastionado](./temas/Seguridad/medidas-bastionado.md)
 - DAFO
   - [Plantilla Genérica](./temas/DAFO/plantilla_generica.md)
 - Factores críticos de éxito
