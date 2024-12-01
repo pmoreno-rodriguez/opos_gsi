@@ -22,22 +22,22 @@
     deactivate PID
     Control->Fire: Solicitar Firma usuario
     activate Fire
-    Fire-->Interfaz: redirección
+    Fire-->>Interfaz: redirección
     deactivate Fire
     Interfaz->Autofirma: redirección
     activate Autofirma    
     Autofirma-->Solicitante: Solicitud Elección de certificado
     Solicitante->Autofirma: Ok(opción certificado)/No Ok
     deactivate Interfaz
-    Autofirma-->Control: Ok(Firma de usuario)/No Ok
+    Autofirma-->>Control: Ok(Firma de usuario)/No Ok
     Control->Geiser: Registrar solicitud y documentos
     deactivate Autofirma
     activate Geiser
-    Geiser-->Control: Ok(código REGAGE)/No Ok
+    Geiser-->>Control: Ok(código REGAGE)/No Ok
     deactivate Geiser
     Control->INSIDE: Crear expte. y anexar Docs.
     activate INSIDE
-    INSIDE-->Control: Ok(código expte.)/No Ok
+    INSIDE-->>Control: Ok(código expte.)/No Ok
     deactivate INSIDE
     Control->SGBDR: Guardar datos en base de datos
     activate SGBDR
