@@ -15,6 +15,10 @@ body,
   font-size: 16px;
 }
 
+.sidebar ul li.active > a {
+  background-color: #edd3d3;
+}
+
 .sidebar-toggle {
   background-color: unset;
   position: fixed !important;
