@@ -1,10 +1,12 @@
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido extraído del ENS y útil para hacer referencia a él en el supuesto
 
+> Donde se dice _todos las categorías_, es porque se aplica SIN REFUERZOS, en todas las categorías (básic, media y alta). Otras medidas también se aplican en todas las categorías pero implican el uso de refuerzos.
+
 ## PRINCIPALES MEDIDAS CLAVE PARA LA SEGURIDAD <!-- {docsify-ignore} -->
 
 1. **Marco organizativo [org]**  
-    Las cuatro medidas del marco organizativo se aplican en [shortcode class="color-verde subrayado"]_todos los niveles_[/shortcode]. Éstas son:
+    Las cuatro medidas del marco organizativo se aplican en [shortcode class="color-verde subrayado"]_todas las categorías_[/shortcode]. Éstas son:
     - **[org.1] Política de seguridad**
     - **[org.2] Normativa de seguridad**
     - **[org.3] Procedimientos de seguridad**
@@ -74,13 +76,19 @@
    Segregación de redes y sistemas para evitar que la información sensible se mezcle con flujos no seguros.
 
 23. **[mp.info.1]	Datos personales**  
-   Cuando el sistema trate datos personales, el responsable de seguridad recogerá los requisitos de protección de datos que sean fijados por el responsable o por el encargado del tratamiento, contando con el asesoramiento del DPD, y que sean necesarios implementar en los sistemas de acuerdo a la naturaleza, alcance, contexto y fines del mismo, así como de los riesgos para los derechos y libertades de acuerdo a lo establecido en los artículos 24 y 32 del RGPD, y de acuerdo a la evaluación de impacto en la protección de datos, si se ha llevado a cabo (se aplica en [shortcode class="color-verde subrayado"]_todos los niveles_[/shortcode]) 
+   Cuando el sistema trate datos personales, el responsable de seguridad recogerá los requisitos de protección de datos que sean fijados por el responsable o por el encargado del tratamiento, contando con el asesoramiento del DPD, y que sean necesarios implementar en los sistemas de acuerdo a la naturaleza, alcance, contexto y fines del mismo, así como de los riesgos para los derechos y libertades de acuerdo a lo establecido en los artículos 24 y 32 del RGPD, y de acuerdo a la evaluación de impacto en la protección de datos, si se ha llevado a cabo (se aplica en [shortcode class="color-verde subrayado"]_todas las categorías_[/shortcode]) 
 
 24. **[mp.info.6] Copias de seguridad**  
     Establecimiento de mecanismos regulares y seguros para la creación de copias de seguridad, protegiendo la información crítica.
 
 25. **[mp.per.3] Concienciación**  
-   Se realizarán las acciones necesarias para concienciar regularmente al personal acerca de su papel y responsabilidad para que la seguridad del sistema alcance los niveles exigidos. Se aplica en [shortcode class="color-verde subrayado"]_todos los niveles_[/shortcode].
+   Se realizarán las acciones necesarias para concienciar regularmente al personal acerca de su papel y responsabilidad para que la seguridad del sistema alcance los niveles exigidos. Se aplica en [shortcode class="color-verde subrayado"]_todas las categorías_[/shortcode].
 
 26. **[mp.per.4] Formación**  
-   Formación en seguridad del personal de la organizacion. Se aplica en [shortcode class="color-verde subrayado"]_todos los niveles_[/shortcode].
+   Formación en seguridad del personal de la organizacion. Se aplica en [shortcode class="color-verde subrayado"]_todas las categorías_[/shortcode].
+
+27. **[mp.s.1] Protección del correo electrónico**  
+   La medida mp.s.1 del Esquema Nacional de Seguridad establece la protección del correo electrónico mediante cifrado, control de acceso, prevención contra spam, malware y código dañino, y define normas de uso y formación para el personal
+
+28. **[mp.s.2] Protección de servicios y aplicaciones web**  
+   Esta medida establece la protección de servicios y aplicaciones web mediante control de acceso, prevención de ataques (URL manipulation, cookies, code injection, cross-site scripting, y privilege escalation) y auditorías de seguridad (caja negra y caja blanca).

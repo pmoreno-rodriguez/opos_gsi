@@ -1147,7 +1147,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.s.2</td>
+        <td class="fondo_azul">mp.s.2</td>
         <td>Protección de servicios y aplicaciones web</td>
         <td>Categoría</td>
         <td class="fondo_verde">
