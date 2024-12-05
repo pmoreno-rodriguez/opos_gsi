@@ -574,7 +574,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">op.cont.1</td>
-        <td>Análisis de impacto</td>
+        <td>Análisis de impacto
+        <br><br>
+        <small>
+        Se realizará un análisis de impacto que permita determinar los requisitos de disponibilidad de cada servicio (impacto de una interrupción durante un periodo de tiempo determinado), así como los elementos que son críticos para la prestación de cada servicio
+        </small>
+        </td>
         <td>D</td>
         <td>n.a.</td>
         <td class="fondo_amarillo">
@@ -586,7 +591,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">op.cont.2</td>
-        <td>Plan de continuidad</td>
+        <td>Plan de continuidad
+        <br><br>
+        <small>
+        Se desarrollará un plan de continuidad que establezca las acciones a ejecutar en caso de interrupción de los servicios prestados con los medios habituales. Dicho plan contemplará los siguientes aspectos:<ul> <li>Se identificarán funciones, responsabilidades y actividades a realizar.</li> <li>Existirá una previsión para coordinar la entrada en servicio de los medios alternativos de forma que se garantice poder seguir prestando los servicios esenciales de la organización.</li> <li>Todos los medios alternativos estarán planificados y materializados en acuerdos o contratos con los proveedores correspondientes.</li> <li>Las personas afectadas por el plan recibirán formación específica relativa a su papel en dicho plan.</li> <li>El plan de continuidad será parte integral y armónica de los planes de continuidad de la organización en otras materias ajenas a la seguridad.</li>
+        </small>
+        </td>
         <td>D</td>
         <td>n.a.</td>
         <td>
@@ -610,7 +620,11 @@
       </tr>
       <tr>
         <td class="fondo_azul">op.cont.4</td>
-        <td>Medios alternativos</td>
+        <td>Medios alternativos
+        <small>
+        <p>Estará prevista la disponibilidad de medios alternativos para poder seguir prestando servicio cuando los medios habituales no estén disponibles. En concreto, se cubrirán los siguientes elementos del sistema:</p> <ul> <li>Servicios contratados a terceros.</li> <li>Instalaciones alternativas.</li> <li>Personal alternativo.</li> <li>Equipamiento informático alternativo.</li> <li>Medios de comunicación alternativos.</li>
+        </small>
+        </td>
         <td>D</td>
         <td>n.a.</td>
         <td>
