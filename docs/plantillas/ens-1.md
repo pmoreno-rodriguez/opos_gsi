@@ -41,3 +41,5 @@ La **concienciación** [mp.per.3] y la **formación en ciberseguridad** [mp.per.
 
 - **Concienciación**: A los empleados les damos normas de seguridad + les enseñamos a identificar ciberincidentes y a informar de ellos.
 - **Formación**: Formaremos al personal en la ciberseguridad que necesiten conocer (cada un@ en su nivel): configuración de sistemas + detección y reacción ante ciberincidentes, **GESTIÓN DE LA INFORMACIÓN**: ALMACENAR, TRANSFERIR, COPIAR, DISTRIBUIR Y DESTRUIR INFORMACIÓN.
+
+<a href="https://pmoreno-rodriguez.github.io/opos_gsi/#/plantillas/indice.md">Volver al índice</a>

@@ -136,6 +136,7 @@
     - [Diagrama de clases genérico](./temas/Diagramas/ejemplo1-diagrama-clases.md)
   - Diagramas de Contexto
     - [Diagrama de contexto 1](./temas/Diagramas/diagrama-contexto-1.md)
+    - [Diagrama de contexto 2](./temas/Diagramas/diagrama-contexto-2.md)
 - Plantillas
   - [Indice de Plantillas](./plantillas/indice.md)
 - Esquemas
