@@ -56,7 +56,9 @@
       </tr>
       <tr>
         <td class="fondo_azul">org.1</td>
-        <td>Política de seguridad</td>
+        <td>Política de seguridad <br><br>
+        <small>La política de seguridad será aprobada por el órgano superior competente que corresponda</small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -70,7 +72,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">org.2</td>
-        <td>Normativa de seguridad</td>
+        <td>Normativa de seguridad
+        <br><br><small>Se dispondrá de una serie de documentos que describan: <ul><li>
+        El uso correcto de equipos, servicios e instalaciones</li>
+        <li>Lo que se considera uso indebido</li>
+        <li>Responsabilidad del personal</li></ul></small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -84,7 +91,13 @@
       </tr>
       <tr>
         <td class="fondo_azul">org.3</td>
-        <td>Procedimientos de seguridad</td>
+        <td>Procedimientos de seguridad
+        <br><br><small>Se dispondrá de una serie de documentos que detallen de forma clara y precisa:
+        <ul><li>Cómo llevar a cabo las tareas</li>
+        <li>Quién debe hacer cada tarea</li>
+        <li>Cómo identificar y reportar comportamientos anómalos</li></ul>
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -98,7 +111,11 @@
       </tr>
       <tr>
         <td class="fondo_azul">org.4</td>
-        <td>Proceso de autorización</td>
+        <td>Proceso de autorización
+        <br><br><small>
+        Se establecerá un proceso formal de autorizaciones que cubra todos los elementos del sistema de información: instalaciones, entrada de equipos en producción, entrada de aplicaciones, uso de soportes, etc.
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -174,7 +191,11 @@
       </tr>
       <tr>
         <td class="fondo_azul">op.pl.4</td>
-        <td>Dimensionamiento/gestión de la capacidad</td>
+        <td>Dimensionamiento/gestión de la capacidad
+        <br><br><small>
+        Con carácter previo a la puesta en explotación, se realizará un estudio previo que cubrirá: necesidades de procesamiento, necesidades de almacenamiento de información, necesidades de comunicación, personal e instalaciones
+        </small>
+        </td>
         <td>D</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -208,7 +229,11 @@
       </tr>
       <tr>
         <td>op.acc.1</td>
-        <td>Identificación</td>
+        <td>Identificación
+        <br><br><small>
+        Se podrán utilizar como identificador único los sistemas de identificación previstos en la normativa de aplicación. Cada entidad (usuario o proceso) que accede al sistema, contará con un identificador singular de tal forma que se puede saber sus derechos de acceso y qué ha efectuado.
+        </small>
+        </td>
         <td>T A</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -222,7 +247,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">op.acc.2</td>
-        <td>Requisitos de acceso</td>
+        <td>Requisitos de acceso
+        <br><br>
+        <small>
+        Los recursos del sistema se protegerán con algún mecanismo que impida su utilización, salvo a las entidades que disfruten de derechos de acceso suficientes.
+        </small>
+        </td>
         <td>C I T A</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -248,7 +278,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">op.acc.4</td>
-        <td>Proceso de gestión de derechos de acceso</td>
+        <td>Proceso de gestión de derechos de acceso
+        <br><br>
+        <small>
+        Los derechos de acceso de cada usuario, se limitarán atendiendo a los siguientes principios: mínimo privilegio, necesidad de conocer y capacidad de autorizar.
+        </small>
+        </td>
         <td>C I T A</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -298,7 +333,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">op.exp.1</td>
-        <td>Inventario de activos</td>
+        <td>Inventario de activos
+        <br><br>
+        <small>
+        Se mantendrá un inventario actualizado de todos los elementos del sistema
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -312,7 +352,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">op.exp.2</td>
-        <td>Configuración de seguridad</td>
+        <td>Configuración de seguridad
+        <br><br>
+        <small>
+        Se configurarán los equipos previamente a su entrada en operación, de forma que se aplicará la regla de mínima funcionalidad y se retirarán cuentas y contraseñas estándar
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -368,7 +413,12 @@
       </tr>
       <tr>
         <td>op.exp.6</td>
-        <td>Protección frente a código dañino</td>
+        <td>Protección frente a código dañino
+        <br><br>
+        <small>
+        Se dispondrá de mecanismos de prevención y reacción frente a código dañino con mantenimiento de acuerdo a las recomendaciones del fabricante.
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -638,7 +688,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.if.1</td>
-        <td>Áreas separadas y con control de acceso</td>
+        <td>Áreas separadas y con control de acceso
+        <br><br>
+        <small>
+        El equipamiento de instalará en áreas separadas específicas para su función. Se controlarán los accesos a las áreas indicadas de forma que sólo se pueda acceder por las entradas previstas y vigiladas.
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -652,7 +707,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.if.2</td>
-        <td>Identificación de las personas</td>
+        <td>Identificación de las personas
+        <br><br>
+        <small>
+        En el mecanismo de control de acceso se identificará a todas las personas que accedan a los locales donde hay equipamiento que forme parte del sistema de información y se registrarán las entradas y salidas de personas.
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -666,7 +726,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.if.3</td>
-        <td>Acondicionamiento de los locales</td>
+        <td>Acondicionamiento de los locales
+        <br><br>
+        <small>
+        Los locales donde se ubiquen los sistemas de información y sus componentes, dispondrán de elementos adecuados para el eficaz funcionamiento del equipamiento allí instalado.
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -694,7 +759,11 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.if.5</td>
-        <td>Protección frente a incendios</td>
+        <td>Protección frente a incendios
+        <br><br><small>
+        Los locales donde se ubiquen los sistemas de información y sus componentes se protegerán frente a incendios fortuitos o deliberados.
+        </small>
+        </td>
         <td>D</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -722,7 +791,12 @@
       </tr>
       <tr>
         <td>mp.if.7</td>
-        <td>Registro de entrada y salida de equipamiento</td>
+        <td>Registro de entrada y salida de equipamiento
+        <br><br>
+        <small>
+        Se llevará un registro pormenorizado de toda entrada y salida de equipamiento, incluyendo la identificación de la persona que autoriza de movimiento.
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -758,7 +832,12 @@
       </tr>
       <tr>
         <td>mp.per.2</td>
-        <td>Deberes y obligaciones</td>
+        <td>Deberes y obligaciones
+        <br><br>
+        <small>
+        Se informará a cada persona que trabaje en el sistema, de los deberes y responsabilidades de su puesto de trabajo en materia de seguridad.
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -772,7 +851,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.per.3</td>
-        <td>Concienciación</td>
+        <td>Concienciación
+        <br><br>
+        <small>
+        Se realizarán las acciones necesarias para concienciar regularmente al personal acerca de su papel y responsabilidad para que la seguridad del sistema alcance los niveles exigidos.
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -786,7 +870,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.per.4</td>
-        <td>Formación</td>
+        <td>Formación
+        <br><br>
+        <small>
+        Se formará regularmente al personal en aquellas materias que requieran para el desempeño de sus funciones
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -870,7 +959,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.com.1</td>
-        <td>Perímetro seguro</td>
+        <td>Perímetro seguro
+        <br><br>
+        <small>
+        Se dispondrá un sistema cortafuegos que separe la red interna del exterior. Todo el tráfico deberá atravesar dicho cortafuegos que sólo dejara transitar los flujos previamente autorizados.
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -926,7 +1020,8 @@
       </tr>
       <tr class="fondo_claro">
         <td>mp.si</td>
-        <td>Protección de los soportes de información</td>
+        <td>Protección de los soportes de información
+        </td>
         <td> </td>
         <td> </td>
         <td> </td>
@@ -946,7 +1041,12 @@
       </tr>
       <tr>
         <td>mp.si.2</td>
-        <td>Criptografía</td>
+        <td>Criptografía
+        <br><br>
+        <small>
+        Se aplicarán mecanismos criptográficos que garanticen la confidencialidad y la integridad de la información contenida en soportes de información.
+        </small>
+        </td>
         <td>C I</td>
         <td>n.a.</td>
         <td class="fondo_amarillo">
@@ -958,7 +1058,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.si.3</td>
-        <td>Custodia</td>
+        <td>Custodia
+        <br><br>
+        <small>
+        Se aplicará la debida diligencia y control a los soportes de información
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -1042,7 +1147,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.info.1</td>
-        <td>Datos personales</td>
+        <td>Datos personales
+        <br><br>
+        <small>
+        Cuando el sistema trate datos de carácter personal, se tendrá en cuenta lo dispuesto en el Reglamento General de Protección de Datos; la Ley Orgánica 3/2018, de 5 de diciembre, en especial su disposición adicional primera, así como el resto de normativa de aplicación
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -1112,7 +1222,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.info.6</td>
-        <td>Copias de seguridad</td>
+        <td>Copias de seguridad
+        <br><br>
+        <small>
+        Se realizarán copias de seguridad que permitan recuperar datos perdidos, accidental o intencionadamente con una antigüedad determinada.
+        </small>
+        </td>
         <td>D</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -1134,7 +1249,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.s.1</td>
-        <td>Protección del correo electrónico</td>
+        <td>Protección del correo electrónico
+        <br><br>
+        <small>
+        El correo electrónico se protegerá frente a las amenazas que le son propias
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -1148,7 +1268,17 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.s.2</td>
-        <td>Protección de servicios y aplicaciones web</td>
+        <td>Protección de servicios y aplicaciones web
+        <br><br>
+        <small>
+        Cuando la información requiera control de acceso se garantizará la imposibilidad de acceder a la información obviando la autenticación, en particular, tomando medidas en los siguientes aspectos:
+        <ul>
+        <li>Se evitará que el servidor ofrezca acceso a los documentos por vías alternativas al protocolo determinado.</li>
+        <li>Se prevendrán ataques de manipulación del localizador uniforme de recursos (Uniform Resource Locator, URL).</li>
+        <li>Se prevendrán ataques de manipulación de cookies.</li>
+        <li>Se prevendrán ataques de inyección de código.</li></ul>
+        </small>
+        </td>
         <td>Categoría</td>
         <td class="fondo_verde">
           <p>+ [R1 o R2]</p>
