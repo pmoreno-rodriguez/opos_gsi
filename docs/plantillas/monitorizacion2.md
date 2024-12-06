@@ -1,6 +1,6 @@
 ### Implantación de una adecuada monitorización para un sistema
 
-La **monitorización de sistemas** es una medida fundamental para garantizar la seguridad, disponibilidad y resiliencia de los servicios digitales, especialmente en infraestructuras críticas como la Carpeta Ciudadana. Este servicio, que permite a los ciudadanos interactuar con la Administración Pública, debe estar protegido frente a amenazas y riesgos mediante una estrategia de monitorización basada en el **Esquema Nacional de Seguridad (ENS)**, regulado en el Real Decreto 311/2022.
+La **monitorización de sistemas** es una medida fundamental para garantizar la seguridad, disponibilidad y resiliencia de los servicios digitales, especialmente en infraestructuras críticas. Los servicios que permitan a los ciudadanos interactuar con la Administración Pública, deben estar protegidos frente a amenazas y riesgos mediante una estrategia de monitorización basada en el **Esquema Nacional de Seguridad (ENS)**, regulado en el Real Decreto 311/2022.
 
 A continuación, desglosamos los principales elementos para implantar una adecuada monitorización, integrando los requisitos normativos, las herramientas tecnológicas, y las mejores prácticas actuales.
 
@@ -41,7 +41,7 @@ El uso de estas herramientas ofrece una ventaja significativa al centralizar la 
 El **protocolo SNMP v3** se utiliza para la monitorización de dispositivos en la red, asegurando la autenticación y cifrado de las comunicaciones. Esto es especialmente útil en entornos con múltiples dispositivos, como routers, switches y servidores, proporcionando un descubrimiento continuo y una visión detallada del estado de los componentes de la red.
 
 #### Sistemas IDS y Sondas SAT
-Las **Sondas SAT** son dispositivos clave en la detección de intrusiones en redes críticas. En el contexto de la Carpeta Ciudadana, estas sondas deben estar desplegadas tanto en **Sara** como en **Inet**, asegurando una cobertura completa frente a posibles vectores de ataque.
+Las **Sondas SAT** son dispositivos clave en la detección de intrusiones en redes críticas. Estas sondas deben estar desplegadas tanto en **Sara** como en **Inet**, asegurando una cobertura completa frente a posibles vectores de ataque.
 
 #### Herramientas Open Source y comerciales
 Además de los sistemas comunes, herramientas como **Nagios** o **Icinga** permiten monitorizar recursos locales y remotos. Por su parte, soluciones comerciales como **Azure Sentinel** ofrecen capacidades avanzadas de correlación de eventos, integrándose fácilmente en infraestructuras híbridas (on-premise y en la nube).
@@ -52,7 +52,7 @@ La monitorización no solo debe enfocarse en la detección, sino también en la 
 
 ### Conclusión
 
-La implantación de una adecuada monitorización para un sistema como la Carpeta Ciudadana requiere un enfoque integral que combine las medidas del ENS, herramientas avanzadas, y los servicios comunes y transversales de la Administración Pública. A través de soluciones como GLORIA y MONICA, protocolos seguros como SNMP v3, y herramientas complementarias como Nagios o Azure Sentinel, se garantiza no solo la detección y prevención de amenazas, sino también la resiliencia y disponibilidad del sistema.
+La implantación de una adecuada monitorización para un sistema requiere un enfoque integral que combine las medidas del ENS, herramientas avanzadas, y los servicios comunes y transversales de la Administración Pública. A través de soluciones como GLORIA y MONICA, protocolos seguros como SNMP v3, y herramientas complementarias como Nagios o Azure Sentinel, se garantiza no solo la detección y prevención de amenazas, sino también la resiliencia y disponibilidad del sistema.
 
 Este enfoque proactivo y centralizado permite proteger un servicio clave para la ciudadanía, alineándose con las mejores prácticas internacionales y los estándares nacionales en materia de seguridad.
 
