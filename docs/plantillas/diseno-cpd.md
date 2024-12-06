@@ -1,7 +1,7 @@
 > [!NOTE|style:callout|label: Plantilla Genérica]
 > Plantilla genérica para el diseño de un CPD.
 
-# PLANTILLA PARA EL DISEÑO DE UN CPD 
+## PLANTILLA PARA EL DISEÑO DE UN CPD <!-- {docsify-ignore} -->
 
 Para diseñar el Centro de Procesamiento de Datos (CPD) seguiremos la normativa **ANSI/TIA-942**.
 
