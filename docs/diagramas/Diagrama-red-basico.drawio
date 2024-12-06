@@ -184,7 +184,7 @@
         <mxCell id="37ImGsvjJXN0FEYYkSoa-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8IY0u4yO5Yo8Mi12hmBT-21" target="8IY0u4yO5Yo8Mi12hmBT-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IUjqxTXk5OEw5RD6v969-1" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="IUjqxTXk5OEw5RD6v969-1" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="585" y="450" width="495" height="363" as="geometry" />
         </mxCell>
         <mxCell id="8IY0u4yO5Yo8Mi12hmBT-100" value="" style="endArrow=none;html=1;rounded=0;spacing=0;jumpSize=6;startSize=6;endSize=6;" parent="IUjqxTXk5OEw5RD6v969-1" target="8IY0u4yO5Yo8Mi12hmBT-97" edge="1">
@@ -319,10 +319,10 @@
         <mxCell id="-2rO3qXE_l6Us7GNqE2k-2" value="DWH" style="fontColor=#000000;verticalAlign=bottom;verticalLabelPosition=top;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" parent="IUjqxTXk5OEw5RD6v969-1" vertex="1">
           <mxGeometry x="331" y="290" width="34" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IUjqxTXk5OEw5RD6v969-14" value="LDAP&lt;div&gt;Usuarios&lt;/div&gt;" style="sketch=0;verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.users;labelPosition=center;" vertex="1" parent="IUjqxTXk5OEw5RD6v969-1">
+        <mxCell id="IUjqxTXk5OEw5RD6v969-14" value="LDAP&lt;div&gt;Usuarios&lt;/div&gt;" style="sketch=0;verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.users;labelPosition=center;" parent="IUjqxTXk5OEw5RD6v969-1" vertex="1">
           <mxGeometry x="375" y="23" width="50" height="26.435" as="geometry" />
         </mxCell>
-        <mxCell id="IUjqxTXk5OEw5RD6v969-4" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="IUjqxTXk5OEw5RD6v969-4" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="20" y="230" width="570" height="553" as="geometry" />
         </mxCell>
         <mxCell id="8IY0u4yO5Yo8Mi12hmBT-69" value="FW interno&lt;br&gt;+&lt;br&gt;IPS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="IUjqxTXk5OEw5RD6v969-4" vertex="1">
@@ -444,10 +444,22 @@
         <mxCell id="37ImGsvjJXN0FEYYkSoa-23" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;rotation=-90;" parent="37ImGsvjJXN0FEYYkSoa-18" vertex="1">
           <mxGeometry x="23.18840579710145" y="-2.0689655172413794" width="20.689655172413794" height="20.689655172413794" as="geometry" />
         </mxCell>
-        <mxCell id="IUjqxTXk5OEw5RD6v969-12" value="Terminador Túnel HTTPS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="k3Tx73cQdL41BuKI75Hv-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="IUjqxTXk5OEw5RD6v969-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="289.14782608695657" as="sourcePoint" />
+            <mxPoint x="475" y="230.79999999999995" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="475" y="261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3Tx73cQdL41BuKI75Hv-3" value="Sonda&lt;br&gt;SAT SARA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUjqxTXk5OEw5RD6v969-4">
+          <mxGeometry x="440" y="184.00289855072464" width="70" height="45.79710144927536" as="geometry" />
+        </mxCell>
+        <mxCell id="IUjqxTXk5OEw5RD6v969-12" value="Terminador Túnel HTTPS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="818.7" y="240" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IUjqxTXk5OEw5RD6v969-15" value="" style="endArrow=none;html=1;rounded=0;spacing=0;jumpSize=6;startSize=6;endSize=6;arcSize=20;" edge="1" parent="1">
+        <mxCell id="IUjqxTXk5OEw5RD6v969-15" value="" style="endArrow=none;html=1;rounded=0;spacing=0;jumpSize=6;startSize=6;endSize=6;arcSize=20;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="985.0000000000001" y="531" as="sourcePoint" />
             <mxPoint x="985" y="500" as="targetPoint" />
