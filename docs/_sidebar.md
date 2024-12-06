@@ -1,12 +1,12 @@
 <!-- docs/_sidebar.md -->
 
 
-- [INICIO](./)  
+- [INICIO](/)  
 
 - Temas del supuesto (según las Bases de la Oposición)
-  - [Temario (Bloque 3 y 4)](./temas/Bases-Opo/temario.md)
+  - [Temario (Bloque 3 y 4)](/temas/Bases-Opo/temario.md)
 - Ayuda para el supuesto práctico
-  - [Planteamiento previo](./temas/Consideraciones-del-supuesto/planteamiento-previo.md)
+  - [Planteamiento previo](/temas/Consideraciones-del-supuesto/planteamiento-previo.md)
   - [Preguntas para identificar actores y funcionalidades](./temas/Consideraciones-del-supuesto/Preguntas-indentificar-actores-funcionalidades.md)
   - [Posibles preguntas Parte 1](./temas/Estadisticas-preguntas/posibles-preguntas-1.md)
   - Respuestas de ejemplo para el supuesto
