@@ -197,7 +197,7 @@ El “**Uptime Institute**” recomienda considerar el suministro de las compañ
 
 ##### 3.4.3 Sistemas de refrigeración :class=subtitulo-color
 
-Las condiciones de climatización se resumen en una temperatura entre **18°C y 27°C** y una humedad relativa entre **30% y 50%**.
+Las condiciones de climatización se resumen en una temperatura entre **18°C y 27°C** y una humedad relativa entre **40% y 55%**.
 
 Técnicas de climatización de aire:
 
