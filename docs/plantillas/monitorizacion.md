@@ -1,7 +1,7 @@
 > [!NOTE|style:callout|label: Plantilla Genérica]
 > Plantilla genérica para Monitorización y Alertas de sistemas críticos.
 
-# Monitorización y Alertas de los Sistemas Críticos en una Red LAN de una Organización
+# Monitorización y Alertas de los Sistemas Críticos en una Red LAN de una Organización :id=monitorizacion-sistemas-criticos
 
 La monitorización y alertas de sistemas críticos en una red LAN de una organización implica implementar herramientas y procesos para supervisar tanto el hardware como el software de manera proactiva. Aquí tienes un enfoque completo:
 
