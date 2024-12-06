@@ -1,4 +1,4 @@
-## **Requisitos Mínimos de Seguridad del ENS** <!-- {docsify-ignore} -->
+## Requisitos Mínimos de Seguridad del ENS <!-- {docsify-ignore} -->
 
 El ENS establece una serie de requisitos mínimos que deben cumplir los sistemas de información, los cuales se organizan en tres grandes bloques:
 

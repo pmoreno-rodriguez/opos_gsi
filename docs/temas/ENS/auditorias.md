@@ -1,3 +1,5 @@
+## Tipos de Auditorías <!-- {docsify-ignore} -->
+
 En el **Esquema Nacional de Seguridad (ENS)**, la **auditoría de certificación** y la **autoevaluación** son dos mecanismos que se utilizan para verificar el cumplimiento de los requisitos de seguridad establecidos en el ENS, dependiendo del nivel de seguridad del sistema. A continuación te detallo cuándo debe realizarse cada uno:
 
 ### **Auditoría de Certificación** <!-- {docsify-ignore} -->

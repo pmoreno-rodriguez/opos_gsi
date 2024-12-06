@@ -1,4 +1,4 @@
-### Implantación de una adecuada monitorización para un sistema
+## Implantación de una adecuada monitorización para un sistema <!-- {docsify-ignore} -->
 
 La **monitorización de sistemas** es una medida fundamental para garantizar la seguridad, disponibilidad y resiliencia de los servicios digitales, especialmente en infraestructuras críticas. Los servicios que permitan a los ciudadanos interactuar con la Administración Pública, deben estar protegidos frente a amenazas y riesgos mediante una estrategia de monitorización basada en el **Esquema Nacional de Seguridad (ENS)**, regulado en el Real Decreto 311/2022.
 

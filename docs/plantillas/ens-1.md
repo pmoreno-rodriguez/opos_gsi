@@ -1,4 +1,4 @@
-## Guía de Seguridad según el ENS (Esquema Nacional de Seguridad) - Real Decreto 311/2022
+## Guía de Seguridad según el ENS (Esquema Nacional de Seguridad) - Real Decreto 311/2022 <!-- {docsify-ignore} -->
 
 Para nuestra explicación nos guiaremos por el ENS (Esquema Nacional de Seguridad), regulado por el Real Decreto 311/2022. Comenzaremos centrando el ENS a partir de su artículo 5.
 

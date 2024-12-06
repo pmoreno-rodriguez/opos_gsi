@@ -1,11 +1,11 @@
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Remake de ChatGPT sobre una respuesta real de un examen
 
-### ¿Cómo hacer pruebas de usabilidad para aplicaciones móviles y páginas web?
+## ¿Cómo hacer pruebas de usabilidad para aplicaciones móviles y páginas web? <!-- {docsify-ignore} -->
 
 Las pruebas de usabilidad son una herramienta esencial para evaluar la efectividad, accesibilidad y experiencia de usuario de aplicaciones móviles y páginas web. Este proceso permite detectar problemas que afectan la interacción del usuario con el producto digital y, en última instancia, contribuir a un diseño más intuitivo y accesible. Aquí te mostramos cómo realizar un estudio de usabilidad paso a paso, desde la planificación inicial hasta la comunicación de resultados.
 
-#### 1. Diseño y planificación del estudio: ¿Qué necesitamos? :class=titulo-color
+### 1. Diseño y planificación del estudio: ¿Qué necesitamos? :class=titulo-color
 
 La planificación debe reflejar los objetivos de tu proyecto, es decir, qué aspectos deseas evaluar: ¿accesibilidad, usabilidad o ambos? A partir de aquí, define los criterios de reclutamiento del público adecuado:
 
@@ -26,7 +26,7 @@ Otros puntos importantes a considerar:
 - **Herramientas necesarias:** Evalúa si necesitas una herramienta específica para ejecutar las pruebas y cómo esta herramienta ayudará a recopilar los datos buscados.
 - **Plan de testeo:** Establece fechas, materiales, presupuesto y demás elementos logísticos desde el inicio.
 
-#### 2. Definir un protocolo de testeo y diseñar una pauta: ¿Cómo lo hacemos? :class=titulo-color
+### 2. Definir un protocolo de testeo y diseñar una pauta: ¿Cómo lo hacemos? :class=titulo-color
 
 Una vez que tengas la planificación clara, el siguiente paso es diseñar un protocolo de testeo que guíe el proceso, y una pauta de preguntas y tareas para los usuarios.
 
@@ -41,11 +41,11 @@ Una vez que tengas la planificación clara, el siguiente paso es diseñar un pro
 
 Este protocolo permite entender mejor los perfiles de usuarios y llegar a definir posibles arquetipos o "User Personas" de la aplicación, lo cual aporta información valiosa para el diseño.
 
-#### 3. Ejecutar las pruebas de usabilidad: ¡Hagámoslo! :class=titulo-color
+### 3. Ejecutar las pruebas de usabilidad: ¡Hagámoslo! :class=titulo-color
 
 Es el momento de poner en práctica el diseño y la pauta establecida, siguiendo fielmente el protocolo para garantizar resultados consistentes y comparables. Antes de la aplicación completa, prueba el protocolo con algunos usuarios de prueba para asegurarte de que fluye bien.
 
-#### 4. Sistematizar y analizar los resultados: ¿Qué descubrimos? :class=titulo-color
+### 4. Sistematizar y analizar los resultados: ¿Qué descubrimos? :class=titulo-color
 
 El análisis de resultados implica:
 - **Identificación de problemas clave:** Clasifica y prioriza los problemas según su criticidad.
@@ -60,11 +60,11 @@ El último paso es redactar un informe final con los hallazgos y recomendaciones
   
 
 
-### Anexo: Herramientas para pruebas de usabilidad y accesibilidad :class=titulo-color
+## Anexo: Herramientas para pruebas de usabilidad y accesibilidad :class=titulo-color
 
 Aquí tienes algunas herramientas útiles divididas por tipo de prueba y aplicación.
 
-#### Herramientas para testear usabilidad: :class=subtitulo-color
+### Herramientas para testear usabilidad: :class=subtitulo-color
 
 **Para páginas web:**
 - **Hotjar o Crazyegg:** Mapas de calor y grabaciones de sesiones.
@@ -77,7 +77,7 @@ Aquí tienes algunas herramientas útiles divididas por tipo de prueba y aplicac
 - **Appsee (ServiceNow):** Grabación de sesiones y mapas de calor.
 - **Maze.design:** Prueba flujos de prototipos antes del desarrollo.
 
-#### Herramientas para testear accesibilidad: :class=subtitulo-color
+### Herramientas para testear accesibilidad: :class=subtitulo-color
 
 **Para páginas web:**
 - **WAVE:** Extensión para navegadores que detecta problemas de accesibilidad.
@@ -88,5 +88,3 @@ Aquí tienes algunas herramientas útiles divididas por tipo de prueba y aplicac
 - **Accessibility Scanner (Android):** Evaluación de accesibilidad en Android.
 - **VoiceOver (iOS):** Lector de pantalla integrado en Apple para evaluar accesibilidad.
 - **Color Contrast Analyzer:** Analiza el contraste de colores en dispositivos móviles.
-
-Esta lista es un excelente punto de partida para mejorar la accesibilidad y usabilidad de tu aplicación o sitio web. ¡Con estos pasos y herramientas podrás optimizar la experiencia de tus usuarios!

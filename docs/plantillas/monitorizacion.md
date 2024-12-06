@@ -1,16 +1,16 @@
 > [!NOTE|style:callout|label: Plantilla Genérica]
 > Plantilla genérica para Monitorización y Alertas de sistemas críticos.
 
-# Monitorización y Alertas de los Sistemas Críticos en una Red LAN de una Organización :id=monitorizacion-sistemas-criticos
+## Monitorización y Alertas de los Sistemas Críticos en una Red LAN de una Organización <!-- {docsify-ignore} -->
 
 La monitorización y alertas de sistemas críticos en una red LAN de una organización implica implementar herramientas y procesos para supervisar tanto el hardware como el software de manera proactiva. Aquí tienes un enfoque completo:
 
-## 1. Identificación de Sistemas Críticos
+### 1. Identificación de Sistemas Críticos
 
 - **Hardware Crítico**: Servidores, switches, routers, firewalls, sistemas de almacenamiento (NAS/SAN), UPS.
 - **Software Crítico**: Sistemas operativos, bases de datos, aplicaciones empresariales (ERP, CRM), herramientas de comunicación (VoIP, correo), servicios en la nube.
 
-## 2. Objetivos de la Monitorización
+### 2. Objetivos de la Monitorización
 
 - **Disponibilidad**: Comprobar que los servicios y hardware estén operativos.
 - **Rendimiento**: Detectar cuellos de botella en CPU, RAM, disco y red.
@@ -19,9 +19,9 @@ La monitorización y alertas de sistemas críticos en una red LAN de una organiz
 - **Cumplimiento normativo y de estándares**: Asegurar que los sistemas cumplen con normativas (ISO 27001, GDPR).
 - **Confidencialidad**: los datos confidenciales críticos permanecen a salvo.
 
-## 3. Parámetros a Monitorizar
+### 3. Parámetros a Monitorizar
 
-### Hardware
+#### Hardware
 
 - **Servidores**:
   - Temperatura de CPU y RAM.
@@ -42,7 +42,7 @@ La monitorización y alertas de sistemas críticos en una red LAN de una organiz
   - Espacio disponible.
   - Tasa de IOPS (operaciones de entrada/salida por segundo).
 
-### Software
+#### Software
 
 - **Servicios**:
   - Estado de bases de datos (Oracle, MySQL, PostgreSQL).
@@ -62,21 +62,21 @@ La monitorización y alertas de sistemas críticos en una red LAN de una organiz
   - Detección de intrusiones (IDS/IPS).
   - DNS y DHCP.
 
-## 4. Herramientas de Monitorización
+### 4. Herramientas de Monitorización
 
-### Open Source
+#### Open Source
 - **Zabbix, Nagios, Icinga + Grafana**: Para monitorizar servidores, aplicaciones y redes, supervisión de hardware y servicios.
 - **Prometheus + Grafana**: Monitorización avanzada con visualización personalizada.
 - **Elasticsearch + Kibana + Logstash + Beats (ELK Stack)**: Análisis de logs.
 - **Pandora FMS (Flexible Monitoring System)**.
 - **Gloria/Monica, Carmen y las sondas Claudia**: Monitorización de seguridad de la administración.
 
-### Comerciales
+#### Comerciales
 - **SolarWinds**: Herramientas completas para red, servidores y aplicaciones.
 - **Paessler PRTG**: Solución integral para monitorización.
 - **Datadog**: Monitorización basada en la nube para infraestructuras híbridas.
 
-## 5. Sistema de Alertas
+### 5. Sistema de Alertas
 
 - **Umbrales**: Configurar límites críticos para cada parámetro (ej., uso de CPU > 90% durante 5 minutos).
 
@@ -87,7 +87,7 @@ La monitorización y alertas de sistemas críticos en una red LAN de una organiz
 - **Dashboards (cuadros de mando) en Tiempo Real**:
   - Centralización de métricas clave en una pantalla visible para el equipo.
 
-## 6. Procedimientos de Respuesta
+### 6. Procedimientos de Respuesta
 
 - **Planes de Acción**:
   - Identificar responsables de cada tipo de fallo.
@@ -96,7 +96,7 @@ La monitorización y alertas de sistemas críticos en una red LAN de una organiz
 - **Pruebas Periódicas**:
   - Simulaciones de fallos para comprobar la efectividad del sistema de alertas.
 
-## 7. Buenas Prácticas
+### 7. Buenas Prácticas
 
 - **Redundancia**:
   - Configurar hardware redundante (servidores, fuentes de alimentación).

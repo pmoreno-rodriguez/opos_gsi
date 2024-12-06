@@ -1,4 +1,5 @@
-## Cómo Categorizar un Sistema en el ENS
+## Cómo Categorizar un Sistema en el ENS <!-- {docsify-ignore} -->
+
 **Extraído de la Guía CCN-STIC 803**
 
 Esta es una de las tareas que más “pánico” le produce a cualquier organismo de la Administración y es en realidad uno de los primeros pasos a la hora de implantar el ENS, pues de esta categorización dependerán muchas de las medidas a implantar tanto del marco operacional como de las medidas de protección.

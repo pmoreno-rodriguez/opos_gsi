@@ -3,6 +3,8 @@
 > 
 > Proponga alternativas tecnológicas para realizar el desarrollo del sistema. Explique en detalle la opción que elegiría de entre las propuestas y justifique su elección.
 
+## Alternativas tecnológicas en el desarrollo de un sistema <!-- {docsify-ignore} -->
+
 En la actualidad, las principales alternativas de desarrollo para proyectos como el que estamos tratando son **Java EE** y **Microsoft .Net**. Ambos son orientados a objetos, de alto nivel y no dependen de la plataforma de hardware. Este último requisito es imprescindible si se quiere que el sistema pueda ser usado desde equipos de sobremesa o dispositivos móviles.
 
 Se debe estudiar el entorno predominante en el organismo y es recomendable usar el mismo entorno que se esté usando ya. De este modo, se reducen las posibles complicaciones de compatibilidad, los periodos de aprendizaje de los trabajadores del proyecto y se evitan posibles inversiones en licencias o equipamiento si se diera el caso de que fuera necesario.

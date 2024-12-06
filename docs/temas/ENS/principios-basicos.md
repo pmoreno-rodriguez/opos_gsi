@@ -1,4 +1,4 @@
-## **Principios Básicos del ENS** <!-- {docsify-ignore} -->
+## Principios Básicos del ENS <!-- {docsify-ignore} -->
 
 Los principios básicos son las directrices que orientan la implementación de las medidas de seguridad dentro del ENS. Estos principios se dividen en las siguientes categorías:
 

@@ -1,6 +1,8 @@
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de ChatGPT sobre la elección de una pila tecnológica en el supuesto.
 
+## Elección de la Pila Tecnológica <!-- {docsify-ignore} -->
+
 Para abordar un supuesto práctico de sistemas orientado a la elección de una pila tecnológica en el contexto de la **Administración General del Estado (AGE)**, es importante priorizar criterios como la seguridad, interoperabilidad, sostenibilidad, y cumplimiento de regulaciones específicas como el **Esquema Nacional de Seguridad (ENS)** o el **Esquema Nacional de Interoperabilidad (ENI)**. Además, se deben tener en cuenta los recursos disponibles en la propia AGE, como **NubeSARA** o **Red SARA**, por lo que intentaré proponer soluciones que maximicen la reutilización de infraestructuras ya existentes.
 
 ### 1) Localización de recursos hardware: On-premise o en la nube <!-- {docsify-ignore} -->

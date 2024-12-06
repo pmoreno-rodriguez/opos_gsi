@@ -1,6 +1,8 @@
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Respuesta de Copilot sobre las SD-WAN
 
+## Redes SD-WAN <!-- {docsify-ignore} -->
+
 ### 1. ¿Qué es una SD-WAN?
 
 SD-WAN es una tecnología que separa la gestión y el control del tráfico de red de la infraestructura física. A través de software, SD-WAN permite a las organizaciones gestionar múltiples tipos de conexiones de red, como **MPLS, banda ancha, LTE,** o **5G**, de manera unificada y eficiente. Al operar sobre una infraestructura de red existente, SD-WAN emplea el software para definir políticas y reglas de tráfico, lo que permite a las empresas optimizar las rutas de los datos de forma dinámica, en tiempo real.

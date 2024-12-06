@@ -1,6 +1,6 @@
 El Esquema Nacional de Seguridad (ENS), actualizado con el Real Decreto 311/2022, establece una serie de **dimensiones de seguridad**, que deben ser aplicados por las administraciones públicas españolas y entidades que interactúan con ellas. Estos elementos están diseñados para garantizar la protección de la información y los sistemas que manejan.
 
-## **Dimensiones de Seguridad del ENS** <!-- {docsify-ignore} -->
+## Dimensiones de Seguridad del ENS <!-- {docsify-ignore} -->
 
 Las dimensiones de seguridad son los aspectos esenciales que deben protegerse dentro de los sistemas de información. Estas dimensiones se centran en garantizar la protección de la información en cuanto a:
 

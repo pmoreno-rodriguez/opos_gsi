@@ -1,7 +1,7 @@
 > [!NOTE|style:callout|label: Plantilla Genérica]
 > Plantilla genérica para procedimientos de Backup.
 
-## Procedimiento de Copias de Respaldo y Recuperación utilizando Mutual Backup con el Esquema Abuelo-Padre-Hijo
+## Procedimiento de Copias de Respaldo y Recuperación utilizando Mutual Backup con el Esquema Abuelo-Padre-Hijo <!-- {docsify-ignore} -->
 
 Elaborar un procedimiento de copias de respaldo y recuperación utilizando mutual backup con el esquema abuelo-padre-hijo requiere una planificación cuidadosa para garantizar la seguridad, integridad y disponibilidad de la información. A continuación, te detallo los pasos para su implementación:
 

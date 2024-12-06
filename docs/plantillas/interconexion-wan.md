@@ -1,7 +1,7 @@
 > [!NOTE|style:callout|label: Plantilla Genérica]
 > Plantilla genérica para la Interconexiónd de redes WAN.
 
-## Solución para la Interconexión de Sedes con VPN MPLS (VPRN) y Fibra Oscura, además de una Solución para Teletrabajadores
+## Solución para la Interconexión de Sedes con VPN MPLS (VPRN) y Fibra Oscura, además de una Solución para Teletrabajadores <!-- {docsify-ignore} -->
 
 A continuación, se detalla un diseño que cumple con los requisitos planteados:
 
