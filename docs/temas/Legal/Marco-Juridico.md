@@ -6,9 +6,11 @@
 * **RD. 4/2010**, Esquema Nacional de Seguridad (ENI)
 * **Ley 40/2015** de Régimen Jurídico del Sector Público
     *   **Art. 156**: 
-    1. El Esquema Nacional de Interoperabilidad comprende el conjunto de criterios y recomendaciones en materia de seguridad, conservación y normalización de la información, de los formatos y de las aplicaciones que deberán ser tenidos en cuenta por las Administraciones Públicas para la toma de decisiones tecnológicas que garanticen la interoperabilidad.
-    2. El Esquema Nacional de Seguridad tiene por objeto establecer la política de seguridad en la utilización de medios electrónicos en el ámbito de la presente Ley, y está constituido por los principios básicos y requisitos mínimos que garanticen adecuadamente la seguridad de la información tratada.
+        1. El Esquema Nacional de Interoperabilidad comprende el conjunto de criterios y recomendaciones en materia de seguridad, conservación y normalización de la información, de los formatos y de las aplicaciones que deberán ser tenidos en cuenta por las Administraciones Públicas para la toma de decisiones tecnológicas que garanticen la interoperabilidad.
+        2. El Esquema Nacional de Seguridad tiene por objeto establecer la política de seguridad en la utilización de medios electrónicos en el ámbito de la presente Ley, y está constituido por los principios básicos y requisitos mínimos que garanticen adecuadamente la seguridad de la información tratada.
     * **Artículo 157** (Más info en [Servicios Comunes](/temas/Servicios-Comunes-Compartidos/servicios-comunes.md))
+    * **Artículo 158.2: Transferencia de tecnología entre Administraciones**. La Administración General del Estado, mantendrá un directorio general de aplicaciones para su reutilización, prestará apoyo para la libre reutilización de aplicaciones e impulsará el desarrollo de aplicaciones, formatos y estándares comunes en el marco de los esquemas nacionales de interoperabilidad y seguridad. 
+
  
 * **Ley 39/2015** de Procedimiento Administrativo Común de las AA.PP
 * **Ley 3/2018**, de Protección de Datos y Garantías de Derechos Digitales
