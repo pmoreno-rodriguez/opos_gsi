@@ -19,7 +19,7 @@ La vigilancia proactiva es esencial para anticiparse a potenciales amenazas. Est
 
 ### 2. Protección avanzada frente a amenazas específicas
 
-Además de la monitorización básica, se deben implementar medidas avanzadas de protección frente a amenazas específicas, como el **código dañino** (OP.EXT-1) y los ataques de denegación de servicio distribuidos (DDoS, MP.SI-2). Para ello:
+Además de la monitorización básica, se deben implementar medidas avanzadas de protección frente a amenazas específicas, como el **código dañino** (**op.exp.6**) y los ataques de denegación de servicio distribuidos (DDoS, **mp.s.4**). Para ello:
 
 - **Protección frente a código dañino**: Herramientas como antivirus y sistemas de detección de malware deben integrarse en la infraestructura. Además, los datos recopilados por sistemas como **Lucía**, componente del ecosistema SIEM, permiten detectar patrones de malware a través del análisis de logs y eventos.
   

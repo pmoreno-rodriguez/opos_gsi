@@ -225,3 +225,30 @@ En cuanto a la **capa de acceso a datos y servicios**, esta se centrará en la p
 Para el **despliegue del sistema**, se contempla el uso del Centro de Procesamiento de Datos (CPD) de la SGAD, partiendo de la premisa de que cuenta con la capacidad suficiente, lo que optimizaría el aprovechamiento de recursos.
 
 Concluyendo, la arquitectura de 3 capas no solo garantiza un desarrollo ordenado y eficiente, sino que también asegura la adherencia a estándares y normativas vigentes, permitiendo un producto final accesible, usable y seguro para todos los usuarios.
+
+### TEXTO INTRODUCTORIO PARA EXPLICAR LA ARQUITECTURA FISICA :class=titulo-color<!-- {docsify-ignore} -->
+
+#### TEXTO 1
+
+El diseño de la arquitectura del sistema se llevará a cabo teniendo en cuenta los principios básicos del Esquema Nacional de Seguridad (art. 5 del RD 311/2022), en particular la **seguridad como proceso integral**, la **gestión basada en riesgos** y la **existencia de líneas de defensa**.
+
+La medida op.pl.2 (**arquitectura de seguridad**) del ENS es aplicable a todas las dimensiones de seguridad de todos los sistemas. En particular, el requisito **op.pl.2.3**, implica que se debe detallar el esquema de líneas de defensa, incluyendo puntos de interconexión a otros sistemas o a otras redes, cortafuegos, DMZ, etc., y la utilización de tecnologías diferentes para prevenir vulnerabilidades que pudieran perforar simultáneamente varias líneas de defensa.
+
+Para los sistemas (o subsistemas) cuya valoración de seguridad conforme a la **Guía CCN-STIC 803** sea de categoría MEDIA o ALTA, se utilizarán componentes certificados (medida op.pl.5).
+
+Para la interconexión con otras redes, se tendrá en cuenta la Guía **CCN-STIC 811 "Interconexión en el ENS"**. Otra guía a consultar para diseñar la arquitectura física es la **Guía CCN-STIC 408 Seguridad Perimetral**.
+
+El sistema se diseñará segmentando la red en diferentes VLANs, conforme a la medida del ENS **mp.com.4**. Esto acota el acceso a la información y propagación de incidentes de seguridad.
+
+**Conexión con la red SARA**
+
+En la arquitectura de red se dispondrá de un acceso, a través del **Área de Conexión a la Red SARA**, que permita el acceso de los usuarios de la Entidad y otras AA.PP, así como el acceso a los servicios transversales. Este acceso forma parte del **Lote 1** del **Servicio Unificado de Telecomunicaciones (SUT)**.
+
+**Acceso a Internet**
+
+Se utilizará el acceso a Internet proporcionado por el **Lote 3** del SUT, cuando el sistema requiera este acceso para los ciudadanos y empresas.
+
+**Accesos remotos**
+
+Los usuarios que accedan de forma remota, a través de Internet, a los sistemas de información lo harán a través de VPNs, de acuerdo con la medida del ENS **mp.com.2**, y para garantizar la confidencialidad de la información se utilizarán VPNs cifradas. La seguridad de las VPN se diseñará de acuerdo a la **Guía CCN-STIC-836 Seguridad en Redes Privadas Virtuales**, utilizando el protocolo TLS 1.2 o superior (se recomienda 1.3).
+

@@ -1305,7 +1305,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.s.3</td>
+        <td class="fondo_azul">mp.s.3</td>
         <td>Protección de la navegación web</td>
         <td>Categoría</td>
         <td class="fondo_verde">
@@ -1319,7 +1319,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.s.4</td>
+        <td class="fondo_azul">mp.s.4</td>
         <td>Protección frente a denegación de servicio</td>
         <td>D</td>
         <td>
