@@ -31,9 +31,11 @@ jobs:
         generator.on('done', () => console.log('Sitemap generado!'));
         "
     - name: Commit and push sitemap
+      env:
+        TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
-        git config --local user.name "github-actions"
+        git config --local user.name "github-actions[bot]"
         git config --local user.email "actions@github.com"
         git add docs/sitemap.xml
-        git commit -m 'Actualizar sitemap'
-        git push
+        git commit -m 'Actualizar sitemap' || echo "No changes to commit"
+        git push https://x-access-token:${TOKEN}@github.com/pmoreno-rodriguez/opos_gsi.git HEAD:main
