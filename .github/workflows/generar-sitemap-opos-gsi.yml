@@ -32,8 +32,9 @@ jobs:
         "
     - name: Commit and push sitemap
       run: |
-        git config --local user.name "github-actions"
+        git config --local user.name "github-actions[bot]"
         git config --local user.email "actions@github.com"
         git add docs/sitemap.xml
-        git commit -m 'Actualizar sitemap'
-        git push
+        git commit -m 'Actualizar sitemap' || echo "No changes to commit"
+        git pull --rebase origin main
+        git push origin HEAD:main
