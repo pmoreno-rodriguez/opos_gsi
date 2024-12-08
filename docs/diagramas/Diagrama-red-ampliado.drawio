@@ -603,14 +603,14 @@
         <mxCell id="9gCZMNyoxsTTbr0R3SAC-3" value="Sonda&lt;br&gt;SAT SARA" style="rounded=0;whiteSpace=wrap;html=1;" parent="9gCZMNyoxsTTbr0R3SAC-1" vertex="1">
           <mxGeometry width="70" height="45.79710144927536" as="geometry" />
         </mxCell>
-        <mxCell id="NMI-0cj4nUhWK2GhbUs5-1" value="LDAP&lt;div&gt;Usuarios&lt;/div&gt;" style="sketch=0;verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.users;labelPosition=center;" vertex="1" parent="1">
-          <mxGeometry x="970" y="602" width="50" height="26.435" as="geometry" />
-        </mxCell>
-        <mxCell id="NMI-0cj4nUhWK2GhbUs5-2" value="" style="endArrow=none;html=1;rounded=0;spacing=0;jumpSize=6;startSize=6;endSize=6;arcSize=20;" edge="1" parent="1">
+        <mxCell id="NMI-0cj4nUhWK2GhbUs5-2" value="" style="endArrow=none;html=1;rounded=0;spacing=0;jumpSize=6;startSize=6;endSize=6;arcSize=20;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="995.0000000000001" y="660" as="sourcePoint" />
             <mxPoint x="995" y="629" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wD6VRvF6NGTKt72_i0ZK-1" value="LDAP" style="points=[[0.5,0,0],[0.765,0.48,0],[0.99,0.98,0],[0.5,1,0],[0.01,0.98,0],[0.235,0.48,0]];verticalLabelPosition=top;sketch=0;html=1;verticalAlign=bottom;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.ldap;fillColor=#005073;strokeColor=none;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="971" y="585.5" width="50" height="42.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
