@@ -992,7 +992,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.com.2</td>
-        <td>Protección de la confidencialidad</td>
+        <td>Protección de la confidencialidad
+        <br><br>
+        <small>
+        Se emplearán redes privadas virtuales cifradas cuando la comunicación discurra por redes fuera del propio dominio de seguridad.
+        </small>
+        </td>
         <td>C</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -1006,7 +1011,13 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.com.3</td>
-        <td>Protección de la integridad y de la autenticidad</td>
+        <td>Protección de la integridad y de la autenticidad
+        <br><br>
+        <small>
+        <ul><li>Se emplearán redes privadas virtuales cifradas cuando la comunicación discurra por redes fuera del propio dominio de seguridad (R1)</li>
+        <li>Se emplearán algoritmos y parámetros autorizados por el CCN (R2)</li></ul>
+        </small>
+        </td>
         <td>I A</td>
         <td class="fondo_verde">
           <p>aplica</p>
@@ -1020,7 +1031,12 @@
       </tr>
       <tr>
         <td class="fondo_azul">mp.com.4</td>
-        <td>Separación de flujos de información en la red</td>
+        <td>Separación de flujos de información en la red
+        <br><br>
+        <small>
+        La segmentación acota el acceso a la información y, consiguientemente, la propagación de los incidentes de seguridad, que quedan restringidos al entorno donde ocurren. Los segmentos de red se implementarán por medio de redes de área local virtuales (Virtual Local Area Network, VLAN) (R1)
+        </small>
+        </td>
         <td>Categoría</td>
         <td>
           <p>n.a.</p>
