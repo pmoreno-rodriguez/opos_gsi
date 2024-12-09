@@ -9,10 +9,11 @@ Según el art. 40 del RD 311/2022 y su Anexo I, la categoría de seguridad de un
 ### Asignación de niveles de seguridad a las dimensiones
 
    La categorización se va a hacer para cada dimensión de la seguridad, es decir:
-   - A – Autenticidad
-   - C – Confidencialidad
-   - I – Integridad
+   
    - D – Disponibilidad
+   - I – Integridad
+   - C – Confidencialidad
+   - A – Autenticidad 
    - T – Trazabilidad
 
    Para cada dimensión se asignará una de las siguientes opciones según el nivel de seguridad requerido:
@@ -23,7 +24,7 @@ Según el art. 40 del RD 311/2022 y su Anexo I, la categoría de seguridad de un
 
    Por lo tanto, habrá que rellenar la siguiente tabla combinando lo visto hasta ahora. Si tenemos varios sistemas o subsistemas a categorizar, habrá que hacer una tabla por cada uno de ellos.
 
-   |                   | Disponibilidad | Autenticidad | Integridad | Confidencialidad | Trazabilidad |
+   |                   | Disponibilidad <br><center>D</center> | Integridad<br><center>I</center>| Confidencialidad <br><center>C</center> | Autenticidad <br><center>A</center> | Trazabilidad <br><center>T</center> |
 |-------------------|----------------|--------------|------------|------------------|--------------|
 | **Información**   | -              | ¿?           | ¿?         | ¿?               | ¿?           |
 | **Servicios**     | ¿?             | -            | -          | -                | -            |
