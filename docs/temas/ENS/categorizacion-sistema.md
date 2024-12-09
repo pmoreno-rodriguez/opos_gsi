@@ -247,8 +247,9 @@ En la siguiente tabla se establecen las guías principales del CCN en materia de
 | **818**           | [Herramientas de seguridad en el ENS](temas/ENS/guias-ccn/818.md) |
 | **823**           | [Utilización de Servicios en la Nube](temas/ENS/guias-ccn/823.md) |
 | **824**           | Informe del Estado de Seguridad.                                  |
-| **836**           | Manual de INES.                                                   |
-| **844**           | Seguridad en VPN en el marco del ENS.                             |
+| **827**           | Gestión y uso de dispositivos móviles.                            |
+| **836**           | Seguridad en VPN en el marco del ENS.                             |
+| **844**           | Manual de INES.                                                   |
 | **CCN-CERT BP/14**| Declaración de aplicabilidad.                                     |
 
 Atendiendo a estas guías, el proceso de adecuación al ENS sería el siguiente:

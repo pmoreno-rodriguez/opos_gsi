@@ -29,4 +29,5 @@
 22. **CCN-STIC-817**: Gestión de Ciberincidentes 
 23. **CCN-STIC-818**: [Herramientas de seguridad en el ENS](temas/ENS/guias-ccn/818.md)
 24. **CCN-STIC-823**: [Utilización de Servicios en la Nube](temas/ENS/guias-ccn/823.md)
-25. **CCN-STIC-836**: Seguridad en VPN en el marco del ENS.
+25. **CCN-STIC-827**: Gestión y uso de dispositivos móviles
+26. **CCN-STIC-836**: Seguridad en VPN en el marco del ENS.
