@@ -169,15 +169,15 @@ A continuación, se recogen una serie de medidas base por cada dimensión y nive
       <td rowspan="3">Trazabilidad (op.exp.8)</td>
       <td>Bajo</td>
       <td>
-        • Registro de acceso.<br>
-        • Acciones en servidores.
+        • Se generará un registro de auditoría, que incluirá, al menos, el identificador del usuario o entidad asociado al evento, fecha y hora, sobre qué información se realiza el evento, tipo de evento y el resultado del evento (fallo o éxito), según la política de seguridad y los procedimientos asociados a la misma.<br>
+        • Se activarán los registros de actividad en los servidores.
       </td>
     </tr>
     <tr>
       <td>Medio</td>
       <td>
-        • Revisión informal.<br>
-        • Retención.<br>
+        • Se revisarán informalmente, de forma periódica, los registros de actividad, buscando patrones anormales.<br>
+        • Retención de registros.<br>
         • Control de acceso a admins.<br>
         • Sincronización de servidor de logs.
       </td>
@@ -227,20 +227,29 @@ A continuación, se recogen una serie de medidas base por cada dimensión y nive
 
 En la siguiente tabla se establecen las guías principales del CCN en materia de ENS:
 
-| **CCN-STIC**      | **Denominación**                                            |
-|-------------------|-------------------------------------------------------------|
-| **801**           | Responsabilidades y funciones en el ENS.                    |
-| **802**           | Auditoría.                                                  |
-| **803**           | Valoración/categorización de sistemas en el ENS.            |
-| **804**           | Medidas e implantación del ENS.                             |
-| **805**           | Política de seguridad de la información.                   |
-| **806**           | Plan de adecuación del ENS.                                |
-| **808**           | Verificación de cumplimiento de medidas.                    |
-| **809**           | Declaración y certificación de conformidad con el ENS.      |
-| **815**           | Métricas e indicadores para el ENS.                         |
-| **824**           | Informe del Estado de Seguridad.                            |
-| **844**           | Manual de INES.                                             |
-| **CCN-CERT BP/14**| Declaración de aplicabilidad.                               |
+| **CCN-STIC**      | **Denominación**                                                  |
+|-------------------|-------------------------------------------------------------------|
+| **801**           | Responsabilidades y funciones en el ENS.                          |
+| **802**           | Auditoría.                                                        |
+| **803**           | Valoración/categorización de sistemas en el ENS.                  |
+| **804**           | Medidas e implantación del ENS.                                   |
+| **805**           | Política de seguridad de la información.                          |
+| **806**           | Plan de adecuación del ENS.                                       |
+| **807**           | Criptología de empleo en el Esquema Nacional de Seguridad.        |
+| **808**           | Verificación de cumplimiento de medidas.                          |
+| **809**           | Declaración y certificación de conformidad con el ENS.            |
+| **811**           | Interconexión en el ENS.                                          |
+| **812**           | Seguridad en entornos y aplicaciones Web.                         |
+| **814**           | Seguridad en el Servicio de Correo.                               |
+| **815**           | Métricas e indicadores para el ENS.                               |
+| **816**           | Seguridad en redes inalámbricas en el ENS.                        |
+| **817**           | Gestión de Ciberincidentes.                                       |
+| **818**           | [Herramientas de seguridad en el ENS](temas/ENS/guias-ccn/818.md) |
+| **823**           | [Utilización de Servicios en la Nube](temas/ENS/guias-ccn/823.md) |
+| **824**           | Informe del Estado de Seguridad.                                  |
+| **836**           | Manual de INES.                                                   |
+| **844**           | Seguridad en VPN en el marco del ENS.                             |
+| **CCN-CERT BP/14**| Declaración de aplicabilidad.                                     |
 
 Atendiendo a estas guías, el proceso de adecuación al ENS sería el siguiente:
 
