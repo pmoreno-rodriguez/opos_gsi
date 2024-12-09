@@ -213,8 +213,7 @@ A continuación, se recogen una serie de medidas base por cada dimensión y nive
       </td>
     </tr>
     <tr>
-      <td class="fondo_azul" rowspan="2">Todas las dimensiones</td>
-      <td></td>
+      <td class="fondo_azul" colspan="2" rowspan="2">Todas las dimensiones</td>
       <td class="fondo_verde">
         <strong>• op.pl1. AARR</strong><br>
         <strong>• org.1 Política de seguridad CCN-STIC-805</strong>
