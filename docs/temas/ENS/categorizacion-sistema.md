@@ -215,8 +215,29 @@ A continuación, se recogen una serie de medidas base por cada dimensión y nive
     <tr>
       <td class="fondo_azul" colspan="2" rowspan="2">Todas las dimensiones</td>
       <td class="fondo_verde">
-        <strong>• op.pl1. AARR</strong><br>
-        <strong>• org.1 Política de seguridad CCN-STIC-805</strong>
+        • <strong>org.1:</strong> Política de seguridad CCN-STIC-805<br>
+        • <strong>org.2:</strong> Normativa de seguridad<br>
+        • <strong>org.3:</strong> Procedimientos de seguridad<br>
+        • <strong>org.4:</strong> Proceso de autorización<br>
+        • <strong>op.pl.1:</strong> Análisis de Riesgos<br>
+        • <strong>op.pl.2:</strong> Arquitectura de Seguridad<br>
+        • <strong>op.acc.4:</strong> Proceso de gestión de derechos de acceso<br>
+        • <strong>op.exp.1:</strong> Inventario de activos<br>
+        • <strong>op.exp.2:</strong> Configuración de seguridad<br>
+        • <strong>op.exp.9:</strong> Registro de de la gestión de incidentes<br>
+        • <strong>mp.if.1:</strong> Áreas separadas y con control de acceso<br>
+        • <strong>mp.if.2:</strong> Identificación de personas<br>
+        • <strong>mp.if.3:</strong> Acondicionamiento de locales<br>
+        • <strong>mp.if.5:</strong> Protección frente a incendios<br>
+        • <strong>mp.if.7:</strong> Registro de entrada y salida de equipamiento<br>
+        • <strong>mp.per.3:</strong> Concienciación del personal<br>
+        • <strong>mp.per.4:</strong> Formación del personal<br>
+        • <strong>mp.com.1:</strong> Perímetro seguro<br>
+        • <strong>mp.si.3:</strong> Custodia<br>
+        • <strong>mp.si.4:</strong> Transporte<br>
+        • <strong>mp.info.1:</strong> Datos personales<br>
+        • <strong>mp.info.5:</strong> Limpieza de documentos<br>
+        • <strong>mp.si.1:</strong> Protección del correo electrónico<br>
       </td>
     </tr>
   </tbody>
