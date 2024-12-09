@@ -74,7 +74,7 @@ A continuación, se recogen una serie de medidas base por cada dimensión y nive
   </thead>
   <tbody>
     <tr>
-      <td rowspan="4">Integridad/firma (mp.info.3)</td>
+      <td class="fondo_azul" rowspan="4"><strong>Integridad</strong>/firma (mp.info.3)</td>
       <td>Bajo</td>
       <td>Cualquier firma.</td>
     </tr>
@@ -99,7 +99,7 @@ A continuación, se recogen una serie de medidas base por cada dimensión y nive
       <td>Firma cualificada</td>
     </tr>
     <tr>
-      <td rowspan="3">Disponibilidad</td>
+      <td class="fondo_azul" rowspan="3"><strong>Disponibilidad</strong></td>
       <td>Bajo</td>
       <td>
         • RTO 1-4D.<br>
@@ -126,7 +126,7 @@ A continuación, se recogen una serie de medidas base por cada dimensión y nive
       </td>
     </tr>
     <tr>
-      <td rowspan="4">Autenticidad / Credenciales (op.acc.5 y op.acc.6)</td>
+      <td  class="fondo_azul" rowspan="4"><strong>Autenticidad</strong> / Credenciales (op.acc.5 y op.acc.6)</td>
       <td>Bajo</td>
       <td>
         • Cl@vePIN - Nivel básico<br>
@@ -166,7 +166,7 @@ A continuación, se recogen una serie de medidas base por cada dimensión y nive
       <td>Límite de horarios/suspensión por no uso.</td>
     </tr>
     <tr>
-      <td rowspan="3">Trazabilidad (op.exp.8)</td>
+      <td class="fondo_azul" rowspan="3"><strong>Trazabilidad</strong> (op.exp.8)</td>
       <td>Bajo</td>
       <td>
         • Se generará un registro de auditoría, que incluirá, al menos, el identificador del usuario o entidad asociado al evento, fecha y hora, sobre qué información se realiza el evento, tipo de evento y el resultado del evento (fallo o éxito), según la política de seguridad y los procedimientos asociados a la misma.<br>
@@ -190,7 +190,7 @@ A continuación, se recogen una serie de medidas base por cada dimensión y nive
       </td>
     </tr>
     <tr>
-      <td rowspan="3">Confidencialidad</td>
+      <td class="fondo_azul" rowspan="3"><strong>Confidencialidad</strong></td>
       <td>Bajo</td>
       <td>
         • Borrado seguro (mp.si.5).<br>
@@ -213,11 +213,11 @@ A continuación, se recogen una serie de medidas base por cada dimensión y nive
       </td>
     </tr>
     <tr>
-      <td rowspan="2">Todas las dimensiones</td>
+      <td class="fondo_azul" rowspan="2">Todas las dimensiones</td>
       <td></td>
-      <td>
-        • op.pl1. AARR<br>
-        • org.1 Política de seguridad CCN-STIC-805
+      <td class="fondo_verde">
+        <strong>• op.pl1. AARR</strong><br>
+        <strong>• org.1 Política de seguridad CCN-STIC-805</strong>
       </td>
     </tr>
   </tbody>
