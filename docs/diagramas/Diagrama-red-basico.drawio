@@ -49,7 +49,7 @@
         <mxCell id="8IY0u4yO5Yo8Mi12hmBT-23" value="Router&lt;br&gt;VRRP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8IY0u4yO5Yo8Mi12hmBT-24" value="FW externo&lt;br&gt;+&lt;br&gt;IDS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="8IY0u4yO5Yo8Mi12hmBT-24" value="FW UTM externo&lt;br&gt;+&lt;br&gt;IDS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="218" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8IY0u4yO5Yo8Mi12hmBT-32" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -319,13 +319,13 @@
         <mxCell id="-2rO3qXE_l6Us7GNqE2k-2" value="DWH" style="fontColor=#000000;verticalAlign=bottom;verticalLabelPosition=top;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" parent="IUjqxTXk5OEw5RD6v969-1" vertex="1">
           <mxGeometry x="331" y="290" width="34" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M8jtQwXmPbZT5X3h6q-S-1" value="LDAP" style="points=[[0.5,0,0],[0.765,0.48,0],[0.99,0.98,0],[0.5,1,0],[0.01,0.98,0],[0.235,0.48,0]];verticalLabelPosition=top;sketch=0;html=1;verticalAlign=bottom;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.ldap;fillColor=#005073;strokeColor=none;labelPosition=center;" vertex="1" parent="IUjqxTXk5OEw5RD6v969-1">
+        <mxCell id="M8jtQwXmPbZT5X3h6q-S-1" value="LDAP" style="points=[[0.5,0,0],[0.765,0.48,0],[0.99,0.98,0],[0.5,1,0],[0.01,0.98,0],[0.235,0.48,0]];verticalLabelPosition=top;sketch=0;html=1;verticalAlign=bottom;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.ldap;fillColor=#005073;strokeColor=none;labelPosition=center;" parent="IUjqxTXk5OEw5RD6v969-1" vertex="1">
           <mxGeometry x="376" y="6.5" width="50" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="IUjqxTXk5OEw5RD6v969-4" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="20" y="230" width="570" height="553" as="geometry" />
         </mxCell>
-        <mxCell id="8IY0u4yO5Yo8Mi12hmBT-69" value="FW interno&lt;br&gt;+&lt;br&gt;IPS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="IUjqxTXk5OEw5RD6v969-4" vertex="1">
+        <mxCell id="8IY0u4yO5Yo8Mi12hmBT-69" value="FW&amp;nbsp; UTM&lt;div&gt;interno&lt;br&gt;+&lt;br&gt;IPS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="IUjqxTXk5OEw5RD6v969-4" vertex="1">
           <mxGeometry x="510" y="247" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vC8GjeQCqpRo3Mo0Ykjp-2" value="" style="endArrow=none;html=1;rounded=0;" parent="IUjqxTXk5OEw5RD6v969-4" edge="1">
@@ -458,6 +458,9 @@
         </mxCell>
         <mxCell id="k3Tx73cQdL41BuKI75Hv-3" value="Sonda&lt;br&gt;SAT SARA" style="rounded=0;whiteSpace=wrap;html=1;" parent="EKhiC8Pqq5LJKj6ZqtOB-1" vertex="1">
           <mxGeometry width="70" height="45.79710144927536" as="geometry" />
+        </mxCell>
+        <mxCell id="sWPHZXe7Qe0G9FBXzwdk-1" value="FW UTM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IUjqxTXk5OEw5RD6v969-4">
+          <mxGeometry x="393" y="234.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IUjqxTXk5OEw5RD6v969-12" value="Terminador Túnel HTTPS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="818.7" y="240" width="120" height="30" as="geometry" />
