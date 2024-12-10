@@ -758,7 +758,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.if.4</td>
+        <td  class="fondo_azul">mp.if.4</td>
         <td>Energía eléctrica</td>
         <td>D</td>
         <td class="fondo_verde">
@@ -1070,7 +1070,7 @@
         </td>
       </tr>
       <tr>
-        <td>mp.si.2</td>
+        <td  class="fondo_azul">mp.si.2</td>
         <td>Criptografía
         <br><br>
         <small>
