@@ -1,6 +1,5 @@
 (function() {
-    // Configuración del plugin
-    const baseUrl = "https://https://pmoreno-rodriguez.github.io/opos_gsi/"; // Cambia esto por la URL de tu sitio Docsify
+    const baseUrl = "https://tusitio.com"; // Cambia esto por la URL de tu sitio Docsify
     const sidebarPath = "_sidebar.md"; // Cambia esto si tu _sidebar tiene otro nombre
 
     // Función para extraer enlaces del _sidebar.md
@@ -42,13 +41,33 @@ ${urls}
         a.click();
     }
 
-    // Registro del plugin en Docsify
-    window.$docsify.plugins = [].concat(window.$docsify.plugins || [], function(hook) {
-        hook.doneEach(async function() {
+    // Crear botón de generación en la página
+    function createGenerateButton() {
+        const button = document.createElement("button");
+        button.textContent = "Generar sitemap.xml";
+        button.style.position = "fixed";
+        button.style.bottom = "10px";
+        button.style.right = "10px";
+        button.style.padding = "10px 20px";
+        button.style.backgroundColor = "#007bff";
+        button.style.color = "#fff";
+        button.style.border = "none";
+        button.style.borderRadius = "5px";
+        button.style.cursor = "pointer";
+        button.onclick = async function() {
             const links = await fetchSidebarLinks();
             const sitemapXml = generateSitemapXml(links);
             downloadSitemap(sitemapXml);
-            console.log("sitemap.xml generado");
+            alert("sitemap.xml generado y descargado.");
+        };
+        document.body.appendChild(button);
+    }
+
+    // Registro del plugin en Docsify
+    window.$docsify.plugins = [].concat(window.$docsify.plugins || [], function(hook) {
+        hook.doneEach(function() {
+            createGenerateButton();
         });
     });
 })();
+
