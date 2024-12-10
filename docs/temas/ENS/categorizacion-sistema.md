@@ -1,5 +1,6 @@
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
-> Contenido extraído de la documentación de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/).
+> Contenido parcialmente extraído de la documentación de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/).
+> Contenido mejorado con las medidas del ENS y guías del CCN-CERT
 
 
 ## IDENTIFICACIÓN Y CATEGORIZACIÓN DEL SISTEMA <!-- {docsify-ignore} -->
