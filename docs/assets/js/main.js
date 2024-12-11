@@ -20,7 +20,7 @@
     return { str, config };
   }
 
-  var addHeadingClassesPlugin = function (hook, vm) {
+  /* var addHeadingClassesPlugin = function (hook, vm) {
     hook.beforeEach(function (markdown) {
       // Expresión regular que asegura un espacio antes de ":class="
       const headingClassPattern = /^(#{1,6})\s*(.*?)\s+:class=([\w-]+)/gm;
@@ -40,7 +40,7 @@
       });
     });
   };
-
+ */
   var addTableClasses = function (hook, vm) {
     hook.doneEach(function () {
       var tables = document.querySelectorAll('table');
@@ -77,7 +77,7 @@
   $docsify = $docsify || {};
   $docsify.plugins = [].concat(
     $docsify.plugins || [],
-    addHeadingClassesPlugin,
+    /* addHeadingClassesPlugin, */
     addTableClasses,
     addShortcodePlugin
   );
