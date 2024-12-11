@@ -37,7 +37,7 @@ Para asignar un nivel de seguridad u otro a cada dimensión se tendrá que valor
 - Proteger los activos a su cargo.
 - Garantizar la conformidad con el ordenamiento jurídico.
 
-Para una evaluación más amplia del impacto habría que tener en cuenta (consulta la [guía del CCN](/temas/ENS/criterios-valoracion.md#criterios-comunes) para más detalles):
+Para una evaluación más amplia del impacto habría que tener en cuenta (consulta la [guía 803 del CCN](/temas/ENS/criterios-valoracion.md#criterios-comunes) para más detalles):
 - Disposición legal.
 - Perjuicio directo.
 - Incumplimiento de una norma.
