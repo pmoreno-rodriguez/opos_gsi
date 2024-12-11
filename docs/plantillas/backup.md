@@ -79,7 +79,17 @@ El mutual backup implica que dos sistemas o ubicaciones (oficinas, datacenters) 
      - Semanal: Restauración de sistemas completos.
      - Mensual: Recuperación a un punto anterior por auditoría o cumplimiento.
 
-### 4. Recomendaciones de Seguridad
+#### 4. Roles y responsabilidades
+
+**Administrador/es de copias de seguridad**: Este rol implica la configuración, supervisión y mantenimiento del sistema de respaldos. Este profesional debe tener experiencia con las herramientas seleccionadas (como Veeam, Bacula, etc.) y conocimientos sólidos de la infraestructura.
+
+**Especialistas en recuperación de datos**: Personal capacitado para ejecutar planes de recuperación y verificar la integridad de los datos tras un fallo.
+
+**Auditores de seguridad**: Encargados de evaluar los respaldos, tanto en términos de integridad como de cumplimiento con normativas legales.
+
+**Usuarios finales**: Deben estar informados sobre los procedimientos para recuperar datos específicos de ser necesario, evitando manipulaciones que puedan comprometer la restauración.
+
+### 5. Recomendaciones de Seguridad
 
 1. **Cifrado**:
    - Cifrar las copias de seguridad tanto en tránsito como en reposo.
@@ -90,7 +100,7 @@ El mutual backup implica que dos sistemas o ubicaciones (oficinas, datacenters) 
 3. **Redundancia**:
    - Mantener respaldos adicionales en la nube como medida de última línea.
 
-### 5. Herramientas Recomendadas
+### 6. Herramientas Recomendadas
 
 - **Veeam**: Excelente para virtualización y entornos empresariales.
 - **Acronis Cyber Backup**: Amplia flexibilidad y recuperación rápida.

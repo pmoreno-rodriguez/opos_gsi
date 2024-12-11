@@ -119,7 +119,7 @@ A continuación, se recogen una serie de medidas base por cada dimensión y nive
       <td>Alto</td>
       <td>
         • RTO ≤ 4H<br>
-        • DoS. Detección y reacción.<br>
+        • DoS. Detección y reacción. (mp.s.4)<br>
         • Plan de continuidad.<br>
         • Pruebas.<br>
         • Medios alternativos para la info. (op.cont.4)<br>
