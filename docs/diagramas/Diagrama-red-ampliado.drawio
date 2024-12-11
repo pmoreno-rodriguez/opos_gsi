@@ -55,7 +55,7 @@
         <mxCell id="8IY0u4yO5Yo8Mi12hmBT-23" value="&lt;div&gt;Doble&lt;/div&gt;Router&lt;br&gt;VRRP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8IY0u4yO5Yo8Mi12hmBT-24" value="FW&amp;nbsp; UTM&lt;div&gt;externo&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;IDS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="8IY0u4yO5Yo8Mi12hmBT-24" value="FW&amp;nbsp; UTM&lt;div&gt;externo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="516" y="218" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8IY0u4yO5Yo8Mi12hmBT-25" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -612,7 +612,7 @@
         <mxCell id="wD6VRvF6NGTKt72_i0ZK-1" value="LDAP" style="points=[[0.5,0,0],[0.765,0.48,0],[0.99,0.98,0],[0.5,1,0],[0.01,0.98,0],[0.235,0.48,0]];verticalLabelPosition=top;sketch=0;html=1;verticalAlign=bottom;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.ldap;fillColor=#005073;strokeColor=none;labelPosition=center;" parent="1" vertex="1">
           <mxGeometry x="971" y="585.5" width="50" height="42.5" as="geometry" />
         </mxCell>
-        <mxCell id="xSSa9G5jmZ57tHVmj7sf-1" value="FW UTM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xSSa9G5jmZ57tHVmj7sf-1" value="FW UTM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="600.65" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
