@@ -15,7 +15,7 @@ Si no se conoce el entorno predominante en el organismo, se puede optar por eleg
 2. **Capa de lógica de negocio**: Se puede usar **Spring**.
 3. **Capa de datos**: Se recomienda **Hibernate**.
 
-Como servidor de aplicaciones, se puede usar **WildFly**, **IBM Websphere** o **Apache Geronimo**. En cuanto al servidor web, una opción podría ser **Apache Tomcat**.
+Como servidor de aplicaciones, se puede usar **WildFly**, **IBM Websphere** o **Apache Geronimo**. En cuanto al servidor web, una opción podría ser **Apache Tomcat** (aunque puede funcionar como Servidor Web, en realidad es un contenedor web con soporte de servlets y JSPs.)
 
 Por último, cabe destacar que la interfaz de usuario se deberá realizar mediante diseño **responsive** o adaptativo para que se pueda visualizar correctamente desde cualquier tipo de dispositivo.
 
