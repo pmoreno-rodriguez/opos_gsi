@@ -660,6 +660,18 @@
             <mxPoint x="20.120000000000005" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="urSecfAOMB_YZNQWiWAl-20" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dhcp_server;" vertex="1" parent="1">
+          <mxGeometry x="895" y="425" width="33.78" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="urSecfAOMB_YZNQWiWAl-21" value="" style="endArrow=none;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="909" y="493" as="sourcePoint" />
+            <mxPoint x="909" y="463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="urSecfAOMB_YZNQWiWAl-23" value="DHCP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="885.7" y="470" width="50" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
