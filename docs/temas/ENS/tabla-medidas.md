@@ -412,7 +412,7 @@
         </td>
       </tr>
       <tr>
-        <td>op.exp.6</td>
+        <td class="fondo_azul">op.exp.6</td>
         <td>Protección frente a código dañino
         <br><br>
         <small>

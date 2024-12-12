@@ -202,7 +202,7 @@ A continuación, se recogen una serie de medidas base por cada dimensión y nive
     <tr>
       <td>Medio</td>
       <td>
-        • Comunicaciones: algoritmos CCN (mp.com.2).<br>
+        • Comunicaciones: algoritmos CCN (mp.com.3).<br>
         • Dispositivos removibles. I y C (mp.si.2) + CCN-STIC-807.
       </td>
     </tr>
