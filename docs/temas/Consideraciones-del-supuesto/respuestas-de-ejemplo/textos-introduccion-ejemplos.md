@@ -34,7 +34,7 @@ El proyecto de modernización de los sistemas de XXXXXXX responde a los objetivo
 
 **Normativa de referencia que se usará en el supuesto**
 
-1. **Esquema Nacional de Seguridad (ENS) - Serie 800:**
+1. **Centro Criptológico Nacional (Guías CCN-STIC) - Serie 800:**
     - **CCN-STIC-801**: Esquema Nacional de Seguridad. Responsabilidades y funciones.
     - **CCN-STIC-802**: Auditorías de seguridad.
     - **CCN-STRC-803**: ENS. Valoración de sistemas
@@ -154,7 +154,7 @@ Estas normativas serán la base de referencia para el desarrollo y la implementa
 >- El dinero gastado no va a un proveedor externo, permanece en el ámbito de la AGE
 >- Eficiencia, pago por uso con costes conocidos de antemano.
 >- Flexibilidad ante reestructuraciones ministeriales.
->- Modelo de uso con un único proveedor (SGAD), sin necesidad de >contratación externa.
+>- Modelo de uso con un único proveedor (AEAD), sin necesidad de contratación externa.
 >- Garantía en la protección de datos y que se quedan en la AGE.
 >- Alineado con Estrategia TIC de la AGE. Utilización de manera compartida de medios y servicios comunes.
 
@@ -165,7 +165,7 @@ Estas normativas serán la base de referencia para el desarrollo y la implementa
 > [!TIP|style: callout|icon: fa fa-check|label: Contenido Verificado]
 > Contenido adaptado de volcados de [Preparatic 29](https://www.preparatic.org/category/material-pack/material-pack-preparatic-29/), sobre el supuesto de CARPET@, convocatoria 2019
 
-La capa de presentación es el medio para que ciudadanos, empresas y funcionarios accedan a Carpeta, por lo que en su desarrollo se prestará especial atención a los principios de accesibilidad, facilidad de uso y personalización definidos en el artículo 2 del RD 203/2021. Se acatará la normativa de accesibilidad del RD 1112/2018 y la norma UNE 301 549:2022 mediante el cumplimiento de los niveles A y AA de WCAG 2.1. También se seguirán los principios de usabilidad de Jakob Nielsen, como el feedback de las acciones del usuario.
+La **capa de presentación** es el medio para que ciudadanos, empresas y funcionarios accedan a Carpeta, por lo que en su desarrollo se prestará especial atención a los principios de accesibilidad, facilidad de uso y personalización definidos en el artículo 2 del RD 203/2021. Se acatará la normativa de accesibilidad del RD 1112/2018 y la norma UNE 301 549:2022 mediante el cumplimiento de los niveles A y AA de WCAG 2.1. También se seguirán los principios de usabilidad de Jakob Nielsen, como el feedback de las acciones del usuario.
 
 **Estándares y Legislación:**
 
@@ -179,7 +179,7 @@ La capa de presentación es el medio para que ciudadanos, empresas y funcionario
 
 * **Principios de Usabilidad de Jakob Nielsen:** Asegurar un diseño intuitivo y retroalimentación clara de las acciones del usuario.
 
-La capa de presentación contiene los siguientes módulos:
+La **capa de presentación** contiene los siguientes módulos:
 
 * **Frontal ciudadano:** Conserva la funcionalidad actual y se amplía para permitir acceso al área de documentos, documentos compartidos, las declaraciones, la recepción de alertas y la gestión del dispositivo vinculado.
 
@@ -187,11 +187,11 @@ La capa de presentación contiene los siguientes módulos:
 
 * **Frontal empresa:** Permite a las empresas acceso a documentos compartidos.
 
-* **Frontal administración:** Permite al personal de la SGAD administrar el área de ciudadanos, las alertas, y acceso al módulo de seguimiento y CM.
+* **Frontal administración:** Permite al personal de la AEAD administrar el área de ciudadanos, las alertas, y acceso al módulo de seguimiento y CM.
 
 * **Frontal organismos:** Permite a los funcionarios del sector público acceso a las incidencias y el seguimiento de los trámites que ofrece su organismo.
 
-Se implementará como una app web utilizando HTML5+CSS+Javascript, utilizando el framework empleado para el diseño original, o Angular en su defecto. Puesto que será una app responsive mediante media-queries para adaptarse a cualquier dispositivo, la app se implementará como una aplicación híbrida, utilizando el framework Apache Cordova. Se comunicará con la lógica mediante API-REST y se seguirá la guía CCN-STIC 812 de seguridad en servicios web. Previamente al desarrollo del aplicativo, se consultará en el Directorio General de Aplicaciones de la AGE la reutilización de soluciones parciales o totales para los módulos, de acuerdo al art. 64 del RD 203/2021.
+<p class="fondo_oscuro p-2">Se implementará como una app web utilizando HTML5+CSS+Javascript, utilizando el framework empleado para el diseño original, o Angular en su defecto. Puesto que será una app responsive mediante media-queries para adaptarse a cualquier dispositivo, la app se implementará como una aplicación híbrida, utilizando el framework Apache Cordova. Se comunicará con la lógica mediante API-REST y se seguirá la guía CCN-STIC 812 de seguridad en servicios web. Previamente al desarrollo del aplicativo, se consultará en el Directorio General de Aplicaciones de la AGE la reutilización de soluciones parciales o totales para los módulos, de acuerdo al art. 64 del RD 203/2021.</p>
 
 **Ventajas de la Arquitectura de 3 Capas:**
 
@@ -203,9 +203,9 @@ Se implementará como una app web utilizando HTML5+CSS+Javascript, utilizando el
 
 4. **Acceso a Componentes Biométricos:** A través de Apache Cordova, es posible integrar funcionalidades como autenticación biométrica, crucial para mejorar la seguridad.
 
-Para dotar de funcionalidad al sistema, la capa lógica se encargará de los tratamientos de datos necesarios, implementándose en Java mediante Jakarta EE. Esta elección se debe a que Java, según el índice TIOBE, es el tercer lenguaje de programación más utilizado en la industria, además de ser abierto y basado en estándares, lo cual facilita la integración y el mantenimiento. 
+Para dotar de funcionalidad al sistema, la **capa lógica** se encargará de los tratamientos de datos necesarios, implementándose en Java mediante Jakarta EE. Esta elección se debe a que Java, según el índice TIOBE, es el tercer lenguaje de programación más utilizado en la industria, además de ser abierto y basado en estándares, lo cual facilita la integración y el mantenimiento. 
 
-La capa lógica se estructura en los siguientes módulos:
+La **capa lógica** se estructura en los siguientes módulos:
 
 - **Backoffice**: Este módulo se centrará en mantener la funcionalidad actual del sistema y proveer soporte a la gestión de alertas.
   
@@ -219,7 +219,7 @@ La capa lógica se estructura en los siguientes módulos:
 
 - **Seguimiento y cuadro de mandos (CM)**: Este módulo permitirá el seguimiento de las interacciones de los ciudadanos y el uso de los trámites. Además, realizará procesos de extracción, transformación y carga (ETL) de datos para alimentar el data warehouse (DW). Utilizando Pentaho, generará cuadros de mando tanto para la SGAD como para otros organismos, dotándolos de indicadores relevantes y actualizados.
 
-En cuanto a la **capa de acceso a datos y servicios**, esta se centrará en la persistencia de datos y en el acceso a servicios externos. Los datos se almacenarán en bases de datos MySQL, conectadas a la capa lógica mediante Java Persistence API (JPA) con implementación en Hibernate. Adicionalmente, se empleará un NAS para almacenar los documentos gestionados por el sistema documental de los ciudadanos, y se utilizará el data warehouse de la SGAD para los datos de seguimiento. 
+<p class="fondo_oscuro p-2">En cuanto a la <strong>capa de acceso a datos y servicios</strong>, esta se centrará en la persistencia de datos y en el acceso a servicios externos. Los datos se almacenarán en bases de datos MySQL, conectadas a la capa lógica mediante Java Persistence API (JPA) con implementación en Hibernate. Adicionalmente, se empleará un NAS para almacenar los documentos gestionados por el sistema documental de los ciudadanos, y se utilizará el data warehouse de la SGAD para los datos de seguimiento.</p>
 
 Para el **despliegue del sistema**, se contempla el uso del Centro de Procesamiento de Datos (CPD) de la SGAD, partiendo de la premisa de que cuenta con la capacidad suficiente, lo que optimizaría el aprovechamiento de recursos.
 

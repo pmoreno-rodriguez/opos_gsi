@@ -93,6 +93,12 @@ table thead {
 .folder .level-2{
   font-size: 16px;
 }
+.p-2 {
+  padding: 2em !important;
+}
+.p-3 {
+  padding: 3em !important;
+}
 .py-2 {
   padding: 0 2em !important;
 }
