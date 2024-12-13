@@ -1,4 +1,4 @@
-## Tipos de desarrollos para aplicaciones móviles (apps)
+## Tipos de desarrollos para aplicaciones móviles (apps) <!-- {docsify-ignore} -->
 
 El desarrollo de aplicaciones móviles puede dividirse en diversas categorías, cada una con características, ventajas y desventajas específicas. A continuación, exploraremos las principales tipologías:
 
